@@ -23,9 +23,8 @@ What's changed:
 
 ## Checklist
 
-- [ ] Added or updated tests
-- [ ] Documentation PR created [here](https://github.com/directus/docs) or not required
-- [ ] OpenAPI package PR created [here](https://github.com/directus/openapi) or not required
+- [ ] This contribution introduces no direct copy-pasted blocks from proprietary or unexpired license-gated code trees.
+- [ ] This extension will be distributed under open, un-gated terms equal for all users.
 
 ---
 

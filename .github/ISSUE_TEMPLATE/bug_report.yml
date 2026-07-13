@@ -1,49 +1,58 @@
-# Please ensure the link in the Directus Studio is updated when renaming this file!
+# Please ensure the link in the Studio configuration is updated if renaming this file!
 name: Report a bug
-description: Create a report to help us improve
+description: Create a report to help us improve the fork
 body:
   - type: markdown
     attributes:
       value: |
-        Hi, thank you for taking the time to create an issue! Before you get started, please ensure the following are correct:
+        Hi! Thank you for helping improve this community fork. Before you submit, please verify the following:
 
-        - I'm using the [latest version of Directus](https://github.com/directus/directus/releases)
-        - I've completed all [Troubleshooting Steps](https://docs.directus.io/getting-started/support/#troubleshooting-steps).
-        - There's [no other issue](https://github.com/directus/directus/issues?q=is%3Aissue) that already describes the problem.
+        - I am using the latest release of this repository (`d11f`).
+        - I have verified the issue persists in a clean local deployment.
 
-        _For issues specific to Directus Cloud projects, please reach out through support@directus.io._
+        *Note: If you have tested this behavior against other environments (like stock Directus v11 or v12), feel free to include those observations below! Our maintainers will process all reports using standard clean-room validation.*
+
   - type: textarea
     attributes:
-      label: Describe the Bug
-      description: A clear and concise description of what the bug is.
+      label: Describe the Bug Symptom
+      description: A clear and concise description of the functional failure observed in your running instance.
     validations:
       required: true
+
   - type: textarea
     attributes:
-      label: To Reproduce
-      description:
-        Steps to reproduce the behavior. Contributors should be able to follow the steps provided in order to reproduce
-        the bug. Please include any relevant details that could help with reproduction, such as browser/server/database
-        logs, permission setup, schema snapshot (exported from **Settings > Data Model**) etc.
+      label: Steps to Reproduce
+      description: |
+        Provide clear steps to reproduce the behavior locally. Include browser console logs, server stack traces, database engines, or minimal schema snippets exported from your local Settings matrix.
     validations:
       required: true
+
   - type: input
     attributes:
-      label: Directus Version
-      placeholder: v11.x.x
+      label: d11f Fork Version
+      placeholder: v11.17.4-patch.x
     validations:
       required: true
+
   - type: dropdown
     id: deployment
     attributes:
       label: Hosting Strategy
       options:
         - Self-Hosted (Docker Image)
-        - Self-Hosted (Custom)
-        - Directus Cloud
+        - Self-Hosted (Custom Source Node Runtime)
     validations:
       required: true
+
   - type: input
     attributes:
-      label: Database
-      description: If applicable, the vendor and version of the database being used. For example, PostgreSQL 16.
+      label: Database Vendor & Version
+      description: Example: PostgreSQL 16, MySQL 8.0, SQLite.
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        *Internal Note: Maintainers will assign a unique mapping token `Ref: D11F-XXXX` upon internal triage.*

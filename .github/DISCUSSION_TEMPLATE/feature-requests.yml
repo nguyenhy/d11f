@@ -1,28 +1,28 @@
-title: 'Feature Request - Please use our Public Roadmap'
+title: 'Feature Proposal - Core Scope Guidelines'
 labels:
-  - redirect
+  - feature-proposal
 body:
   - type: markdown
     attributes:
       value: |
-        **Feature requests have moved to our Public Roadmap**
+        **Welcome! We invite community developers to help expand this fork.**
 
-        Please submit your request here: https://roadmap.directus.io/roadmap
+        `d11f` is an independent, community-driven ecosystem built on the standard v11 baseline. We love original feature ideas, performance tunings, and DX enhancements!
 
-        This allows you to:
-        - ✅ Vote on features you'd like to see
-        - 📊 See what we're currently working on
-        - 📅 See what is planned
-        - 🎯 Track feature status in real-time, directly integrated with our Linear projects
+        *Note: If your idea is inspired by or brings functional parity with features seen in newer ecosystem variants (like v12), you are absolutely welcome to share it! Our internal team will manage the architectural triage using standard clean-room validation.*
 
-        **Not a feature request?** If you'd like to engage with our community, ask questions, or get help, please visit [community.directus.io](https://community.directus.io)
-
-        Please note: New discussions opened here will be automatically closed. We appreciate your understanding!
+  - type: textarea
+    id: proposal-desc
+    attributes:
+      label: "Feature Description"
+      placeholder: "Describe your feature concept, why it helps, and how it can be built or expanded natively from our current codebase..."
+    validations:
+      required: true
 
   - type: checkboxes
-    id: understand
+    id: compliance-agree
     attributes:
-      label: 'Next steps'
+      label: 'Developer Submission Note'
       options:
-        - label: "I'll submit my feature request at roadmap.directus.io (please do not start discussion)"
+        - label: "I understand this feature will be built as an independent, un-gated open extension available to all users equally."
           required: true
