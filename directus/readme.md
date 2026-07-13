@@ -47,6 +47,39 @@ with the copyright holder.
 
 ---
 
+### Special Provisions and Enforcement Disclaimer
+
+#### 1. Independent Convergence (Coincidental Code Similarity)
+
+All custom additions and bug fixes in this repository are developed strictly through clean-room engineering based solely
+on external observations, error logs, and public system behavior descriptions. Because software bugs often have a
+limited number of logical algorithmic solutions, any structural or textual similarity between code in this repository
+and code found in newer upstream versions of Directus is purely coincidental, unintended, and a result of independent
+logical convergence, not direct derivation or copying.
+
+#### 2. Unauthorized Commercialization and Third-Party Operations
+
+This repository is provided strictly as a passive source-code asset. We do not package, market, sell, or maintain this
+software as a commercial product or service.
+
+If any developer, entity, or third party utilizes this code to deploy infrastructure, and if any end-user or business
+operator utilizes such deployments to run commercial operations, generate revenue, or provide client services (whether
+for direct financial gain or as unpaid assistance):
+
+- They do so entirely at their own risk and under their own independent legal responsibility.
+- The ultimate business operators and deployment owners assume all operational, financial, and legal liabilities arising
+  from the execution of this software.
+- Such operations are neither authorized, managed, nor co-signed by the creators of this repository, and all liability
+  for upstream licensing compliance remains strictly with the party running the production instance.
+
+#### 3. Strict Compliance Safe Harbor for Downstream Users
+
+Anyone utilizing code from this repository is explicitly reminded that this software is heavily bound by third-party BSL
+1.1 license restrictions belonging to Monospace, Inc. It is the absolute responsibility of the downstream user to
+monitor their own organizational financial metrics, revenue limits, and use-case limits to ensure they do not breach the
+upstream licensor's terms. The maintainers of this repository assume zero monitoring duties and hold zero liability if a
+downstream deployment eventually triggers a compliance audit or legal dispute with the primary copyright holder.
+
 ---
 
 ## Attribution and Support
