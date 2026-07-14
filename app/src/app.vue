@@ -58,7 +58,14 @@ useHead({
 		if (serverStore.info?.project?.public_favicon) {
 			href = getAssetUrl(serverStore.info.project.public_favicon);
 		} else if (serverStore.info?.project?.project_color) {
-			href = generateFavicon(serverStore.info.project.project_color, !!serverStore.info.project.project_logo === false);
+			try {
+				href = generateFavicon(
+					serverStore.info.project.project_color,
+					!!serverStore.info.project.project_logo === false,
+				);
+			} catch {
+				href = '/favicon.ico';
+			}
 		} else {
 			href = '/favicon.ico';
 		}
