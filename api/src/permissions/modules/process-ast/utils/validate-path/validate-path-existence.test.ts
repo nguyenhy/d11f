@@ -1,5 +1,5 @@
-import { ForbiddenError } from '@directus/errors';
-import { SchemaBuilder } from '@directus/schema-builder';
+import { ForbiddenError } from '@d11f/errors';
+import { SchemaBuilder } from '@d11f/schema-builder';
 import { expect, test } from 'vitest';
 import { validatePathExistence } from './validate-path-existence.js';
 

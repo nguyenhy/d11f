@@ -1,9 +1,9 @@
-import { requireYaml } from '@directus/utils/node';
+import { requireYaml } from '@d11f/utils/node';
 import { isPlainObject } from 'lodash-es';
 import { expect, test, vi } from 'vitest';
 import { readConfigurationFromYaml } from './read-configuration-from-yaml.js';
 
-vi.mock('@directus/utils/node');
+vi.mock('@d11f/utils/node');
 vi.mock('lodash-es');
 
 test('Returns yaml from given path if it contains a plain object', () => {

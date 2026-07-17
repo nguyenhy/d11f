@@ -1,15 +1,15 @@
 import path from 'path';
-import { BUNDLE_EXTENSION_TYPES, EXTENSION_TYPES, HYBRID_EXTENSION_TYPES } from '@directus/constants';
-import type { ExtensionOptions } from '@directus/extensions';
-import { EXTENSION_LANGUAGES, EXTENSION_PKG_KEY } from '@directus/extensions';
+import { BUNDLE_EXTENSION_TYPES, EXTENSION_TYPES, HYBRID_EXTENSION_TYPES } from '@d11f/constants';
+import type { ExtensionOptions } from '@d11f/extensions';
+import { EXTENSION_LANGUAGES, EXTENSION_PKG_KEY } from '@d11f/extensions';
 import type {
 	ApiExtensionType,
 	AppExtensionType,
 	BundleExtensionType,
 	ExtensionType,
 	HybridExtensionType,
-} from '@directus/types';
-import { isIn } from '@directus/utils';
+} from '@d11f/types';
+import { isIn } from '@d11f/utils';
 import chalk from 'chalk';
 import { execa } from 'execa';
 import fse from 'fs-extra';

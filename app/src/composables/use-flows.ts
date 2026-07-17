@@ -1,6 +1,6 @@
-import { useCollection } from '@directus/composables';
-import formatTitle from '@directus/format-title';
-import { FlowRaw, Item, PrimaryKey } from '@directus/types';
+import { useCollection } from '@d11f/composables';
+import formatTitle from '@d11f/format-title';
+import { FlowRaw, Item, PrimaryKey } from '@d11f/types';
 import { computed, inject, provide, type Ref, ref, unref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import api from '@/api';

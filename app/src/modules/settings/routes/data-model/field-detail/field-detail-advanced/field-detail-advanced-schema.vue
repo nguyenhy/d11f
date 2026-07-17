@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Type } from '@directus/types';
+import { Type } from '@d11f/types';
 import { storeToRefs } from 'pinia';
 import { computed } from 'vue';
 import { TranslateResult, useI18n } from 'vue-i18n';

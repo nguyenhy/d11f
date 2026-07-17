@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useSync } from '@directus/composables';
-import { useAppStore } from '@directus/stores';
-import { GeometryOptions, Item } from '@directus/types';
+import { useSync } from '@d11f/composables';
+import { useAppStore } from '@d11f/stores';
+import { GeometryOptions, Item } from '@d11f/types';
 import { toRefs } from 'vue';
 import VCheckbox from '@/components/v-checkbox.vue';
 import VCollectionFieldTemplate from '@/components/v-collection-field-template.vue';

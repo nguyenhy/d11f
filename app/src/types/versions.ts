@@ -1,4 +1,4 @@
-import type { ContentVersion } from '@directus/types';
+import type { ContentVersion } from '@d11f/types';
 
 /**
  * Types of content versions:

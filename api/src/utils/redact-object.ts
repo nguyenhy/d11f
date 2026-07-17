@@ -1,5 +1,5 @@
-import type { UnknownObject } from '@directus/types';
-import { isObject } from '@directus/utils';
+import type { UnknownObject } from '@d11f/types';
+import { isObject } from '@d11f/utils';
 
 type Keys = string[][];
 type Values = Record<string, any>;

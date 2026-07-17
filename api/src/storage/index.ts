@@ -1,4 +1,4 @@
-import type { StorageManager } from '@directus/storage';
+import type { StorageManager } from '@d11f/storage';
 import { validateEnv } from '../utils/validate-env.js';
 import { registerDrivers } from './register-drivers.js';
 import { registerLocations } from './register-locations.js';
@@ -10,7 +10,7 @@ export const _cache: { storage: any | null } = {
 export const getStorage = async (): Promise<StorageManager> => {
 	if (_cache.storage) return _cache.storage;
 
-	const { StorageManager } = await import('@directus/storage');
+	const { StorageManager } = await import('@d11f/storage');
 
 	validateEnv(['STORAGE_LOCATIONS']);
 

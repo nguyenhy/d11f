@@ -1,5 +1,5 @@
-import { type Database, databases, type Env, type Options } from '@directus/sandbox';
-import type { DeepPartial } from '@directus/types';
+import { type Database, databases, type Env, type Options } from '@d11f/sandbox';
+import type { DeepPartial } from '@d11f/types';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import { configDefaults, defineConfig } from 'vitest/config';
 

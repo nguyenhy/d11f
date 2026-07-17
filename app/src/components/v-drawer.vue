@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { translateShortcut } from '@directus/composables';
+import { translateShortcut } from '@d11f/composables';
 import { useScroll } from '@vueuse/core';
 import { computed, provide, ref, useTemplateRef } from 'vue';
 import { type ApplyShortcut } from './v-dialog.vue';

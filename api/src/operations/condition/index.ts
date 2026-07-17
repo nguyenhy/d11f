@@ -1,7 +1,7 @@
-import { defineOperationApi } from '@directus/extensions';
-import type { Filter } from '@directus/types';
-import { parseFilter, validatePayload } from '@directus/utils';
-import { FailedValidationError, joiValidationErrorItemToErrorExtensions } from '@directus/validation';
+import { defineOperationApi } from '@d11f/extensions';
+import type { Filter } from '@d11f/types';
+import { parseFilter, validatePayload } from '@d11f/utils';
+import { FailedValidationError, joiValidationErrorItemToErrorExtensions } from '@d11f/validation';
 
 type Options = {
 	filter: Filter;

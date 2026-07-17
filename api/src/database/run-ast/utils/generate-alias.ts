@@ -1,5 +1,5 @@
-import type { Query } from '@directus/types';
-import { getSimpleHash } from '@directus/utils';
+import type { Query } from '@d11f/types';
+import { getSimpleHash } from '@d11f/utils';
 import { customAlphabet } from 'nanoid/non-secure';
 import type { FnHelperOptions } from '../../helpers/fn/types.js';
 

@@ -1,4 +1,4 @@
-import type { Permission } from '@directus/types';
+import type { Permission } from '@d11f/types';
 import { createCollectionForbiddenError, createFieldsForbiddenError } from './create-error.js';
 
 export function validatePathPermissions(

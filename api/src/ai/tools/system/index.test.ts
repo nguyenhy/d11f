@@ -1,6 +1,6 @@
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import type { Accountability, SchemaOverview } from '@directus/types';
+import type { Accountability, SchemaOverview } from '@d11f/types';
 import { describe, expect, test } from 'vitest';
 import { requireText } from '../../../utils/require-text.js';
 import { system } from './index.js';

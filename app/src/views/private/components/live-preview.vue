@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useElementSize } from '@directus/composables';
-import type { ContentVersion } from '@directus/types';
-import { sameOrigin } from '@directus/utils/browser';
+import { useElementSize } from '@d11f/composables';
+import type { ContentVersion } from '@d11f/types';
+import { sameOrigin } from '@d11f/utils/browser';
 import { SplitPanel } from '@directus/vue-split-panel';
 import { computed, type CSSProperties, nextTick, onMounted, ref, useSlots, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

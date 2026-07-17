@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { keyMap, systemKeys } from '@directus/composables';
+import { keyMap, systemKeys } from '@d11f/composables';
 import slugify from '@sindresorhus/slugify';
 import { isNil, omit } from 'lodash';
 import { computed, ref, useAttrs } from 'vue';

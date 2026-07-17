@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useShortcut } from '@directus/composables';
+import { useShortcut } from '@d11f/composables';
 import { detectOverflow, Instance, Modifier, Placement } from '@popperjs/core';
 import arrow from '@popperjs/core/lib/modifiers/arrow';
 import computeStyles from '@popperjs/core/lib/modifiers/computeStyles';

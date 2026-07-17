@@ -37,8 +37,8 @@
 		"test:coverage": "vitest run --coverage"
 	},
 	"dependencies": {
-		"@directus/extensions": "workspace:*",
-		"@directus/extensions-sdk": "workspace:*",
+		"@d11f/extensions": "workspace:*",
+		"@d11f/extensions-sdk": "workspace:*",
 		"inquirer": "catalog:"
 	},
 	"devDependencies": {

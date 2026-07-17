@@ -1,7 +1,7 @@
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import type { Folder, PrimaryKey } from '@directus/types';
-import { toArray } from '@directus/utils';
+import type { Folder, PrimaryKey } from '@d11f/types';
+import { toArray } from '@d11f/utils';
 import { z } from 'zod';
 import { FoldersService } from '../../../services/folders.js';
 import { requireText } from '../../../utils/require-text.js';

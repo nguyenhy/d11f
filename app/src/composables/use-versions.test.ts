@@ -1,4 +1,4 @@
-import type { ContentVersion } from '@directus/types';
+import type { ContentVersion } from '@d11f/types';
 import { createTestingPinia } from '@pinia/testing';
 import { setActivePinia } from 'pinia';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';

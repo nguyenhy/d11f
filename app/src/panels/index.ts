@@ -1,4 +1,4 @@
-import type { PanelConfig } from '@directus/extensions';
+import type { PanelConfig } from '@d11f/extensions';
 import { sortBy } from 'lodash';
 import { App } from 'vue';
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SetupForm as Form } from '@directus/types';
+import { SetupForm as Form } from '@d11f/types';
 import { computed, ref } from 'vue';
 import VDrawer from '@/components/v-drawer.vue';
 import VIcon from '@/components/v-icon/v-icon.vue';

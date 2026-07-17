@@ -2,8 +2,8 @@ import { readdir } from 'node:fs/promises';
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import path from 'path';
-import { useEnv } from '@directus/env';
-import { resolvePackage } from '@directus/utils/node';
+import { useEnv } from '@d11f/env';
+import { resolvePackage } from '@d11f/utils/node';
 import { escapeRegExp } from 'lodash-es';
 import { useLogger } from '../../logger/index.js';
 import { Url } from '../../utils/url.js';
@@ -14,7 +14,7 @@ export const getSharedDepsMapping = async (deps: readonly string[]): Promise<Rec
 	const env = useEnv();
 	const logger = useLogger();
 
-	const appDir = await readdir(path.join(resolvePackage('@directus/app', __dirname), 'dist', 'assets'));
+	const appDir = await readdir(path.join(resolvePackage('@d11f/app', __dirname), 'dist', 'assets'));
 	const depsMapping: Record<string, string> = {};
 
 	for (const dep of deps) {

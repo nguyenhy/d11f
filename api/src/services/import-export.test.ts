@@ -1,7 +1,7 @@
 import { PassThrough, Readable } from 'node:stream';
 import { setTimeout } from 'node:timers/promises';
-import { ErrorCode, ForbiddenError } from '@directus/errors';
-import { SchemaBuilder } from '@directus/schema-builder';
+import { ErrorCode, ForbiddenError } from '@d11f/errors';
+import { SchemaBuilder } from '@d11f/schema-builder';
 import knex, { type Knex } from 'knex';
 import { createTracker, MockClient, Tracker } from 'knex-mock-client';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
@@ -28,7 +28,7 @@ vi.mock('../utils/store.js', () => ({
 vi.mock('../stores/notifications.js');
 vi.mock('./users.js');
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: () => ({
 		MAX_IMPORT_ERRORS: 1000,
 		EMAIL_TEMPLATES_PATH: './templates',

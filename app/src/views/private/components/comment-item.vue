@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Comment, User } from '@directus/types';
+import type { Comment, User } from '@d11f/types';
 import { ref, watch } from 'vue';
 import CommentInput from './comment-input.vue';
 import CommentItemHeader from './comment-item-header.vue';

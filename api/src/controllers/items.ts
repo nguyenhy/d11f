@@ -1,6 +1,6 @@
-import { ErrorCode, ForbiddenError, isDirectusError, RouteNotFoundError } from '@directus/errors';
-import { isSystemCollection } from '@directus/system-data';
-import type { PrimaryKey } from '@directus/types';
+import { ErrorCode, ForbiddenError, isDirectusError, RouteNotFoundError } from '@d11f/errors';
+import { isSystemCollection } from '@d11f/system-data';
+import type { PrimaryKey } from '@d11f/types';
 import express from 'express';
 import collectionExists from '../middleware/collection-exists.js';
 import { respond } from '../middleware/respond.js';

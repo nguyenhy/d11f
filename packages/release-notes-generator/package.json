@@ -1,5 +1,5 @@
 {
-	"name": "@directus/release-notes-generator",
+	"name": "@d11f/release-notes-generator",
 	"version": "2.0.4",
 	"description": "Directus tailored release notes generator for changesets",
 	"homepage": "https://directus.io",

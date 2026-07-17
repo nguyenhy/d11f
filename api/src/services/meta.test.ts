@@ -1,6 +1,6 @@
-import { ForbiddenError } from '@directus/errors';
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { Permission, Query } from '@directus/types';
+import { ForbiddenError } from '@d11f/errors';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { Permission, Query } from '@d11f/types';
 import { knex } from 'knex';
 import { MockClient } from 'knex-mock-client';
 import { beforeEach, describe, expect, type MockedFunction, test, vi } from 'vitest';

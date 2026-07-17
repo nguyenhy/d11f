@@ -1,5 +1,5 @@
 {
-	"name": "@directus/specs",
+	"name": "@d11f/specs",
 	"version": "13.0.0",
 	"description": "OpenAPI Specification of the Directus API",
 	"homepage": "https://directus.io",

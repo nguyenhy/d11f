@@ -1,5 +1,5 @@
-import type { User } from '@directus/types';
-import { Filter, Preset } from '@directus/types';
+import type { User } from '@d11f/types';
+import { Filter, Preset } from '@d11f/types';
 import { assign, cloneDeep, debounce, isEqual } from 'lodash';
 import { computed, ComputedRef, ref, Ref, watch } from 'vue';
 import { usePresetsStore } from '@/stores/presets';

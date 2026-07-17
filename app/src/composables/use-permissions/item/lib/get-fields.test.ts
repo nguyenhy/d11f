@@ -1,5 +1,5 @@
-import { useCollection } from '@directus/composables';
-import { Field, ItemPermissions, PermissionsAction } from '@directus/types';
+import { useCollection } from '@d11f/composables';
+import { Field, ItemPermissions, PermissionsAction } from '@d11f/types';
 import { createTestingPinia } from '@pinia/testing';
 import { setActivePinia } from 'pinia';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
@@ -10,7 +10,7 @@ import type { FormField } from '@/components/v-form/types';
 import { usePermissionsStore } from '@/stores/permissions';
 import { useUserStore } from '@/stores/user';
 
-vi.mock('@directus/composables');
+vi.mock('@d11f/composables');
 
 let sample: {
 	collection: string;

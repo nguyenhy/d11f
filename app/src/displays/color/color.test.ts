@@ -3,7 +3,7 @@ import { describe, expect, test, vi } from 'vitest';
 import DisplayColor from './color.vue';
 import type { GlobalMountOptions } from '@/__utils__/types';
 
-vi.mock('@directus/utils/browser', () => ({
+vi.mock('@d11f/utils/browser', () => ({
 	cssVar: vi.fn(() => '#FFFFFF'),
 }));
 

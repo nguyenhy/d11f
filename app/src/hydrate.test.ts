@@ -1,4 +1,4 @@
-import { useAppStore } from '@directus/stores';
+import { useAppStore } from '@d11f/stores';
 import { createTestingPinia } from '@pinia/testing';
 import { setActivePinia } from 'pinia';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';

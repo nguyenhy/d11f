@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { translateShortcut, useCollection, useShortcut } from '@directus/composables';
-import { isSystemCollection } from '@directus/system-data';
-import { ContentVersion, Field, PrimaryKey, Relation } from '@directus/types';
-import { getEndpoint } from '@directus/utils';
+import { translateShortcut, useCollection, useShortcut } from '@d11f/composables';
+import { isSystemCollection } from '@d11f/system-data';
+import { ContentVersion, Field, PrimaryKey, Relation } from '@d11f/types';
+import { getEndpoint } from '@d11f/utils';
 import { isEmpty, set, uniqBy } from 'lodash';
 import { computed, type Ref, ref, toRefs, unref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

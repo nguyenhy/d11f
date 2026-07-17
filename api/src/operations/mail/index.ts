@@ -1,4 +1,4 @@
-import { defineOperationApi } from '@directus/extensions';
+import { defineOperationApi } from '@d11f/extensions';
 import { useLogger } from '../../logger/index.js';
 import type { EmailOptions } from '../../services/mail/index.js';
 import { MailService } from '../../services/mail/index.js';

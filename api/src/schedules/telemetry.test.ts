@@ -1,4 +1,4 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import { getCache } from '../cache.js';
 import { track } from '../telemetry/index.js';
@@ -10,7 +10,7 @@ vi.mock('../cache.js');
 
 // This is required because logger uses global env which is imported before the tests run. Can be
 // reduce to just mock the file when logger is also using useLogger everywhere @TODO
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		EMAIL_TEMPLATES_PATH: './templates',
 	}),

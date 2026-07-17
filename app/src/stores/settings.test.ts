@@ -1,4 +1,4 @@
-import { Settings } from '@directus/types';
+import { Settings } from '@d11f/types';
 import { createTestingPinia } from '@pinia/testing';
 import { setActivePinia } from 'pinia';
 import { afterEach, beforeEach, describe, expect, type MockInstance, test, vi } from 'vitest';

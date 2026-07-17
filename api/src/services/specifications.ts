@@ -1,7 +1,7 @@
-import { useEnv } from '@directus/env';
-import formatTitle from '@directus/format-title';
-import { spec } from '@directus/specs';
-import { isSystemCollection } from '@directus/system-data';
+import { useEnv } from '@d11f/env';
+import formatTitle from '@d11f/format-title';
+import { spec } from '@d11f/specs';
+import { isSystemCollection } from '@d11f/system-data';
 import type {
 	AbstractServiceOptions,
 	Accountability,
@@ -9,8 +9,8 @@ import type {
 	Permission,
 	SchemaOverview,
 	Type,
-} from '@directus/types';
-import { getRelation, getRelationType } from '@directus/utils';
+} from '@d11f/types';
+import { getRelation, getRelationType } from '@d11f/utils';
 import type { Knex } from 'knex';
 import { cloneDeep, mergeWith } from 'lodash-es';
 import hash from 'object-hash';

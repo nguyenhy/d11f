@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useGroupable } from '@directus/composables';
-import { Preset } from '@directus/types';
+import { useGroupable } from '@d11f/composables';
+import { Preset } from '@d11f/types';
 import { computed } from 'vue';
 import { useRoute } from 'vue-router';
 import NavigationBookmark from './navigation-bookmark.vue';

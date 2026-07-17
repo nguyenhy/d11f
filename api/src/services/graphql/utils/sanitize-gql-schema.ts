@@ -1,4 +1,4 @@
-import type { Relation, SchemaOverview } from '@directus/types';
+import type { Relation, SchemaOverview } from '@d11f/types';
 import { useLogger } from '../../../logger/index.js';
 
 /**

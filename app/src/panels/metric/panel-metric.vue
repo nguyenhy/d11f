@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Filter } from '@directus/types';
+import { Filter } from '@d11f/types';
 import { isNil } from 'lodash';
 import { computed, onBeforeUnmount, onMounted, onUpdated, ref } from 'vue';
 import { CSSProperties } from 'vue';

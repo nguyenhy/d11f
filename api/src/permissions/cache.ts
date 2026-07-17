@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import { type CacheConfig, defineCache } from '@directus/memory';
+import { useEnv } from '@d11f/env';
+import { type CacheConfig, defineCache } from '@d11f/memory';
 import { redisConfigAvailable, useRedis } from '../redis/index.js';
 import { getMilliseconds } from '../utils/get-milliseconds.js';
 

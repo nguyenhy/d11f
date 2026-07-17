@@ -1,4 +1,4 @@
-import { SchemaBuilder } from '@directus/schema-builder';
+import { SchemaBuilder } from '@d11f/schema-builder';
 import { Metadata } from '@tus/utils';
 import { beforeEach, describe, expect, test, vi } from 'vitest';
 import { validateAccess } from '../permissions/modules/validate-access/validate-access.js';

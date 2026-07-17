@@ -1,4 +1,4 @@
-import type { Aggregate, SchemaOverview } from '@directus/types';
+import type { Aggregate, SchemaOverview } from '@d11f/types';
 import type { Knex } from 'knex';
 
 export function applyAggregate(

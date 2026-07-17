@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useGroupable } from '@directus/composables';
-import { PrimaryKey } from '@directus/types';
-import { abbreviateNumber } from '@directus/utils';
+import { useGroupable } from '@d11f/composables';
+import { PrimaryKey } from '@d11f/types';
+import { abbreviateNumber } from '@d11f/utils';
 import { computed, onMounted, ref, toRefs, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useRoute } from 'vue-router';

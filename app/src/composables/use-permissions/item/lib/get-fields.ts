@@ -1,5 +1,5 @@
-import { useCollection } from '@directus/composables';
-import { Field, ItemPermissions } from '@directus/types';
+import { useCollection } from '@d11f/composables';
+import { Field, ItemPermissions } from '@d11f/types';
 import { cloneDeep } from 'lodash';
 import { computed, MaybeRef, ref, Ref, unref } from 'vue';
 import { Collection, IsNew } from '../../types';

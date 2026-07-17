@@ -1,5 +1,5 @@
-import { InvalidPayloadError } from '@directus/errors';
-import type { AbstractServiceOptions } from '@directus/types';
+import { InvalidPayloadError } from '@d11f/errors';
+import type { AbstractServiceOptions } from '@d11f/types';
 import knex from 'knex';
 import { MockClient } from 'knex-mock-client';
 import { beforeEach, describe, expect, test, vi } from 'vitest';
@@ -24,7 +24,7 @@ vi.mock('../../emitter.js', () => ({
 	},
 }));
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		EMAIL_VERIFY_SETUP: false,
 		EMAIL_FROM: 'test@example.com',

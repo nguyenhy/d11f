@@ -1,8 +1,8 @@
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { InvalidPayloadError } from '@directus/errors';
-import type { Collection, RawCollection } from '@directus/types';
-import { isObject, toArray } from '@directus/utils';
+import { InvalidPayloadError } from '@d11f/errors';
+import type { Collection, RawCollection } from '@d11f/types';
+import { isObject, toArray } from '@d11f/utils';
 import { z } from 'zod';
 import { CollectionsService } from '../../../services/collections.js';
 import { requireText } from '../../../utils/require-text.js';

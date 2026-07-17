@@ -1,5 +1,5 @@
 import { createRequire } from 'node:module';
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import type { Transporter } from 'nodemailer';
 import nodemailer from 'nodemailer';
 import { useLogger } from './logger/index.js';

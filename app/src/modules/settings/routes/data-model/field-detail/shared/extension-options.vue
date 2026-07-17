@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isVueComponent } from '@directus/utils';
+import { isVueComponent } from '@d11f/utils';
 import { storeToRefs } from 'pinia';
 import { computed, toRefs } from 'vue';
 import { useFieldDetailStore } from '../store';

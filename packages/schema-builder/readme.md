@@ -1,4 +1,4 @@
-# @directus/schema-builder
+# @d11f/schema-builder
 
 Directus SchemaBuilder for mocking/constructing a database schema based on code, intended for internal use only.
 

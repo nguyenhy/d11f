@@ -1,4 +1,4 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import { Redis } from 'ioredis';
 import { getConfigFromEnv } from './utils/get-config-from-env.js';
 

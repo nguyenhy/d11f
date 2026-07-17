@@ -1,5 +1,5 @@
-import type { AuthenticationClient, DirectusClient, RequestOptions, RestClient, RestCommand } from '@directus/sdk';
-import { authentication, createDirectus, rest } from '@directus/sdk';
+import type { AuthenticationClient, DirectusClient, RequestOptions, RestClient, RestCommand } from '@d11f/sdk';
+import { authentication, createDirectus, rest } from '@d11f/sdk';
 import { type FetchContext, ofetch } from 'ofetch';
 import { requestQueue } from './api';
 import { SDK_AUTH_REFRESH_BEFORE_EXPIRES } from './constants';
@@ -74,8 +74,8 @@ function getUrlPath(request: FetchContext['request']): string | null {
  * Basic usage with sdk.request
  * ```typescript
  * import sdk, { requestEndpoint } from '@/sdk';
- * import { Item } from '@directus/types';
- * import { getEndpoint } from '@directus/utils';
+ * import { Item } from '@d11f/types';
+ * import { getEndpoint } from '@d11f/utils';
  *
  * const posts = await sdk.request(
  * requestEndpoint(getEndpoint(collection), {

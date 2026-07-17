@@ -1,4 +1,4 @@
-import { Query } from '@directus/types';
+import { Query } from '@d11f/types';
 import { createTestingPinia } from '@pinia/testing';
 import { setActivePinia } from 'pinia';
 import { beforeEach, describe, expect, test } from 'vitest';

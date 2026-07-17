@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import formatTitle from '@directus/format-title';
+import formatTitle from '@d11f/format-title';
 import { computed, ref, watch } from 'vue';
 import VChip from '@/components/v-chip.vue';
 import VIcon from '@/components/v-icon/v-icon.vue';

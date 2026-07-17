@@ -1,4 +1,4 @@
-import type { Snapshot, SnapshotField } from '@directus/types';
+import type { Snapshot, SnapshotField } from '@d11f/types';
 import type { Knex } from 'knex';
 import knex from 'knex';
 import { createTracker, MockClient, Tracker } from 'knex-mock-client';

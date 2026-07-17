@@ -1,6 +1,6 @@
 import { randomUUID } from 'node:crypto';
-import type { Accountability, Permission } from '@directus/types';
-import { processChunk, toBoolean } from '@directus/utils';
+import type { Accountability, Permission } from '@d11f/types';
+import { processChunk, toBoolean } from '@d11f/utils';
 import type { Knex } from 'knex';
 import { omit } from 'lodash-es';
 import { useLogger } from '../../logger/index.js';

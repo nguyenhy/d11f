@@ -1,4 +1,4 @@
-import { parseJSON } from '@directus/utils';
+import { parseJSON } from '@d11f/utils';
 
 /**
  * Parse a value that might be a JSON string, returning a typed result or fallback.

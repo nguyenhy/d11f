@@ -1,6 +1,6 @@
-import { useCollection, useItems, useSync } from '@directus/composables';
-import { defineLayout } from '@directus/extensions';
-import { getFieldsFromTemplate } from '@directus/utils';
+import { useCollection, useItems, useSync } from '@d11f/composables';
+import { defineLayout } from '@d11f/extensions';
+import { getFieldsFromTemplate } from '@d11f/utils';
 import { clone } from 'lodash';
 import { computed, ref, toRefs } from 'vue';
 import { useI18n } from 'vue-i18n';

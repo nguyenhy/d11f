@@ -1,4 +1,4 @@
-import { UnprocessableContentError } from '@directus/errors';
+import { UnprocessableContentError } from '@d11f/errors';
 
 export function validateRemainingAdminCount(count: number) {
 	if (count <= 0) {

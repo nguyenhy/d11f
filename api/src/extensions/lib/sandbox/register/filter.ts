@@ -1,4 +1,4 @@
-import type { FilterHandler, PromiseCallback } from '@directus/types';
+import type { FilterHandler, PromiseCallback } from '@d11f/types';
 import type { Reference } from 'isolated-vm';
 import emitter from '../../../../emitter.js';
 import { callReference } from './call-reference.js';

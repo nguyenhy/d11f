@@ -1,7 +1,7 @@
-import { RELATIONAL_TYPES } from '@directus/constants';
-import { defineDisplay } from '@directus/extensions';
-import type { Field } from '@directus/types';
-import { getFieldsFromTemplate } from '@directus/utils';
+import { RELATIONAL_TYPES } from '@d11f/constants';
+import { defineDisplay } from '@d11f/extensions';
+import type { Field } from '@d11f/types';
+import { getFieldsFromTemplate } from '@d11f/utils';
 import { get, set } from 'lodash';
 import DisplayRelatedValues from './related-values.vue';
 import { useExtension } from '@/composables/use-extension';

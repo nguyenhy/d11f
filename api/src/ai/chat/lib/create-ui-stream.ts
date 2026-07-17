@@ -1,5 +1,5 @@
-import type { ProviderType } from '@directus/ai';
-import { ServiceUnavailableError } from '@directus/errors';
+import type { ProviderType } from '@d11f/ai';
+import { ServiceUnavailableError } from '@d11f/errors';
 import {
 	convertToModelMessages,
 	type LanguageModelUsage,

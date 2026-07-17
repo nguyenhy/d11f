@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { rulesToCssVars, useTheme } from '@directus/themes';
+import { rulesToCssVars, useTheme } from '@d11f/themes';
 import { useMutationObserver } from '@vueuse/core';
 import { computed, ref, watch } from 'vue';
 

@@ -1,4 +1,4 @@
-import type { Database, Options } from '@directus/sandbox';
+import type { Database, Options } from '@d11f/sandbox';
 import { inject } from 'vitest';
 
 export const database = process.env['DATABASE'] as Database;

@@ -1,4 +1,4 @@
-import type { Credentials, Options, ProviderType } from '@directus/types';
+import type { Credentials, Options, ProviderType } from '@d11f/types';
 import getDatabase from './database/index.js';
 import type { DeploymentDriver } from './deployment/deployment.js';
 import { NetlifyDriver, VercelDriver } from './deployment/drivers/index.js';

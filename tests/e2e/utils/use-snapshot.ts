@@ -6,8 +6,8 @@ import {
 	schemaApply,
 	schemaDiff,
 	type SchemaSnapshotOutput,
-} from '@directus/sdk';
-import type { Snapshot } from '@directus/types';
+} from '@d11f/sdk';
+import type { Snapshot } from '@d11f/types';
 import { startCase } from 'lodash-es';
 import { database } from './constants.js';
 import { deepMap } from './deep-map.js';

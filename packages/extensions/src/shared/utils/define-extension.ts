@@ -1,4 +1,4 @@
-import type { Prettify } from '@directus/types';
+import type { Prettify } from '@d11f/types';
 import type {
 	DisplayConfig,
 	EndpointConfig,

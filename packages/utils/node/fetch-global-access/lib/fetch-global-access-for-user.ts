@@ -1,4 +1,4 @@
-import type { Accountability, GlobalAccess } from '@directus/types';
+import type { Accountability, GlobalAccess } from '@d11f/types';
 import type { Knex } from 'knex';
 import { fetchGlobalAccessForQuery } from '../utils/fetch-global-access-for-query.js';
 

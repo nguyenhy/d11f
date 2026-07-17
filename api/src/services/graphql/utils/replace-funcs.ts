@@ -1,5 +1,5 @@
-import { FUNCTIONS } from '@directus/constants';
-import type { Filter } from '@directus/types';
+import { FUNCTIONS } from '@d11f/constants';
+import type { Filter } from '@d11f/types';
 import { transform } from 'lodash-es';
 
 /**

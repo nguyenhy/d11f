@@ -1,7 +1,7 @@
 {
-	"name": "@directus/storage-driver-local",
+	"name": "@d11f/storage-driver-local",
 	"version": "12.0.4",
-	"description": "Local file storage abstraction for `@directus/storage`",
+	"description": "Local file storage abstraction for `@d11f/storage`",
 	"homepage": "https://directus.io",
 	"repository": {
 		"type": "git",
@@ -27,11 +27,11 @@
 		"test:coverage": "vitest run --coverage"
 	},
 	"dependencies": {
-		"@directus/storage": "workspace:*"
+		"@d11f/storage": "workspace:*"
 	},
 	"devDependencies": {
 		"@directus/tsconfig": "catalog:",
-		"@directus/types": "workspace:*",
+		"@d11f/types": "workspace:*",
 		"@types/node": "catalog:",
 		"@ngneat/falso": "catalog:",
 		"@vitest/coverage-v8": "catalog:",

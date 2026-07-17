@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useSync } from '@directus/composables';
-import { Field } from '@directus/types';
+import { useSync } from '@d11f/composables';
+import { Field } from '@d11f/types';
 import { defineComponent } from 'vue';
 import VCollectionFieldTemplate from '@/components/v-collection-field-template.vue';
 import VDetail from '@/components/v-detail.vue';

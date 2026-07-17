@@ -1,4 +1,4 @@
-import type { Field } from '@directus/types';
+import type { Field } from '@d11f/types';
 import { createTestingPinia } from '@pinia/testing';
 import { mount } from '@vue/test-utils';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';

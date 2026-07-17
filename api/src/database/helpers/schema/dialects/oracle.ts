@@ -1,7 +1,7 @@
 import crypto from 'node:crypto';
-import type { KNEX_TYPES } from '@directus/constants';
-import type { Column } from '@directus/schema';
-import type { Field, RawField, Relation, Type } from '@directus/types';
+import type { KNEX_TYPES } from '@d11f/constants';
+import type { Column } from '@d11f/schema';
+import type { Field, RawField, Relation, Type } from '@d11f/types';
 import type { Knex } from 'knex';
 import { getDefaultIndexName } from '../../../../utils/get-default-index-name.js';
 import type { CreateIndexOptions, Options, SortRecord, Sql } from '../types.js';

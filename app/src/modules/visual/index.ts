@@ -1,4 +1,4 @@
-import { defineModule } from '@directus/extensions';
+import { defineModule } from '@d11f/extensions';
 import { stringifyQuery } from 'vue-router';
 import { useVisualEditorUrls } from './composables/use-visual-editor-urls';
 import VisualEditor from './routes/visual-editor.vue';

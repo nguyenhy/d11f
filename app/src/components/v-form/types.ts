@@ -1,4 +1,4 @@
-import { DeepPartial, Field, InterfaceConfig } from '@directus/types';
+import { DeepPartial, Field, InterfaceConfig } from '@d11f/types';
 
 export type FormField = Omit<DeepPartial<Field>, 'meta'> & {
 	field: string;

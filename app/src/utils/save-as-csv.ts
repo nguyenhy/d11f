@@ -1,4 +1,4 @@
-import { Field, Item } from '@directus/types';
+import { Field, Item } from '@d11f/types';
 import { Parser } from '@json2csv/plainjs';
 import { saveAs } from 'file-saver';
 import { computed } from 'vue';

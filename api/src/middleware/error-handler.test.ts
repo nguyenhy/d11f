@@ -1,7 +1,7 @@
 import http from 'node:http';
 import type { AddressInfo } from 'node:net';
-import { createError } from '@directus/errors';
-import type { Accountability } from '@directus/types';
+import { createError } from '@d11f/errors';
+import type { Accountability } from '@d11f/types';
 import axios, { AxiosError } from 'axios';
 import type { Request, RequestHandler, Response } from 'express';
 import express from 'express';

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useCollection } from '@directus/composables';
-import { useShortcut } from '@directus/composables';
+import { useCollection } from '@d11f/composables';
+import { useShortcut } from '@d11f/composables';
 import { clone } from 'lodash';
 import { computed, ref, unref } from 'vue';
 import { useRouter } from 'vue-router';

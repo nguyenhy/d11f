@@ -1,4 +1,4 @@
-import { ForbiddenError } from '@directus/errors';
+import { ForbiddenError } from '@d11f/errors';
 import { Router } from 'express';
 import { DirectusMCP } from '../ai/mcp/index.js';
 import { SettingsService } from '../services/settings.js';

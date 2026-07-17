@@ -1,5 +1,5 @@
-import { ErrorCode, InternalServerError } from '@directus/errors';
-import { defineOperationApp } from '@directus/extensions';
+import { ErrorCode, InternalServerError } from '@d11f/errors';
+import { defineOperationApp } from '@d11f/extensions';
 
 const FALLBACK_ERROR = new InternalServerError();
 

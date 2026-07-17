@@ -1,6 +1,6 @@
-import { useEnv } from '@directus/env';
-import { ErrorCode, ForbiddenError, InvalidPayloadError, isDirectusError } from '@directus/errors';
-import type { AbstractServiceOptions, Accountability, Comment, MutationOptions, PrimaryKey } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import { ErrorCode, ForbiddenError, InvalidPayloadError, isDirectusError } from '@d11f/errors';
+import type { AbstractServiceOptions, Accountability, Comment, MutationOptions, PrimaryKey } from '@d11f/types';
 import { uniq } from 'lodash-es';
 import { useLogger } from '../logger/index.js';
 import { fetchRolesTree } from '../permissions/lib/fetch-roles-tree.js';

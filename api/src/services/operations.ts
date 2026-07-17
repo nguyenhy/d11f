@@ -1,4 +1,4 @@
-import type { AbstractServiceOptions, Item, MutationOptions, OperationRaw, PrimaryKey } from '@directus/types';
+import type { AbstractServiceOptions, Item, MutationOptions, OperationRaw, PrimaryKey } from '@d11f/types';
 import { getFlowManager } from '../flows.js';
 import { ItemsService } from './items.js';
 

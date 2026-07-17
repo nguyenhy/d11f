@@ -1,4 +1,4 @@
-import { ForbiddenError, InvalidPayloadError, ServiceUnavailableError } from '@directus/errors';
+import { ForbiddenError, InvalidPayloadError, ServiceUnavailableError } from '@d11f/errors';
 import { jsonSchema, streamObject, wrapLanguageModel } from 'ai';
 import type { Request, Response } from 'express';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';

@@ -9,8 +9,8 @@ import type {
 	SnapshotDiff,
 	SnapshotField,
 	SnapshotSystemField,
-} from '@directus/types';
-import { DiffKind } from '@directus/types';
+} from '@d11f/types';
+import { DiffKind } from '@d11f/types';
 import type { Diff, DiffDeleted, DiffNew } from 'deep-diff';
 import deepDiff from 'deep-diff';
 import type { Knex } from 'knex';

@@ -1,7 +1,7 @@
 import { randomUUID } from 'node:crypto';
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { resolvePackage } from '@directus/utils/node';
+import { resolvePackage } from '@d11f/utils/node';
 import type { Knex } from 'knex';
 import { getHelpers } from '../helpers/index.js';
 

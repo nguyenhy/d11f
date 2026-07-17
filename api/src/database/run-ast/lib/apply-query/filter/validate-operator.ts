@@ -1,6 +1,6 @@
-import { InvalidQueryError } from '@directus/errors';
-import type { ClientFilterOperator, Type } from '@directus/types';
-import { getFilterOperatorsForType } from '@directus/utils';
+import { InvalidQueryError } from '@d11f/errors';
+import type { ClientFilterOperator, Type } from '@d11f/types';
+import { getFilterOperatorsForType } from '@d11f/utils';
 
 export function validateOperator(type: Type, filterOperator: string, special?: string[]) {
 	if (filterOperator.startsWith('_')) {

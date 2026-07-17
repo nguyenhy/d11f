@@ -1,12 +1,12 @@
-import { useEnv } from '@directus/env';
-import { InvalidQueryError } from '@directus/errors';
+import { useEnv } from '@d11f/env';
+import { InvalidQueryError } from '@d11f/errors';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import { fetchDynamicVariableData } from '../permissions/utils/fetch-dynamic-variable-data.js';
 import { sanitizeQuery } from './sanitize-query.js';
 
 // This is required because logger uses global env which is imported before the tests run. Can be
 // reduce to just mock the file when logger is also using useLogger everywhere @TODO
-vi.mock('@directus/env', () => ({ useEnv: vi.fn().mockReturnValue({}) }));
+vi.mock('@d11f/env', () => ({ useEnv: vi.fn().mockReturnValue({}) }));
 
 vi.mock('../database/index.js');
 vi.mock('../database/helpers/index.js');

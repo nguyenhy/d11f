@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Role } from '@directus/types';
+import { Role } from '@d11f/types';
 import VIcon from '@/components/v-icon/v-icon.vue';
 import { useClipboard } from '@/composables/use-clipboard';
 import SidebarDetail from '@/views/private/components/sidebar-detail.vue';

@@ -1,6 +1,6 @@
 import { resolve } from 'node:path';
-import { JAVASCRIPT_FILE_EXTS } from '@directus/constants';
-import { EXTENSION_LANGUAGES } from '@directus/extensions';
+import { JAVASCRIPT_FILE_EXTS } from '@d11f/constants';
+import { EXTENSION_LANGUAGES } from '@d11f/extensions';
 import { execa } from 'execa';
 import fse from 'fs-extra';
 import { afterAll, describe, expect, test } from 'vitest';

@@ -1,5 +1,5 @@
-import type { Filter, Item, Query } from '@directus/types';
-import { getEndpoint, moveInArray } from '@directus/utils';
+import type { Filter, Item, Query } from '@d11f/types';
+import { getEndpoint, moveInArray } from '@d11f/utils';
 import { useMemoize } from '@vueuse/core';
 import axios from 'axios';
 import { isEmpty, isEqual, throttle } from 'lodash-es';

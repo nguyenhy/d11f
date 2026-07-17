@@ -1,6 +1,6 @@
-import { createError, type DirectusErrorConstructor } from '@directus/errors';
-import type { ClientFilterOperator } from '@directus/types';
-import { toArray } from '@directus/utils';
+import { createError, type DirectusErrorConstructor } from '@d11f/errors';
+import type { ClientFilterOperator } from '@d11f/types';
+import { toArray } from '@d11f/utils';
 
 export type ImportRowLines = {
 	type: 'lines';

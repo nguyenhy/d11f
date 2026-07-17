@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useCollection } from '@directus/composables';
-import { FieldFilter } from '@directus/types';
+import { useCollection } from '@d11f/composables';
+import { FieldFilter } from '@d11f/types';
 import { clone, get } from 'lodash';
 import { computed, nextTick, onBeforeMount, ref, toRef } from 'vue';
 import InputComponent from './input-component.vue';

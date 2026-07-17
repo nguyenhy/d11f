@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { getEndpoint } from '@directus/utils';
+import { getEndpoint } from '@d11f/utils';
 import { computed, inject, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import api from '@/api';

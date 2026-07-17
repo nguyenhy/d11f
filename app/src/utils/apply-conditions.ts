@@ -1,5 +1,5 @@
-import { Field } from '@directus/types';
-import { validatePayload } from '@directus/utils';
+import { Field } from '@d11f/types';
+import { validatePayload } from '@d11f/utils';
 import { isArray, mergeWith } from 'lodash';
 import type { ContentVersionMaybeNew } from '@/types/versions';
 import { parseFilter } from '@/utils/parse-filter';

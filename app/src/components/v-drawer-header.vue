@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { translateShortcut } from '@directus/composables';
+import { translateShortcut } from '@d11f/composables';
 import VButton from '@/components/v-button.vue';
 import VIcon from '@/components/v-icon/v-icon.vue';
 import VTextOverflow from '@/components/v-text-overflow.vue';

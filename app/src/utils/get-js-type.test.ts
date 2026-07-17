@@ -1,4 +1,4 @@
-import { Field } from '@directus/types';
+import { Field } from '@d11f/types';
 import { expect, test } from 'vitest';
 import { getJSType } from './get-js-type';
 import { APP_NUMERIC_STRING_TYPES, APP_NUMERIC_TYPES } from '@/constants';

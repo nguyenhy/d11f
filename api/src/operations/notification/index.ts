@@ -1,6 +1,6 @@
-import { defineOperationApi } from '@directus/extensions';
-import type { Accountability } from '@directus/types';
-import { optionToString, toArray } from '@directus/utils';
+import { defineOperationApi } from '@d11f/extensions';
+import type { Accountability } from '@d11f/types';
+import { optionToString, toArray } from '@d11f/utils';
 import { NotificationsService } from '../../services/notifications.js';
 import { getAccountabilityForRole } from '../../utils/get-accountability-for-role.js';
 

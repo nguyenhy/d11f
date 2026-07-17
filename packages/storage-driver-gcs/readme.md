@@ -1,3 +1,3 @@
-# `@directus/storage-driver-gcs`
+# `@d11f/storage-driver-gcs`
 
-GCS file storage driver for `@directus/storage`
+GCS file storage driver for `@d11f/storage`

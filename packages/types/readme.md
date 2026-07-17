@@ -1,4 +1,4 @@
-# @directus/types
+# @d11f/types
 
 Shared types for Directus
 
@@ -11,7 +11,7 @@ For more information about Directus, visit the [official website](https://direct
 ## Installation
 
 ```shell
-npm install @directus/types
+npm install @d11f/types
 ```
 
 ## License

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import formatTitle from '@directus/format-title';
+import formatTitle from '@d11f/format-title';
 import { computed, nextTick, onUnmounted, type Ref, ref, watch } from 'vue';
 import { DynamicScroller, DynamicScrollerItem } from 'vue-virtual-scroller';
 import icons from './icons.json';

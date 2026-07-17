@@ -1,4 +1,4 @@
-import { PermissionsAction } from '@directus/types';
+import { PermissionsAction } from '@d11f/types';
 import { computed, unref } from 'vue';
 import { Collection } from '../../types';
 import { usePermissionsStore } from '@/stores/permissions';

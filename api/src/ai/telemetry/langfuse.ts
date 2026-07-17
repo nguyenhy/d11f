@@ -1,4 +1,4 @@
-import type { useEnv } from '@directus/env';
+import type { useEnv } from '@d11f/env';
 import type { AITelemetryState } from './index.js';
 
 const getStringAttribute = (attributes: Record<string, unknown>, key: string): string | undefined => {

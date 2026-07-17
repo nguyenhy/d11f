@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Field, ValidationError } from '@directus/types';
+import { Field, ValidationError } from '@d11f/types';
 import { merge } from 'lodash';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';

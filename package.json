@@ -14,7 +14,7 @@
 	},
 	"devDependencies": {
 		"@changesets/cli": "catalog:",
-		"@directus/release-notes-generator": "workspace:*",
+		"@d11f/release-notes-generator": "workspace:*",
 		"@eslint/js": "catalog:",
 		"eslint": "catalog:",
 		"eslint-config-prettier": "catalog:",

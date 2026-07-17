@@ -1,5 +1,5 @@
-import { defineModule } from '@directus/extensions';
-import { Collection } from '@directus/types';
+import { defineModule } from '@d11f/extensions';
+import { Collection } from '@d11f/types';
 import { useLocalStorage } from '@vueuse/core';
 import { isNil, orderBy } from 'lodash';
 import { LocationQuery, NavigationGuard } from 'vue-router';

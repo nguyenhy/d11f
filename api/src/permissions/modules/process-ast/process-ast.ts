@@ -1,4 +1,4 @@
-import type { Accountability, PermissionsAction } from '@directus/types';
+import type { Accountability, PermissionsAction } from '@d11f/types';
 import type { AST } from '../../../types/ast.js';
 import { fetchPermissions } from '../../lib/fetch-permissions.js';
 import { fetchPolicies } from '../../lib/fetch-policies.js';

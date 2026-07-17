@@ -1,5 +1,5 @@
-import { createError } from '@directus/errors';
-import type { PermissionsAction } from '@directus/types';
+import { createError } from '@d11f/errors';
+import type { PermissionsAction } from '@d11f/types';
 import { ERRORS, Metadata } from '@tus/utils';
 import { Router } from 'express';
 import getDatabase from '../database/index.js';

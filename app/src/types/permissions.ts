@@ -1,4 +1,4 @@
-import { PermissionsAction } from '@directus/types';
+import { PermissionsAction } from '@d11f/types';
 
 /** An info object that describes the permissions of a user for a specific action */
 export interface ActionPermission {

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { File, Filter } from '@directus/types';
-import { deepMap } from '@directus/utils';
+import type { File, Filter } from '@d11f/types';
+import { deepMap } from '@d11f/utils';
 import { render } from 'micromustache';
 import { computed, inject, ref, toRefs } from 'vue';
 import { useI18n } from 'vue-i18n';

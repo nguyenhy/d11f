@@ -1,6 +1,6 @@
-import { API_INJECT, EXTENSIONS_INJECT, SDK_INJECT, STORES_INJECT } from '@directus/constants';
-import type { DirectusClient, RestClient } from '@directus/sdk';
-import type { AppExtensionConfigs, RefRecord } from '@directus/types';
+import { API_INJECT, EXTENSIONS_INJECT, SDK_INJECT, STORES_INJECT } from '@d11f/constants';
+import type { DirectusClient, RestClient } from '@d11f/sdk';
+import type { AppExtensionConfigs, RefRecord } from '@d11f/types';
 import type { AxiosInstance } from 'axios';
 import { inject } from 'vue';
 
@@ -15,7 +15,7 @@ import { inject } from 'vue';
  *
  * @example
  * ```typescript
- * import { useStores } from '@directus/composables';
+ * import { useStores } from '@d11f/composables';
  *
  * export default defineComponent({
  *   setup() {
@@ -38,7 +38,7 @@ import { inject } from 'vue';
  * @example
  * ```typescript
  * // Using in a component with reactive store data
- * import { useStores } from '@directus/composables';
+ * import { useStores } from '@d11f/composables';
  * import { computed } from 'vue';
  *
  * export default defineComponent({
@@ -80,7 +80,7 @@ export function useStores(): Record<string, any> {
  *
  * @example
  * ```typescript
- * import { useApi } from '@directus/composables';
+ * import { useApi } from '@d11f/composables';
  *
  * export default defineComponent({
  *   setup() {
@@ -104,7 +104,7 @@ export function useStores(): Record<string, any> {
  * @example
  * ```typescript
  * // Using with reactive data and error handling
- * import { useApi } from '@directus/composables';
+ * import { useApi } from '@d11f/composables';
  * import { ref, onMounted } from 'vue';
  *
  * export default defineComponent({
@@ -156,7 +156,7 @@ export function useApi(): AxiosInstance {
  *
  * @example
  * ```typescript
- * import { useSdk } from '@directus/composables';
+ * import { useSdk } from '@d11f/composables';
  *
  * // Using with default schema
  * export default defineComponent({
@@ -185,7 +185,7 @@ export function useApi(): AxiosInstance {
  * @example
  * ```typescript
  * // Using with typed schema for better type safety
- * import { useSdk } from '@directus/composables';
+ * import { useSdk } from '@d11f/composables';
  *
  * interface MySchema {
  *   articles: {
@@ -253,7 +253,7 @@ export function useSdk<Schema extends object = any>(): DirectusClient<Schema> & 
  *
  * @example
  * ```typescript
- * import { useExtensions } from '@directus/composables';
+ * import { useExtensions } from '@d11f/composables';
  *
  * export default defineComponent({
  *   setup() {
@@ -283,7 +283,7 @@ export function useSdk<Schema extends object = any>(): DirectusClient<Schema> & 
  * @example
  * ```typescript
  * // Using with computed properties for reactive extension lists
- * import { useExtensions } from '@directus/composables';
+ * import { useExtensions } from '@d11f/composables';
  * import { computed } from 'vue';
  *
  * export default defineComponent({

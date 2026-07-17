@@ -1,5 +1,5 @@
-import { DeepPartial, Field, SetupForm } from '@directus/types';
-import { FailedValidationErrorExtensions } from '@directus/validation';
+import { DeepPartial, Field, SetupForm } from '@d11f/types';
+import { FailedValidationErrorExtensions } from '@d11f/validation';
 import { computed, ComputedRef, MaybeRef, ModelRef, Ref, unref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import z from 'zod';

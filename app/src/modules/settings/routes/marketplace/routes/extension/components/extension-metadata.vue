@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RegistryDescribeResponse } from '@directus/extensions-registry';
+import { RegistryDescribeResponse } from '@d11f/extensions-registry';
 import { computed } from 'vue';
 import MetadataItem from '../../../components/metadata-item.vue';
 import ExtensionInstall from './extension-install.vue';

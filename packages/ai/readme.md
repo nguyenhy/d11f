@@ -1,4 +1,4 @@
-# @directus/ai
+# @d11f/ai
 
 Shared AI types and model definitions for Directus AI features.
 

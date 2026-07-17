@@ -1,5 +1,5 @@
-import { GENERATE_SPECIAL } from '@directus/constants';
-import type { FieldOverview } from '@directus/types';
+import { GENERATE_SPECIAL } from '@d11f/constants';
+import type { FieldOverview } from '@d11f/types';
 
 /**
  * Checks if a given field is allowed to be set to `null`.

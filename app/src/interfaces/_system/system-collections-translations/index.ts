@@ -1,4 +1,4 @@
-import { defineInterface } from '@directus/extensions';
+import { defineInterface } from '@d11f/extensions';
 import SystemCollectionsTranslations from './system-collections-translations.vue';
 
 export default defineInterface({

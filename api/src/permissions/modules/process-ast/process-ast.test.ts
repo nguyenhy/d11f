@@ -1,6 +1,6 @@
-import { ForbiddenError } from '@directus/errors';
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { Accountability } from '@directus/types';
+import { ForbiddenError } from '@d11f/errors';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { Accountability } from '@d11f/types';
 import { beforeEach, expect, test, vi } from 'vitest';
 import type { AST } from '../../../types/ast.js';
 import { fetchPermissions } from '../../lib/fetch-permissions.js';

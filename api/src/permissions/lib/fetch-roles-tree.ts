@@ -1,4 +1,4 @@
-import { fetchRolesTree as _fetchRolesTree } from '@directus/utils/node';
+import { fetchRolesTree as _fetchRolesTree } from '@d11f/utils/node';
 import { withCache } from '../utils/with-cache.js';
 
 /**

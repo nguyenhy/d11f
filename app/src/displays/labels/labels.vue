@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import formatTitle from '@directus/format-title';
+import formatTitle from '@d11f/format-title';
 import { isEmpty, isString } from 'lodash';
 import { computed } from 'vue';
 import VChip from '@/components/v-chip.vue';

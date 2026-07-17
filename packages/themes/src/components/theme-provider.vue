@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { DeepPartial, Theme } from '@directus/types';
+import type { DeepPartial, Theme } from '@d11f/types';
 import { useHead } from '@unhead/vue';
 import { computed, toRefs, unref } from 'vue';
 import { useFonts, useTheme } from '../composables/index.js';

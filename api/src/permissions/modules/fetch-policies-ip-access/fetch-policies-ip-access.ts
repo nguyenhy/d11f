@@ -1,5 +1,5 @@
-import type { Accountability } from '@directus/types';
-import { toArray } from '@directus/utils';
+import type { Accountability } from '@d11f/types';
+import { toArray } from '@d11f/utils';
 import type { Knex } from 'knex';
 import { withCache } from '../../utils/with-cache.js';
 

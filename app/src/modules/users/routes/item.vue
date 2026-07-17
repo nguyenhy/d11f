@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useCollection } from '@directus/composables';
-import { useShortcut } from '@directus/composables';
-import type { User } from '@directus/types';
+import { useCollection } from '@d11f/composables';
+import { useShortcut } from '@d11f/composables';
+import type { User } from '@d11f/types';
 import { computed, provide, ref, toRefs } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useRouter } from 'vue-router';

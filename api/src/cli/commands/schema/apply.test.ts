@@ -1,8 +1,8 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import type { Snapshot, SnapshotDiff, SnapshotField, SnapshotRelation, SnapshotSystemField } from '@directus/types';
-import type { ApiCollection } from '@directus/types';
-import { DiffKind } from '@directus/types';
+import type { Snapshot, SnapshotDiff, SnapshotField, SnapshotRelation, SnapshotSystemField } from '@d11f/types';
+import type { ApiCollection } from '@d11f/types';
+import { DiffKind } from '@d11f/types';
 import type { Diff } from 'deep-diff';
 import type { Knex } from 'knex';
 import knex from 'knex';

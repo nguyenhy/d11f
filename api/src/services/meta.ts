@@ -1,4 +1,4 @@
-import type { AbstractServiceOptions, Accountability, Permission, Query, SchemaOverview } from '@directus/types';
+import type { AbstractServiceOptions, Accountability, Permission, Query, SchemaOverview } from '@d11f/types';
 import type { Knex } from 'knex';
 import { isArray } from 'lodash-es';
 import getDatabase from '../database/index.js';

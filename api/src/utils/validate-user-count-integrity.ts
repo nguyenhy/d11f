@@ -1,4 +1,4 @@
-import { UserIntegrityCheckFlag } from '@directus/types';
+import { UserIntegrityCheckFlag } from '@d11f/types';
 import { validateRemainingAdminCount } from '../permissions/modules/validate-remaining-admin/validate-remaining-admin-count.js';
 import { checkUserLimits } from '../telemetry/utils/check-user-limits.js';
 import { shouldCheckUserLimits } from '../telemetry/utils/should-check-user-limits.js';

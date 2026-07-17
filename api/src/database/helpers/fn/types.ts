@@ -1,5 +1,5 @@
-import type { Filter, Permission, Query, SchemaOverview } from '@directus/types';
-import { parseJSON } from '@directus/utils';
+import type { Filter, Permission, Query, SchemaOverview } from '@d11f/types';
+import { parseJSON } from '@d11f/utils';
 import type { Knex } from 'knex';
 import type { AliasMap } from '../../../utils/get-column-path.js';
 import { applyFilter } from '../../run-ast/lib/apply-query/filter/index.js';

@@ -1,6 +1,6 @@
-import { useEnv } from '@directus/env';
-import { isSystemCollection } from '@directus/system-data';
-import type { GraphQLParams, SchemaOverview } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import { isSystemCollection } from '@d11f/system-data';
+import type { GraphQLParams, SchemaOverview } from '@d11f/types';
 import { Semaphore } from 'async-mutex';
 import { GraphQLSchema } from 'graphql';
 import type { ObjectTypeComposer, ObjectTypeComposerFieldConfigAsObjectDefinition } from 'graphql-compose';

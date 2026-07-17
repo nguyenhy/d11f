@@ -1,5 +1,5 @@
-import type { Item, Query } from '@directus/types';
-import { parseFilterFunctionPath } from '@directus/utils';
+import type { Item, Query } from '@d11f/types';
+import { parseFilterFunctionPath } from '@d11f/utils';
 import type { GraphQLResolveInfo } from 'graphql';
 import { omit } from 'lodash-es';
 import type { GraphQLService } from '../index.js';

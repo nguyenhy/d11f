@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useGroupable } from '@directus/composables';
+import { useGroupable } from '@d11f/composables';
 import { isMatch } from 'lodash';
 import { computed } from 'vue';
 import { RouteLocationRaw, useLink, useRoute } from 'vue-router';

@@ -8,7 +8,7 @@ const collectionState = vi.hoisted(() => ({
 	fields: [] as Array<{ field: string; type: string }>,
 }));
 
-vi.mock('@directus/composables', async () => {
+vi.mock('@d11f/composables', async () => {
 	const { ref } = await import('vue');
 
 	return {

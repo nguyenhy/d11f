@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { GEOMETRY_TYPES } from '@directus/constants';
-import { useAppStore } from '@directus/stores';
-import { Field, GeometryOptions, GeometryType } from '@directus/types';
+import { GEOMETRY_TYPES } from '@d11f/constants';
+import { useAppStore } from '@d11f/stores';
+import { Field, GeometryOptions, GeometryType } from '@d11f/types';
 import { CameraOptions, Map } from 'maplibre-gl';
 import type { Ref } from 'vue';
 import { computed, onMounted, onUnmounted, ref, toRefs, watch } from 'vue';

@@ -3,7 +3,7 @@
  * extensions are used. These are virtually rewritten to use the existing bundled instances in the
  * global scope rather than local copies
  */
-export const APP_SHARED_DEPS = ['@directus/extensions-sdk', 'vue', 'vue-router', 'vue-i18n', 'pinia'] as const;
+export const APP_SHARED_DEPS = ['@d11f/extensions-sdk', 'vue', 'vue-router', 'vue-i18n', 'pinia'] as const;
 
 /**
  * Dependencies that we guarantee are available in the node_modules of the API when API extensions

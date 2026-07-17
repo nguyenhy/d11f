@@ -1,6 +1,6 @@
-import { defineOperationApi } from '@directus/extensions';
-import type { Accountability, PrimaryKey } from '@directus/types';
-import { optionToObject, toArray } from '@directus/utils';
+import { defineOperationApi } from '@d11f/extensions';
+import type { Accountability, PrimaryKey } from '@d11f/types';
+import { optionToObject, toArray } from '@d11f/utils';
 import { ItemsService } from '../../services/items.js';
 import { getAccountabilityForRole } from '../../utils/get-accountability-for-role.js';
 import { sanitizeQuery } from '../../utils/sanitize-query.js';

@@ -1,4 +1,4 @@
-import type { LOCAL_TYPES } from '@directus/constants';
+import type { LOCAL_TYPES } from '@d11f/constants';
 import type { Collection } from '../collection.js';
 import type { Field } from '../fields.js';
 import type { DeepPartial } from '../misc.js';

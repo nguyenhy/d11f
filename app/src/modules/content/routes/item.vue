@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { translateShortcut, useCollection, useShortcut } from '@directus/composables';
-import type { PrimaryKey } from '@directus/types';
-import { sameOrigin } from '@directus/utils/browser';
+import { translateShortcut, useCollection, useShortcut } from '@d11f/composables';
+import type { PrimaryKey } from '@d11f/types';
+import { sameOrigin } from '@d11f/utils/browser';
 import { SplitPanel } from '@directus/vue-split-panel';
 import { useHead } from '@unhead/vue';
 import { useBreakpoints, useEventListener, useLocalStorage, useScroll } from '@vueuse/core';

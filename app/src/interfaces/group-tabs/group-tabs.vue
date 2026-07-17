@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Field, ValidationError } from '@directus/types';
+import { Field, ValidationError } from '@d11f/types';
 import { isEqual } from 'lodash';
 import { TabsList, TabsRoot } from 'reka-ui';
 import { computed, ref, watch } from 'vue';

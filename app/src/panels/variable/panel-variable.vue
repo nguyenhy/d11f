@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Type } from '@directus/types';
+import { Type } from '@d11f/types';
 import { computed } from 'vue';
 import { useInsightsStore } from '@/stores/insights';
 

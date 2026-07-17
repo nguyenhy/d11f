@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { DeepPartial, Field, Relation } from '@directus/types';
+import { DeepPartial, Field, Relation } from '@d11f/types';
 import { cloneDeep } from 'lodash';
 import { reactive, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

@@ -1,7 +1,7 @@
-import { ErrorCode, InternalServerError, isDirectusError } from '@directus/errors';
-import type { DeepPartial } from '@directus/types';
-import { isObject } from '@directus/utils';
-import { getNodeEnv } from '@directus/utils/node';
+import { ErrorCode, InternalServerError, isDirectusError } from '@d11f/errors';
+import type { DeepPartial } from '@d11f/types';
+import { isObject } from '@d11f/utils';
+import { getNodeEnv } from '@d11f/utils/node';
 import type { ErrorRequestHandler } from 'express';
 import getDatabase from '../database/index.js';
 import emitter from '../emitter.js';

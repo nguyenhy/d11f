@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { cssVar } from '@directus/utils/browser';
+import { cssVar } from '@d11f/utils/browser';
 import Color from 'color';
 import { computed } from 'vue';
 import { SetValueFn } from './types';

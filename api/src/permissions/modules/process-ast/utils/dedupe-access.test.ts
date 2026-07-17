@@ -1,4 +1,4 @@
-import type { DeepPartial, Permission } from '@directus/types';
+import type { DeepPartial, Permission } from '@d11f/types';
 import { expect, test } from 'vitest';
 import { dedupeAccess } from './dedupe-access.js';
 

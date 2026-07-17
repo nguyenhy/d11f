@@ -1,7 +1,7 @@
-import { useEnv } from '@directus/env';
-import { InvalidPayloadError, InvalidQueryError, MethodNotAllowedError } from '@directus/errors';
-import type { GraphQLParams } from '@directus/types';
-import { parseJSON } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { InvalidPayloadError, InvalidQueryError, MethodNotAllowedError } from '@d11f/errors';
+import type { GraphQLParams } from '@d11f/types';
+import { parseJSON } from '@d11f/utils';
 import type { RequestHandler } from 'express';
 import type { DocumentNode } from 'graphql';
 import { getOperationAST, parse, Source } from 'graphql';

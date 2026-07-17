@@ -1,4 +1,4 @@
-import type { Query } from '@directus/types';
+import type { Query } from '@d11f/types';
 import type { ClientOptions as ClientOptionsGql } from 'graphql-ws';
 import type { ClientOptions } from 'ws';
 

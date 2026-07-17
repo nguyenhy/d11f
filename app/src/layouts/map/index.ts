@@ -1,7 +1,7 @@
-import { useCollection, useItems, useSync } from '@directus/composables';
-import { defineLayout } from '@directus/extensions';
-import { Field, Filter, GeometryOptions } from '@directus/types';
-import { getFieldsFromTemplate, mergeFilters } from '@directus/utils';
+import { useCollection, useItems, useSync } from '@d11f/composables';
+import { defineLayout } from '@d11f/extensions';
+import { Field, Filter, GeometryOptions } from '@d11f/types';
+import { getFieldsFromTemplate, mergeFilters } from '@d11f/utils';
 import { cloneDeep, merge } from 'lodash';
 import { computed, ref, toRefs, unref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

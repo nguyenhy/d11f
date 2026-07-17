@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { TriggerType } from '@directus/types';
+import type { TriggerType } from '@d11f/types';
 import { computed, reactive, ref, watch } from 'vue';
 import { getTriggers } from './triggers';
 import api from '@/api';

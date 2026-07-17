@@ -1,11 +1,11 @@
-# @directus/system-data
+# @d11f/system-data
 
 Definitions and types for Directus system collections.
 
 ## Installation
 
 ```
-pnpm add @directus/system-data
+pnpm add @d11f/system-data
 ```
 
 ## License

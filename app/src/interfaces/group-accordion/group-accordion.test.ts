@@ -1,4 +1,4 @@
-import type { Field } from '@directus/types';
+import type { Field } from '@d11f/types';
 import { mount } from '@vue/test-utils';
 import { describe, expect, it } from 'vitest';
 import GroupAccordion from './group-accordion.vue';

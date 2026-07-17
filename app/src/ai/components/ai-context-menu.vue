@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { AI_ALLOWED_MIME_TYPES } from '@directus/ai';
-import formatTitle from '@directus/format-title';
+import { AI_ALLOWED_MIME_TYPES } from '@d11f/ai';
+import formatTitle from '@d11f/format-title';
 import { computed, nextTick, onMounted, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useContextStaging } from '../composables/use-context-staging';

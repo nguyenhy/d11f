@@ -1,5 +1,5 @@
-import { LOCAL_TYPES, TYPES } from '@directus/constants';
-import { defineDisplay } from '@directus/extensions';
+import { LOCAL_TYPES, TYPES } from '@d11f/constants';
+import { defineDisplay } from '@d11f/extensions';
 
 export default defineDisplay({
 	id: 'raw',

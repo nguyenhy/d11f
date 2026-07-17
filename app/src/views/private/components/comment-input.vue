@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useShortcut } from '@directus/composables';
-import { Comment, User } from '@directus/types';
+import { useShortcut } from '@d11f/composables';
+import { Comment, User } from '@d11f/types';
 import axios, { CancelTokenSource } from 'axios';
 import { cloneDeep, throttle } from 'lodash';
 import { ComponentPublicInstance, computed, ref, watch } from 'vue';

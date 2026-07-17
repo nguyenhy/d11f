@@ -1,5 +1,5 @@
-import type { Accountability, Query, SchemaOverview } from '@directus/types';
-import { getRelationInfo } from '@directus/utils';
+import type { Accountability, Query, SchemaOverview } from '@d11f/types';
+import { getRelationInfo } from '@d11f/utils';
 import type { FieldNode, GraphQLResolveInfo, InlineFragmentNode, SelectionNode } from 'graphql';
 import { get, mapKeys, merge, set, uniq } from 'lodash-es';
 import { getRelatedCollection } from '../../../database/get-ast-from-query/utils/get-related-collection.js';

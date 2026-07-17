@@ -2,9 +2,9 @@ import { join } from 'node:path';
 import type { Readable } from 'node:stream';
 import { finished } from 'node:stream/promises';
 import { BlobServiceClient, ContainerClient, StorageSharedKeyCredential } from '@azure/storage-blob';
-import type { TusDriver } from '@directus/storage';
-import type { ChunkedUploadContext, ReadOptions } from '@directus/types';
-import { normalizePath } from '@directus/utils';
+import type { TusDriver } from '@d11f/storage';
+import type { ChunkedUploadContext, ReadOptions } from '@d11f/types';
+import { normalizePath } from '@d11f/utils';
 
 const MAXIMUM_CHUNK_SIZE = 104_857_600; // 100mb
 

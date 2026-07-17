@@ -1,4 +1,4 @@
-import type { Accountability, Permission } from '@directus/types';
+import type { Accountability, Permission } from '@d11f/types';
 import { beforeEach, expect, test, vi } from 'vitest';
 import { fetchPermissions } from '../../../lib/fetch-permissions.js';
 import { fetchPolicies } from '../../../lib/fetch-policies.js';

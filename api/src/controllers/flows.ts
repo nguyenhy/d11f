@@ -1,5 +1,5 @@
-import { ErrorCode, isDirectusError } from '@directus/errors';
-import type { PrimaryKey } from '@directus/types';
+import { ErrorCode, isDirectusError } from '@d11f/errors';
+import type { PrimaryKey } from '@d11f/types';
 import express from 'express';
 import { UUID_REGEX } from '../constants.js';
 import { getFlowManager } from '../flows.js';

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { File } from '@directus/types';
+import type { File } from '@d11f/types';
 import { computed, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { RouterLink } from 'vue-router';

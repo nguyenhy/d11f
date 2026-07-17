@@ -1,4 +1,4 @@
-import type { AbstractServiceOptions, Folder } from '@directus/types';
+import type { AbstractServiceOptions, Folder } from '@d11f/types';
 import { validateAccess } from '../permissions/modules/validate-access/validate-access.js';
 import { NameDeduper } from './assets/name-deduper.js';
 import { ItemsService } from './items.js';

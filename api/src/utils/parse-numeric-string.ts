@@ -1,4 +1,4 @@
-import type { NumericValue } from '@directus/types';
+import type { NumericValue } from '@d11f/types';
 
 export function parseNumericString(stringValue: string): NumericValue | null {
 	let number: NumericValue = Number(stringValue);

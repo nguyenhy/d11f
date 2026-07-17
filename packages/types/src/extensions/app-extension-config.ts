@@ -5,7 +5,7 @@ import type {
 	EXTENSION_TYPES,
 	HYBRID_EXTENSION_TYPES,
 	NESTED_EXTENSION_TYPES,
-} from '@directus/constants';
+} from '@d11f/constants';
 import { z } from 'zod';
 import type { DisplayConfig } from './displays.js';
 import type { EndpointConfig } from './endpoints.js';

@@ -1,8 +1,8 @@
 import { spawn } from 'child_process';
 import { writeFile } from 'fs/promises';
 import { join, resolve } from 'path';
-import type { Snapshot } from '@directus/types';
-import { getRelationInfo } from '@directus/utils';
+import type { Snapshot } from '@d11f/types';
+import { getRelationInfo } from '@d11f/utils';
 import chalk from 'chalk';
 import { camelCase, upperFirst } from 'lodash-es';
 import { type Env } from '../config.js';

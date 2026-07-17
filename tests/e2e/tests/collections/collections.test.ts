@@ -7,7 +7,7 @@ import {
 	rest,
 	staticToken,
 	updateCollection,
-} from '@directus/sdk';
+} from '@d11f/sdk';
 import { port } from '@utils/constants.js';
 import { expect, test } from 'vitest';
 

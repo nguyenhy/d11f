@@ -1,5 +1,5 @@
 import { ok as assert } from 'node:assert/strict';
-import type { DeepPartial, Relation, SchemaOverview } from '@directus/types';
+import type { DeepPartial, Relation, SchemaOverview } from '@d11f/types';
 import { merge } from 'lodash-es';
 import type { SchemaBuilder } from './builder.js';
 import { CollectionBuilder } from './collection.js';

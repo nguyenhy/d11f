@@ -1,4 +1,4 @@
-import type { ProviderFileRef } from '@directus/ai';
+import type { ProviderFileRef } from '@d11f/ai';
 import { fetchProvider } from '../lib/fetch-provider.js';
 import type { UploadedFile } from '../types.js';
 

@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useGroupable } from '@directus/composables';
-import type { Comment, PrimaryKey, User } from '@directus/types';
-import { abbreviateNumber } from '@directus/utils';
+import { useGroupable } from '@d11f/composables';
+import type { Comment, PrimaryKey, User } from '@d11f/types';
+import { abbreviateNumber } from '@d11f/utils';
 import { isThisYear, isToday, isYesterday } from 'date-fns';
 import dompurify from 'dompurify';
 import { flatten, groupBy, orderBy } from 'lodash';

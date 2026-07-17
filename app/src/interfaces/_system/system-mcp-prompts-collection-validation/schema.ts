@@ -1,4 +1,4 @@
-import type { DeepPartial, Field } from '@directus/types';
+import type { DeepPartial, Field } from '@d11f/types';
 
 export const REQUIRED_FIELDS: Pick<Field, 'field' | 'type'>[] = [
 	{

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Filter } from '@directus/types';
-import { deepMap } from '@directus/utils';
+import { Filter } from '@d11f/types';
+import { deepMap } from '@d11f/utils';
 import { render } from 'micromustache';
 import { computed, inject, ref, toRef, toRefs } from 'vue';
 import api from '@/api';

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useSizeClass } from '@directus/composables';
-import { isIn } from '@directus/utils';
+import { useSizeClass } from '@d11f/composables';
+import { isIn } from '@d11f/utils';
 import { IconName } from '@fortawesome/fontawesome-svg-core';
 import { camelCase, upperFirst } from 'lodash';
 import { computed } from 'vue';

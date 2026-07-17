@@ -1,5 +1,5 @@
 {
-	"name": "@directus/extensions-sdk",
+	"name": "@d11f/extensions-sdk",
 	"version": "17.1.4",
 	"description": "A toolkit to develop extensions to extend Directus",
 	"homepage": "https://directus.io",
@@ -32,12 +32,12 @@
 		"test:coverage": "vitest run --coverage"
 	},
 	"dependencies": {
-		"@directus/composables": "workspace:*",
-		"@directus/constants": "workspace:*",
-		"@directus/extensions": "workspace:*",
-		"@directus/themes": "workspace:*",
-		"@directus/types": "workspace:*",
-		"@directus/utils": "workspace:*",
+		"@d11f/composables": "workspace:*",
+		"@d11f/constants": "workspace:*",
+		"@d11f/extensions": "workspace:*",
+		"@d11f/themes": "workspace:*",
+		"@d11f/types": "workspace:*",
+		"@d11f/utils": "workspace:*",
 		"@rollup/plugin-commonjs": "catalog:",
 		"@rollup/plugin-json": "catalog:",
 		"@rollup/plugin-node-resolve": "catalog:",

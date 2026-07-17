@@ -1,5 +1,5 @@
-import type { ProviderType } from '@directus/ai';
-import { useEnv } from '@directus/env';
+import type { ProviderType } from '@d11f/ai';
+import { useEnv } from '@d11f/env';
 import type { TelemetrySettings } from 'ai';
 import { useLogger } from '../../logger/index.js';
 

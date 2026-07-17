@@ -1,4 +1,4 @@
-import type { Accountability, Query, SchemaOverview } from '@directus/types';
+import type { Accountability, Query, SchemaOverview } from '@d11f/types';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import { sanitizeQuery } from '../../utils/sanitize-query.js';
 import { buildSanitizedQueryFromArgs, coerceJsonFields } from './utils.js';

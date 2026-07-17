@@ -1,7 +1,7 @@
 import { expect, test, vi } from 'vitest';
 import { checkUserLimits } from './check-user-limits.js';
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		EMAIL_TEMPLATES_PATH: './templates',
 		USERS_ADMIN_ACCESS_LIMIT: 3,

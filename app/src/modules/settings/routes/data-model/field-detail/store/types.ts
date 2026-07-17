@@ -1,4 +1,4 @@
-import { DeepPartial } from '@directus/types';
+import { DeepPartial } from '@d11f/types';
 import { useFieldDetailStore } from './index';
 
 export type StateUpdates = DeepPartial<ReturnType<typeof useFieldDetailStore>['$state']>;

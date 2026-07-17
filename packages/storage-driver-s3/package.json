@@ -1,7 +1,7 @@
 {
-	"name": "@directus/storage-driver-s3",
+	"name": "@d11f/storage-driver-s3",
 	"version": "12.1.8",
-	"description": "S3 file storage abstraction for `@directus/storage`",
+	"description": "S3 file storage abstraction for `@d11f/storage`",
 	"homepage": "https://directus.io",
 	"repository": {
 		"type": "git",
@@ -29,8 +29,8 @@
 	"dependencies": {
 		"@aws-sdk/client-s3": "catalog:",
 		"@aws-sdk/lib-storage": "catalog:",
-		"@directus/storage": "workspace:*",
-		"@directus/utils": "workspace:*",
+		"@d11f/storage": "workspace:*",
+		"@d11f/utils": "workspace:*",
 		"@shopify/semaphore": "catalog:",
 		"@smithy/node-http-handler": "catalog:",
 		"@tus/utils": "catalog:",
@@ -38,7 +38,7 @@
 	},
 	"devDependencies": {
 		"@directus/tsconfig": "catalog:",
-		"@directus/types": "workspace:*",
+		"@d11f/types": "workspace:*",
 		"@ngneat/falso": "catalog:",
 		"@types/ms": "catalog:",
 		"@vitest/coverage-v8": "catalog:",

@@ -1,4 +1,4 @@
-import { File, SettingsStorageAssetPreset } from '@directus/types';
+import { File, SettingsStorageAssetPreset } from '@d11f/types';
 import { expect, test } from 'vitest';
 import { ref } from 'vue';
 import useImage from './useImage';

@@ -1,4 +1,4 @@
-import { InvalidCredentialsError, ServiceUnavailableError } from '@directus/errors';
+import { InvalidCredentialsError, ServiceUnavailableError } from '@d11f/errors';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { NetlifyDriver } from './netlify.js';
 

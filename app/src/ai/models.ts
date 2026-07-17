@@ -5,7 +5,7 @@ import {
 	type ModelDefinition,
 	type OpenAICompatibleModel,
 	type ProviderType,
-} from '@directus/ai';
+} from '@d11f/ai';
 import type { Component } from 'vue';
 import LogoClaude from '@/ai/components/logos/claude.vue';
 import LogoCustom from '@/ai/components/logos/custom.vue';

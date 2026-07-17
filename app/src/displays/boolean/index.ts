@@ -1,4 +1,4 @@
-import { defineDisplay } from '@directus/extensions';
+import { defineDisplay } from '@d11f/extensions';
 import DisplayBoolean from './boolean.vue';
 
 export default defineDisplay({

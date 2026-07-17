@@ -12,8 +12,8 @@ import {
 	ServerSideEncryption,
 } from '@aws-sdk/client-s3';
 import { Upload } from '@aws-sdk/lib-storage';
-import { normalizePath } from '@directus/utils';
-import { isReadableStream } from '@directus/utils/node';
+import { normalizePath } from '@d11f/utils';
+import { isReadableStream } from '@d11f/utils/node';
 import {
 	rand,
 	randAlphaNumeric,
@@ -34,8 +34,8 @@ import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import type { DriverS3Config } from './index.js';
 import { DriverS3 } from './index.js';
 
-vi.mock('@directus/utils/node');
-vi.mock('@directus/utils');
+vi.mock('@d11f/utils/node');
+vi.mock('@d11f/utils');
 vi.mock('@aws-sdk/client-s3');
 vi.mock('@aws-sdk/lib-storage');
 vi.mock('node:path');

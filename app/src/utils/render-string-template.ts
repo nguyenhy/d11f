@@ -1,5 +1,5 @@
-import { Field } from '@directus/types';
-import { get, getFieldsFromTemplate } from '@directus/utils';
+import { Field } from '@d11f/types';
+import { get, getFieldsFromTemplate } from '@d11f/utils';
 import { set } from 'lodash';
 import { render, renderFn } from 'micromustache';
 import { computed, ComputedRef, Ref, unref } from 'vue';

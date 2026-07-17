@@ -9,8 +9,8 @@
 	},
 	"devDependencies": {
 		"@directus/tsconfig": "catalog:",
-		"@directus/types": "workspace:*",
-		"@directus/utils": "workspace:*",
+		"@d11f/types": "workspace:*",
+		"@d11f/utils": "workspace:*",
 		"ldapts": "catalog:",
 		"tus-js-client": "catalog:",
 		"@types/js-yaml": "catalog:",

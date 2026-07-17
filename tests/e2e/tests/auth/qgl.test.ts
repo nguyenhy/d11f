@@ -1,5 +1,5 @@
 import { randomUUID } from 'node:crypto';
-import { authentication, createDirectus, createUser, graphql, rest, staticToken } from '@directus/sdk';
+import { authentication, createDirectus, createUser, graphql, rest, staticToken } from '@d11f/sdk';
 import { port } from '@utils/constants.js';
 import { expect, test } from 'vitest';
 

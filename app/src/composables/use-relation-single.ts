@@ -1,4 +1,4 @@
-import { getEndpoint } from '@directus/utils';
+import { getEndpoint } from '@d11f/utils';
 import { merge } from 'lodash';
 import { computed, MaybeRefOrGetter, ref, Ref, toValue, watch } from 'vue';
 import { RelationM2O } from '@/composables/use-relation-m2o';

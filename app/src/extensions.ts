@@ -1,4 +1,4 @@
-import type { AppExtensionConfigs, ModuleConfig, RefRecord } from '@directus/types';
+import type { AppExtensionConfigs, ModuleConfig, RefRecord } from '@d11f/types';
 import { App, shallowRef, type ShallowRef, watch } from 'vue';
 import { getInternalDisplays, registerDisplays } from './displays';
 import { getInternalInterfaces, registerInterfaces } from './interfaces';

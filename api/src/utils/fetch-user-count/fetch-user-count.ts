@@ -1,4 +1,4 @@
-import { toBoolean } from '@directus/utils';
+import { toBoolean } from '@d11f/utils';
 import { fetchAccessLookup, type FetchAccessLookupOptions } from './fetch-access-lookup.js';
 import { fetchAccessRoles } from './fetch-access-roles.js';
 import { getUserCountQuery } from './get-user-count-query.js';

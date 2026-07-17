@@ -1,5 +1,5 @@
 {
-	"name": "@directus/errors",
+	"name": "@d11f/errors",
 	"version": "2.3.1",
 	"description": "Create consistent error objects around the codebase",
 	"repository": {
@@ -27,12 +27,12 @@
 		"test:coverage": "vitest run --coverage"
 	},
 	"dependencies": {
-		"@directus/storage": "workspace:*",
+		"@d11f/storage": "workspace:*",
 		"ms": "catalog:"
 	},
 	"devDependencies": {
 		"@directus/tsconfig": "catalog:",
-		"@directus/types": "workspace:*",
+		"@d11f/types": "workspace:*",
 		"@types/ms": "catalog:",
 		"@vitest/coverage-v8": "catalog:",
 		"tsdown": "catalog:",

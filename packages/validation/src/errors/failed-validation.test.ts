@@ -1,4 +1,4 @@
-import type { FilterOperator } from '@directus/types';
+import type { FilterOperator } from '@d11f/types';
 import { describe, expect, test } from 'vitest';
 import { messageConstructor } from './failed-validation.js';
 

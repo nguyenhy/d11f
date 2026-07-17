@@ -1,5 +1,5 @@
-import { schemaPermissions } from '@directus/system-data';
-import type { Accountability, Filter, Permission, SchemaOverview } from '@directus/types';
+import { schemaPermissions } from '@d11f/system-data';
+import type { Accountability, Filter, Permission, SchemaOverview } from '@d11f/types';
 import { set, uniq } from 'lodash-es';
 import { reduceSchema } from '../../utils/reduce-schema.js';
 import { fetchPermissions } from '../lib/fetch-permissions.js';

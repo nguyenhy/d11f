@@ -1,7 +1,7 @@
 import assert from 'node:assert';
-import { InvalidQueryError } from '@directus/errors';
-import type { CollectionOverview, FieldOverview, Relation, SchemaOverview } from '@directus/types';
-import { getRelationInfo, type RelationInfo } from '@directus/utils';
+import { InvalidQueryError } from '@d11f/errors';
+import type { CollectionOverview, FieldOverview, Relation, SchemaOverview } from '@d11f/types';
+import { getRelationInfo, type RelationInfo } from '@d11f/utils';
 import { isPlainObject } from 'lodash-es';
 
 /**

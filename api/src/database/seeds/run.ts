@@ -1,7 +1,7 @@
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import path from 'path';
-import type { Field, Type } from '@directus/types';
+import type { Field, Type } from '@d11f/types';
 import fse from 'fs-extra';
 import yaml from 'js-yaml';
 import type { Knex } from 'knex';

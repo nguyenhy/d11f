@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Comment, User } from '@directus/types';
+import type { Comment, User } from '@d11f/types';
 import { format } from 'date-fns';
 import { computed, ref } from 'vue';
 import { useI18n } from 'vue-i18n';

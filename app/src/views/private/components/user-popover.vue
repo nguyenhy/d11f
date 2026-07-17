@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { User } from '@directus/types';
+import { User } from '@d11f/types';
 import { computed, onUnmounted, ref, watch } from 'vue';
 import { useRouter } from 'vue-router';
 import api from '@/api';

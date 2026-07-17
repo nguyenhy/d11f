@@ -1,4 +1,4 @@
-# @directus/extensions-sdk
+# @d11f/extensions-sdk
 
 A toolkit to develop extensions to extend Directus
 

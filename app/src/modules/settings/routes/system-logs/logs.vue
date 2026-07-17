@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useShortcut } from '@directus/composables';
-import { realtime } from '@directus/sdk';
+import { useShortcut } from '@d11f/composables';
+import { realtime } from '@d11f/sdk';
 import { useLocalStorage } from '@vueuse/core';
 import CodeMirror from 'codemirror';
 import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue';

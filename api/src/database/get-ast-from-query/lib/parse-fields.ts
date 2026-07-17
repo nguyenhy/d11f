@@ -1,6 +1,6 @@
-import { REGEX_BETWEEN_PARENS } from '@directus/constants';
-import type { Accountability, Query, Relation, SchemaOverview } from '@directus/types';
-import { getRelation, getRelationType, parseFilterFunctionPath } from '@directus/utils';
+import { REGEX_BETWEEN_PARENS } from '@d11f/constants';
+import type { Accountability, Query, Relation, SchemaOverview } from '@d11f/types';
+import { getRelation, getRelationType, parseFilterFunctionPath } from '@d11f/utils';
 import type { Knex } from 'knex';
 import { isEmpty } from 'lodash-es';
 import { fetchPermissions } from '../../../permissions/lib/fetch-permissions.js';

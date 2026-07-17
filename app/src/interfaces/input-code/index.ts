@@ -1,5 +1,5 @@
-import { defineInterface } from '@directus/extensions';
-import { DeepPartial, Field } from '@directus/types';
+import { defineInterface } from '@d11f/extensions';
+import { DeepPartial, Field } from '@d11f/types';
 import CodeMirror from 'codemirror';
 import InterfaceCode from './input-code.vue';
 import PreviewSVG from './preview.svg?raw';

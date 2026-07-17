@@ -1,4 +1,4 @@
-import type { SchemaOverview } from '@directus/types';
+import type { SchemaOverview } from '@d11f/types';
 import type { FieldMap } from '../permissions/modules/fetch-allowed-field-map/fetch-allowed-field-map.js';
 
 /**

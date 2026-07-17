@@ -1,7 +1,7 @@
-import { useEnv } from '@directus/env';
-import { InvalidQueryError } from '@directus/errors';
-import type { Accountability, Aggregate, Query, SchemaOverview } from '@directus/types';
-import { parseFilter, parseJSON } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { InvalidQueryError } from '@d11f/errors';
+import type { Accountability, Aggregate, Query, SchemaOverview } from '@d11f/types';
+import { parseFilter, parseJSON } from '@d11f/utils';
 import { flatten, get, isPlainObject, merge, set } from 'lodash-es';
 import getDatabase from '../database/index.js';
 import { useLogger } from '../logger/index.js';

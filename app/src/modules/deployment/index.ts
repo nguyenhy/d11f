@@ -1,4 +1,4 @@
-import { defineModule } from '@directus/extensions';
+import { defineModule } from '@d11f/extensions';
 import { useDeploymentNavigation } from './composables/use-deployment-navigation';
 import DeploymentOverview from './routes/overview.vue';
 import DeploymentProviderDashboard from './routes/provider/dashboard.vue';

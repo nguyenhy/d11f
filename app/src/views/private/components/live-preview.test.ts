@@ -12,8 +12,8 @@ vi.mock('@/modules/visual/composables/use-visual-editor-urls', () => ({
 	useVisualEditorUrls: () => ({ urlTemplates: ref([]), firstResolvedUrl: ref(null), resolveUrls: () => [] }),
 }));
 
-vi.mock('@directus/composables', async (importOriginal) => {
-	const actual = await importOriginal<typeof import('@directus/composables')>();
+vi.mock('@d11f/composables', async (importOriginal) => {
+	const actual = await importOriginal<typeof import('@d11f/composables')>();
 	return { ...actual, useElementSize: vi.fn(() => ({ width: ref(0), height: ref(0) })) };
 });
 

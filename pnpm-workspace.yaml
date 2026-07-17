@@ -21,9 +21,9 @@ catalog:
   '@changesets/cli': 2.29.7
   '@changesets/get-github-info': 0.6.0
   '@changesets/types': 6.1.0
-  '@directus/schema-builder': workspace:*
+  '@d11f/schema-builder': workspace:*
   '@directus/tsconfig': 4.0.0
-  '@directus/types': workspace:*
+  '@d11f/types': workspace:*
   '@directus/vue-split-panel': 0.8.9
   '@editorjs/attaches': 1.3.2
   '@editorjs/checklist': 1.6.0

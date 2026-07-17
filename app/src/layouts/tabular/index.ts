@@ -1,6 +1,6 @@
-import { useCollection, useItems, useSync } from '@directus/composables';
-import { defineLayout } from '@directus/extensions';
-import { Field } from '@directus/types';
+import { useCollection, useItems, useSync } from '@d11f/composables';
+import { defineLayout } from '@d11f/extensions';
+import { Field } from '@d11f/types';
 import { debounce, flatten } from 'lodash';
 import { computed, ref, toRefs, unref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

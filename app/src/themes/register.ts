@@ -1,5 +1,5 @@
-import type { Theme } from '@directus/themes';
-import { useThemeStore } from '@directus/themes';
+import type { Theme } from '@d11f/themes';
+import { useThemeStore } from '@d11f/themes';
 
 export const registerThemes = (themes: Theme[]) => {
 	const themesStore = useThemeStore();

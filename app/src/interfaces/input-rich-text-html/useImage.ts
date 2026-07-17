@@ -1,4 +1,4 @@
-import { File, SettingsStorageAssetPreset } from '@directus/types';
+import { File, SettingsStorageAssetPreset } from '@d11f/types';
 import mime from 'mime/lite';
 import { Ref, ref, watch } from 'vue';
 import { i18n } from '@/lang';

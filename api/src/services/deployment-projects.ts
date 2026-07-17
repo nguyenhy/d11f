@@ -1,4 +1,4 @@
-import { InvalidPayloadError } from '@directus/errors';
+import { InvalidPayloadError } from '@d11f/errors';
 import type {
 	AbstractServiceOptions,
 	Credentials,
@@ -7,7 +7,7 @@ import type {
 	PrimaryKey,
 	Project as ProviderProject,
 	ProviderType,
-} from '@directus/types';
+} from '@d11f/types';
 import getDatabase from '../database/index.js';
 import type { DeploymentDriver } from '../deployment/deployment.js';
 import { getDeploymentDriver } from '../deployment.js';

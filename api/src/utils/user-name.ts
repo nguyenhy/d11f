@@ -1,4 +1,4 @@
-import type { User } from '@directus/types';
+import type { User } from '@d11f/types';
 
 export function userName(user: Partial<User>): string {
 	if (!user) {

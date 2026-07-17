@@ -1,4 +1,4 @@
-import { useCollection } from '@directus/composables';
+import { useCollection } from '@d11f/composables';
 import { createTestingPinia } from '@pinia/testing';
 import { setActivePinia } from 'pinia';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
@@ -10,7 +10,7 @@ import { usePermissionsStore } from '@/stores/permissions';
 import { useUserStore } from '@/stores/user';
 import { ActionPermission } from '@/types/permissions';
 
-vi.mock('@directus/composables');
+vi.mock('@d11f/composables');
 vi.mock('../../utils/is-field-allowed');
 
 let sample: {

@@ -1,8 +1,8 @@
 import { extname } from 'node:path';
 import stream from 'node:stream';
-import formatTitle from '@directus/format-title';
-import type { TusDriver } from '@directus/storage';
-import type { Accountability, ChunkedUploadContext, File, SchemaOverview } from '@directus/types';
+import formatTitle from '@d11f/format-title';
+import type { TusDriver } from '@d11f/storage';
+import type { Accountability, ChunkedUploadContext, File, SchemaOverview } from '@d11f/types';
 import { DataStore, ERRORS, Upload } from '@tus/utils';
 import { omit } from 'lodash-es';
 import { extension } from 'mime-types';

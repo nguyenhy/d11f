@@ -1,4 +1,4 @@
-import type { GraphQLParams } from '@directus/types';
+import type { GraphQLParams } from '@d11f/types';
 import type { GraphQLFieldResolver, GraphQLResolveInfo } from 'graphql';
 import { print } from 'graphql';
 import hash from 'object-hash';

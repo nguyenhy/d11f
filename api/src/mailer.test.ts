@@ -2,12 +2,12 @@ import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import getMailer from './mailer.js';
 
 // Mock the dependencies
-vi.mock('@directus/env');
+vi.mock('@d11f/env');
 vi.mock('./utils/get-config-from-env.js');
 
 // Mock useEnv
 const mockUseEnv = vi.fn();
-vi.mocked(await import('@directus/env')).useEnv = mockUseEnv;
+vi.mocked(await import('@d11f/env')).useEnv = mockUseEnv;
 
 // Mock getConfigFromEnv
 const mockGetConfigFromEnv = vi.fn();

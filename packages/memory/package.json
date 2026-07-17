@@ -1,5 +1,5 @@
 {
-	"name": "@directus/memory",
+	"name": "@d11f/memory",
 	"version": "3.1.8",
 	"description": "Memory / Redis abstraction for Directus",
 	"homepage": "https://directus.io",
@@ -27,8 +27,8 @@
 		"test:coverage": "vitest run --coverage"
 	},
 	"dependencies": {
-		"@directus/errors": "workspace:*",
-		"@directus/utils": "workspace:*",
+		"@d11f/errors": "workspace:*",
+		"@d11f/utils": "workspace:*",
 		"@sesamecare-oss/redlock": "catalog:",
 		"ioredis": "catalog:",
 		"lru-cache": "catalog:",

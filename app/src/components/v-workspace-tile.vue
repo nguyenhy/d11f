@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Panel } from '@directus/extensions';
+import type { Panel } from '@d11f/extensions';
 import { throttle } from 'lodash';
 import { computed, reactive, ref, StyleValue } from 'vue';
 import VIcon from '@/components/v-icon/v-icon.vue';

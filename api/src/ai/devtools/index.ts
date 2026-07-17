@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import { getNodeEnv } from '@directus/utils/node';
+import { useEnv } from '@d11f/env';
+import { getNodeEnv } from '@d11f/utils/node';
 import type { LanguageModelMiddleware } from 'ai';
 import { useLogger } from '../../logger/index.js';
 

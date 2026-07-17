@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import { toBoolean } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { toBoolean } from '@d11f/utils';
 import { CollabHandler } from '../collab/collab.js';
 import { HeartbeatHandler } from './heartbeat.js';
 import { ItemsHandler } from './items.js';

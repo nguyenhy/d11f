@@ -1,5 +1,5 @@
-import { CollectionAccess, PermissionsAction } from '@directus/types';
-import { deepMap } from '@directus/utils';
+import { CollectionAccess, PermissionsAction } from '@d11f/types';
+import { deepMap } from '@d11f/utils';
 import { mapValues } from 'lodash';
 import { defineStore } from 'pinia';
 import { useUserStore } from '../stores/user';

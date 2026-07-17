@@ -1,4 +1,4 @@
-import type { Item } from '@directus/types';
+import type { Item } from '@d11f/types';
 import emitter from '../../emitter.js';
 import getDatabase, { getDatabaseClient } from '../index.js';
 import { extractError as mssql } from './dialects/mssql.js';

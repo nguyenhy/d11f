@@ -1,6 +1,6 @@
 /**
  * Schema mocking utilities for service tests
- * Provides simplified mocks for @directus/schema module used in service testing
+ * Provides simplified mocks for @d11f/schema module used in service testing
  */
 
 import { vi } from 'vitest';
@@ -14,10 +14,10 @@ import { vi } from 'vitest';
  * @example
  * ```typescript
  * // Standard usage
- * vi.mock('@directus/schema', () => mockSchema());
+ * vi.mock('@d11f/schema', () => mockSchema());
  *
  * // To dynamically change inspector behavior during tests, import and mock directly:
- * import { createInspector } from '@directus/schema';
+ * import { createInspector } from '@d11f/schema';
  * vi.mocked(createInspector).mockReturnValue({
  *   tableInfo: vi.fn().mockResolvedValue([{ name: 'custom_table' }]),
  *   // ... other custom behaviors

@@ -1,5 +1,5 @@
-import type { Column } from '@directus/schema';
-import type { Field, Relation, SnapshotSystemField } from '@directus/types';
+import type { Column } from '@d11f/schema';
+import type { Field, Relation, SnapshotSystemField } from '@d11f/types';
 import { describe, expect, test } from 'vitest';
 import type { Collection } from '../types/index.js';
 import {

@@ -1,4 +1,4 @@
-import { REGEX_DB_SAFE_IDENTIFIER } from '@directus/constants';
+import { REGEX_DB_SAFE_IDENTIFIER } from '@d11f/constants';
 import { z } from 'zod';
 
 const DB_SAFE_IDENTIFIER_MESSAGE =

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { File } from '@directus/types';
+import type { File } from '@d11f/types';
 import { computed, toRef } from 'vue';
 import VIconFile from '@/components/v-icon-file.vue';
 import VImage from '@/components/v-image.vue';

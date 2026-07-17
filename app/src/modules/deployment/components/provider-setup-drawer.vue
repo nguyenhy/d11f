@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { createDeployment } from '@directus/sdk';
+import { createDeployment } from '@d11f/sdk';
 import { computed, ref, watch } from 'vue';
 import { useProviderConfigs } from '../config/providers';
 import VBreadcrumb from '@/components/v-breadcrumb.vue';

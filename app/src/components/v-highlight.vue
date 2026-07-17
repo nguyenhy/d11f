@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { toArray } from '@directus/utils';
+import { toArray } from '@d11f/utils';
 import { remove as removeDiacritics } from 'diacritics';
 import { flatten } from 'lodash';
 import { computed } from 'vue';

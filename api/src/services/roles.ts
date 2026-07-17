@@ -1,6 +1,6 @@
-import { InvalidPayloadError } from '@directus/errors';
-import type { AbstractServiceOptions, Item, MutationOptions, PrimaryKey } from '@directus/types';
-import { UserIntegrityCheckFlag } from '@directus/types';
+import { InvalidPayloadError } from '@d11f/errors';
+import type { AbstractServiceOptions, Item, MutationOptions, PrimaryKey } from '@d11f/types';
+import { UserIntegrityCheckFlag } from '@d11f/types';
 import { clearSystemCache } from '../cache.js';
 import { fetchRolesTree } from '../permissions/lib/fetch-roles-tree.js';
 import { transaction } from '../utils/transaction.js';

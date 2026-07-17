@@ -1,4 +1,4 @@
-import type { Accountability, Aggregate, Query, SchemaOverview } from '@directus/types';
+import type { Accountability, Aggregate, Query, SchemaOverview } from '@d11f/types';
 import type { FieldNode, SelectionNode } from 'graphql';
 import { sanitizeQuery } from '../../../utils/sanitize-query.js';
 import { validateQuery } from '../../../utils/validate-query.js';

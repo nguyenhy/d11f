@@ -1,4 +1,4 @@
-import { useCollection } from '@directus/composables';
+import { useCollection } from '@d11f/composables';
 import { computed, ComputedRef, ref, unref } from 'vue';
 import { Collection } from '../types';
 import { isFieldAllowed } from '../utils/is-field-allowed';

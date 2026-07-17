@@ -1,5 +1,5 @@
-import { defineOperationApi } from '@directus/extensions';
-import { optionToObject, optionToString } from '@directus/utils';
+import { defineOperationApi } from '@d11f/extensions';
+import { optionToObject, optionToString } from '@d11f/utils';
 import jwt from 'jsonwebtoken';
 
 type Options = {

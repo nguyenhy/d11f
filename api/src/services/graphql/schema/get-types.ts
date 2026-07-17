@@ -1,5 +1,5 @@
-import { GENERATE_SPECIAL } from '@directus/constants';
-import type { GQLScope } from '@directus/types';
+import { GENERATE_SPECIAL } from '@d11f/constants';
+import type { GQLScope } from '@d11f/types';
 import type { GraphQLNullableType } from 'graphql';
 import { GraphQLID, GraphQLInt, GraphQLNonNull, GraphQLScalarType, GraphQLUnionType } from 'graphql';
 import type {

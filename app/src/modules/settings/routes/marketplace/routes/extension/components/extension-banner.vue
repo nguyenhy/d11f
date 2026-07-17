@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { RegistryDescribeResponse } from '@directus/extensions-registry';
+import type { RegistryDescribeResponse } from '@d11f/extensions-registry';
 import { computed } from 'vue';
 import { formatName } from '../../../utils/format-name';
 import VBanner from '@/components/v-banner.vue';

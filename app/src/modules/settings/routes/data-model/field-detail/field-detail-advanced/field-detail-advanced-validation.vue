@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { DeepPartial, Field } from '@directus/types';
+import { DeepPartial, Field } from '@d11f/types';
 import { isEqual } from 'lodash';
 import { storeToRefs } from 'pinia';
 import { computed } from 'vue';

@@ -1,13 +1,13 @@
-import { useEnv } from '@directus/env';
-import { createKv, type KvLocal, type KvRedis } from '@directus/memory';
+import { useEnv } from '@d11f/env';
+import { createKv, type KvLocal, type KvRedis } from '@d11f/memory';
 import type { Redis } from 'ioredis';
 import { afterEach, beforeEach, expect, test, vi } from 'vitest';
 import { redisConfigAvailable, useRedis } from '../../redis/index.js';
 import { _cache, useLock } from './use-lock.js';
 
-vi.mock('@directus/env');
+vi.mock('@d11f/env');
 vi.mock('../../redis/index.js');
-vi.mock('@directus/memory');
+vi.mock('@d11f/memory');
 
 let mockLock: KvLocal | KvRedis;
 

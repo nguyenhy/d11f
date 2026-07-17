@@ -1,4 +1,4 @@
-import { ItemPermissions } from '@directus/types';
+import { ItemPermissions } from '@d11f/types';
 import { computed, MaybeRef, Ref, unref } from 'vue';
 import { Collection, IsNew } from '../../types';
 import { usePermissionsStore } from '@/stores/permissions';

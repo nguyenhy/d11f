@@ -1,4 +1,4 @@
-import type { DirectusError } from '@directus/types';
+import type { DirectusError } from '@d11f/types';
 
 export interface DirectusErrorConstructor<Extensions = void> {
 	new (extensions: Extensions, options?: ErrorOptions): DirectusError<Extensions>;

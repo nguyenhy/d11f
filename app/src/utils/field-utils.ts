@@ -1,5 +1,5 @@
-import { RELATIONAL_TYPES } from '@directus/constants';
-import type { DeepPartial, Field, RelationalType } from '@directus/types';
+import { RELATIONAL_TYPES } from '@d11f/constants';
+import type { DeepPartial, Field, RelationalType } from '@d11f/types';
 
 export function isPrimaryKey(field: DeepPartial<Field>) {
 	return field.schema?.is_primary_key === true;

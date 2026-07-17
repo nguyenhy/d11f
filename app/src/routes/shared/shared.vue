@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useCollection } from '@directus/composables';
-import { useAppStore } from '@directus/stores';
-import { Share } from '@directus/types';
+import { useCollection } from '@d11f/composables';
+import { useAppStore } from '@d11f/stores';
+import { Share } from '@d11f/types';
 import { useHead } from '@unhead/vue';
 import { computed, ref } from 'vue';
 import { useI18n } from 'vue-i18n';

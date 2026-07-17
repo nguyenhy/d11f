@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { FlowRaw } from '@directus/types';
+import { FlowRaw } from '@d11f/types';
 import { computed, ref, toRefs, unref } from 'vue';
 import { ATTACHMENT_OFFSET, GRID_SIZE, REJECT_OFFSET, RESOLVE_OFFSET } from '../constants';
 import { getTriggers } from '../triggers';

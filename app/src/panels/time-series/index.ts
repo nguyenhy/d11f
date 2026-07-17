@@ -1,5 +1,5 @@
-import { definePanel } from '@directus/extensions';
-import { Filter } from '@directus/types';
+import { definePanel } from '@d11f/extensions';
+import { Filter } from '@d11f/types';
 import PanelTimeSeries from './panel-time-series.vue';
 import PreviewSVG from './preview.svg?raw';
 import { useCollectionsStore } from '@/stores/collections';

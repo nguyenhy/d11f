@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SetupForm } from '@directus/types';
+import { SetupForm } from '@d11f/types';
 import { storeToRefs } from 'pinia';
 import { computed, toRef } from 'vue';
 import { I18nT } from 'vue-i18n';

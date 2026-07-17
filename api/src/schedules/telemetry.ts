@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import { toBoolean } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { toBoolean } from '@d11f/utils';
 import { getCache } from '../cache.js';
 import { track } from '../telemetry/index.js';
 import { scheduleSynchronizedJob } from '../utils/schedule.js';

@@ -1,4 +1,4 @@
-import type { Filter, Query } from '@directus/types';
+import type { Filter, Query } from '@d11f/types';
 import { flushPromises } from '@vue/test-utils';
 import type { AxiosInstance } from 'axios';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';

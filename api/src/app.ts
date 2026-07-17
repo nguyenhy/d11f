@@ -2,10 +2,10 @@ import type { ServerResponse } from 'http';
 import { readFile } from 'node:fs/promises';
 import { createRequire } from 'node:module';
 import path from 'path';
-import { useEnv } from '@directus/env';
-import { InvalidPayloadError, ServiceUnavailableError } from '@directus/errors';
-import { handlePressure } from '@directus/pressure';
-import { toBoolean } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { InvalidPayloadError, ServiceUnavailableError } from '@d11f/errors';
+import { handlePressure } from '@d11f/pressure';
+import { toBoolean } from '@d11f/utils';
 import cookieParser from 'cookie-parser';
 import type { Request, RequestHandler, Response } from 'express';
 import express from 'express';
@@ -261,7 +261,7 @@ export default async function createApp(): Promise<express.Application> {
 	});
 
 	if (env['SERVE_APP']) {
-		const adminPath = require.resolve('@directus/app');
+		const adminPath = require.resolve('@d11f/app');
 		const adminUrl = new Url(env['PUBLIC_URL'] as string).addPath('admin');
 
 		const embeds = extensionManager.getEmbeds();

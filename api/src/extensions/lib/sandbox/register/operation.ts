@@ -1,4 +1,4 @@
-import type { OperationHandler, PromiseCallback } from '@directus/types';
+import type { OperationHandler, PromiseCallback } from '@d11f/types';
 import type { Reference } from 'isolated-vm';
 import { getFlowManager } from '../../../../flows.js';
 import { callReference } from './call-reference.js';

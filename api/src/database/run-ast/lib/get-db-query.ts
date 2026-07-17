@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import type { Filter, Permission, Query } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import type { Filter, Permission, Query } from '@d11f/types';
 import type { Knex } from 'knex';
 import { cloneDeep } from 'lodash-es';
 import type { Context } from '../../../permissions/types.js';

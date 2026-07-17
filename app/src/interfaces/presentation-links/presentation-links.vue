@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useSdk } from '@directus/composables';
-import type { Item, PrimaryKey } from '@directus/types';
-import { getEndpoint, getFieldsFromTemplate } from '@directus/utils';
+import { useSdk } from '@d11f/composables';
+import type { Item, PrimaryKey } from '@d11f/types';
+import { getEndpoint, getFieldsFromTemplate } from '@d11f/utils';
 import { pickBy } from 'lodash';
 import { render } from 'micromustache';
 import { computed, inject, ref, toRefs, watch } from 'vue';

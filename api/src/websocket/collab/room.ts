@@ -1,5 +1,5 @@
 import { createHash } from 'crypto';
-import { ErrorCode } from '@directus/errors';
+import { ErrorCode } from '@d11f/errors';
 import {
 	type Accountability,
 	ACTION,
@@ -12,8 +12,8 @@ import {
 	type ServerError,
 	type WebSocketClient,
 	WS_TYPE,
-} from '@directus/types';
-import { isDetailedUpdateSyntax, isObject } from '@directus/utils';
+} from '@d11f/types';
+import { isDetailedUpdateSyntax, isObject } from '@d11f/utils';
 import { isEqual, random, uniq } from 'lodash-es';
 import getDatabase from '../../database/index.js';
 import { useLogger } from '../../logger/index.js';

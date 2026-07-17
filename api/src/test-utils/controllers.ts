@@ -3,7 +3,7 @@
  * Provides helpers for extracting route handlers and creating mock Express request/response objects
  */
 
-import type { SchemaOverview } from '@directus/types';
+import type { SchemaOverview } from '@d11f/types';
 import type { Request, Response, Router } from 'express';
 import { vi } from 'vitest';
 

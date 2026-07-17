@@ -1,6 +1,6 @@
 import { existsSync } from 'node:fs';
-import { JAVASCRIPT_FILE_EXTS } from '@directus/constants';
-import { isIn } from '@directus/utils';
+import { JAVASCRIPT_FILE_EXTS } from '@d11f/constants';
+import { isIn } from '@d11f/utils';
 import { getFileExtension } from '../utils/get-file-extension.js';
 import { readConfigurationFromDotEnv } from '../utils/read-configuration-from-dotenv.js';
 import { readConfigurationFromJavaScript } from '../utils/read-configuration-from-javascript.js';

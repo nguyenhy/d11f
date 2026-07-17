@@ -1,5 +1,5 @@
 import { createHmac } from 'node:crypto';
-import { HitRateLimitError, InvalidCredentialsError, ServiceUnavailableError } from '@directus/errors';
+import { HitRateLimitError, InvalidCredentialsError, ServiceUnavailableError } from '@d11f/errors';
 import type { AxiosResponse } from 'axios';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { VercelDriver } from './vercel.js';

@@ -1,6 +1,6 @@
 import { randomUUID } from 'node:crypto';
-import { createUser, type DirectusClient, type RestClient } from '@directus/sdk';
-import { type Permission, type Snapshot } from '@directus/types';
+import { createUser, type DirectusClient, type RestClient } from '@d11f/sdk';
+import { type Permission, type Snapshot } from '@d11f/types';
 
 /**
  * Generate a user with a policy attached to him giving him access to only the provided schema.

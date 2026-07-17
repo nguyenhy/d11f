@@ -1,10 +1,10 @@
-import { useEnv } from '@directus/env';
-import type { Accountability } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import type { Accountability } from '@d11f/types';
 import type { Request } from 'express';
 import { describe, expect, test, vi } from 'vitest';
 import { getCacheControlHeader } from './get-cache-headers.js';
 
-vi.mock('@directus/env');
+vi.mock('@d11f/env');
 
 type Scenario = {
 	name: string;

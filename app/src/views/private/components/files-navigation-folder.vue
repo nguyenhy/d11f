@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { getDateTimeFormatted } from '@directus/utils';
+import { getDateTimeFormatted } from '@d11f/utils';
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import api from '@/api';

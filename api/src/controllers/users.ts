@@ -4,8 +4,8 @@ import {
 	InvalidCredentialsError,
 	InvalidPayloadError,
 	isDirectusError,
-} from '@directus/errors';
-import type { PrimaryKey, RegisterUserInput } from '@directus/types';
+} from '@d11f/errors';
+import type { PrimaryKey, RegisterUserInput } from '@d11f/types';
 import express from 'express';
 import Joi from 'joi';
 import { DEFAULT_AUTH_PROVIDER } from '../constants.js';

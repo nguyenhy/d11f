@@ -1,4 +1,4 @@
-import type { Accountability, PermissionsAction } from '@directus/types';
+import type { Accountability, PermissionsAction } from '@d11f/types';
 import type { Context } from '../types.js';
 import { extractRequiredDynamicVariableContextForPermissions } from '../utils/extract-required-dynamic-variable-context.js';
 import { fetchDynamicVariableData } from '../utils/fetch-dynamic-variable-data.js';

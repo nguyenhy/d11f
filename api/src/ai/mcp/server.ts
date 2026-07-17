@@ -1,6 +1,6 @@
-import { useEnv } from '@directus/env';
-import { ForbiddenError, InvalidPayloadError, isDirectusError } from '@directus/errors';
-import { isObject, toArray } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { ForbiddenError, InvalidPayloadError, isDirectusError } from '@d11f/errors';
+import { isObject, toArray } from '@d11f/utils';
 import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 import {
 	type CallToolRequest,

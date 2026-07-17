@@ -1,4 +1,4 @@
-import type { EXTENSION_LANGUAGES } from '@directus/extensions';
+import type { EXTENSION_LANGUAGES } from '@d11f/extensions';
 import type { Plugin, RollupOptions, OutputOptions as RollupOutputOptions } from 'rollup';
 
 export type Language = (typeof EXTENSION_LANGUAGES)[number];

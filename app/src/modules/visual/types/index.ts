@@ -1,4 +1,4 @@
-import type { AddToContextData, CheckFieldAccessData, EditConfig } from '@directus/visual-editing/types';
+import type { AddToContextData, CheckFieldAccessData, EditConfig } from '@d11f/visual-editing/types';
 
 export type NavigationData = { url: string; title: string };
 

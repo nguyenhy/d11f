@@ -1,6 +1,6 @@
 import { randomUUID } from 'crypto';
-import { sandbox } from '@directus/sandbox';
-import { createDirectus, createFlow, createOperation, rest, staticToken, updateFlow } from '@directus/sdk';
+import { sandbox } from '@d11f/sandbox';
+import { createDirectus, createFlow, createOperation, rest, staticToken, updateFlow } from '@d11f/sdk';
 import { database } from '@utils/constants.js';
 import { getUID } from '@utils/getUID.js';
 import { expect, test } from 'vitest';

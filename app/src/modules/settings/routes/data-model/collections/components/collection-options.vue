@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { isSystemCollection } from '@directus/system-data';
-import type { DeepPartial } from '@directus/types';
+import { isSystemCollection } from '@d11f/system-data';
+import type { DeepPartial } from '@d11f/types';
 import { computed, ref } from 'vue';
 import VButton from '@/components/v-button.vue';
 import VCardActions from '@/components/v-card-actions.vue';

@@ -1,6 +1,6 @@
 import type { IncomingMessage } from 'http';
 import { isIP } from 'net';
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import type { Request } from 'express';
 import proxyAddr from 'proxy-addr';
 import { useLogger } from '../logger/index.js';

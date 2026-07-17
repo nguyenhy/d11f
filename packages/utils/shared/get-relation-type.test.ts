@@ -1,4 +1,4 @@
-import type { Relation } from '@directus/types';
+import type { Relation } from '@d11f/types';
 import { describe, expect, it } from 'vitest';
 import { getRelationType } from './get-relation-type.js';
 

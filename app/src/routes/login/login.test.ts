@@ -1,4 +1,4 @@
-import { useAppStore } from '@directus/stores';
+import { useAppStore } from '@d11f/stores';
 import { createTestingPinia } from '@pinia/testing';
 import { createHead } from '@unhead/vue';
 import { mount } from '@vue/test-utils';

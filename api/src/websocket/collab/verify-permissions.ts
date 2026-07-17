@@ -1,4 +1,4 @@
-import type { Accountability, PrimaryKey, SchemaOverview } from '@directus/types';
+import type { Accountability, PrimaryKey, SchemaOverview } from '@d11f/types';
 import type { Knex } from 'knex';
 import { useLogger } from '../../logger/index.js';
 import { fetchPermissions } from '../../permissions/lib/fetch-permissions.js';

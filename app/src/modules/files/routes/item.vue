@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useShortcut } from '@directus/composables';
-import type { Field, File } from '@directus/types';
+import { useShortcut } from '@d11f/composables';
+import type { Field, File } from '@d11f/types';
 import { computed, ref, toRefs, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useRouter } from 'vue-router';

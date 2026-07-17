@@ -1,4 +1,4 @@
-import { FlowRaw } from '@directus/types';
+import { FlowRaw } from '@d11f/types';
 import { createTestingPinia } from '@pinia/testing';
 import { mount } from '@vue/test-utils';
 import { beforeEach, describe, expect, test, vi } from 'vitest';

@@ -1,5 +1,5 @@
 import path from 'path';
-import type { ExtensionType } from '@directus/types';
+import type { ExtensionType } from '@d11f/types';
 import fse from 'fs-extra';
 import type { Language } from '../../types.js';
 import getTemplatePath from '../../utils/get-template-path.js';

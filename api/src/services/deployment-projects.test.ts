@@ -1,5 +1,5 @@
-import { InvalidPayloadError } from '@directus/errors';
-import { SchemaBuilder } from '@directus/schema-builder';
+import { InvalidPayloadError } from '@d11f/errors';
+import { SchemaBuilder } from '@d11f/schema-builder';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { createMockKnex, resetKnexMocks } from '../test-utils/knex.js';
 import { DeploymentProjectsService } from './deployment-projects.js';

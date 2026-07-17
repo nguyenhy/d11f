@@ -1,5 +1,5 @@
-import type { SchemaOverview } from '@directus/types';
-import type { Relation } from '@directus/types';
+import type { SchemaOverview } from '@d11f/types';
+import type { Relation } from '@d11f/types';
 
 export function getRelations(relations: Relation[], collection: string, field: string): Relation[] {
 	const relation = relations.filter((relation) => {

@@ -1,7 +1,7 @@
-import { ForbiddenError } from '@directus/errors';
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { Accountability, Permission, PermissionsAction } from '@directus/types';
-import { FailedValidationError } from '@directus/validation';
+import { ForbiddenError } from '@d11f/errors';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { Accountability, Permission, PermissionsAction } from '@d11f/types';
+import { FailedValidationError } from '@d11f/validation';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import { fetchPermissions } from '../../lib/fetch-permissions.js';
 import { fetchPolicies } from '../../lib/fetch-policies.js';

@@ -1,4 +1,4 @@
-import { Role } from '@directus/types';
+import { Role } from '@d11f/types';
 import { groupBy } from 'lodash';
 import { computed, ref, Ref, watch } from 'vue';
 import api from '@/api';

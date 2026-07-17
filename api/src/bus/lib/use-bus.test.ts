@@ -1,13 +1,13 @@
-import { useEnv } from '@directus/env';
-import { type BusLocal, type BusRedis, createBus } from '@directus/memory';
+import { useEnv } from '@d11f/env';
+import { type BusLocal, type BusRedis, createBus } from '@d11f/memory';
 import type { Redis } from 'ioredis';
 import { afterEach, beforeEach, expect, test, vi } from 'vitest';
 import { redisConfigAvailable, useRedis } from '../../redis/index.js';
 import { _cache, useBus } from './use-bus.js';
 
-vi.mock('@directus/env');
+vi.mock('@d11f/env');
 vi.mock('../../redis/index.js');
-vi.mock('@directus/memory');
+vi.mock('@d11f/memory');
 
 let mockBus: BusLocal | BusRedis;
 

@@ -1,4 +1,4 @@
-import { Globals, Role, User } from '@directus/types';
+import { Globals, Role, User } from '@d11f/types';
 import { createTestingPinia } from '@pinia/testing';
 import { setActivePinia } from 'pinia';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Field } from '@directus/types';
+import type { Field } from '@d11f/types';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import ValidationNestedGroupsList, { type RenderItem } from './validation-nested-groups-list.vue';

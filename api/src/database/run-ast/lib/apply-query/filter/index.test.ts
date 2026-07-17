@@ -1,5 +1,5 @@
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { Permission } from '@directus/types';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { Permission } from '@d11f/types';
 import knex from 'knex';
 import { describe, expect, test, vi } from 'vitest';
 import { DEFUAULT_PERMISSION } from '../../../../../permissions/utils/default-permission.js';

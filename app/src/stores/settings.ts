@@ -1,4 +1,4 @@
-import { OwnerInformation, Settings } from '@directus/types';
+import { OwnerInformation, Settings } from '@d11f/types';
 import { merge } from 'lodash';
 import { defineStore } from 'pinia';
 import { useUserStore } from './user';

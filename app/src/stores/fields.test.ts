@@ -1,4 +1,4 @@
-import { Field } from '@directus/types';
+import { Field } from '@d11f/types';
 import { createTestingPinia } from '@pinia/testing';
 import { merge } from 'lodash';
 import { setActivePinia } from 'pinia';

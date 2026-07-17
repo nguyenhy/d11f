@@ -1,5 +1,5 @@
-import { InvalidCredentialsError } from '@directus/errors';
-import type { Accountability } from '@directus/types';
+import { InvalidCredentialsError } from '@d11f/errors';
+import type { Accountability } from '@d11f/types';
 import type { Mock } from 'vitest';
 import { describe, expect, test, vi } from 'vitest';
 import emitter from '../emitter.js';

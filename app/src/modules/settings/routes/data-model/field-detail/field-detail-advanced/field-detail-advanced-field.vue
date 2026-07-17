@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SEARCHABLE_TYPES } from '@directus/constants';
+import { SEARCHABLE_TYPES } from '@d11f/constants';
 import { storeToRefs } from 'pinia';
 import { computed } from 'vue';
 import { syncFieldDetailStoreProperty, useFieldDetailStore } from '../store';

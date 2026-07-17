@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useAppStore } from '@directus/stores';
+import { useAppStore } from '@d11f/stores';
 import { useHead } from '@unhead/vue';
 import { storeToRefs } from 'pinia';
 import { computed, ref, unref } from 'vue';

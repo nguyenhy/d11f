@@ -1,7 +1,7 @@
 import type { ReadStream } from 'node:fs';
-import { EXTENSION_TYPES } from '@directus/constants';
-import { useEnv } from '@directus/env';
-import { ErrorCode, ForbiddenError, isDirectusError, RouteNotFoundError } from '@directus/errors';
+import { EXTENSION_TYPES } from '@d11f/constants';
+import { useEnv } from '@d11f/env';
+import { ErrorCode, ForbiddenError, isDirectusError, RouteNotFoundError } from '@d11f/errors';
 import {
 	account,
 	type AccountOptions,
@@ -10,9 +10,9 @@ import {
 	list,
 	type ListOptions,
 	type ListQuery,
-} from '@directus/extensions-registry';
-import type { FieldFilter } from '@directus/types';
-import { isIn } from '@directus/utils';
+} from '@d11f/extensions-registry';
+import type { FieldFilter } from '@d11f/types';
+import { isIn } from '@d11f/utils';
 import express from 'express';
 import { isNil } from 'lodash-es';
 import { UUID_REGEX } from '../constants.js';

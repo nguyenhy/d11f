@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useLayout } from '@directus/composables';
-import { getDateTimeFormatted, mergeFilters } from '@directus/utils';
+import { useLayout } from '@d11f/composables';
+import { getDateTimeFormatted, mergeFilters } from '@d11f/utils';
 import { storeToRefs } from 'pinia';
 import { computed, nextTick, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

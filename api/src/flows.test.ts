@@ -1,7 +1,7 @@
-import type { Flow } from '@directus/types';
+import type { Flow } from '@d11f/types';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		EMAIL_TEMPLATES_PATH: './templates',
 		STORAGE_LOCATIONS: ['local'],

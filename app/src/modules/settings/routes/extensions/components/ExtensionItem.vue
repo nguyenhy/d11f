@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { APP_OR_HYBRID_EXTENSION_TYPES } from '@directus/constants';
-import { ApiOutput, ExtensionType } from '@directus/types';
+import { APP_OR_HYBRID_EXTENSION_TYPES } from '@d11f/constants';
+import { ApiOutput, ExtensionType } from '@d11f/types';
 import { computed, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { RouterLink } from 'vue-router';

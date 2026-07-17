@@ -1,5 +1,5 @@
 {
-	"name": "@directus/pressure",
+	"name": "@d11f/pressure",
 	"version": "3.0.22",
 	"description": "Pressure based rate limiter",
 	"homepage": "https://directus.io",
@@ -27,7 +27,7 @@
 		"test:coverage": "vitest run --coverage"
 	},
 	"dependencies": {
-		"@directus/utils": "workspace:*"
+		"@d11f/utils": "workspace:*"
 	},
 	"devDependencies": {
 		"@directus/tsconfig": "catalog:",

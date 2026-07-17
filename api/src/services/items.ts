@@ -1,7 +1,7 @@
-import { Action } from '@directus/constants';
-import { useEnv } from '@directus/env';
-import { ErrorCode, ForbiddenError, InvalidPayloadError, isDirectusError } from '@directus/errors';
-import { isSystemCollection } from '@directus/system-data';
+import { Action } from '@d11f/constants';
+import { useEnv } from '@d11f/env';
+import { ErrorCode, ForbiddenError, InvalidPayloadError, isDirectusError } from '@d11f/errors';
+import { isSystemCollection } from '@d11f/system-data';
 import type {
 	AbstractService,
 	AbstractServiceOptions,
@@ -14,9 +14,9 @@ import type {
 	Query,
 	QueryOptions,
 	SchemaOverview,
-} from '@directus/types';
-import { UserIntegrityCheckFlag } from '@directus/types';
-import { getRelationsForCollection } from '@directus/utils';
+} from '@d11f/types';
+import { UserIntegrityCheckFlag } from '@d11f/types';
+import { getRelationsForCollection } from '@d11f/utils';
 import type Keyv from 'keyv';
 import type { Knex } from 'knex';
 import { assign, clone, cloneDeep, difference, omit, pick, without } from 'lodash-es';

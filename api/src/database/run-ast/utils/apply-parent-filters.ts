@@ -1,5 +1,5 @@
-import type { Item, SchemaOverview } from '@directus/types';
-import { toArray } from '@directus/utils';
+import type { Item, SchemaOverview } from '@d11f/types';
+import { toArray } from '@d11f/utils';
 import { isNil, merge, uniq } from 'lodash-es';
 import type { NestedCollectionNode } from '../../../types/ast.js';
 

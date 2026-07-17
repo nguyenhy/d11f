@@ -1,4 +1,4 @@
-import type { Accountability, Filter, Permission, PermissionsAction } from '@directus/types';
+import type { Accountability, Filter, Permission, PermissionsAction } from '@d11f/types';
 import { sortBy } from 'lodash-es';
 import { withAppMinimalPermissions } from '../lib/with-app-minimal-permissions.js';
 import type { Context } from '../types.js';

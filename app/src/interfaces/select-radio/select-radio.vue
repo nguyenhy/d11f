@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCustomSelection } from '@directus/composables';
+import { useCustomSelection } from '@d11f/composables';
 import { computed, toRefs } from 'vue';
 import VIcon from '@/components/v-icon/v-icon.vue';
 import VNotice from '@/components/v-notice.vue';

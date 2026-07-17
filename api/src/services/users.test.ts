@@ -1,7 +1,7 @@
-import { ForbiddenError, InvalidInviteError, InvalidPayloadError, RecordNotUniqueError } from '@directus/errors';
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { Accountability, MutationOptions } from '@directus/types';
-import { UserIntegrityCheckFlag } from '@directus/types';
+import { ForbiddenError, InvalidInviteError, InvalidPayloadError, RecordNotUniqueError } from '@d11f/errors';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { Accountability, MutationOptions } from '@d11f/types';
+import { UserIntegrityCheckFlag } from '@d11f/types';
 import knex from 'knex';
 import { createTracker, MockClient } from 'knex-mock-client';
 import { afterEach, describe, expect, it, vi } from 'vitest';
@@ -21,7 +21,7 @@ vi.mock('./mail', () => {
 	return { MailService };
 });
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		EMAIL_TEMPLATES_PATH: './templates',
 		USERS_ADMIN_ACCESS_LIMIT: 3,

@@ -4,7 +4,7 @@ import {
 	InvalidProviderError,
 	RecordNotUniqueError,
 	ServiceUnavailableError,
-} from '@directus/errors';
+} from '@d11f/errors';
 import {
 	Client,
 	InappropriateAuthError,
@@ -79,7 +79,7 @@ vi.mock('ldapts', () => {
 	};
 });
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		REFRESH_TOKEN_COOKIE_NAME: 'directus_refresh_token',
 		SESSION_COOKIE_NAME: 'directus_session_token',
@@ -1167,7 +1167,7 @@ describe('LDAP Auth Driver', () => {
 		});
 
 		it('should throw InvalidPayloadError for invalid request body', async () => {
-			const { InvalidPayloadError } = await import('@directus/errors');
+			const { InvalidPayloadError } = await import('@d11f/errors');
 			const router = createLDAPAuthRouter('ldap');
 
 			const postLayer = router.stack.find((layer: any) => layer.route?.methods?.post);

@@ -16,7 +16,7 @@ import { analyzeTemplate, replaceVersion } from '@/modules/visual/utils/version-
 import { useSettingsStore } from '@/stores/settings';
 
 vi.mock('@unhead/vue', () => ({ useHead: vi.fn() }));
-vi.mock('@directus/format-title', () => ({ default: (str: string) => str ?? '' }));
+vi.mock('@d11f/format-title', () => ({ default: (str: string) => str ?? '' }));
 
 vi.mock('@/composables/use-permissions', () => ({
 	useCollectionPermissions: vi.fn(),

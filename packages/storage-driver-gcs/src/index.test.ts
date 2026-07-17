@@ -1,7 +1,7 @@
 import { join } from 'node:path';
 import { PassThrough } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
-import { normalizePath } from '@directus/utils';
+import { normalizePath } from '@d11f/utils';
 import { Bucket, Storage } from '@google-cloud/storage';
 import {
 	randGitBranch as randBucket,
@@ -19,8 +19,8 @@ import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import type { DriverGCSConfig } from './index.js';
 import { DriverGCS } from './index.js';
 
-vi.mock('@directus/utils/node');
-vi.mock('@directus/utils');
+vi.mock('@d11f/utils/node');
+vi.mock('@d11f/utils');
 vi.mock('@google-cloud/storage');
 vi.mock('node:path');
 vi.mock('node:stream/promises');

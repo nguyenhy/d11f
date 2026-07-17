@@ -1,21 +1,21 @@
 import { mkdir, readFile, rm } from 'node:fs/promises';
-import { download } from '@directus/extensions-registry';
+import { download } from '@d11f/extensions-registry';
 import { beforeEach, describe, expect, test, vi } from 'vitest';
 import { useLogger } from '../../../logger/index.js';
 import { InstallationManager } from './manager.js';
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn(() => ({
 		TEMP_PATH: '/tmp',
 		EXTENSIONS_PATH: '/extensions',
 	})),
 }));
 
-vi.mock('@directus/extensions-registry', () => ({
+vi.mock('@d11f/extensions-registry', () => ({
 	download: vi.fn(),
 }));
 
-vi.mock('@directus/storage-driver-local');
+vi.mock('@d11f/storage-driver-local');
 
 vi.mock('fs-extra', () => ({
 	move: vi.fn(),

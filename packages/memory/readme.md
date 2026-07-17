@@ -1,4 +1,4 @@
-# `@directus/memory`
+# `@d11f/memory`
 
 Directus has various different needs for ephemeral storage that's synced between multiple processes for the same
 Directus Projects. To streamline that setup, this package exports three classes that are used for everything related to
@@ -15,7 +15,7 @@ The Kv class is a simple key-value store
 ### Basic Usage
 
 ```ts
-import { createKv } from '@directus/memory';
+import { createKv } from '@d11f/memory';
 
 const cache = createKv({
 	type: 'memory',
@@ -31,7 +31,7 @@ The cache class is a Kv class extended with an LRU store
 ### Basic Usage
 
 ```ts
-import { createCache } from '@directus/memory';
+import { createCache } from '@d11f/memory';
 
 const cache = createCache({
 	type: 'memory',
@@ -50,7 +50,7 @@ having a shared API for using pubsub.
 
 ```ts
 import { Redis } from 'ioredis';
-import { createBus } from '@directus/memory';
+import { createBus } from '@d11f/memory';
 
 const bus = createBus({
 	type: 'redis',
@@ -66,7 +66,7 @@ The limiter class is a basic shared rate limiter.
 ### Basic Usage
 
 ```ts
-import { createLimiter } from '@directus/memory';
+import { createLimiter } from '@d11f/memory';
 
 const limiter = createLimiter({
 	type: 'memory',

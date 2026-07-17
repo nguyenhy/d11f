@@ -1,4 +1,4 @@
-import type { Collection } from '@directus/types';
+import type { Collection } from '@d11f/types';
 import { describe, expect, it } from 'vitest';
 import { getCollectionType } from './get-collection-type.js';
 

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Field, ValidationError } from '@directus/types';
+import { Field, ValidationError } from '@d11f/types';
 import { isEqual } from 'lodash';
 import { ref, watch } from 'vue';
 import AccordionSection from './accordion-section.vue';

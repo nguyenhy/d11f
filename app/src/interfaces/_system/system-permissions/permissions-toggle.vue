@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Collection, Permission, PermissionsAction } from '@directus/types';
+import { Collection, Permission, PermissionsAction } from '@d11f/types';
 import { computed, ref, toRefs } from 'vue';
 import VChip from '@/components/v-chip.vue';
 import VDivider from '@/components/v-divider.vue';

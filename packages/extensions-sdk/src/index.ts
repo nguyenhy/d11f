@@ -8,7 +8,7 @@ export {
 	useLayout,
 	useStores,
 	useSync,
-} from '@directus/composables';
+} from '@d11f/composables';
 export {
 	defineDisplay,
 	defineEndpoint,
@@ -19,6 +19,6 @@ export {
 	defineOperationApi,
 	defineOperationApp,
 	definePanel,
-} from '@directus/extensions';
-export { defineTheme } from '@directus/themes';
-export { getFieldsFromTemplate, getRelationType } from '@directus/utils';
+} from '@d11f/extensions';
+export { defineTheme } from '@d11f/themes';
+export { getFieldsFromTemplate, getRelationType } from '@d11f/utils';

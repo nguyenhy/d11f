@@ -1,4 +1,4 @@
-import { defineInterface } from '@directus/extensions';
+import { defineInterface } from '@d11f/extensions';
 import type { ComponentOptions } from 'vue';
 import InterfaceMap from './map.vue';
 import Options from './options.vue';

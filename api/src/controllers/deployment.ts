@@ -1,5 +1,5 @@
-import { ErrorCode, InvalidPathParameterError, InvalidPayloadError, isDirectusError } from '@directus/errors';
-import { DEPLOYMENT_PROVIDER_TYPES, type DeploymentConfig, type ProviderType } from '@directus/types';
+import { ErrorCode, InvalidPathParameterError, InvalidPayloadError, isDirectusError } from '@d11f/errors';
+import { DEPLOYMENT_PROVIDER_TYPES, type DeploymentConfig, type ProviderType } from '@d11f/types';
 import express from 'express';
 import Joi from 'joi';
 import getDatabase from '../database/index.js';

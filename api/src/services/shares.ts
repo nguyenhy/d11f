@@ -1,6 +1,6 @@
-import { useEnv } from '@directus/env';
-import { ForbiddenError, InvalidCredentialsError } from '@directus/errors';
-import type { AbstractServiceOptions, Item, LoginResult, MutationOptions, PrimaryKey } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import { ForbiddenError, InvalidCredentialsError } from '@d11f/errors';
+import type { AbstractServiceOptions, Item, LoginResult, MutationOptions, PrimaryKey } from '@d11f/types';
 import argon2 from 'argon2';
 import jwt from 'jsonwebtoken';
 import type { StringValue } from 'ms';

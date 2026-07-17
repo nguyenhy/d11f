@@ -1,5 +1,5 @@
-import { readDeployments } from '@directus/sdk';
-import type { DeploymentConfig } from '@directus/types';
+import { readDeployments } from '@d11f/sdk';
+import type { DeploymentConfig } from '@d11f/types';
 import { computed, ref } from 'vue';
 import { useRoute } from 'vue-router';
 import { sdk } from '@/sdk';

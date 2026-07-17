@@ -1,6 +1,6 @@
-import { useEnv } from '@directus/env';
-import type { CollectionAccess, GraphQLParams } from '@directus/types';
-import { toBoolean } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import type { CollectionAccess, GraphQLParams } from '@d11f/types';
+import { toBoolean } from '@d11f/utils';
 import {
 	GraphQLBoolean,
 	GraphQLEnumType,

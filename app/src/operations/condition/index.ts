@@ -1,4 +1,4 @@
-import { defineOperationApp } from '@directus/extensions';
+import { defineOperationApp } from '@d11f/extensions';
 
 export default defineOperationApp({
 	id: 'condition',

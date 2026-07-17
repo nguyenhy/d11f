@@ -1,6 +1,6 @@
-import { InvalidQueryError } from '@directus/errors';
-import type { SchemaOverview } from '@directus/types';
-import { getRelationInfo } from '@directus/utils';
+import { InvalidQueryError } from '@d11f/errors';
+import type { SchemaOverview } from '@d11f/types';
+import { getRelationInfo } from '@d11f/utils';
 import type { Knex } from 'knex';
 import { clone } from 'lodash-es';
 import type { AliasMap } from '../../../../utils/get-column-path.js';

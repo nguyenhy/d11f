@@ -1,5 +1,5 @@
-import { DeepPartial, Relation } from '@directus/types';
-import { getRelations, getRelationType } from '@directus/utils';
+import { DeepPartial, Relation } from '@d11f/types';
+import { getRelations, getRelationType } from '@d11f/utils';
 import { isEqual } from 'lodash';
 import { defineStore } from 'pinia';
 import { ref } from 'vue';

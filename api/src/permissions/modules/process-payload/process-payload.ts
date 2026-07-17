@@ -1,6 +1,6 @@
-import type { Accountability, Filter, Item, PermissionsAction } from '@directus/types';
-import { parseFilter, validatePayload } from '@directus/utils';
-import { FailedValidationError, joiValidationErrorItemToErrorExtensions } from '@directus/validation';
+import type { Accountability, Filter, Item, PermissionsAction } from '@d11f/types';
+import { parseFilter, validatePayload } from '@d11f/utils';
+import { FailedValidationError, joiValidationErrorItemToErrorExtensions } from '@d11f/validation';
 import { assign, difference, uniq } from 'lodash-es';
 import { fetchPermissions } from '../../lib/fetch-permissions.js';
 import { fetchPolicies } from '../../lib/fetch-policies.js';

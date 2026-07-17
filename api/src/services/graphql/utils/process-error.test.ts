@@ -1,5 +1,5 @@
-import { createError } from '@directus/errors';
-import type { Accountability } from '@directus/types';
+import { createError } from '@d11f/errors';
+import type { Accountability } from '@d11f/types';
 import { GraphQLError } from 'graphql';
 import { describe, expect, test } from 'vitest';
 import processError from './process-error.js';

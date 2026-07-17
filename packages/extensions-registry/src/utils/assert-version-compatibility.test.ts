@@ -1,4 +1,4 @@
-import { OutOfDateError } from '@directus/errors';
+import { OutOfDateError } from '@d11f/errors';
 import { afterEach, expect, test, vi } from 'vitest';
 import { assertVersionCompatibility } from './assert-version-compatibility.js';
 import { getApiVersion } from './get-api-version.js';

@@ -1,5 +1,5 @@
 import { URL } from 'url';
-import { toArray } from '@directus/utils';
+import { toArray } from '@d11f/utils';
 import { useLogger } from '../logger/index.js';
 
 /**

@@ -1,4 +1,4 @@
-import { Field } from '@directus/types';
+import { Field } from '@d11f/types';
 
 export function updateFieldWidths(fields: Field[], isFieldVisible = (field: Field) => field.meta?.hidden !== true) {
 	for (const [index, field] of fields.entries()) {

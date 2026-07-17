@@ -1,5 +1,5 @@
 {
-	"name": "@directus/env",
+	"name": "@d11f/env",
 	"version": "5.8.0",
 	"description": "Utilities around using global env configuration",
 	"homepage": "https://directus.io",
@@ -36,8 +36,8 @@
 		"vitest": "catalog:"
 	},
 	"dependencies": {
-		"@directus/constants": "workspace:*",
-		"@directus/utils": "workspace:*",
+		"@d11f/constants": "workspace:*",
+		"@d11f/utils": "workspace:*",
 		"dotenv": "catalog:",
 		"lodash-es": "catalog:"
 	}

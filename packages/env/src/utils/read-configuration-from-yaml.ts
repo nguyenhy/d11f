@@ -1,4 +1,4 @@
-import { requireYaml } from '@directus/utils/node';
+import { requireYaml } from '@d11f/utils/node';
 import { isPlainObject } from 'lodash-es';
 
 export const readConfigurationFromYaml = (path: string) => {

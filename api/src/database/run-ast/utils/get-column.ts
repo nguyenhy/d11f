@@ -1,7 +1,7 @@
-import { REGEX_BETWEEN_PARENS } from '@directus/constants';
-import { InvalidQueryError } from '@directus/errors';
-import type { FieldFunction, Filter, Permission, Query, SchemaOverview } from '@directus/types';
-import { getFunctionsForType } from '@directus/utils';
+import { REGEX_BETWEEN_PARENS } from '@d11f/constants';
+import { InvalidQueryError } from '@d11f/errors';
+import type { FieldFunction, Filter, Permission, Query, SchemaOverview } from '@d11f/types';
+import { getFunctionsForType } from '@d11f/utils';
 import type { Knex } from 'knex';
 import { parseJsonFunction } from '../../helpers/fn/json/parse-function.js';
 import { getFunctions } from '../../helpers/index.js';

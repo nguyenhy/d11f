@@ -1,4 +1,4 @@
-import { ForbiddenError } from '@directus/errors';
+import { ForbiddenError } from '@d11f/errors';
 import type {
 	AbstractServiceOptions,
 	Item,
@@ -8,7 +8,7 @@ import type {
 	PrimaryKey,
 	Query,
 	QueryOptions,
-} from '@directus/types';
+} from '@d11f/types';
 import { uniq } from 'lodash-es';
 import { clearSystemCache } from '../cache.js';
 import { fetchPermissions } from '../permissions/lib/fetch-permissions.js';

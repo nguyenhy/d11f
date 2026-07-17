@@ -1,4 +1,4 @@
-import { ErrorCode } from '@directus/errors';
+import { ErrorCode } from '@d11f/errors';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import emitter from '../../emitter.js';
 import { getAllowedLogLevels } from '../../utils/get-allowed-log-levels.js';

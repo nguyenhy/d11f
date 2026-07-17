@@ -297,7 +297,7 @@ test('should clear cache after update', async () => {
 
 ### schema.ts
 
-Provides schema inspector mocking utilities for the `@directus/schema` package.
+Provides schema inspector mocking utilities for the `@d11f/schema` package.
 
 #### `mockSchema()`
 
@@ -309,13 +309,13 @@ Creates a standard schema inspector mock with tableInfo, columnInfo, primary, fo
 
 ```typescript
 // Standard usage
-vi.mock('@directus/schema', async () => {
+vi.mock('@d11f/schema', async () => {
 	const { mockSchema } = await import('../test-utils/schema.js');
 	return mockSchema();
 });
 
 // Dynamically change inspector behavior during tests
-import { createInspector } from '@directus/schema';
+import { createInspector } from '@d11f/schema';
 vi.mocked(createInspector).mockReturnValue({
 	tableInfo: vi.fn().mockResolvedValue([{ name: 'users' }, { name: 'posts' }]),
 	columnInfo: vi.fn().mockResolvedValue([
@@ -368,7 +368,7 @@ expect(emitter.emitAction).toHaveBeenCalledWith(
 
 ### env.ts
 
-Provides environment variable mocking utilities for the `@directus/env` package.
+Provides environment variable mocking utilities for the `@d11f/env` package.
 
 #### `mockEnv(overrides?)`
 
@@ -392,17 +392,17 @@ EMAIL_TEMPLATES_PATH: './templates'
 
 ```typescript
 // Dynamically changing env values during tests
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 const { resetEnvMock } = await import('../test-utils/env.js');
 
 // Standard usage with defaults
-vi.mock('@directus/env', async () => {
+vi.mock('@d11f/env', async () => {
 	const { mockEnv } = await import('../test-utils/env.js');
 	return mockEnv();
 });
 
 // With custom default values
-vi.mock('@directus/env', async () => {
+vi.mock('@d11f/env', async () => {
 	const { mockEnv } = await import('../test-utils/env.js');
 	return mockEnv({
 		STORAGE_LOCATIONS: 'custom-storage',
@@ -443,7 +443,7 @@ it('should use custom env value', async () => {
 
 ### storage.ts
 
-Provides storage driver and storage manager mocking utilities for the `@directus/storage` package.
+Provides storage driver and storage manager mocking utilities for the `@d11f/storage` package.
 
 #### `createMockDriver()`
 
@@ -542,7 +542,7 @@ The recommended pattern for modifying driver behavior in individual tests:
 
 ```typescript
 import { getStorage } from '../storage/index.js';
-import type { Driver, StorageManager } from '@directus/storage';
+import type { Driver, StorageManager } from '@d11f/storage';
 import { createMockDriver, createMockStorage } from '../test-utils/storage.js';
 
 vi.mock('../storage/index.js');
@@ -827,7 +827,7 @@ const res = createMockResponse();
 #### Full Controller Test Example
 
 ```typescript
-import { SchemaBuilder } from '@directus/schema-builder';
+import { SchemaBuilder } from '@d11f/schema-builder';
 import { beforeEach, describe, expect, test, vi } from 'vitest';
 import { createMockRequest, createMockResponse, getRouteHandler } from '../test-utils/controllers.js';
 import { default as router } from './controller.js';
@@ -865,7 +865,7 @@ describe('controller', () => {
 
 ```typescript
 import { createMockKnex, resetKnexMocks } from '../test-utils/knex.js';
-import { SchemaBuilder } from '@directus/schema-builder';
+import { SchemaBuilder } from '@d11f/schema-builder';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import { YourService } from './your-service.js';
 import { getStorage } from '../storage/index.js';
@@ -877,7 +877,7 @@ vi.mock('../../src/database/index', async () => {
 	return mockDatabase();
 });
 
-vi.mock('@directus/schema', async () => {
+vi.mock('@d11f/schema', async () => {
 	const { mockSchema } = await import('../test-utils/schema.js');
 	return mockSchema();
 });
@@ -986,7 +986,7 @@ test('should clear cache after update', async () => {
 
 ```typescript
 import { getStorage } from '../storage/index.js';
-import type { Driver, StorageManager } from '@directus/storage';
+import type { Driver, StorageManager } from '@d11f/storage';
 import { createMockDriver, createMockStorage } from '../test-utils/storage.js';
 
 vi.mock('../storage/index.js');
@@ -1112,7 +1112,7 @@ describe('Service Tests', () => {
 
 ```typescript
 // Mock environment variables (using utility)
-vi.mock('@directus/env', async () => {
+vi.mock('@d11f/env', async () => {
 	const { mockEnv } = await import('../test-utils/env.js');
 	return mockEnv({
 		CACHE_SCHEMA: true,
@@ -1122,7 +1122,7 @@ vi.mock('@directus/env', async () => {
 });
 
 // Or inline (for quick tests)
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		CACHE_SCHEMA: true,
 		DB_CLIENT: 'postgres',

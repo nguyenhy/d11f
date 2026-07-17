@@ -1,4 +1,4 @@
-import { isValidJSON, parseJSON } from '@directus/utils';
+import { isValidJSON, parseJSON } from '@d11f/utils';
 
 /**
  * Get a JSON stringified version of a value based on its type or if it should be treated like an object

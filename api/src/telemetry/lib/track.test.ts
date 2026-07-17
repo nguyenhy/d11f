@@ -1,5 +1,5 @@
 import { setTimeout } from 'timers/promises';
-import { getNodeEnv } from '@directus/utils/node';
+import { getNodeEnv } from '@d11f/utils/node';
 import { afterEach, beforeEach, expect, test, vi } from 'vitest';
 import { useLogger } from '../../logger/index.js';
 import type { TelemetryReport } from '../types/report.js';
@@ -13,11 +13,11 @@ vi.mock('./send-report.js');
 vi.mock('timers/promises');
 vi.mock('../utils/get-random-wait-time.js');
 vi.mock('../../logger/index.js');
-vi.mock('@directus/utils/node');
+vi.mock('@d11f/utils/node');
 
 // This is required because logger uses global env which is imported before the tests run. Can be
 // reduce to just mock the file when logger is also using useLogger everywhere @TODO
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		EMAIL_TEMPLATES_PATH: './templates',
 	}),

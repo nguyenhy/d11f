@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import { toBoolean } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { toBoolean } from '@d11f/utils';
 import type { RequestHandler } from 'express';
 import { getCache, getCacheValue } from '../cache.js';
 import { useLogger } from '../logger/index.js';

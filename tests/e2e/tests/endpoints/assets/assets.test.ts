@@ -1,6 +1,6 @@
 import fs from 'fs/promises';
 import { join } from 'path';
-import { createDirectus, readAssetArrayBuffer, readAssetRaw, rest, staticToken, uploadFiles } from '@directus/sdk';
+import { createDirectus, readAssetArrayBuffer, readAssetRaw, rest, staticToken, uploadFiles } from '@d11f/sdk';
 import { port } from '@utils/constants.js';
 import { expect, test } from 'vitest';
 

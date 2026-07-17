@@ -1,4 +1,4 @@
-import { useApi } from '@directus/composables';
+import { useApi } from '@d11f/composables';
 import { generateId, type UIMessage } from 'ai';
 import { render, tokenize } from 'micromustache';
 import type { MCPPrompt } from '../types';

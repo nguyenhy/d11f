@@ -1,4 +1,4 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import { nanoid } from 'nanoid';
 
 export const _cache: { secret: string | null } = { secret: null };

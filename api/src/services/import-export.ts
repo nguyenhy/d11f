@@ -1,7 +1,7 @@
 import { createReadStream, createWriteStream } from 'node:fs';
 import { appendFile } from 'node:fs/promises';
 import type { Readable, Writable } from 'node:stream';
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import {
 	createError,
 	ErrorCode,
@@ -11,8 +11,8 @@ import {
 	ServiceUnavailableError,
 	TimeoutError,
 	UnsupportedMediaTypeError,
-} from '@directus/errors';
-import { isSystemCollection } from '@directus/system-data';
+} from '@d11f/errors';
+import { isSystemCollection } from '@d11f/system-data';
 import type {
 	AbstractServiceOptions,
 	Accountability,
@@ -22,10 +22,10 @@ import type {
 	File,
 	Query,
 	SchemaOverview,
-} from '@directus/types';
-import { getDateTimeFormatted, parseJSON, toArray } from '@directus/utils';
-import { createTmpFile } from '@directus/utils/node';
-import type { ImportRowLines, ImportRowRange } from '@directus/validation';
+} from '@d11f/types';
+import { getDateTimeFormatted, parseJSON, toArray } from '@d11f/utils';
+import { createTmpFile } from '@d11f/utils/node';
+import type { ImportRowLines, ImportRowRange } from '@d11f/validation';
 import { queue } from 'async';
 import { dump as toYAML } from 'js-yaml';
 import { parse as toXML } from 'js2xmlparser';
@@ -658,7 +658,7 @@ export class ExportService {
 			file?: Partial<File>;
 		},
 	) {
-		const { createTmpFile } = await import('@directus/utils/node');
+		const { createTmpFile } = await import('@d11f/utils/node');
 		const tmpFile = await createTmpFile().catch(() => null);
 
 		try {

@@ -1,5 +1,5 @@
-import { ForbiddenError } from '@directus/errors';
-import type { Accountability, PermissionsAction, PrimaryKey } from '@directus/types';
+import { ForbiddenError } from '@d11f/errors';
+import type { Accountability, PermissionsAction, PrimaryKey } from '@d11f/types';
 import type { Context } from '../../types.js';
 import { createCollectionForbiddenError } from '../process-ast/utils/validate-path/create-error.js';
 import { validateCollectionAccess } from './lib/validate-collection-access.js';

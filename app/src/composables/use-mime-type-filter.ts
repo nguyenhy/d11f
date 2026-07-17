@@ -1,4 +1,4 @@
-import type { Filter } from '@directus/types';
+import type { Filter } from '@d11f/types';
 import { computed, type MaybeRef, unref } from 'vue';
 import { useServerStore } from '@/stores/server';
 

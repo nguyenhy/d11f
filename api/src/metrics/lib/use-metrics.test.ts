@@ -1,9 +1,9 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import { createMetrics } from './create-metrics.js';
 import { _cache, useMetrics } from './use-metrics.js';
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({}),
 }));
 

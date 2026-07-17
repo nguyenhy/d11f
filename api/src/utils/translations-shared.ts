@@ -1,6 +1,6 @@
-import { GENERATE_SPECIAL, RELATIONAL_TYPES, TRANSLATIONS_STRIPPED_ON_CLONE_SPECIALS } from '@directus/constants';
-import { InvalidPayloadError } from '@directus/errors';
-import type { Field, RawField } from '@directus/types';
+import { GENERATE_SPECIAL, RELATIONAL_TYPES, TRANSLATIONS_STRIPPED_ON_CLONE_SPECIALS } from '@d11f/constants';
+import { InvalidPayloadError } from '@d11f/errors';
+import type { Field, RawField } from '@d11f/types';
 
 export const DANGEROUS_SPECIALS = new Set<string>(GENERATE_SPECIAL);
 export const RELATIONAL_SPECIALS = new Set<string>(RELATIONAL_TYPES);

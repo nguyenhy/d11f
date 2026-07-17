@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { ContentVersion } from '@directus/types';
-import { sameOrigin } from '@directus/utils/browser';
+import type { ContentVersion } from '@d11f/types';
+import { sameOrigin } from '@d11f/utils/browser';
 import { useHead } from '@unhead/vue';
 import { useBreakpoints, useElementHover, useLocalStorage } from '@vueuse/core';
 import { isNil } from 'lodash';

@@ -1,5 +1,5 @@
 import { randomBytes, timingSafeEqual } from 'node:crypto';
-import { InvalidCredentialsError, ServiceUnavailableError } from '@directus/errors';
+import { InvalidCredentialsError, ServiceUnavailableError } from '@d11f/errors';
 import type {
 	Credentials,
 	Deployment,
@@ -12,7 +12,7 @@ import type {
 	Status,
 	TriggerResult,
 	WebhookRegistrationResult,
-} from '@directus/types';
+} from '@d11f/types';
 import { NetlifyAPI } from '@netlify/api';
 import { isNumber } from 'lodash-es';
 import { useLogger } from '../../logger/index.js';

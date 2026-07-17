@@ -1,4 +1,4 @@
-import type { ContentVersion, Filter, Item, PrimaryKey } from '@directus/types';
+import type { ContentVersion, Filter, Item, PrimaryKey } from '@d11f/types';
 import { useRouteQuery } from '@vueuse/router';
 import { computed, ref, type Ref, watch } from 'vue';
 import { useCollectionPermissions, usePermissions } from './use-permissions';

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Preset } from '@directus/types';
+import { Preset } from '@d11f/types';
 import { computed, reactive, ref } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import VButton from '@/components/v-button.vue';

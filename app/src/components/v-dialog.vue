@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useShortcut } from '@directus/composables';
+import { useShortcut } from '@d11f/composables';
 import { useFocusTrap } from '@vueuse/integrations/useFocusTrap';
 import { computed, nextTick, ref, useTemplateRef, watch } from 'vue';
 import TransitionDialog from '@/components/transition/dialog.vue';

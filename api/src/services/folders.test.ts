@@ -1,5 +1,5 @@
-import { ForbiddenError } from '@directus/errors';
-import type { Accountability, SchemaOverview } from '@directus/types';
+import { ForbiddenError } from '@d11f/errors';
+import type { Accountability, SchemaOverview } from '@d11f/types';
 import { beforeEach, describe, expect, test, vi } from 'vitest';
 import { validateAccess } from '../permissions/modules/validate-access/validate-access.js';
 import { FoldersService } from './folders.js';

@@ -1,8 +1,8 @@
-import { useEnv } from '@directus/env';
-import { ForbiddenError, InvalidPayloadError } from '@directus/errors';
-import type { SchemaInspector } from '@directus/schema';
-import { createInspector } from '@directus/schema';
-import { type BaseCollectionMeta, systemCollectionRows } from '@directus/system-data';
+import { useEnv } from '@d11f/env';
+import { ForbiddenError, InvalidPayloadError } from '@d11f/errors';
+import type { SchemaInspector } from '@d11f/schema';
+import { createInspector } from '@d11f/schema';
+import { type BaseCollectionMeta, systemCollectionRows } from '@d11f/system-data';
 import type {
 	AbstractServiceOptions,
 	Accountability,
@@ -13,8 +13,8 @@ import type {
 	RawCollection,
 	RawField,
 	SchemaOverview,
-} from '@directus/types';
-import { addFieldFlag } from '@directus/utils';
+} from '@d11f/types';
+import { addFieldFlag } from '@d11f/utils';
 import type Keyv from 'keyv';
 import type { Knex } from 'knex';
 import { chunk, groupBy, merge, omit } from 'lodash-es';

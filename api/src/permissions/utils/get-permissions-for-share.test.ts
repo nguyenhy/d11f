@@ -1,5 +1,5 @@
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { Accountability } from '@directus/types';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { Accountability } from '@d11f/types';
 import { beforeAll, describe, expect, test, vi } from 'vitest';
 import type { Context } from '../types.js';
 import { getPermissionsForShare } from './get-permissions-for-share.js';

@@ -1,4 +1,4 @@
-import type { Relation, SchemaOverview } from '@directus/types';
+import type { Relation, SchemaOverview } from '@d11f/types';
 import knex from 'knex';
 import { createTracker, MockClient, Tracker } from 'knex-mock-client';
 import { afterEach, beforeAll, describe, expect, type MockedFunction, test, vi } from 'vitest';

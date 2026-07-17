@@ -9,7 +9,7 @@ import {
 	rest,
 	staticToken,
 	uploadFiles,
-} from '@directus/sdk';
+} from '@d11f/sdk';
 import { options, port } from '@utils/constants.js';
 import { UUID } from '@utils/regex.js';
 import { expect, test } from 'vitest';

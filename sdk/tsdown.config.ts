@@ -1,4 +1,4 @@
-import { systemCollectionNames } from '@directus/system-data';
+import { systemCollectionNames } from '@d11f/system-data';
 import { defineConfig } from 'tsdown';
 
 const env = process.env.NODE_ENV;

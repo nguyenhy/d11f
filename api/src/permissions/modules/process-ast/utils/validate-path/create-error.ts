@@ -1,4 +1,4 @@
-import { type DirectusError, ForbiddenError } from '@directus/errors';
+import { type DirectusError, ForbiddenError } from '@d11f/errors';
 
 export function createCollectionForbiddenError(path: string, collection: string): DirectusError<any> {
 	const pathSuffix = path === '' ? 'root' : `"${path}"`;

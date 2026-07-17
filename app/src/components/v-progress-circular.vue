@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useSizeClass } from '@directus/composables';
+import { useSizeClass } from '@d11f/composables';
 import { computed } from 'vue';
 
 interface Props {

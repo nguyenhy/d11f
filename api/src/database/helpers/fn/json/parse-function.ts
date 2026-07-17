@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import { InvalidQueryError } from '@directus/errors';
+import { useEnv } from '@d11f/env';
+import { InvalidQueryError } from '@d11f/errors';
 
 const env = useEnv();
 const MAX_JSON_QUERY_DEPTH = Number(env['MAX_JSON_QUERY_DEPTH']);

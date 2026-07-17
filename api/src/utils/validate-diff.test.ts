@@ -7,7 +7,7 @@ import type {
 	SnapshotRelation,
 	SnapshotSystemField,
 	SnapshotWithHash,
-} from '@directus/types';
+} from '@d11f/types';
 import { describe, expect, test } from 'vitest';
 import type { Collection } from '../types/collection.js';
 import { validateApplyDiff } from './validate-diff.js';

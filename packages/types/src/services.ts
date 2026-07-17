@@ -1,5 +1,5 @@
 import type { Readable } from 'node:stream';
-import type { Column, ForeignKey } from '@directus/schema';
+import type { Column, ForeignKey } from '@d11f/schema';
 import type { Archiver } from 'archiver';
 import type { GraphQLSchema } from 'graphql';
 import type { Knex } from 'knex';

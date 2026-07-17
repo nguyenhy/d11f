@@ -1,9 +1,9 @@
-import { createCache } from '@directus/memory';
+import { createCache } from '@d11f/memory';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import { redisConfigAvailable, useRedis } from '../redis/index.js';
 import { useStore } from './store.js';
 
-vi.mock('@directus/memory');
+vi.mock('@d11f/memory');
 vi.mock('../redis/index.js');
 
 const mockCreateCache = vi.mocked(createCache);

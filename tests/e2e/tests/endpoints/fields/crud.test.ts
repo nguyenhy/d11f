@@ -1,5 +1,5 @@
 import { randomUUID } from 'crypto';
-import { createDirectus, createField, deleteField, readField, rest, staticToken, updateField } from '@directus/sdk';
+import { createDirectus, createField, deleteField, readField, rest, staticToken, updateField } from '@d11f/sdk';
 import { database, port } from '@utils/constants.js';
 import { useSnapshot } from '@utils/use-snapshot.js';
 import { expect, test } from 'vitest';

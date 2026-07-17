@@ -1,4 +1,4 @@
-import { toArray, toBoolean } from '@directus/utils';
+import { toArray, toBoolean } from '@d11f/utils';
 import { toNumber, toString } from 'lodash-es';
 import { afterEach, describe, expect, test, vi } from 'vitest';
 import { getDefaultType } from '../utils/get-default-type.js';
@@ -7,7 +7,7 @@ import { getCastFlag } from '../utils/has-cast-prefix.js';
 import { tryJson } from '../utils/try-json.js';
 import { cast } from './cast.js';
 
-vi.mock('@directus/utils');
+vi.mock('@d11f/utils');
 vi.mock('lodash-es');
 vi.mock('../utils/get-default-type.js');
 vi.mock('../utils/guess-type.js');

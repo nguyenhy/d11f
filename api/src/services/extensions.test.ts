@@ -1,16 +1,16 @@
-import { ServiceUnavailableError } from '@directus/errors';
-import { describe as registryDescribe } from '@directus/extensions-registry';
+import { ServiceUnavailableError } from '@d11f/errors';
+import { describe as registryDescribe } from '@d11f/extensions-registry';
 import { beforeEach, describe, expect, test, vi } from 'vitest';
 import { getExtensionManager } from '../extensions/index.js';
 import { ExtensionsService } from './extensions.js';
 import { ItemsService } from './items.js';
 
 // Mock dependencies at the top level
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn(() => ({})),
 }));
 
-vi.mock('@directus/extensions-registry', () => ({
+vi.mock('@d11f/extensions-registry', () => ({
 	describe: vi.fn(),
 }));
 

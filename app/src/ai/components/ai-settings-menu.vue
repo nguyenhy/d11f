@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { type SystemTool, type ToolApprovalMode } from '@directus/ai';
-import formatTitle from '@directus/format-title';
+import { type SystemTool, type ToolApprovalMode } from '@d11f/ai';
+import formatTitle from '@d11f/format-title';
 import { computed, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useAiToolsStore } from '../stores/use-ai-tools';

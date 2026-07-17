@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Filter } from '@directus/types';
+import type { Filter } from '@d11f/types';
 import ApexCharts from 'apexcharts';
 import { isNil, snakeCase } from 'lodash';
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue';

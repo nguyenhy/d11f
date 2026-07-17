@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { ContentVersion, Filter } from '@directus/types';
-import { deepMap, getFieldsFromTemplate } from '@directus/utils';
+import type { ContentVersion, Filter } from '@d11f/types';
+import { deepMap, getFieldsFromTemplate } from '@d11f/utils';
 import { render } from 'micromustache';
 import { computed, inject, ref, toRefs } from 'vue';
 import NestedDraggable from './NestedDraggable.vue';

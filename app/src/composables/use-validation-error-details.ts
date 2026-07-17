@@ -1,4 +1,4 @@
-import { Field, ValidationError } from '@directus/types';
+import { Field, ValidationError } from '@d11f/types';
 import { computed, Ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { extractFieldFromFunction } from '@/utils/extract-field-from-function';

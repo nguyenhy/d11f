@@ -1,7 +1,7 @@
-import { TYPES } from '@directus/constants';
-import { InvalidPayloadError } from '@directus/errors';
-import type { Snapshot } from '@directus/types';
-import { DatabaseClients } from '@directus/types';
+import { TYPES } from '@d11f/constants';
+import { InvalidPayloadError } from '@d11f/errors';
+import type { Snapshot } from '@d11f/types';
+import { DatabaseClients } from '@d11f/types';
 import { version } from 'directus/version';
 import Joi from 'joi';
 import { ALIAS_TYPES } from '../constants.js';

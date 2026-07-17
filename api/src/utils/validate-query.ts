@@ -1,6 +1,6 @@
-import { useEnv } from '@directus/env';
-import { InvalidQueryError } from '@directus/errors';
-import type { Filter, Query } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import { InvalidQueryError } from '@d11f/errors';
+import type { Filter, Query } from '@d11f/types';
 import Joi from 'joi';
 import { isPlainObject, uniq } from 'lodash-es';
 import { stringify } from 'wellknown';

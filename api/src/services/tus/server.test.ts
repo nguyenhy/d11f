@@ -1,4 +1,4 @@
-import type { Accountability, File, SchemaOverview } from '@directus/types';
+import type { Accountability, File, SchemaOverview } from '@d11f/types';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import getDatabase from '../../database/index.js';
 import emitter from '../../emitter.js';
@@ -48,11 +48,11 @@ vi.mock('../../storage/index.js', () => ({
 	}),
 }));
 
-vi.mock('@directus/storage', () => ({
+vi.mock('@d11f/storage', () => ({
 	supportsTus: vi.fn().mockReturnValue(true),
 }));
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		STORAGE_LOCATIONS: 'local',
 		PUBLIC_URL: 'http://localhost:8055',

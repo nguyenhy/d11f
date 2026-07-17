@@ -1,4 +1,4 @@
-import { Field } from '@directus/types';
+import { Field } from '@d11f/types';
 import { computed, type MaybeRef, unref } from 'vue';
 import { REQUIRED_FIELDS } from './schema';
 import { useCollectionsStore } from '@/stores/collections';

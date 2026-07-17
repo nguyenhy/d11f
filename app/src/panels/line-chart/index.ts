@@ -1,4 +1,4 @@
-import { definePanel } from '@directus/extensions';
+import { definePanel } from '@d11f/extensions';
 import { computed } from 'vue';
 import PanelLineChart from './panel-line-chart.vue';
 import PreviewSVG from './preview.svg?raw';

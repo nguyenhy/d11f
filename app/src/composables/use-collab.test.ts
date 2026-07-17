@@ -1,5 +1,5 @@
-import { ErrorCode } from '@directus/errors';
-import { ACTION } from '@directus/types';
+import { ErrorCode } from '@d11f/errors';
+import { ACTION } from '@d11f/types';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import { nextTick, ref, type Ref } from 'vue';
 import { useCollab } from './use-collab';

@@ -1,4 +1,4 @@
-import type { ActionHandler, EventContext, FilterHandler, InitHandler } from '@directus/types';
+import type { ActionHandler, EventContext, FilterHandler, InitHandler } from '@d11f/types';
 import ee2 from 'eventemitter2';
 import getDatabase from './database/index.js';
 import { useLogger } from './logger/index.js';

@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import { HitRateLimitError } from '@directus/errors';
+import { useEnv } from '@d11f/env';
+import { HitRateLimitError } from '@d11f/errors';
 import type { RequestHandler } from 'express';
 import type { RateLimiterMemory, RateLimiterRedis } from 'rate-limiter-flexible';
 import { createRateLimiter } from '../rate-limiter.js';

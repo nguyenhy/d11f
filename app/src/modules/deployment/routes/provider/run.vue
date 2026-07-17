@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { cancelDeployment, type DeploymentRunsOutput, readDeploymentRun } from '@directus/sdk';
-import type { Log as DeploymentLog } from '@directus/types';
+import { cancelDeployment, type DeploymentRunsOutput, readDeploymentRun } from '@d11f/sdk';
+import type { Log as DeploymentLog } from '@d11f/types';
 import { format } from 'date-fns';
 import { saveAs } from 'file-saver';
 import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue';

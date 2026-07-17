@@ -1,8 +1,8 @@
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { InvalidPayloadError } from '@directus/errors';
-import type { Field, Item, RawField, Type } from '@directus/types';
-import { toArray } from '@directus/utils';
+import { InvalidPayloadError } from '@d11f/errors';
+import type { Field, Item, RawField, Type } from '@d11f/types';
+import { toArray } from '@d11f/utils';
 import { z } from 'zod';
 import { clearSystemCache } from '../../../cache.js';
 import getDatabase from '../../../database/index.js';

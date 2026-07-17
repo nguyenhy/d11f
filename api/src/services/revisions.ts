@@ -1,5 +1,5 @@
-import { ForbiddenError, InvalidPayloadError } from '@directus/errors';
-import type { AbstractServiceOptions, Item, MutationOptions, PrimaryKey } from '@directus/types';
+import { ForbiddenError, InvalidPayloadError } from '@d11f/errors';
+import type { AbstractServiceOptions, Item, MutationOptions, PrimaryKey } from '@d11f/types';
 import { ItemsService } from './items.js';
 
 export class RevisionsService extends ItemsService {

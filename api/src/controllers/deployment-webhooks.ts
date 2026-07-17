@@ -1,4 +1,4 @@
-import { DEPLOYMENT_PROVIDER_TYPES, type ProviderType } from '@directus/types';
+import { DEPLOYMENT_PROVIDER_TYPES, type ProviderType } from '@d11f/types';
 import express from 'express';
 import getDatabase from '../database/index.js';
 import { getDeploymentDriver } from '../deployment.js';

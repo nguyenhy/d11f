@@ -1,5 +1,5 @@
 import { randomUUID } from 'node:crypto';
-import type { WebSocketClient } from '@directus/types';
+import type { WebSocketClient } from '@d11f/types';
 import { merge } from 'lodash-es';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import { useLogger } from '../../logger/index.js';

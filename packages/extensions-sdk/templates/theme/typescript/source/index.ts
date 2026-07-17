@@ -1,4 +1,4 @@
-import { defineTheme } from '@directus/extensions-sdk';
+import { defineTheme } from '@d11f/extensions-sdk';
 
 export default defineTheme({
 	id: 'custom',

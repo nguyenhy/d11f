@@ -1,4 +1,4 @@
-import type { PrimaryKey } from '@directus/types';
+import type { PrimaryKey } from '@d11f/types';
 
 export type EditConfig = {
 	collection: string;

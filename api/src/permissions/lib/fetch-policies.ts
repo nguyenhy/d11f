@@ -1,4 +1,4 @@
-import type { Accountability, Filter } from '@directus/types';
+import type { Accountability, Filter } from '@d11f/types';
 import type { Context } from '../types.js';
 import { filterPoliciesByIp } from '../utils/filter-policies-by-ip.js';
 import { withCache } from '../utils/with-cache.js';

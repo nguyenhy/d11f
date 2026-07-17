@@ -1,5 +1,5 @@
-import { ForbiddenError } from '@directus/errors';
-import type { AbstractServiceOptions } from '@directus/types';
+import { ForbiddenError } from '@d11f/errors';
+import type { AbstractServiceOptions } from '@d11f/types';
 import {
 	AccessService,
 	ActivityService,

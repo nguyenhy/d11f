@@ -1,7 +1,7 @@
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import { PermissionCache } from './permissions-cache.js';
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: () => ({
 		WEBSOCKETS_COLLAB_PERMISSIONS_CACHE_CAPACITY: 5,
 	}),

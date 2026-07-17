@@ -1,4 +1,4 @@
-import type { GraphQLParams } from '@directus/types';
+import type { GraphQLParams } from '@d11f/types';
 import type { GraphQLResolveInfo } from 'graphql';
 import { parse } from 'graphql';
 import { describe, expect, test, vi } from 'vitest';

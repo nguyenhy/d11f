@@ -35,7 +35,7 @@ vi.mock('@/stores/relations', () => ({
 	useRelationsStore: () => mockRelationsStore,
 }));
 
-vi.mock('@directus/composables', () => ({
+vi.mock('@d11f/composables', () => ({
 	useCollection: () => ({
 		primaryKeyField: { value: { field: 'id' } },
 	}),

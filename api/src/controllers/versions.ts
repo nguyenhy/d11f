@@ -1,5 +1,5 @@
-import { ErrorCode, InvalidPayloadError, isDirectusError } from '@directus/errors';
-import type { PrimaryKey } from '@directus/types';
+import { ErrorCode, InvalidPayloadError, isDirectusError } from '@d11f/errors';
+import type { PrimaryKey } from '@d11f/types';
 import express from 'express';
 import { assign } from 'lodash-es';
 import { respond } from '../middleware/respond.js';

@@ -1,5 +1,5 @@
-import { ForbiddenError } from '@directus/errors';
-import type { Accountability, Snapshot, SnapshotDiffWithHash } from '@directus/types';
+import { ForbiddenError } from '@d11f/errors';
+import type { Accountability, Snapshot, SnapshotDiffWithHash } from '@d11f/types';
 import type { Diff } from 'deep-diff';
 import type { Knex } from 'knex';
 import knex from 'knex';

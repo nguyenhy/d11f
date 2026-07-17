@@ -1,5 +1,5 @@
 {
-	"name": "@directus/storage",
+	"name": "@d11f/storage",
 	"version": "12.0.4",
 	"description": "Object storage abstraction layer for Directus",
 	"homepage": "https://directus.io",
@@ -28,7 +28,7 @@
 	},
 	"devDependencies": {
 		"@directus/tsconfig": "catalog:",
-		"@directus/types": "workspace:*",
+		"@d11f/types": "workspace:*",
 		"@types/node": "catalog:",
 		"@vitest/coverage-v8": "catalog:",
 		"tsdown": "catalog:",

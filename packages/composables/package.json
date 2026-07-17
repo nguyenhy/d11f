@@ -1,5 +1,5 @@
 {
-	"name": "@directus/composables",
+	"name": "@d11f/composables",
 	"version": "11.4.1",
 	"description": "Shared Vue composables for Directus use",
 	"homepage": "https://directus.io",
@@ -28,18 +28,18 @@
 		"test:coverage": "vitest run --coverage"
 	},
 	"dependencies": {
-		"@directus/constants": "workspace:*",
-		"@directus/utils": "workspace:*",
+		"@d11f/constants": "workspace:*",
+		"@d11f/utils": "workspace:*",
 		"@vueuse/core": "catalog:",
 		"axios": "catalog:",
 		"lodash-es": "catalog:",
 		"nanoid": "catalog:"
 	},
 	"devDependencies": {
-		"@directus/extensions": "workspace:*",
-		"@directus/sdk": "workspace:*",
+		"@d11f/extensions": "workspace:*",
+		"@d11f/sdk": "workspace:*",
 		"@directus/tsconfig": "catalog:",
-		"@directus/types": "workspace:*",
+		"@d11f/types": "workspace:*",
 		"@types/lodash-es": "catalog:",
 		"@vitest/coverage-v8": "catalog:",
 		"@vue/test-utils": "catalog:",

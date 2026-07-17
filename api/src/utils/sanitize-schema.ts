@@ -1,4 +1,4 @@
-import type { Column } from '@directus/schema';
+import type { Column } from '@d11f/schema';
 import type {
 	Field,
 	Relation,
@@ -6,7 +6,7 @@ import type {
 	SnapshotField,
 	SnapshotRelation,
 	SnapshotSystemField,
-} from '@directus/types';
+} from '@d11f/types';
 import { pick } from 'lodash-es';
 import type { Collection } from '../types/index.js';
 

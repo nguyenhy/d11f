@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { User } from '@directus/types';
+import { User } from '@d11f/types';
 import { computed } from 'vue';
 import VImage from '@/components/v-image.vue';
 import { getAssetUrl } from '@/utils/get-asset-url';

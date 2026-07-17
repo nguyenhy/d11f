@@ -1,4 +1,4 @@
-import { appAccessMinimalPermissions } from '@directus/system-data';
+import { appAccessMinimalPermissions } from '@d11f/system-data';
 import type { Ref } from 'vue';
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';

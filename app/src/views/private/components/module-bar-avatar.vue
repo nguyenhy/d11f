@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useAppStore } from '@directus/stores';
-import { User } from '@directus/types';
+import { useAppStore } from '@d11f/stores';
+import { User } from '@d11f/types';
 import { storeToRefs } from 'pinia';
 import { computed, ref } from 'vue';
 import { RouterLink } from 'vue-router';

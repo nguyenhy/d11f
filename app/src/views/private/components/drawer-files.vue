@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Filter } from '@directus/types';
-import { mergeFilters } from '@directus/utils';
+import { Filter } from '@d11f/types';
+import { mergeFilters } from '@d11f/utils';
 import { useSessionStorage } from '@vueuse/core';
 import { ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

@@ -1,4 +1,4 @@
-import { SchemaBuilder } from '@directus/schema-builder';
+import { SchemaBuilder } from '@d11f/schema-builder';
 import knex from 'knex';
 import { createTracker } from 'knex-mock-client';
 import { expect, test, vi } from 'vitest';

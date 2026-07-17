@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Filter } from '@directus/types';
-import { deepMap, getFieldsFromTemplate } from '@directus/utils';
+import { Filter } from '@d11f/types';
+import { deepMap, getFieldsFromTemplate } from '@d11f/utils';
 import { get } from 'lodash';
 import { render } from 'micromustache';
 import { computed, inject, ref, toRefs } from 'vue';

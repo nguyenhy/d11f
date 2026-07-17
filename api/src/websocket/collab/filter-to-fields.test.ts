@@ -1,4 +1,4 @@
-import { SchemaBuilder } from '@directus/schema-builder';
+import { SchemaBuilder } from '@d11f/schema-builder';
 import { expect, test } from 'vitest';
 import { filterToFields } from './filter-to-fields.js';
 

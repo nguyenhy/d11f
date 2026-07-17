@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { SetupForm as Form } from '@directus/types';
+import type { SetupForm as Form } from '@d11f/types';
 import { useCookies } from '@vueuse/integrations/useCookies';
 import { computed, ref } from 'vue';
 import { useI18n } from 'vue-i18n';

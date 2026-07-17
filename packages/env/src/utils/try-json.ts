@@ -1,4 +1,4 @@
-import { parseJSON } from '@directus/utils';
+import { parseJSON } from '@d11f/utils';
 
 export const tryJson = (value: unknown): unknown => {
 	try {

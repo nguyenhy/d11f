@@ -1,4 +1,4 @@
-import { processId } from '@directus/utils/node';
+import { processId } from '@d11f/utils/node';
 import { type Bus, createBus } from '../../bus/index.js';
 import type { Lock } from '../../kv/types/lock.js';
 import type { Cache } from '../types/class.js';

@@ -1,4 +1,4 @@
-import type { DeepPartial, Theme } from '@directus/types';
+import type { DeepPartial, Theme } from '@d11f/types';
 import decamelize from 'decamelize';
 import { flatten } from 'flat';
 import { mapKeys } from 'lodash-es';

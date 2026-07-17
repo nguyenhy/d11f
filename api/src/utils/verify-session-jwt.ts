@@ -1,4 +1,4 @@
-import { InvalidCredentialsError } from '@directus/errors';
+import { InvalidCredentialsError } from '@d11f/errors';
 import getDatabase from '../database/index.js';
 import type { DirectusTokenPayload } from '../types/index.js';
 

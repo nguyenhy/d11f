@@ -1,8 +1,8 @@
 import { stat } from 'node:fs/promises';
 import { join, relative, resolve, sep } from 'node:path';
-import { useEnv } from '@directus/env';
-import type { Driver } from '@directus/storage';
-import { normalizePath } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import type { Driver } from '@d11f/storage';
+import { normalizePath } from '@d11f/utils';
 import { getExtensionsPath } from '../get-extensions-path.js';
 
 /**

@@ -1,7 +1,7 @@
 {
-	"name": "@directus/storage-driver-cloudinary",
+	"name": "@d11f/storage-driver-cloudinary",
 	"version": "12.0.22",
-	"description": "Cloudinary file storage abstraction for `@directus/storage`",
+	"description": "Cloudinary file storage abstraction for `@d11f/storage`",
 	"homepage": "https://directus.io",
 	"repository": {
 		"type": "git",
@@ -27,14 +27,14 @@
 		"test:coverage": "vitest run --coverage"
 	},
 	"dependencies": {
-		"@directus/storage": "workspace:*",
-		"@directus/utils": "workspace:*",
+		"@d11f/storage": "workspace:*",
+		"@d11f/utils": "workspace:*",
 		"p-queue": "catalog:",
 		"undici": "catalog:"
 	},
 	"devDependencies": {
 		"@directus/tsconfig": "catalog:",
-		"@directus/types": "workspace:*",
+		"@d11f/types": "workspace:*",
 		"@ngneat/falso": "catalog:",
 		"@vitest/coverage-v8": "catalog:",
 		"tsdown": "catalog:",

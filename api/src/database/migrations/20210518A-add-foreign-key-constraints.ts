@@ -1,5 +1,5 @@
-import { createInspector } from '@directus/schema';
-import type { RelationMeta } from '@directus/types';
+import { createInspector } from '@d11f/schema';
+import type { RelationMeta } from '@d11f/types';
 import type { Knex } from 'knex';
 import { useLogger } from '../../logger/index.js';
 import { getDefaultIndexName } from '../../utils/get-default-index-name.js';

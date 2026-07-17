@@ -6,7 +6,7 @@ import {
 	rest,
 	staticToken,
 	updateSingleton,
-} from '@directus/sdk';
+} from '@d11f/sdk';
 import { port } from '@utils/constants.js';
 import { useSnapshot } from '@utils/use-snapshot.js';
 import { generateScopedUser } from '@utils/user-scoped.js';

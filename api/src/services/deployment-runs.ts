@@ -1,4 +1,4 @@
-import type { AbstractServiceOptions, DeploymentWebhookEvent } from '@directus/types';
+import type { AbstractServiceOptions, DeploymentWebhookEvent } from '@d11f/types';
 import { ItemsService } from './items.js';
 
 export interface DeploymentRun {

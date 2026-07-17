@@ -1,7 +1,7 @@
 import type { Server as httpServer } from 'http';
-import { useEnv } from '@directus/env';
-import type { WebSocketMessage } from '@directus/types';
-import type { Accountability } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import type { WebSocketMessage } from '@d11f/types';
+import type { Accountability } from '@d11f/types';
 import type WebSocket from 'ws';
 import emitter from '../../emitter.js';
 import { useLogger } from '../../logger/index.js';

@@ -1,7 +1,7 @@
 import type { Readable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
-import { useEnv } from '@directus/env';
-import type { File } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import type { File } from '@d11f/types';
 import exif, { type GPSInfoTags, type ImageTags, type IopTags, type PhotoTags } from 'exif-reader';
 import { type IccProfile, parse as parseIcc } from 'icc';
 import { pick } from 'lodash-es';

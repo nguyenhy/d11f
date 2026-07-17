@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useSync } from '@directus/composables';
-import type { Field, ShowSelect } from '@directus/types';
+import { useSync } from '@d11f/composables';
+import type { Field, ShowSelect } from '@d11f/types';
 import { computed } from 'vue';
 import VIcon from '@/components/v-icon/v-icon.vue';
 import VListItemContent from '@/components/v-list-item-content.vue';

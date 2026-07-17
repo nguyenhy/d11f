@@ -1,4 +1,4 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import sharp, { type FailOnOptions, type Sharp } from 'sharp';
 
 export function getSharpInstance(): Sharp {

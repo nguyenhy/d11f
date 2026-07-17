@@ -5,8 +5,8 @@ import type {
 	SnapshotField,
 	SnapshotRelation,
 	SnapshotSystemField,
-} from '@directus/types';
-import { DiffKind } from '@directus/types';
+} from '@d11f/types';
+import { DiffKind } from '@d11f/types';
 import type { Diff } from 'deep-diff';
 import type { Knex } from 'knex';
 import knex from 'knex';

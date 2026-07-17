@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { translateShortcut } from '@directus/composables';
+import { translateShortcut } from '@d11f/composables';
 import VIcon from '@/components/v-icon/v-icon.vue';
 import VListItemContent from '@/components/v-list-item-content.vue';
 import VListItemHint from '@/components/v-list-item-hint.vue';

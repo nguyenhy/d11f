@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCollection, useLayout } from '@directus/composables';
+import { useCollection, useLayout } from '@d11f/composables';
 import { computed, ref } from 'vue';
 import SettingsNavigation from '../../components/navigation.vue';
 import api from '@/api';

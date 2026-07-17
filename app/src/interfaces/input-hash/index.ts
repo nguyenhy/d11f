@@ -1,4 +1,4 @@
-import { defineInterface } from '@directus/extensions';
+import { defineInterface } from '@d11f/extensions';
 import InterfaceInputHash from './input-hash.vue';
 import PreviewSVG from './preview.svg?raw';
 

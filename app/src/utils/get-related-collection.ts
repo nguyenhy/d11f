@@ -1,4 +1,4 @@
-import { Relation } from '@directus/types';
+import { Relation } from '@d11f/types';
 import { getLocalTypeForField } from './get-local-type';
 import { useRelationsStore } from '@/stores/relations';
 

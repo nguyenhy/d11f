@@ -1,6 +1,6 @@
-import type { DeepPartial, Theme } from '@directus/types';
-import { ThemeSchema } from '@directus/types';
-import { cssVar } from '@directus/utils/browser';
+import type { DeepPartial, Theme } from '@d11f/types';
+import { ThemeSchema } from '@d11f/types';
+import { cssVar } from '@d11f/utils/browser';
 import { get } from 'lodash-es';
 import type { MaybeRef } from 'vue';
 import { computed, unref } from 'vue';

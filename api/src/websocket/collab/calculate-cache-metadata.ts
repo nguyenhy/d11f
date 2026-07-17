@@ -1,6 +1,6 @@
-import { REGEX_BETWEEN_PARENS } from '@directus/constants';
-import type { Accountability, SchemaOverview } from '@directus/types';
-import { adjustDate } from '@directus/utils';
+import { REGEX_BETWEEN_PARENS } from '@d11f/constants';
+import type { Accountability, SchemaOverview } from '@d11f/types';
+import { adjustDate } from '@d11f/utils';
 
 export const DYNAMIC_VARIABLE_MAP: Record<string, string> = {
 	$CURRENT_USER: 'directus_users',

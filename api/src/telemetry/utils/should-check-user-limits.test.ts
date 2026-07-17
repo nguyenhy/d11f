@@ -1,8 +1,8 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import { afterEach, beforeEach, expect, test, vi } from 'vitest';
 import { shouldCheckUserLimits } from './should-check-user-limits.js';
 
-vi.mock('@directus/env');
+vi.mock('@d11f/env');
 
 beforeEach(() => {
 	vi.mocked(useEnv).mockReturnValue({ abcd: 12345 });

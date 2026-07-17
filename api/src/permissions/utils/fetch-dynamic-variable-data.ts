@@ -1,6 +1,6 @@
-import { useEnv } from '@directus/env';
-import type { Accountability } from '@directus/types';
-import { getSimpleHash } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import type { Accountability } from '@d11f/types';
+import { getSimpleHash } from '@d11f/utils';
 import { getCache, getCacheValue, setCacheValue } from '../../cache.js';
 import type { Context } from '../types.js';
 import { type DynamicVariableContext } from './extract-required-dynamic-variable-context.js';

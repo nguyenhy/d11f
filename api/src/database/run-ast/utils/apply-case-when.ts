@@ -1,4 +1,4 @@
-import type { Filter, Permission, SchemaOverview } from '@directus/types';
+import type { Filter, Permission, SchemaOverview } from '@d11f/types';
 import type { Knex } from 'knex';
 import type { AliasMap } from '../../../utils/get-column-path.js';
 import { applyFilter } from '../lib/apply-query/filter/index.js';

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { getEndpoint } from '@directus/utils';
+import { getEndpoint } from '@d11f/utils';
 import { computed, ref } from 'vue';
 import api from '@/api';
 import VListItem from '@/components/v-list-item.vue';

@@ -1,4 +1,4 @@
-import { Action } from '@directus/constants';
+import { Action } from '@d11f/constants';
 import type { Knex } from 'knex';
 import { getHelpers } from '../helpers/index.js';
 

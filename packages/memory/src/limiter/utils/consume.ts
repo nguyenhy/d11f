@@ -1,4 +1,4 @@
-import { HitRateLimitError } from '@directus/errors';
+import { HitRateLimitError } from '@d11f/errors';
 import type { IRateLimiterRes, RateLimiterAbstract } from 'rate-limiter-flexible';
 
 /**

@@ -1,5 +1,5 @@
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { Accountability } from '@directus/types';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { Accountability } from '@d11f/types';
 import { beforeEach, describe, expect, test, vi } from 'vitest';
 import { sanitizePayload, validateChanges } from './payload-permissions.js';
 import { verifyPermissions } from './verify-permissions.js';

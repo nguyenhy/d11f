@@ -1,6 +1,6 @@
-import { isSystemCollection } from '@directus/system-data';
-import { Filter, Query } from '@directus/types';
-import { parseJSON, toArray } from '@directus/utils';
+import { isSystemCollection } from '@d11f/system-data';
+import { Filter, Query } from '@d11f/types';
+import { parseJSON, toArray } from '@d11f/utils';
 import { jsonToGraphQLQuery } from 'json-to-graphql-query';
 import { isEmpty, isUndefined, omitBy, pick, set, transform } from 'lodash';
 import { extractFieldFromFunction } from './extract-field-from-function';

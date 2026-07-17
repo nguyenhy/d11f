@@ -1,4 +1,4 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import { Redis } from 'ioredis';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import { getConfigFromEnv } from '../../utils/get-config-from-env.js';
@@ -6,7 +6,7 @@ import { _cache, useRedis } from './use-redis.js';
 
 vi.mock('ioredis');
 vi.mock('../../utils/get-config-from-env.js');
-vi.mock('@directus/env');
+vi.mock('@d11f/env');
 
 let mockRedis: Redis;
 

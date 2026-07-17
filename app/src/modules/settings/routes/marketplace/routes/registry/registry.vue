@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { RegistryListResponse } from '@directus/extensions-registry';
+import type { RegistryListResponse } from '@d11f/extensions-registry';
 import { useRouteQuery } from '@vueuse/router';
 import { isEqual } from 'lodash';
 import { computed, ref, watch, watchEffect } from 'vue';

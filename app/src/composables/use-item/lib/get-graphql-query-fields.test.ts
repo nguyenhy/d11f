@@ -1,4 +1,4 @@
-import { Field, Relation } from '@directus/types';
+import { Field, Relation } from '@d11f/types';
 import { createTestingPinia } from '@pinia/testing';
 import { setActivePinia } from 'pinia';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';

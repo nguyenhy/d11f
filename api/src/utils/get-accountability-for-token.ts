@@ -1,5 +1,5 @@
-import { InvalidCredentialsError } from '@directus/errors';
-import type { Accountability } from '@directus/types';
+import { InvalidCredentialsError } from '@d11f/errors';
+import type { Accountability } from '@d11f/types';
 import getDatabase from '../database/index.js';
 import { fetchRolesTree } from '../permissions/lib/fetch-roles-tree.js';
 import { fetchGlobalAccess } from '../permissions/modules/fetch-global-access/fetch-global-access.js';

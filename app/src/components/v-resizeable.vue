@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useSync } from '@directus/composables';
+import { useSync } from '@d11f/composables';
 import { useElementVisibility, useEventListener } from '@vueuse/core';
 import { clamp } from 'lodash';
 import { computed, ref, watch } from 'vue';

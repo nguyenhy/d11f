@@ -1,7 +1,7 @@
 import { describe, expect, test, vi } from 'vitest';
 import { calculateJsonPathDepth, parseJsonFunction } from './parse-function.js';
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		MAX_JSON_QUERY_DEPTH: 10,
 	}),

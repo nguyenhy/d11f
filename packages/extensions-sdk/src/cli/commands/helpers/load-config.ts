@@ -1,7 +1,7 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { JAVASCRIPT_FILE_EXTS } from '@directus/constants';
-import { pathToRelativeUrl } from '@directus/utils/node';
+import { JAVASCRIPT_FILE_EXTS } from '@d11f/constants';
+import { pathToRelativeUrl } from '@d11f/utils/node';
 import fse from 'fs-extra';
 import type { Config } from '../../types.js';
 

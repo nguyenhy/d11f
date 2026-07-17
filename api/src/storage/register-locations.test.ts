@@ -1,11 +1,11 @@
-import { useEnv } from '@directus/env';
-import type { StorageManager } from '@directus/storage';
+import { useEnv } from '@d11f/env';
+import type { StorageManager } from '@d11f/storage';
 import { randNumber, randWord } from '@ngneat/falso';
 import { afterEach, beforeEach, expect, test, vi } from 'vitest';
 import { getConfigFromEnv } from '../utils/get-config-from-env.js';
 import { registerLocations } from './register-locations.js';
 
-vi.mock('@directus/env');
+vi.mock('@d11f/env');
 
 vi.mock('../utils/get-config-from-env.js');
 

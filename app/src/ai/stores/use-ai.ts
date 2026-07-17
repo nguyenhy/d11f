@@ -1,5 +1,5 @@
 import { Chat } from '@ai-sdk/vue';
-import { type ContextAttachment, type PrimaryKey, type StandardProviderType, type SystemTool } from '@directus/ai';
+import { type ContextAttachment, type PrimaryKey, type StandardProviderType, type SystemTool } from '@d11f/ai';
 import { createEventHook, useLocalStorage, useSessionStorage } from '@vueuse/core';
 import { DefaultChatTransport, type FileUIPart, lastAssistantMessageIsCompleteWithToolCalls, type UIMessage } from 'ai';
 import { defineStore } from 'pinia';

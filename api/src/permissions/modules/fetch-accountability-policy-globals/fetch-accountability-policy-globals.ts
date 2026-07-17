@@ -1,4 +1,4 @@
-import type { Accountability, Globals } from '@directus/types';
+import type { Accountability, Globals } from '@d11f/types';
 import { fetchPolicies } from '../../lib/fetch-policies.js';
 import type { Context } from '../../types.js';
 

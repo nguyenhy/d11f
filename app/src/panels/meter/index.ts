@@ -1,4 +1,4 @@
-import { definePanel } from '@directus/extensions';
+import { definePanel } from '@d11f/extensions';
 import PanelMeter from './panel-meter.vue';
 import PreviewSVG from './preview.svg?raw';
 import { useFieldsStore } from '@/stores/fields';

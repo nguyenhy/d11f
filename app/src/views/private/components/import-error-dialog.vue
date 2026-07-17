@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { ValidationError } from '@directus/types';
-import type { ImportRowLines, ImportRowRange } from '@directus/validation';
+import { ValidationError } from '@d11f/types';
+import type { ImportRowLines, ImportRowRange } from '@d11f/validation';
 import { computed, toRef } from 'vue';
 import { useI18n } from 'vue-i18n';
 import VButton from '@/components/v-button.vue';

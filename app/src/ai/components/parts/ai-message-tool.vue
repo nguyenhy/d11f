@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import formatTitle from '@directus/format-title';
+import formatTitle from '@d11f/format-title';
 import type { DynamicToolUIPart } from 'ai';
 import { computed } from 'vue';
 import AiAskUserSummary from './ai-ask-user-summary.vue';

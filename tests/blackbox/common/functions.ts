@@ -1,5 +1,5 @@
 import { randomUUID } from 'node:crypto';
-import type { Permission, PrimaryKey, Query } from '@directus/types';
+import type { Permission, PrimaryKey, Query } from '@d11f/types';
 import { omit } from 'lodash-es';
 import request from 'supertest';
 import { afterAll, beforeEach, describe, expect, it } from 'vitest';

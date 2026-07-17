@@ -1,5 +1,5 @@
-import { createError, ErrorCode } from '@directus/errors';
-import type { Accountability, SchemaOverview } from '@directus/types';
+import { createError, ErrorCode } from '@d11f/errors';
+import type { Accountability, SchemaOverview } from '@d11f/types';
 import type { Request, Response } from 'express';
 import { afterEach, beforeEach, describe, expect, type MockedFunction, test, vi } from 'vitest';
 import { z } from 'zod';

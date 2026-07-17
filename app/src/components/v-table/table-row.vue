@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ShowSelect } from '@directus/types';
+import type { ShowSelect } from '@d11f/types';
 import { computed } from 'vue';
 import type { Header, Item } from './types';
 import VCheckbox from '@/components/v-checkbox.vue';

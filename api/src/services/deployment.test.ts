@@ -1,5 +1,5 @@
-import { InvalidPayloadError, InvalidProviderConfigError } from '@directus/errors';
-import { SchemaBuilder } from '@directus/schema-builder';
+import { InvalidPayloadError, InvalidProviderConfigError } from '@d11f/errors';
+import { SchemaBuilder } from '@d11f/schema-builder';
 import { afterEach, beforeEach, describe, expect, it, type MockInstance, vi } from 'vitest';
 import { createMockKnex, resetKnexMocks } from '../test-utils/knex.js';
 import { DeploymentProjectsService } from './deployment-projects.js';
@@ -39,7 +39,7 @@ vi.mock('../cache.js', () => ({
 	setCacheValueWithExpiry: mockSetCacheValueWithExpiry,
 }));
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn(() => ({
 		CACHE_DEPLOYMENT_TTL: '5s',
 	})),

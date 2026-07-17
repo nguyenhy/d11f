@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Field, Width } from '@directus/types';
+import type { Field, Width } from '@d11f/types';
 import { computed } from 'vue';
 import VDivider from '@/components/v-divider.vue';
 import VIcon from '@/components/v-icon/v-icon.vue';

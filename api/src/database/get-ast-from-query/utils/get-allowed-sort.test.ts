@@ -1,5 +1,5 @@
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { Accountability, Query } from '@directus/types';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { Accountability, Query } from '@d11f/types';
 import type { Knex } from 'knex';
 import { beforeEach, expect, test, vi } from 'vitest';
 import { fetchAllowedFields } from '../../../permissions/modules/fetch-allowed-fields/fetch-allowed-fields.js';

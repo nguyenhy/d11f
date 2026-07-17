@@ -1,5 +1,5 @@
 {
-	"name": "@directus/types",
+	"name": "@d11f/types",
 	"version": "15.0.3",
 	"description": "Shared types for Directus",
 	"homepage": "https://directus.io",
@@ -25,9 +25,9 @@
 		"dev": "tsdown --watch"
 	},
 	"dependencies": {
-		"@directus/ai": "workspace:*",
-		"@directus/constants": "workspace:*",
-		"@directus/schema": "workspace:*",
+		"@d11f/ai": "workspace:*",
+		"@d11f/constants": "workspace:*",
+		"@d11f/schema": "workspace:*",
 		"@types/express": "catalog:",
 		"@types/geojson": "catalog:",
 		"@types/nodemailer": "catalog:",

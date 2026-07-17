@@ -1,8 +1,8 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import { getConfigFromEnv } from './get-config-from-env.js';
 
-vi.mock('@directus/env');
+vi.mock('@d11f/env');
 
 beforeEach(() => {
 	vi.mocked(useEnv).mockReturnValue({

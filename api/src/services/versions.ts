@@ -1,5 +1,5 @@
-import { Action } from '@directus/constants';
-import { ForbiddenError, InvalidPayloadError, UnprocessableContentError } from '@directus/errors';
+import { Action } from '@d11f/constants';
+import { ForbiddenError, InvalidPayloadError, UnprocessableContentError } from '@d11f/errors';
 import type {
 	AbstractServiceOptions,
 	ContentVersion,
@@ -8,8 +8,8 @@ import type {
 	PrimaryKey,
 	Query,
 	QueryOptions,
-} from '@directus/types';
-import { deepMapWithSchema } from '@directus/utils';
+} from '@d11f/types';
+import { deepMapWithSchema } from '@d11f/utils';
 import Joi from 'joi';
 import { assign, get, isEqual, isPlainObject, pick } from 'lodash-es';
 import objectHash from 'object-hash';

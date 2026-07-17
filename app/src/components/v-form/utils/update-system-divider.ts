@@ -1,4 +1,4 @@
-import type { Field } from '@directus/types';
+import type { Field } from '@d11f/types';
 
 export function updateSystemDivider(fields: Field[], isFieldVisible = (field: Field) => field.meta?.hidden !== true) {
 	let hasVisibleSystemFields = false;

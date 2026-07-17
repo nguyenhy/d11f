@@ -2,7 +2,7 @@ import { afterEach, describe, expect, test, vi } from 'vitest';
 import { useBufferedCounter } from '../telemetry/counter/use-buffered-counter.js';
 import requestCounterMiddleware from './request-counter.js';
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		TELEMETRY: true,
 	}),
@@ -123,7 +123,7 @@ describe('requestCounter middleware', () => {
 		test('Does not increment counter but still calls next', async () => {
 			vi.resetModules();
 
-			vi.doMock('@directus/env', () => ({
+			vi.doMock('@d11f/env', () => ({
 				useEnv: vi.fn().mockReturnValue({
 					TELEMETRY: false,
 				}),

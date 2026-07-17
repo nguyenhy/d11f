@@ -1,4 +1,4 @@
-import type { Filter, Permission } from '@directus/types';
+import type { Filter, Permission } from '@d11f/types';
 import type { FieldKey } from '../types.js';
 import { dedupeAccess } from '../utils/dedupe-access.js';
 import { hasItemPermissions } from '../utils/has-item-permissions.js';

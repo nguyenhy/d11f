@@ -1,4 +1,4 @@
-import { ServiceUnavailableError } from '@directus/errors';
+import { ServiceUnavailableError } from '@d11f/errors';
 import type { UIMessage } from 'ai';
 import { streamText } from 'ai';
 import { beforeEach, describe, expect, it, vi } from 'vitest';

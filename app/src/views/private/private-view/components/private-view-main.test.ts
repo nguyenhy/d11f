@@ -21,7 +21,7 @@ vi.mock('@vueuse/core', async () => {
 	};
 });
 
-vi.mock('@directus/utils/browser', () => ({ cssVar: vi.fn(() => '12') }));
+vi.mock('@d11f/utils/browser', () => ({ cssVar: vi.fn(() => '12') }));
 
 vi.mock('@directus/vue-split-panel', () => ({
 	SplitPanel: {

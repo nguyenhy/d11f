@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { ContentVersion, Filter } from '@directus/types';
-import { getFieldsFromTemplate } from '@directus/utils';
+import type { ContentVersion, Filter } from '@d11f/types';
+import { getFieldsFromTemplate } from '@d11f/utils';
 import { clamp, get, isEmpty, isNil, set } from 'lodash';
 import { computed, ref, toRefs, unref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

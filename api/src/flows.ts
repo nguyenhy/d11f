@@ -1,7 +1,7 @@
-import { Action } from '@directus/constants';
-import { useEnv } from '@directus/env';
-import { ForbiddenError } from '@directus/errors';
-import { isSystemCollection } from '@directus/system-data';
+import { Action } from '@d11f/constants';
+import { useEnv } from '@d11f/env';
+import { ForbiddenError } from '@d11f/errors';
+import { isSystemCollection } from '@d11f/system-data';
 import type {
 	Accountability,
 	ActionHandler,
@@ -11,8 +11,8 @@ import type {
 	OperationHandler,
 	PrimaryKey,
 	SchemaOverview,
-} from '@directus/types';
-import { applyOptionsData, deepMap, getRedactedString, isValidJSON, parseJSON, toArray } from '@directus/utils';
+} from '@d11f/types';
+import { applyOptionsData, deepMap, getRedactedString, isValidJSON, parseJSON, toArray } from '@d11f/utils';
 import type { Knex } from 'knex';
 import { pick } from 'lodash-es';
 import { get } from 'micromustache';

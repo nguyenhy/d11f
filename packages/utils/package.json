@@ -1,5 +1,5 @@
 {
-	"name": "@directus/utils",
+	"name": "@d11f/utils",
 	"version": "13.4.1",
 	"description": "Utilities shared between the Directus packages",
 	"homepage": "https://directus.io",
@@ -33,8 +33,8 @@
 		"test:coverage": "vitest run --coverage"
 	},
 	"dependencies": {
-		"@directus/constants": "workspace:*",
-		"@directus/system-data": "workspace:*",
+		"@d11f/constants": "workspace:*",
+		"@d11f/system-data": "workspace:*",
 		"date-fns": "catalog:",
 		"fs-extra": "catalog:",
 		"joi": "catalog:",
@@ -45,9 +45,9 @@
 	},
 	"devDependencies": {
 		"@directus/tsconfig": "catalog:",
-		"@directus/schema-builder": "workspace:*",
-		"@directus/types": "workspace:*",
-		"@directus/errors": "workspace:*",
+		"@d11f/schema-builder": "workspace:*",
+		"@d11f/types": "workspace:*",
+		"@d11f/errors": "workspace:*",
 		"@ngneat/falso": "catalog:",
 		"@types/fs-extra": "catalog:",
 		"@types/js-yaml": "catalog:",

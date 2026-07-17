@@ -1,5 +1,5 @@
-import formatTitle from '@directus/format-title';
-import type { ContentVersion } from '@directus/types';
+import formatTitle from '@d11f/format-title';
+import type { ContentVersion } from '@d11f/types';
 import { isNil } from 'lodash';
 import { DRAFT_VERSION_KEY } from '@/constants';
 import { i18n } from '@/lang';

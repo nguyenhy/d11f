@@ -1,5 +1,5 @@
-import type { Filter, LogicalFilterAND } from '@directus/types';
-import { parseJSON } from '@directus/utils';
+import type { Filter, LogicalFilterAND } from '@d11f/types';
+import { parseJSON } from '@d11f/utils';
 import type { Knex } from 'knex';
 
 type OldFilter = {

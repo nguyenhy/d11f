@@ -1,6 +1,6 @@
 /**
  * Environment mocking utilities for service tests
- * Provides simplified mocks for @directus/env module used in service testing
+ * Provides simplified mocks for @d11f/env module used in service testing
  */
 
 import { vi } from 'vitest';
@@ -15,17 +15,17 @@ import { vi } from 'vitest';
  * @example
  * ```typescript
  *
- * import { useEnv } from '@directus/env';
+ * import { useEnv } from '@d11f/env';
  * const { resetEnvMock } = await import('../test-utils/env.js');
  *
  * // Standard usage with defaults
- * vi.mock('@directus/env', () => {
+ * vi.mock('@d11f/env', () => {
  *   const { mockEnv } = await import('../test-utils/env.js');
  *   return mockEnv();
  * });
  *
  * // With custom default values
- * vi.mock('@directus/env', () => {
+ * vi.mock('@d11f/env', () => {
  *   const { mockEnv } = await import('../test-utils/env.js');
  *   return mockEnv({
  *     STORAGE_LOCATIONS: 'custom-storage',

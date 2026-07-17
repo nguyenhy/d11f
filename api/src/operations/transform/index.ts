@@ -1,5 +1,5 @@
-import { defineOperationApi } from '@directus/extensions';
-import { optionToObject } from '@directus/utils';
+import { defineOperationApi } from '@d11f/extensions';
+import { optionToObject } from '@d11f/utils';
 
 type Options = {
 	json: string | Record<string, any>;

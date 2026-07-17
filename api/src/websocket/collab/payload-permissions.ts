@@ -1,6 +1,6 @@
-import { ForbiddenError, InvalidPayloadError } from '@directus/errors';
-import type { Accountability, PrimaryKey, SchemaOverview } from '@directus/types';
-import { deepMapWithSchema, isDetailedUpdateSyntax } from '@directus/utils';
+import { ForbiddenError, InvalidPayloadError } from '@d11f/errors';
+import type { Accountability, PrimaryKey, SchemaOverview } from '@d11f/types';
+import { deepMapWithSchema, isDetailedUpdateSyntax } from '@d11f/utils';
 import type { Knex } from 'knex';
 import { verifyPermissions } from './verify-permissions.js';
 

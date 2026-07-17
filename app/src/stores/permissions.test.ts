@@ -1,4 +1,4 @@
-import { PermissionsAction, User } from '@directus/types';
+import { PermissionsAction, User } from '@d11f/types';
 import { createTestingPinia } from '@pinia/testing';
 import { setActivePinia } from 'pinia';
 import { afterEach, beforeEach, describe, expect, it, test, vi } from 'vitest';

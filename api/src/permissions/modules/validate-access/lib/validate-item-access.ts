@@ -1,5 +1,5 @@
-import type { Accountability, PermissionsAction, PrimaryKey } from '@directus/types';
-import { toBoolean } from '@directus/utils';
+import type { Accountability, PermissionsAction, PrimaryKey } from '@d11f/types';
+import { toBoolean } from '@d11f/utils';
 import { fetchPermittedAstRootFields } from '../../../../database/run-ast/modules/fetch-permitted-ast-root-fields.js';
 import type { AST } from '../../../../types/index.js';
 import { fetchPermissions } from '../../../lib/fetch-permissions.js';

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Field } from '@directus/types';
+import { Field } from '@d11f/types';
 import { computed } from 'vue';
 import Draggable from 'vuedraggable';
 import VFieldList from '@/components/v-field-list/v-field-list.vue';

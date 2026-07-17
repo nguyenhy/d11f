@@ -9,7 +9,7 @@ import {
 	rest,
 	staticToken,
 	updateField,
-} from '@directus/sdk';
+} from '@d11f/sdk';
 import { port } from '@utils/constants.js';
 import { useSnapshot } from '@utils/use-snapshot.js';
 import { afterAll, describe, expect, test } from 'vitest';

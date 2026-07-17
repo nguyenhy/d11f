@@ -1,8 +1,8 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import { beforeAll, expect, test, vi } from 'vitest';
 import { getSharpInstance } from './get-sharp-instance.js';
 
-vi.mock('@directus/env');
+vi.mock('@d11f/env');
 
 vi.mock('sharp', () => {
 	const sharp = {

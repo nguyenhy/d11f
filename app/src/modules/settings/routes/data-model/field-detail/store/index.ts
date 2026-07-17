@@ -1,6 +1,6 @@
-import type { DisplayConfig, InterfaceConfig } from '@directus/extensions';
-import type { Collection, DeepPartial, Field, LocalType, Relation } from '@directus/types';
-import { getEndpoint } from '@directus/utils';
+import type { DisplayConfig, InterfaceConfig } from '@d11f/extensions';
+import type { Collection, DeepPartial, Field, LocalType, Relation } from '@d11f/types';
+import { getEndpoint } from '@d11f/utils';
 import { cloneDeep, get, has, isEmpty, mergeWith, orderBy, set, sortBy } from 'lodash';
 import { defineStore } from 'pinia';
 import { computed } from 'vue';

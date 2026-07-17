@@ -1,4 +1,4 @@
-import type { DirectusError } from '@directus/errors';
+import type { DirectusError } from '@d11f/errors';
 import { GraphQLError } from 'graphql';
 import { set } from 'lodash-es';
 

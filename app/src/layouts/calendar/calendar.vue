@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ShowSelect } from '@directus/types';
+import type { ShowSelect } from '@d11f/types';
 import { useResizeObserver } from '@vueuse/core';
 import { debounce } from 'lodash';
 import { computed, onMounted, onUnmounted, useTemplateRef } from 'vue';

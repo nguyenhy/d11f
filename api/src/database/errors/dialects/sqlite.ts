@@ -3,8 +3,8 @@ import {
 	InvalidForeignKeyError,
 	NotNullViolationError,
 	RecordNotUniqueError,
-} from '@directus/errors';
-import type { Item } from '@directus/types';
+} from '@d11f/errors';
+import type { Item } from '@d11f/types';
 import type { SQLiteError } from './types.js';
 
 // NOTE:

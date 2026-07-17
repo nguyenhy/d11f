@@ -1,4 +1,4 @@
-import { InvalidPayloadError } from '@directus/errors';
+import { InvalidPayloadError } from '@d11f/errors';
 import type { Knex } from 'knex';
 import knex from 'knex';
 import { createTracker, MockClient, type Tracker } from 'knex-mock-client';

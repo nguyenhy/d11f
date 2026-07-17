@@ -1,4 +1,4 @@
-import { isObject } from '@directus/utils';
+import { isObject } from '@d11f/utils';
 
 export function getFilterPath(key: string, value: Record<string, any>) {
 	const path = [key];

@@ -1,10 +1,10 @@
-import { Field, LogicalFilterAND } from '@directus/types';
-import { validatePayload } from '@directus/utils';
+import { Field, LogicalFilterAND } from '@d11f/types';
+import { validatePayload } from '@d11f/utils';
 import {
 	FailedValidationError,
 	FailedValidationErrorExtensions,
 	joiValidationErrorItemToErrorExtensions,
-} from '@directus/validation';
+} from '@d11f/validation';
 import { cloneDeep, flatten, isEmpty, isNil } from 'lodash';
 import { applyConditions } from './apply-conditions';
 import { parseFilter } from './parse-filter';

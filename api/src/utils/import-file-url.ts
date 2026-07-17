@@ -1,6 +1,6 @@
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { pathToRelativeUrl } from '@directus/utils/node';
+import { pathToRelativeUrl } from '@d11f/utils/node';
 
 interface ImportOptions {
 	fresh?: boolean;

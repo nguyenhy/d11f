@@ -1,4 +1,4 @@
-# @directus/env
+# @d11f/env
 
 Environment variable configuration extraction for Directus.
 

@@ -1,4 +1,4 @@
-import type { DeepPartial, Query, SchemaOverview } from '@directus/types';
+import type { DeepPartial, Query, SchemaOverview } from '@d11f/types';
 import { expect, test } from 'vitest';
 import { extractFieldsFromQuery } from './extract-fields-from-query.js';
 

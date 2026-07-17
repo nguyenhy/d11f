@@ -1,10 +1,10 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import { CronJob } from 'cron';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import * as schedule from '../utils/schedule.js';
 import { handleMetricsJob, default as metricsSchedule } from './metrics.js';
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({}),
 }));
 

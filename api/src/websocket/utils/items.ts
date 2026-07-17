@@ -1,5 +1,5 @@
-import { InvalidPayloadError } from '@directus/errors';
-import type { Accountability, SchemaOverview } from '@directus/types';
+import { InvalidPayloadError } from '@d11f/errors';
+import type { Accountability, SchemaOverview } from '@d11f/types';
 import { CollectionsService, FieldsService, MetaService } from '../../services/index.js';
 import { getService } from '../../utils/get-service.js';
 import type { WebSocketEvent } from '../messages.js';

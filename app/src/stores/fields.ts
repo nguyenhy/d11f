@@ -1,5 +1,5 @@
-import formatTitle from '@directus/format-title';
-import { DeepPartial, Field, FieldRaw, Relation } from '@directus/types';
+import formatTitle from '@d11f/format-title';
+import { DeepPartial, Field, FieldRaw, Relation } from '@d11f/types';
 import { isEmpty, isEqual, isNil, merge, omit, orderBy } from 'lodash';
 import { nanoid } from 'nanoid';
 import { defineStore } from 'pinia';

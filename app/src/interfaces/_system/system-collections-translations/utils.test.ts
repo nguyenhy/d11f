@@ -1,4 +1,4 @@
-import type { Field, Relation } from '@directus/types';
+import type { Field, Relation } from '@d11f/types';
 import { describe, expect, test } from 'vitest';
 import { detectTranslationConfigs, isFieldEligibleForTranslations } from './utils';
 

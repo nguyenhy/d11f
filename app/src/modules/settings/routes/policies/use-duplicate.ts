@@ -1,4 +1,4 @@
-import type { Permission, Policy } from '@directus/types';
+import type { Permission, Policy } from '@d11f/types';
 import type { Ref } from 'vue';
 import { ref } from 'vue';
 import api from '@/api';

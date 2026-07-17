@@ -7,7 +7,7 @@ import {
 	passwordReset,
 	rest,
 	staticToken,
-} from '@directus/sdk';
+} from '@d11f/sdk';
 import { env, options, port } from '@utils/constants.js';
 import { expect, test } from 'vitest';
 

@@ -1,8 +1,8 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import { describe, expect, test, vi } from 'vitest';
 import { getAuthProviders } from './get-auth-providers.js';
 
-vi.mock('@directus/env');
+vi.mock('@d11f/env');
 
 const scenarios = [
 	{

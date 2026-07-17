@@ -1,4 +1,4 @@
-# @directus/constants
+# @d11f/constants
 
 Shared Constants for Directus use
 
@@ -11,7 +11,7 @@ For more information about Directus, visit the [official website](https://direct
 ## Installation
 
 ```shell
-npm install @directus/constants
+npm install @d11f/constants
 ```
 
 ## License

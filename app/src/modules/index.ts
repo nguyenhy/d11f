@@ -1,4 +1,4 @@
-import type { ModuleConfig } from '@directus/extensions';
+import type { ModuleConfig } from '@d11f/extensions';
 import { sortBy } from 'lodash';
 import { shallowRef, type ShallowRef } from 'vue';
 import { router } from '@/router';

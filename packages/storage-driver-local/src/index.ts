@@ -4,8 +4,8 @@ import { access, copyFile, mkdir, opendir, rename, stat, unlink } from 'node:fs/
 import { dirname, join, relative, resolve, sep } from 'node:path';
 import stream, { type Readable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
-import type { TusDriver } from '@directus/storage';
-import type { ChunkedUploadContext, ReadOptions, Stat } from '@directus/types';
+import type { TusDriver } from '@d11f/storage';
+import type { ChunkedUploadContext, ReadOptions, Stat } from '@d11f/types';
 
 export type DriverLocalConfig = {
 	root: string;

@@ -1,9 +1,9 @@
 import { PassThrough } from 'node:stream';
 import { Readable } from 'node:stream';
-import { ForbiddenError, InvalidPayloadError } from '@directus/errors';
-import type { Driver, StorageManager } from '@directus/storage';
-import type { Accountability } from '@directus/types';
-import type { File, SchemaOverview } from '@directus/types';
+import { ForbiddenError, InvalidPayloadError } from '@d11f/errors';
+import type { Driver, StorageManager } from '@d11f/storage';
+import type { Accountability } from '@d11f/types';
+import type { File, SchemaOverview } from '@d11f/types';
 import archiver, { type Archiver } from 'archiver';
 import contentDisposition from 'content-disposition';
 import type { Knex } from 'knex';
@@ -16,11 +16,11 @@ import { AssetsService } from './assets.js';
 import { FilesService } from './files.js';
 import { FoldersService } from './folders.js';
 
-vi.mock('@directus/storage');
+vi.mock('@d11f/storage');
 vi.mock('../permissions/modules/validate-access/lib/validate-item-access.js');
 vi.mock('archiver');
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({}),
 }));
 

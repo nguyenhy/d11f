@@ -1,5 +1,5 @@
-import { ContentVersion, Filter, Item } from '@directus/types';
-import { getEndpoint, toArray } from '@directus/utils';
+import { ContentVersion, Filter, Item } from '@d11f/types';
+import { getEndpoint, toArray } from '@d11f/utils';
 import { clamp, cloneDeep, get, isEqual, merge } from 'lodash';
 import { computed, ref, Ref, watch } from 'vue';
 import { RelationM2A } from '@/composables/use-relation-m2a';
