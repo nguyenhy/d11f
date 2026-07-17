@@ -1,6 +1,6 @@
 import { useEnv } from '@d11f/env';
 import { toBoolean } from '@d11f/utils';
-import { version } from 'directus/version';
+import { version } from 'd11f/version';
 import { getHelpers } from '../../database/helpers/index.js';
 import { getDatabase, getDatabaseClient } from '../../database/index.js';
 import { fetchUserCount } from '../../utils/fetch-user-count/fetch-user-count.js';

@@ -10,7 +10,7 @@ import { getSnapshot } from './get-snapshot.js';
 import { sanitizeCollection, sanitizeField, sanitizeRelation, sanitizeSystemField } from './sanitize-schema.js';
 
 // Mock dependencies
-vi.mock('directus/version', () => ({
+vi.mock('d11f/version', () => ({
 	version: '10.0.0',
 }));
 

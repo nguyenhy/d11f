@@ -2,7 +2,7 @@ import { TYPES } from '@d11f/constants';
 import { InvalidPayloadError } from '@d11f/errors';
 import type { Snapshot } from '@d11f/types';
 import { DatabaseClients } from '@d11f/types';
-import { version } from 'directus/version';
+import { version } from 'd11f/version';
 import Joi from 'joi';
 import { ALIAS_TYPES } from '../constants.js';
 import { getDatabaseClient } from '../database/index.js';

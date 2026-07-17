@@ -18,7 +18,7 @@ vi.mock('../flows.js', () => ({
 	}),
 }));
 
-vi.mock('directus/version', () => ({ version: '1.2.3' }));
+vi.mock('d11f/version', () => ({ version: '1.2.3' }));
 
 vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({

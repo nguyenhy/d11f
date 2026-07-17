@@ -1,5 +1,5 @@
 import { useEnv } from '@d11f/env';
-import { version } from 'directus/version';
+import { version } from 'd11f/version';
 import { type Knex } from 'knex';
 import { afterEach, beforeEach, expect, test, vi } from 'vitest';
 import { getDatabase, getDatabaseClient } from '../../database/index.js';

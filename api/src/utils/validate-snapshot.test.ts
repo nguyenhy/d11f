@@ -2,7 +2,7 @@ import type { Snapshot } from '@d11f/types';
 import { describe, expect, test, vi } from 'vitest';
 import { validateSnapshot } from './validate-snapshot.js';
 
-vi.mock('directus/version', () => ({
+vi.mock('d11f/version', () => ({
 	version: '10.0.0',
 }));
 

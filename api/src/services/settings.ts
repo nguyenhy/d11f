@@ -1,5 +1,5 @@
 import type { AbstractServiceOptions, OwnerInformation } from '@d11f/types';
-import { version } from 'directus/version';
+import { version } from 'd11f/version';
 import { sendReport } from '../telemetry/index.js';
 import { ItemsService } from './items.js';
 
