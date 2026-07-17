@@ -1,5 +1,5 @@
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { Permission } from '@directus/types';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { Permission } from '@d11f/types';
 import knex from 'knex';
 import { expect, test, vi } from 'vitest';
 import { Client_SQLite3 } from './mock.js';

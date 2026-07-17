@@ -1,4 +1,4 @@
-import type { NumericValue } from '@directus/types';
+import type { NumericValue } from '@d11f/types';
 import { NumberDatabaseHelper, type NumberInfo } from '../types.js';
 import { numberInRange } from '../utils/number-in-range.js';
 

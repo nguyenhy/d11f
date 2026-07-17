@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useSync } from '@directus/composables';
+import { useSync } from '@d11f/composables';
 import {
 	FieldFilter,
 	FieldFilterOperator,
@@ -8,8 +8,8 @@ import {
 	LogicalFilterAND,
 	LogicalFilterOR,
 	Type,
-} from '@directus/types';
-import { getFilterOperatorsForType, getOutputTypeForFunction, toArray } from '@directus/utils';
+} from '@d11f/types';
+import { getFilterOperatorsForType, getOutputTypeForFunction, toArray } from '@d11f/utils';
 import { get } from 'lodash';
 import { computed, toRefs } from 'vue';
 import { useI18n } from 'vue-i18n';

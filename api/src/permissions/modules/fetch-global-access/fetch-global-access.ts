@@ -1,8 +1,8 @@
-import type { Accountability, GlobalAccess } from '@directus/types';
+import type { Accountability, GlobalAccess } from '@d11f/types';
 import {
 	fetchGlobalAccessForRoles as _fetchGlobalAccessForRoles,
 	fetchGlobalAccessForUser as _fetchGlobalAccessForUser,
-} from '@directus/utils/node';
+} from '@d11f/utils/node';
 import type { Knex } from 'knex';
 import { withCache } from '../../utils/with-cache.js';
 

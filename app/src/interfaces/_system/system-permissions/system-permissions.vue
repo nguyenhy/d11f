@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { PERMISSION_ACTIONS } from '@directus/constants';
-import { appAccessMinimalPermissions, isSystemCollection } from '@directus/system-data';
-import { type Alterations, Filter, Permission, PermissionsAction } from '@directus/types';
-import { getEndpoint } from '@directus/utils';
+import { PERMISSION_ACTIONS } from '@d11f/constants';
+import { appAccessMinimalPermissions, isSystemCollection } from '@d11f/system-data';
+import { type Alterations, Filter, Permission, PermissionsAction } from '@d11f/types';
+import { getEndpoint } from '@d11f/utils';
 import { cloneDeep, get, groupBy, isNil, merge, orderBy, sortBy } from 'lodash';
 import { computed, inject, nextTick, type Ref, ref, toRefs, watch } from 'vue';
 import { AddCollection } from './add-collection/';

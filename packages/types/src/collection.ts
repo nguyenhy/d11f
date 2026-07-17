@@ -1,4 +1,4 @@
-import type { Table } from '@directus/schema';
+import type { Table } from '@d11f/schema';
 import type { Field, RawField } from './fields.js';
 
 type Translations = {

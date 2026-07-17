@@ -1,4 +1,4 @@
-import { useAppStore } from '@directus/stores';
+import { useAppStore } from '@d11f/stores';
 import { useLocalStorage } from '@vueuse/core';
 import { createRouter, createWebHistory, NavigationGuard, NavigationHookAfter, RouteRecordRaw } from 'vue-router';
 import { refresh } from '@/auth';

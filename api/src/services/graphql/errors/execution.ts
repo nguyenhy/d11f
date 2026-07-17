@@ -1,4 +1,4 @@
-import { createError } from '@directus/errors';
+import { createError } from '@d11f/errors';
 import type { GraphQLError } from 'graphql';
 
 interface GraphQLExecutionErrorExtensions {

@@ -1,4 +1,4 @@
-import type { Accountability, Permission, PermissionsAction, SchemaOverview } from '@directus/types';
+import type { Accountability, Permission, PermissionsAction, SchemaOverview } from '@d11f/types';
 import type { Knex } from 'knex';
 import { cloneDeep } from 'lodash-es';
 import { fetchPermissions } from '../../../permissions/lib/fetch-permissions.js';

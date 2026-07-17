@@ -1,4 +1,4 @@
-import { cssVar } from '@directus/utils/browser';
+import { cssVar } from '@d11f/utils/browser';
 import firaMono from '../../assets/fonts/FiraMono-Medium.woff2';
 import merriweatherRegular from '../../assets/fonts/merriweather-regular.woff2';
 

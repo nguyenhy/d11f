@@ -1,5 +1,5 @@
-import type { RegistryDescribeResponse, RegistryListResponse } from '@directus/extensions-registry';
-import formatTitle from '@directus/format-title';
+import type { RegistryDescribeResponse, RegistryListResponse } from '@d11f/extensions-registry';
+import formatTitle from '@d11f/format-title';
 
 type Extension = RegistryListResponse['data'][number] | RegistryDescribeResponse['data'];
 

@@ -1,12 +1,12 @@
 import os from 'node:os';
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import type { Logger } from 'pino';
 import { afterEach, expect, test, vi } from 'vitest';
 import { useLogger } from '../logger/index.js';
 import { isDeniedIp } from './is-denied-ip.js';
 
 vi.mock('node:os');
-vi.mock('@directus/env');
+vi.mock('@d11f/env');
 vi.mock('../logger/index.js');
 
 afterEach(() => {

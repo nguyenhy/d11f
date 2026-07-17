@@ -1,4 +1,4 @@
-import { defineHook } from '@directus/extensions-sdk';
+import { defineHook } from '@d11f/extensions-sdk';
 
 export default defineHook(({ filter, action }) => {
 	filter('items.create', () => {

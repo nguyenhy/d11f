@@ -1,5 +1,5 @@
 {
-	"name": "@directus/extensions",
+	"name": "@d11f/extensions",
 	"version": "3.0.25",
 	"description": "Utilities and types for Directus extensions",
 	"homepage": "https://directus.io",
@@ -32,9 +32,9 @@
 		"test:coverage": "vitest run --coverage"
 	},
 	"dependencies": {
-		"@directus/constants": "workspace:*",
-		"@directus/types": "workspace:*",
-		"@directus/utils": "workspace:*",
+		"@d11f/constants": "workspace:*",
+		"@d11f/types": "workspace:*",
+		"@d11f/utils": "workspace:*",
 		"@types/express": "catalog:",
 		"fs-extra": "catalog:",
 		"lodash-es": "catalog:",

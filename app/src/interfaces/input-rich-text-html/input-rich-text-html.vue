@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { SettingsStorageAssetPreset } from '@directus/types';
+import type { SettingsStorageAssetPreset } from '@d11f/types';
 import Editor from '@tinymce/tinymce-vue';
 import { cloneDeep, isEqual } from 'lodash';
 import tinymce from 'tinymce/tinymce';

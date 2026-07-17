@@ -1,4 +1,4 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import {
 	ErrorCode,
 	InvalidCredentialsError,
@@ -6,7 +6,7 @@ import {
 	InvalidProviderError,
 	InvalidTokenError,
 	ServiceUnavailableError,
-} from '@directus/errors';
+} from '@d11f/errors';
 import { errors as openidErrors } from 'openid-client';
 import type { Logger } from 'pino';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
@@ -14,7 +14,7 @@ import { getAuthProvider } from '../../auth.js';
 import { useLogger } from '../../logger/index.js';
 import { createOpenIDAuthRouter, OpenIDAuthDriver } from './openid.js';
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn(() => ({
 		EMAIL_TEMPLATES_PATH: './templates',
 	})),

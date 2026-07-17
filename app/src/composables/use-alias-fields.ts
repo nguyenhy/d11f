@@ -1,5 +1,5 @@
-import { Query } from '@directus/types';
-import { get, getSimpleHash } from '@directus/utils';
+import { Query } from '@d11f/types';
+import { get, getSimpleHash } from '@d11f/utils';
 import { computed, ComputedRef, Ref, unref } from 'vue';
 import { adjustFieldsForDisplays } from '@/utils/adjust-fields-for-displays';
 

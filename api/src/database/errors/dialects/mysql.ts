@@ -5,8 +5,8 @@ import {
 	RecordNotUniqueError,
 	ValueOutOfRangeError,
 	ValueTooLongError,
-} from '@directus/errors';
-import type { Item } from '@directus/types';
+} from '@d11f/errors';
+import type { Item } from '@d11f/types';
 import type { MySQLError } from './types.js';
 
 enum MySQLErrorCodes {

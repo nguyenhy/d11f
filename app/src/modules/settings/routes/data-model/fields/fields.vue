@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useShortcut } from '@directus/composables';
-import formatTitle from '@directus/format-title';
-import { isSystemCollection } from '@directus/system-data';
+import { useShortcut } from '@d11f/composables';
+import formatTitle from '@d11f/format-title';
+import { isSystemCollection } from '@d11f/system-data';
 import { computed, ref, toRefs } from 'vue';
 import { RouterView, useRouter } from 'vue-router';
 import SettingsNavigation from '../../../components/navigation.vue';

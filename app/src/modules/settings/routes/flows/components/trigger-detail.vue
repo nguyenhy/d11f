@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { FlowRaw, TriggerType } from '@directus/types';
+import { FlowRaw, TriggerType } from '@d11f/types';
 import { computed, ref } from 'vue';
 import { getTriggers } from '../triggers';
 import VDrawer from '@/components/v-drawer.vue';

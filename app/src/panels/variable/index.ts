@@ -1,4 +1,4 @@
-import { definePanel } from '@directus/extensions';
+import { definePanel } from '@d11f/extensions';
 import { useI18n } from 'vue-i18n';
 import PanelVariable from './panel-variable.vue';
 import PreviewSVG from './preview.svg?raw';

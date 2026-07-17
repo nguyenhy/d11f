@@ -1,4 +1,4 @@
-import type { CheckFieldAccessData } from '@directus/visual-editing/types';
+import type { CheckFieldAccessData } from '@d11f/visual-editing/types';
 import { createTestingPinia } from '@pinia/testing';
 import { mount } from '@vue/test-utils';
 import { setActivePinia } from 'pinia';
@@ -11,7 +11,7 @@ import { useCollectionsStore } from '@/stores/collections';
 import { usePermissionsStore } from '@/stores/permissions';
 import { useUserStore } from '@/stores/user';
 
-vi.mock('@directus/composables', () => ({
+vi.mock('@d11f/composables', () => ({
 	useCollection: () => ({
 		info: { value: null },
 		primaryKeyField: { value: { field: 'id' } },
@@ -46,8 +46,8 @@ vi.mock('@/api', () => ({
 	default: { get: vi.fn(), post: vi.fn(), patch: vi.fn() },
 }));
 
-vi.mock('@directus/utils/browser', async (importOriginal) => ({
-	...(await importOriginal<typeof import('@directus/utils/browser')>()),
+vi.mock('@d11f/utils/browser', async (importOriginal) => ({
+	...(await importOriginal<typeof import('@d11f/utils/browser')>()),
 	sameOrigin: () => true,
 }));
 

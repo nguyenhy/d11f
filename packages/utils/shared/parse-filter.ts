@@ -1,4 +1,4 @@
-import type { Accountability, Filter, Policy, Role, User } from '@directus/types';
+import type { Accountability, Filter, Policy, Role, User } from '@d11f/types';
 import { isObjectLike } from 'lodash-es';
 import { deepMap } from './deep-map.js';
 import { get } from './get-with-arrays.js';

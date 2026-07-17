@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { type OtherValue, useCustomSelectionMultiple } from '@directus/composables';
+import { type OtherValue, useCustomSelectionMultiple } from '@d11f/composables';
 import { computed, ref, toRefs } from 'vue';
 import VCheckbox from '@/components/v-checkbox.vue';
 import VDetail from '@/components/v-detail.vue';

@@ -1,4 +1,4 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 
 /**
  * Check if Redis configuration exists in the current project's environment configuration

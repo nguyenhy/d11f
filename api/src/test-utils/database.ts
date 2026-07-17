@@ -3,7 +3,7 @@
  * Provides simplified mocks for src/database/index module used in service testing
  */
 
-import type { DatabaseClient } from '@directus/types';
+import type { DatabaseClient } from '@d11f/types';
 import { vi } from 'vitest';
 import { createMockKnex } from './knex.js';
 

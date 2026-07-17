@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { DeepPartial, Field, Settings, SettingsModuleBarLink, SettingsModuleBarModule } from '@directus/types';
+import { DeepPartial, Field, Settings, SettingsModuleBarLink, SettingsModuleBarModule } from '@d11f/types';
 import { assign } from 'lodash';
 import { nanoid } from 'nanoid';
 import { computed, ref } from 'vue';

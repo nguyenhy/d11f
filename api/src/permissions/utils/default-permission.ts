@@ -1,4 +1,4 @@
-import type { Permission } from '@directus/types';
+import type { Permission } from '@d11f/types';
 
 export const DEFUAULT_PERMISSION = {
 	policy: null,

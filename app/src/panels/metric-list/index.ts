@@ -1,4 +1,4 @@
-import { definePanel, type PanelQuery } from '@directus/extensions';
+import { definePanel, type PanelQuery } from '@d11f/extensions';
 import { computed } from 'vue';
 import PanelMetricList from './panel-metric-list.vue';
 import PreviewSVG from './preview.svg?raw';

@@ -1,5 +1,5 @@
-import { ErrorCode, isDirectusError } from '@directus/errors';
-import type { Item } from '@directus/types';
+import { ErrorCode, isDirectusError } from '@d11f/errors';
+import type { Item } from '@d11f/types';
 import { Router } from 'express';
 import { respond } from '../middleware/respond.js';
 import { validateBatch } from '../middleware/validate-batch.js';

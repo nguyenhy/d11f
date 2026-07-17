@@ -1,4 +1,4 @@
-import { InvalidPayloadError } from '@directus/errors';
+import { InvalidPayloadError } from '@d11f/errors';
 import { jsonSchema as aiJsonSchema, tool as aiTool } from 'ai';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { ALL_TOOLS } from '../../tools/index.js';

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCollection } from '@directus/composables';
+import { useCollection } from '@d11f/composables';
 import { get } from 'lodash';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';

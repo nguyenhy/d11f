@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import formatTitle from '@directus/format-title';
-import { DeepPartial, Field, FieldMeta } from '@directus/types';
+import formatTitle from '@d11f/format-title';
+import { DeepPartial, Field, FieldMeta } from '@d11f/types';
 import { isEqual, sortBy } from 'lodash';
 import { computed, ref, toRefs } from 'vue';
 import Draggable from 'vuedraggable';

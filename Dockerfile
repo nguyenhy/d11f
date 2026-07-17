@@ -13,7 +13,7 @@ RUN npm install --global corepack@latest
 
 RUN apk --no-cache add python3 py3-setuptools build-base
 
-WORKDIR /directus
+WORKDIR /d11f
 
 COPY package.json .
 RUN corepack enable && corepack prepare
@@ -33,7 +33,7 @@ RUN <<EOF
 	set -ex
 	pnpm install --recursive --offline --frozen-lockfile
 	npm_config_workspace_concurrency=2 pnpm run build
-	pnpm --filter directus deploy --legacy --prod dist
+	pnpm --filter ./d11f deploy --legacy --prod dist
 	cd dist
 	# Regenerate package.json file with essential fields only
 	# (see https://github.com/directus/directus/issues/20338)
@@ -55,16 +55,16 @@ RUN npm install --global \
 
 USER node
 
-WORKDIR /directus
+WORKDIR /d11f
 
 ENV \
 	DB_CLIENT="sqlite3" \
-	DB_FILENAME="/directus/database/database.sqlite" \
+	DB_FILENAME="/d11f/database/database.sqlite" \
 	NODE_ENV="production" \
 	NPM_CONFIG_UPDATE_NOTIFIER="false"
 
-COPY --from=builder --chown=node:node /directus/ecosystem.config.cjs .
-COPY --from=builder --chown=node:node /directus/dist .
+COPY --from=builder --chown=node:node /d11f/ecosystem.config.cjs .
+COPY --from=builder --chown=node:node /d11f/dist .
 
 EXPOSE 8055
 

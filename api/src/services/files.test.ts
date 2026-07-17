@@ -1,7 +1,7 @@
 import { PassThrough, Readable } from 'node:stream';
-import { useEnv } from '@directus/env';
-import { ForbiddenError, InternalServerError, InvalidPayloadError, ServiceUnavailableError } from '@directus/errors';
-import { Driver, StorageManager } from '@directus/storage';
+import { useEnv } from '@d11f/env';
+import { ForbiddenError, InternalServerError, InvalidPayloadError, ServiceUnavailableError } from '@d11f/errors';
+import { Driver, StorageManager } from '@d11f/storage';
 import { afterEach, beforeEach, describe, expect, it, type MockInstance, test, vi } from 'vitest';
 import { getAxios } from '../request/index.js';
 import { getStorage } from '../storage/index.js';
@@ -22,8 +22,8 @@ const mockEnvOverrides = vi.hoisted(
 		}) as Record<string, unknown>,
 );
 
-vi.mock('@directus/env', async (importOriginal) => {
-	const actual = await importOriginal<typeof import('@directus/env')>();
+vi.mock('@d11f/env', async (importOriginal) => {
+	const actual = await importOriginal<typeof import('@d11f/env')>();
 	const realEnv = actual.useEnv();
 
 	const envWithOverrides = new Proxy(realEnv as Record<string, unknown>, {

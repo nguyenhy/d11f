@@ -1,5 +1,5 @@
-import type { Snapshot, SnapshotDiff, SnapshotSystemField } from '@directus/types';
-import { DiffKind } from '@directus/types';
+import type { Snapshot, SnapshotDiff, SnapshotSystemField } from '@d11f/types';
+import { DiffKind } from '@d11f/types';
 import deepDiff from 'deep-diff';
 import { sanitizeCollection, sanitizeField, sanitizeRelation, sanitizeSystemField } from './sanitize-schema.js';
 

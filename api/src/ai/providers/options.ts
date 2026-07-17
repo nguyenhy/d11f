@@ -1,4 +1,4 @@
-import { buildCustomModels, DEFAULT_AI_MODELS, type ModelDefinition, type ProviderType } from '@directus/ai';
+import { buildCustomModels, DEFAULT_AI_MODELS, type ModelDefinition, type ProviderType } from '@d11f/ai';
 import type { AISettings } from './types.js';
 
 export function getModelDefinition(

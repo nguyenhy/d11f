@@ -1,4 +1,4 @@
-import type { RawField } from '@directus/types';
+import type { RawField } from '@d11f/types';
 import { describe, expect, it } from 'vitest';
 import { addFieldFlag } from './add-field-flag.js';
 

@@ -1,5 +1,5 @@
 import { randomUUID } from 'crypto';
-import { createDirectus, createUser, rest, serverHealth, staticToken } from '@directus/sdk';
+import { createDirectus, createUser, rest, serverHealth, staticToken } from '@d11f/sdk';
 import { database, env, options, port } from '@utils/constants.js';
 import { expect, test } from 'vitest';
 

@@ -1,4 +1,4 @@
-import type { Snapshot, SnapshotField, SnapshotRelation } from '@directus/types';
+import type { Snapshot, SnapshotField, SnapshotRelation } from '@d11f/types';
 
 export const snapshotBeforeCreateCollection: Snapshot = {
 	version: 1,

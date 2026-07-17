@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import { ForbiddenError } from '@directus/errors';
+import { useEnv } from '@d11f/env';
+import { ForbiddenError } from '@d11f/errors';
 import { Router } from 'express';
 import { useMetrics } from '../metrics/index.js';
 import asyncHandler from '../utils/async-handler.js';

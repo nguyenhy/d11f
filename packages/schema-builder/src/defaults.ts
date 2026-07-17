@@ -1,4 +1,4 @@
-import type { CollectionOverview, FieldOverview, Relation } from '@directus/types';
+import type { CollectionOverview, FieldOverview, Relation } from '@d11f/types';
 
 export type CollectionDefaults = Omit<CollectionOverview, 'fields' | 'primary' | 'collection'>;
 export type FieldDefaults = Omit<FieldOverview, 'field'>;

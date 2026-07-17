@@ -1,4 +1,4 @@
-import formatTitle from '@directus/format-title';
+import formatTitle from '@d11f/format-title';
 import { type MaybeRefOrGetter, onMounted, onUnmounted, toValue, unref, watch } from 'vue';
 import { z, ZodObject } from 'zod';
 import { useAiToolsStore } from '../stores/use-ai-tools';

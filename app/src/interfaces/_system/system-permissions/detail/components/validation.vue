@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { DeepPartial, Field, Permission, Policy } from '@directus/types';
+import { DeepPartial, Field, Permission, Policy } from '@d11f/types';
 import { computed, ref } from 'vue';
 import { useI18n } from 'vue-i18n';
 import AppMinimal from './app-minimal.vue';

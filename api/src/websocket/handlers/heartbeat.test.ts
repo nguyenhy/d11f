@@ -1,4 +1,4 @@
-import type { EventContext } from '@directus/types';
+import type { EventContext } from '@d11f/types';
 import type { Mock } from 'vitest';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import emitter from '../../emitter.js';
@@ -14,7 +14,7 @@ vi.mock('../controllers', () => ({
 
 // This is required because logger uses global env which is imported before the tests run. Can be
 // reduce to just mock the file when logger is also using useLogger everywhere @TODO
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		WEBSOCKETS_ENABLED: true,
 		WEBSOCKETS_REST_ENABLED: true,

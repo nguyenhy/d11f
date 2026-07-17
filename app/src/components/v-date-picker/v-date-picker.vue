@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isDynamicVariable, parseNow } from '@directus/utils';
+import { isDynamicVariable, parseNow } from '@d11f/utils';
 import {
 	CalendarDate,
 	CalendarDateTime,

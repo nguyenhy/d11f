@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { rulesToCssVars, useTheme } from '@directus/themes';
+import { rulesToCssVars, useTheme } from '@d11f/themes';
 import { computed } from 'vue';
 import { useThemeConfiguration } from '@/composables/use-theme-configuration';
 

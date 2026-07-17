@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCollection } from '@directus/composables';
+import { useCollection } from '@d11f/composables';
 import { computed, toRefs } from 'vue';
 import { useTemplateData } from '@/composables/use-template-data';
 import { useVersions } from '@/composables/use-versions';

@@ -1,4 +1,4 @@
-import type { ExtensionType } from '@directus/extensions';
+import type { ExtensionType } from '@d11f/extensions';
 
 export const extensionTypeIconMap: Record<ExtensionType, string> = {
 	interface: 'design_services',

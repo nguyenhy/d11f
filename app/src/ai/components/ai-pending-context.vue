@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { File } from '@directus/types';
+import type { File } from '@d11f/types';
 import { computed, onMounted, onUnmounted, ref, useTemplateRef } from 'vue';
 import { useVisualElementHighlight } from '../composables/use-visual-element-highlight';
 import { useAiContextStore } from '../stores/use-ai-context';

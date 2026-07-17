@@ -1,5 +1,5 @@
-import { LayoutProps } from '@directus/extensions';
-import { Field, PrimaryKey } from '@directus/types';
+import { LayoutProps } from '@d11f/extensions';
+import { Field, PrimaryKey } from '@d11f/types';
 import { Ref } from 'vue';
 import { useRouter } from 'vue-router';
 import { Item } from '@/components/v-table/types';

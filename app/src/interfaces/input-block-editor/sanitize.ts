@@ -1,4 +1,4 @@
-import { isObject } from '@directus/utils';
+import { isObject } from '@d11f/utils';
 import { OutputBlockData } from '@editorjs/editorjs';
 import dompurify from 'dompurify';
 import { cloneDeep, isString } from 'lodash';

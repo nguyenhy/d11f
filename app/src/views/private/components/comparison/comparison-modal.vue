@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { translateShortcut } from '@directus/composables';
-import type { ContentVersion, Item, PrimaryKey } from '@directus/types';
+import { translateShortcut } from '@d11f/composables';
+import type { ContentVersion, Item, PrimaryKey } from '@d11f/types';
 import { isEqual } from 'lodash';
 import { computed, ref, toRefs, unref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

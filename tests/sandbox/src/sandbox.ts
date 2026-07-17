@@ -1,7 +1,7 @@
 import { type ChildProcessWithoutNullStreams } from 'child_process';
 import { unlink } from 'fs/promises';
 import { join } from 'path';
-import type { DatabaseClient, DeepPartial } from '@directus/types';
+import type { DatabaseClient, DeepPartial } from '@d11f/types';
 import chalk from 'chalk';
 import { merge } from 'lodash-es';
 import { type Env, getEnv } from './config.js';

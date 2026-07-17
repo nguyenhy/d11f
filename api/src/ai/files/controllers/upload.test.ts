@@ -1,5 +1,5 @@
 import { Readable } from 'node:stream';
-import { ForbiddenError, InvalidPayloadError } from '@directus/errors';
+import { ForbiddenError, InvalidPayloadError } from '@d11f/errors';
 import type { NextFunction, Request, Response } from 'express';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { uploadToProvider } from '../lib/upload-to-provider.js';

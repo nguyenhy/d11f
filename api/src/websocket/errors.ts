@@ -1,4 +1,4 @@
-import { type DirectusError, isDirectusError } from '@directus/errors';
+import { type DirectusError, isDirectusError } from '@d11f/errors';
 import type { WebSocket } from 'ws';
 import { ZodError } from 'zod';
 import { fromZodError } from 'zod-validation-error';

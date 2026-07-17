@@ -1,5 +1,5 @@
-import { ErrorCode, ForbiddenError, isDirectusError } from '@directus/errors';
-import type { PrimaryKey } from '@directus/types';
+import { ErrorCode, ForbiddenError, isDirectusError } from '@d11f/errors';
+import type { PrimaryKey } from '@d11f/types';
 import express from 'express';
 import { respond } from '../middleware/respond.js';
 import useCollection from '../middleware/use-collection.js';

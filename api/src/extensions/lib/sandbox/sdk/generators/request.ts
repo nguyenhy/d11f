@@ -1,4 +1,4 @@
-import type { ExtensionSandboxRequestedScopes } from '@directus/extensions';
+import type { ExtensionSandboxRequestedScopes } from '@d11f/extensions';
 import encodeUrl from 'encodeurl';
 import globToRegExp from 'glob-to-regexp';
 import type { Reference } from 'isolated-vm';

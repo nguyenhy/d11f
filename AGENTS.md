@@ -30,7 +30,7 @@ pnpm install
 pnpm build
 
 # Build specific package
-pnpm --filter @directus/api build
+pnpm --filter @d11f/api build
 
 # Run development servers (API on :8055, App on :8080)
 cd api && pnpm dev    # API with hot reload
@@ -43,7 +43,7 @@ pnpm format           # Prettier check
 
 # Testing
 pnpm test                           # Run all unit tests
-pnpm --filter @directus/api test    # Test specific package
+pnpm --filter @d11f/api test    # Test specific package
 cd api && pnpm test:watch           # Watch mode in package
 pnpm test:coverage                  # Coverage report
 
@@ -79,12 +79,12 @@ TEST_DB=postgres pnpm test:blackbox  # Against specific database
 
 ### Key Shared Packages
 
-- **`@directus/types`** - Shared TypeScript types
-- **`@directus/utils`** - Shared utilities (node/browser/shared)
-- **`@directus/schema`** - Database schema utilities
-- **`@directus/extensions`** - Extension framework
-- **`@directus/storage`** - Abstract storage interface
-- **`@directus/storage-driver-*`** - Storage backends (S3, Azure, GCS, Local, etc.)
+- **`@d11f/types`** - Shared TypeScript types
+- **`@d11f/utils`** - Shared utilities (node/browser/shared)
+- **`@d11f/schema`** - Database schema utilities
+- **`@d11f/extensions`** - Extension framework
+- **`@d11f/storage`** - Abstract storage interface
+- **`@d11f/storage-driver-*`** - Storage backends (S3, Azure, GCS, Local, etc.)
 
 ## Code Style
 
@@ -173,7 +173,7 @@ Example breaking change changeset:
 
 ```markdown
 ---
-'@directus/api': major
+'@d11f/api': major
 ---
 
 Removed support for Node.js 18. Directus now requires Node.js 20 or higher.

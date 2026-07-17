@@ -1,5 +1,5 @@
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { Item } from '@directus/types';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { Item } from '@d11f/types';
 import { describe, expect, test } from 'vitest';
 import type { NestedCollectionNode } from '../../../types/ast.js';
 import { mergeWithParentItems } from './merge-with-parent-items.js';

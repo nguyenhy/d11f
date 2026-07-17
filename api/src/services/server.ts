@@ -1,9 +1,9 @@
 import { Readable } from 'node:stream';
 import { performance } from 'perf_hooks';
-import { useEnv } from '@directus/env';
-import type { AbstractServiceOptions, Accountability, SchemaOverview } from '@directus/types';
-import { toArray, toBoolean } from '@directus/utils';
-import { version } from 'directus/version';
+import { useEnv } from '@d11f/env';
+import type { AbstractServiceOptions, Accountability, SchemaOverview } from '@d11f/types';
+import { toArray, toBoolean } from '@d11f/utils';
+import { version } from 'd11f/version';
 import type { Knex } from 'knex';
 import { merge } from 'lodash-es';
 import { getCache } from '../cache.js';

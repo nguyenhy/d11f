@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { ContentVersion } from '@directus/types';
-import { getEndpoint } from '@directus/utils';
+import type { ContentVersion } from '@d11f/types';
+import { getEndpoint } from '@d11f/utils';
 import { isNil } from 'lodash';
 import { computed, ref, toRefs, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

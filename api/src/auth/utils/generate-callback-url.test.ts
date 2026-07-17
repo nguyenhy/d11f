@@ -1,8 +1,8 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import { beforeEach, describe, expect, test, vi } from 'vitest';
 import { generateCallbackUrl } from './generate-callback-url.js';
 
-vi.mock('@directus/env');
+vi.mock('@d11f/env');
 
 const PUBLIC_URL = 'https://directus.app';
 

@@ -1,5 +1,5 @@
 {
-	"name": "@directus/themes",
+	"name": "@d11f/themes",
 	"version": "1.3.3",
 	"description": "Themes for Directus",
 	"homepage": "https://directus.io",
@@ -28,7 +28,7 @@
 		"test:watch": "vitest"
 	},
 	"dependencies": {
-		"@directus/utils": "workspace:*",
+		"@d11f/utils": "workspace:*",
 		"decamelize": "catalog:",
 		"flat": "catalog:",
 		"lodash-es": "catalog:",
@@ -36,7 +36,7 @@
 	},
 	"devDependencies": {
 		"@directus/tsconfig": "catalog:",
-		"@directus/types": "workspace:*",
+		"@d11f/types": "workspace:*",
 		"@types/lodash-es": "catalog:",
 		"@unhead/vue": "catalog:",
 		"pinia": "catalog:",

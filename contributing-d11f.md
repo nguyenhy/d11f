@@ -1,16 +1,18 @@
 # Contributing to d11f
 
-This describes how to contribute to d11f — the parts of this repository developed independently after the
-v11.17.4 upstream Directus fork point. For the original upstream contributing process this codebase started from,
-see [contributing.md](./contributing.md) (historical reference only, not applicable to d11f changes).
+This describes how to contribute to d11f — the parts of this repository developed independently after the v11.17.4
+upstream Directus fork point. For the original upstream contributing process this codebase started from, see
+[contributing.md](./contributing.md) (historical reference only, not applicable to d11f changes).
 
 ## Scope
 
 d11f only accepts:
+
 - Independent bug fixes for issues observed in this codebase or documented in later upstream releases
 - Original features developed independently
 
 d11f does not accept:
+
 - Code copied or adapted from newer upstream Directus releases
 - License-key-gated functionality (SSO, custom LLM integration, custom permission rules, AI translations, etc.)
 

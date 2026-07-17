@@ -1,4 +1,4 @@
-import { DEFAULT_NUMERIC_PRECISION, DEFAULT_NUMERIC_SCALE } from '@directus/constants';
+import { DEFAULT_NUMERIC_PRECISION, DEFAULT_NUMERIC_SCALE } from '@d11f/constants';
 
 export function calculateDecimalLimit(precision: number | null, scale: number | null) {
 	if (precision === null || scale === null) {

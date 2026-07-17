@@ -1,4 +1,4 @@
-# @directus/pressure
+# @d11f/pressure
 
 Pressure based rate limiter
 
@@ -11,7 +11,7 @@ For more information about Directus, visit the [official website](https://direct
 ## Installation
 
 ```
-npm install @directus/pressure
+npm install @d11f/pressure
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ npm install @directus/pressure
 The pressure monitor is a class that can be used anywhere:
 
 ```js
-import { PressureMonitor } from '@directus/pressure';
+import { PressureMonitor } from '@d11f/pressure';
 
 const monitor = new PressureMonitor({
 	maxEventLoopUtilization: 0.8,
@@ -37,7 +37,7 @@ overloaded:
 
 ```js
 import express from 'express';
-import { handlePressure } from '@directus/pressure';
+import { handlePressure } from '@d11f/pressure';
 
 const app = express();
 

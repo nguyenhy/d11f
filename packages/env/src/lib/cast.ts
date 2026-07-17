@@ -1,4 +1,4 @@
-import { toArray, toBoolean } from '@directus/utils';
+import { toArray, toBoolean } from '@d11f/utils';
 import { toNumber, toString } from 'lodash-es';
 import { getDefaultType } from '../utils/get-default-type.js';
 import { guessType } from '../utils/guess-type.js';

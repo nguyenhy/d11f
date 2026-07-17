@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import { type Bus, createBus } from '@directus/memory';
+import { useEnv } from '@d11f/env';
+import { type Bus, createBus } from '@d11f/memory';
 import { redisConfigAvailable, useRedis } from '../../redis/index.js';
 
 export const _cache: { bus: Bus | undefined } = {

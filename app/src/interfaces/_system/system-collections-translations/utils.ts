@@ -1,5 +1,5 @@
-import { GENERATE_SPECIAL, RELATIONAL_TYPES } from '@directus/constants';
-import type { Field, Relation } from '@directus/types';
+import { GENERATE_SPECIAL, RELATIONAL_TYPES } from '@d11f/constants';
+import type { Field, Relation } from '@d11f/types';
 
 const DANGEROUS_SPECIALS = new Set<string>(GENERATE_SPECIAL);
 const RELATIONAL_SPECIALS = new Set<string>(RELATIONAL_TYPES);

@@ -1,4 +1,4 @@
-import type { ACTION, ClientMessage, WebSocketClient } from '@directus/types';
+import type { ACTION, ClientMessage, WebSocketClient } from '@d11f/types';
 
 export type PermissionClient = Pick<WebSocketClient, 'uid' | 'accountability'>;
 

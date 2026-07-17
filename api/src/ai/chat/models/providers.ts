@@ -1,4 +1,4 @@
-import type { ProviderType } from '@directus/ai';
+import type { ProviderType } from '@d11f/ai';
 import { z } from 'zod';
 
 export const ProviderTypeSchema = z.enum([

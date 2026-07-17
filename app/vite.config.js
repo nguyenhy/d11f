@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { APP_SHARED_DEPS } from '@directus/extensions';
-import { generateExtensionsEntrypoint, resolveFsExtensions, resolveModuleExtensions } from '@directus/extensions/node';
+import { APP_SHARED_DEPS } from '@d11f/extensions';
+import { generateExtensionsEntrypoint, resolveFsExtensions, resolveModuleExtensions } from '@d11f/extensions/node';
 import yaml from '@rollup/plugin-yaml';
 import UnheadVite from '@unhead/addons/vite';
 import vue from '@vitejs/plugin-vue';

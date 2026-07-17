@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useElementSize } from '@directus/composables';
+import { useElementSize } from '@d11f/composables';
 import { computed, inject, ref } from 'vue';
 import { AppTile } from './v-workspace-tile.vue';
 import VWorkspaceTile from '@/components/v-workspace-tile.vue';

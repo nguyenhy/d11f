@@ -1,4 +1,4 @@
-import type { ActionHandler, FilterHandler, InitHandler } from '@directus/types';
+import type { ActionHandler, FilterHandler, InitHandler } from '@d11f/types';
 import type { ScheduledJob } from '../utils/schedule.js';
 
 export type EventHandler =

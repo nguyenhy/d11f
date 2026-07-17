@@ -1,4 +1,4 @@
-import type { Filter, Policy, User } from '@directus/types';
+import type { Filter, Policy, User } from '@d11f/types';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { parseFilter } from './parse-filter.js';
 

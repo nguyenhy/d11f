@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { useLayout } from '@directus/composables';
-import { useShortcut } from '@directus/composables';
-import { isSystemCollection } from '@directus/system-data';
-import { DeepPartial, Field, Filter, Preset } from '@directus/types';
+import { useLayout } from '@d11f/composables';
+import { useShortcut } from '@d11f/composables';
+import { isSystemCollection } from '@d11f/system-data';
+import { DeepPartial, Field, Filter, Preset } from '@d11f/types';
 import { isEqual } from 'lodash';
 import { computed, ref } from 'vue';
 import { useRouter } from 'vue-router';

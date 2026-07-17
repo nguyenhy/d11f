@@ -1,4 +1,4 @@
-import type { FieldOverview } from '@directus/types';
+import type { FieldOverview } from '@d11f/types';
 import { expect, test } from 'vitest';
 import { isFieldNullable } from './is-field-nullable.js';
 

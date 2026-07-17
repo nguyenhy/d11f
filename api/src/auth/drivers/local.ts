@@ -1,7 +1,7 @@
 import { performance } from 'perf_hooks';
-import { useEnv } from '@directus/env';
-import { InvalidCredentialsError, InvalidPayloadError } from '@directus/errors';
-import type { Accountability } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import { InvalidCredentialsError, InvalidPayloadError } from '@d11f/errors';
+import type { Accountability } from '@d11f/types';
 import argon2 from 'argon2';
 import { Router } from 'express';
 import Joi from 'joi';

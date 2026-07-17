@@ -1,6 +1,6 @@
 import { resolve } from 'node:path';
 import { cwd } from 'node:process';
-import { DEFAULT_CHUNK_SIZE } from '@directus/constants';
+import { DEFAULT_CHUNK_SIZE } from '@d11f/constants';
 import type { Env } from '../types/env.js';
 
 export const DEFAULTS: Env = {

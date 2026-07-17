@@ -1,4 +1,4 @@
-import { ErrorCode, isDirectusError } from '@directus/errors';
+import { ErrorCode, isDirectusError } from '@d11f/errors';
 import express from 'express';
 import { respond } from '../middleware/respond.js';
 import useCollection from '../middleware/use-collection.js';

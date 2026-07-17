@@ -1,5 +1,5 @@
-import type { Accountability, Query, Relation, SchemaOverview } from '@directus/types';
-import { getRelation } from '@directus/utils';
+import type { Accountability, Query, Relation, SchemaOverview } from '@d11f/types';
+import { getRelation } from '@d11f/utils';
 import type { Knex } from 'knex';
 import { cloneDeep } from 'lodash-es';
 import { fetchAllowedFields } from '../../../permissions/modules/fetch-allowed-fields/fetch-allowed-fields.js';

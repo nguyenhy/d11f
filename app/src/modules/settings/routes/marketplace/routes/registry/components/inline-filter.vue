@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { EXTENSION_TYPES } from '@directus/constants';
+import { EXTENSION_TYPES } from '@d11f/constants';
 import { watchDebounced } from '@vueuse/core';
 import { computed, ref, toRefs } from 'vue';
 import { useI18n } from 'vue-i18n';

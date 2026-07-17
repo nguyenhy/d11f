@@ -1,7 +1,7 @@
 import { randomUUID } from 'crypto';
-import { useEnv } from '@directus/env';
-import { isDirectusError } from '@directus/errors';
-import type { Bus } from '@directus/memory';
+import { useEnv } from '@d11f/env';
+import { isDirectusError } from '@d11f/errors';
+import type { Bus } from '@d11f/memory';
 import {
 	type BroadcastMessage,
 	type ClientID,
@@ -10,7 +10,7 @@ import {
 	type ServerMessage,
 	type WebSocketClient,
 	WS_TYPE,
-} from '@directus/types';
+} from '@d11f/types';
 import { useBus } from '../../bus/index.js';
 import { useLogger } from '../../logger/index.js';
 import { useStore } from './store.js';

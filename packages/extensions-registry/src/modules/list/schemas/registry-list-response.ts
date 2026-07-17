@@ -1,4 +1,4 @@
-import { EXTENSION_TYPES } from '@directus/constants';
+import { EXTENSION_TYPES } from '@d11f/constants';
 import { z } from 'zod';
 
 export const RegistryListResponse = z.object({

@@ -1,7 +1,7 @@
-import { useEnv } from '@directus/env';
-import { ForbiddenError, InvalidPayloadError, ServiceUnavailableError } from '@directus/errors';
-import { ClientMessage, type WebSocketClient, WS_TYPE } from '@directus/types';
-import { toArray } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { ForbiddenError, InvalidPayloadError, ServiceUnavailableError } from '@d11f/errors';
+import { ClientMessage, type WebSocketClient, WS_TYPE } from '@d11f/types';
+import { toArray } from '@d11f/utils';
 import { difference, intersection, isEmpty, upperFirst } from 'lodash-es';
 import getDatabase from '../../database/index.js';
 import emitter from '../../emitter.js';

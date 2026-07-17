@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import formatTitle from '@directus/format-title';
-import type { ClientID } from '@directus/types';
-import { toArray } from '@directus/utils';
+import formatTitle from '@d11f/format-title';
+import type { ClientID } from '@d11f/types';
+import { toArray } from '@d11f/utils';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { COLLAB_USERS_DISPLAY_LIMIT, formatUserAvatar, getFocusId } from './utils';

@@ -1,5 +1,5 @@
-import { InvalidPayloadError } from '@directus/errors';
-import { type Accountability, type SchemaOverview } from '@directus/types';
+import { InvalidPayloadError } from '@d11f/errors';
+import { type Accountability, type SchemaOverview } from '@d11f/types';
 import type { Tool } from 'ai';
 import { jsonSchema, tool, zodSchema } from 'ai';
 import { fromZodError } from 'zod-validation-error';

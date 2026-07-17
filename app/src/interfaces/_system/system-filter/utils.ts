@@ -1,4 +1,4 @@
-import { Filter } from '@directus/types';
+import { Filter } from '@d11f/types';
 import { get, isPlainObject } from 'lodash';
 
 export function getNodeName(node: Filter): string {

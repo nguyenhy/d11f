@@ -1,10 +1,10 @@
-import { useEnv } from '@directus/env';
-import type { MutationOptions } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import type { MutationOptions } from '@d11f/types';
 import type Keyv from 'keyv';
 import { afterEach, expect, test, vi } from 'vitest';
 import { shouldClearCache } from './should-clear-cache.js';
 
-vi.mock('@directus/env');
+vi.mock('@d11f/env');
 
 afterEach(() => {
 	vi.clearAllMocks();

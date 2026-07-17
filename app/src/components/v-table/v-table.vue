@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ShowSelect } from '@directus/types';
+import type { ShowSelect } from '@d11f/types';
 import { clone, forEach, pick } from 'lodash';
 import { computed, ref, useSlots } from 'vue';
 import Draggable from 'vuedraggable';

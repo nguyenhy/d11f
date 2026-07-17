@@ -1,7 +1,7 @@
 {
-	"name": "@directus/storage-driver-azure",
+	"name": "@d11f/storage-driver-azure",
 	"version": "12.0.22",
-	"description": "Azure file storage abstraction for `@directus/storage`",
+	"description": "Azure file storage abstraction for `@d11f/storage`",
 	"homepage": "https://directus.io",
 	"repository": {
 		"type": "git",
@@ -28,12 +28,12 @@
 	},
 	"dependencies": {
 		"@azure/storage-blob": "catalog:",
-		"@directus/storage": "workspace:*",
-		"@directus/utils": "workspace:*"
+		"@d11f/storage": "workspace:*",
+		"@d11f/utils": "workspace:*"
 	},
 	"devDependencies": {
 		"@directus/tsconfig": "catalog:",
-		"@directus/types": "workspace:*",
+		"@d11f/types": "workspace:*",
 		"@ngneat/falso": "catalog:",
 		"@vitest/coverage-v8": "catalog:",
 		"tsdown": "catalog:",

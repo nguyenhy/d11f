@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import formatTitle from '@directus/format-title';
+import formatTitle from '@d11f/format-title';
 import { FieldTree } from './types';
 import VIcon from '@/components/v-icon/v-icon.vue';
 import VListGroup from '@/components/v-list-group.vue';

@@ -2,7 +2,7 @@ import type { IntervalHistogram } from 'node:perf_hooks';
 import { monitorEventLoopDelay, performance } from 'node:perf_hooks';
 import { memoryUsage } from 'node:process';
 import { setTimeout } from 'node:timers';
-import { defaults } from '@directus/utils';
+import { defaults } from '@d11f/utils';
 
 export type PressureMonitorOptions = {
 	maxEventLoopDelay?: number | false;

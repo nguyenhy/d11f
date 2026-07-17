@@ -1,5 +1,5 @@
-import { ForbiddenError } from '@directus/errors';
-import type { Accountability } from '@directus/types';
+import { ForbiddenError } from '@d11f/errors';
+import type { Accountability } from '@d11f/types';
 import { beforeEach, expect, test, vi } from 'vitest';
 import { AccessService } from '../../../services/access.js';
 import { PermissionsService } from '../../../services/index.js';

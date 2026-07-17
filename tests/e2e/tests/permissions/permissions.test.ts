@@ -14,7 +14,7 @@ import {
 	updateItem,
 	updateItems,
 	updatePolicy,
-} from '@directus/sdk';
+} from '@d11f/sdk';
 import { port } from '@utils/constants.js';
 import { useSnapshot } from '@utils/use-snapshot.js';
 import { expect, test } from 'vitest';

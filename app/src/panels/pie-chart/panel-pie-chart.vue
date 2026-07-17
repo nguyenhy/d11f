@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { cssVar } from '@directus/utils/browser';
+import { cssVar } from '@d11f/utils/browser';
 import ApexCharts from 'apexcharts';
 import { isNil } from 'lodash';
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue';

@@ -1,5 +1,5 @@
-import { InvalidPayloadError } from '@directus/errors';
-import type { AbstractServiceOptions, Item, MutationOptions, PrimaryKey } from '@directus/types';
+import { InvalidPayloadError } from '@d11f/errors';
+import type { AbstractServiceOptions, Item, MutationOptions, PrimaryKey } from '@d11f/types';
 import getDatabase from '../database/index.js';
 import { ItemsService } from './items.js';
 

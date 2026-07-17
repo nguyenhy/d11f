@@ -1,6 +1,6 @@
-import { Action } from '@directus/constants';
-import { useEnv } from '@directus/env';
-import { toBoolean } from '@directus/utils';
+import { Action } from '@d11f/constants';
+import { useEnv } from '@d11f/env';
+import { toBoolean } from '@d11f/utils';
 import type { Knex } from 'knex';
 import { getHelpers } from '../database/helpers/index.js';
 import getDatabase from '../database/index.js';

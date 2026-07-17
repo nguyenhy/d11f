@@ -1,7 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 import { useFonts } from './use-fonts';
 
-vi.mock('@directus/utils/browser', () => ({ cssVar: () => 'Inter' }));
+vi.mock('@d11f/utils/browser', () => ({ cssVar: () => 'Inter' }));
 
 const ThemeSchemaMock = {
 	rules: {

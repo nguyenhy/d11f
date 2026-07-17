@@ -1,5 +1,5 @@
-import type { Field, Relation, SchemaOverview, Snapshot } from '@directus/types';
-import { version } from 'directus/version';
+import type { Field, Relation, SchemaOverview, Snapshot } from '@d11f/types';
+import { version } from 'd11f/version';
 import type { Knex } from 'knex';
 import { fromPairs, isArray, isPlainObject, mapValues, omit, sortBy, toPairs } from 'lodash-es';
 import getDatabase, { getDatabaseClient } from '../database/index.js';

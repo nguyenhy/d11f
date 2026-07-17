@@ -1,5 +1,5 @@
-import { appAccessMinimalPermissions } from '@directus/system-data';
-import type { Accountability, Permission, Query } from '@directus/types';
+import { appAccessMinimalPermissions } from '@d11f/system-data';
+import type { Accountability, Permission, Query } from '@d11f/types';
 import { cloneDeep } from 'lodash-es';
 import { filterItems } from '../../utils/filter-items.js';
 

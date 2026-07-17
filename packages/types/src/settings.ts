@@ -1,4 +1,4 @@
-import type { OpenAICompatibleHeader, OpenAICompatibleModel } from '@directus/ai';
+import type { OpenAICompatibleHeader, OpenAICompatibleModel } from '@d11f/ai';
 
 export type SettingsModuleBarModule = {
 	type: 'module';

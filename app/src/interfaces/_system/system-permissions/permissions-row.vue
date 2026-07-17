@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Permission, PermissionsAction } from '@directus/types';
+import { Permission, PermissionsAction } from '@d11f/types';
 import PermissionsToggle from './permissions-toggle.vue';
 import { editablePermissionActions, EditablePermissionsAction } from '@/app-permissions.js';
 import VIcon from '@/components/v-icon/v-icon.vue';

@@ -1,6 +1,6 @@
-import { InvalidQueryError } from '@directus/errors';
-import type { FieldFunction, SchemaOverview } from '@directus/types';
-import { getOutputTypeForFunction } from '@directus/utils';
+import { InvalidQueryError } from '@d11f/errors';
+import type { FieldFunction, SchemaOverview } from '@d11f/types';
+import { getOutputTypeForFunction } from '@d11f/utils';
 import type { Knex } from 'knex';
 import { getHelpers } from '../../../../helpers/index.js';
 import { getColumn } from '../../../utils/get-column.js';

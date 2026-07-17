@@ -1,5 +1,5 @@
-import { ForbiddenError } from '@directus/errors';
-import type { Permission } from '@directus/types';
+import { ForbiddenError } from '@d11f/errors';
+import type { Permission } from '@d11f/types';
 import { expect, test } from 'vitest';
 import { validatePathPermissions } from './validate-path-permissions.js';
 

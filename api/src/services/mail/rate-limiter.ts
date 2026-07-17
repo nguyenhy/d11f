@@ -1,6 +1,6 @@
-import { useEnv } from '@directus/env';
-import { EmailLimitExceededError } from '@directus/errors';
-import { toBoolean } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { EmailLimitExceededError } from '@d11f/errors';
+import { toBoolean } from '@d11f/utils';
 import { RateLimiterQueue } from 'rate-limiter-flexible';
 import { createRateLimiter } from '../../rate-limiter.js';
 

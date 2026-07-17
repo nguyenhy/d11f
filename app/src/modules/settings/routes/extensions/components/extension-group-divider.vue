@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { pluralize } from '@directus/utils';
+import { pluralize } from '@d11f/utils';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { extensionTypeIconMap } from '../constants';

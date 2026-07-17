@@ -1,4 +1,4 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import type { Request } from 'express';
 import type { Knex } from 'knex';
 import { afterEach, beforeAll, beforeEach, describe, expect, type MockInstance, test, vi } from 'vitest';
@@ -18,9 +18,9 @@ vi.mock('../flows.js', () => ({
 	}),
 }));
 
-vi.mock('directus/version', () => ({ version: '1.2.3' }));
+vi.mock('d11f/version', () => ({ version: '1.2.3' }));
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		REDIS_ENABLED: false,
 	}),

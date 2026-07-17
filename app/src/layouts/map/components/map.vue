@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useAppStore } from '@directus/stores';
-import type { ShowSelect } from '@directus/types';
+import { useAppStore } from '@d11f/stores';
+import type { ShowSelect } from '@d11f/types';
 import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
 import { useResizeObserver } from '@vueuse/core';
 import { debounce } from 'lodash';

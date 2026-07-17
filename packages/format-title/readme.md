@@ -1,4 +1,4 @@
-# @directus/format-title
+# @d11f/format-title
 
 Custom formatter that converts any string into
 [Title Case](https://apastyle.apa.org/style-grammar-guidelines/capitalization/title-case).
@@ -20,7 +20,7 @@ they start or end the title.
 ## Installation
 
 ```shell
-npm install @directus/format-title
+npm install @d11f/format-title
 ```
 
 ## Usage

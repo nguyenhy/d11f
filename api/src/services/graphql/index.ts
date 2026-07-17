@@ -1,4 +1,4 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import type {
 	AbstractServiceOptions,
 	Accountability,
@@ -8,7 +8,7 @@ import type {
 	PrimaryKey,
 	Query,
 	SchemaOverview,
-} from '@directus/types';
+} from '@d11f/types';
 import type { ExecutionResult, FormattedExecutionResult, GraphQLSchema } from 'graphql';
 import { execute, NoSchemaIntrospectionCustomRule, specifiedRules, validate } from 'graphql';
 import type { Knex } from 'knex';

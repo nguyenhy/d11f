@@ -1,4 +1,4 @@
-import { Field, Relation } from '@directus/types';
+import { Field, Relation } from '@d11f/types';
 import { computed, Ref } from 'vue';
 import { useCollectionsStore } from '@/stores/collections';
 import { useFieldsStore } from '@/stores/fields';

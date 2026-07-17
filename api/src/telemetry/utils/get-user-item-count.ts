@@ -1,4 +1,4 @@
-import { isSystemCollection } from '@directus/system-data';
+import { isSystemCollection } from '@d11f/system-data';
 import { type Knex } from 'knex';
 import { getSchema } from '../../utils/get-schema.js';
 import { getItemCount } from './get-item-count.js';

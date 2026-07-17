@@ -5,8 +5,8 @@ export default {
 </script>
 
 <script setup lang="ts">
-import { useSync } from '@directus/composables';
-import { Field } from '@directus/types';
+import { useSync } from '@d11f/composables';
+import { Field } from '@d11f/types';
 import { add, startOfWeek } from 'date-fns';
 import VCollectionFieldTemplate from '@/components/v-collection-field-template.vue';
 import VSelect from '@/components/v-select/v-select.vue';

@@ -1,4 +1,4 @@
-import { Permission } from '@directus/types';
+import { Permission } from '@d11f/types';
 
 export const appRecommendedPermissions: Partial<Permission>[] = [
 	{

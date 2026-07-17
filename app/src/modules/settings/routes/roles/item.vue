@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useShortcut } from '@directus/composables';
-import { Role } from '@directus/types';
+import { useShortcut } from '@d11f/composables';
+import { Role } from '@d11f/types';
 import { computed, ref, toRefs } from 'vue';
 import { useRouter } from 'vue-router';
 import SettingsNavigation from '../../components/navigation.vue';

@@ -1,4 +1,4 @@
-import type { LogicalFilterAND, LogicalFilterOR, Permission } from '@directus/types';
+import type { LogicalFilterAND, LogicalFilterOR, Permission } from '@d11f/types';
 import { flatten, isEqual, merge, omit } from 'lodash-es';
 import { mergeFields } from './merge-fields.js';
 

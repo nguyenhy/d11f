@@ -1,4 +1,4 @@
-import { useAppStore } from '@directus/stores';
+import { useAppStore } from '@d11f/stores';
 import { onDehydrateExtensions, onHydrateExtensions } from './extensions';
 import { setLanguage } from './lang/set-language';
 import { useAiStore } from '@/ai/stores/use-ai';

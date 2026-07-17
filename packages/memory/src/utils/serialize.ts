@@ -1,4 +1,4 @@
-import { parseJSON } from '@directus/utils';
+import { parseJSON } from '@d11f/utils';
 import { stringToUint8Array } from './string-to-uint8array.js';
 import { uint8ArrayToString } from './uint8array-to-string.js';
 

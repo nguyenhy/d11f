@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { RegistryAccountResponse, RegistryListResponse } from '@directus/extensions-registry';
+import type { RegistryAccountResponse, RegistryListResponse } from '@d11f/extensions-registry';
 import { computed, ref, watchEffect } from 'vue';
 import SettingsNavigation from '../../../../components/navigation.vue';
 import ExtensionListItem from '../../components/extension-list-item.vue';

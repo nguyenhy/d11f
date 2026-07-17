@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { appAccessMinimalPermissions } from '@directus/system-data';
-import { Permission, Policy, PrimaryKey } from '@directus/types';
+import { appAccessMinimalPermissions } from '@d11f/system-data';
+import { Permission, Policy, PrimaryKey } from '@d11f/types';
 import { computed, ref, toRefs, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import Actions from './components/actions.vue';

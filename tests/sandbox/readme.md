@@ -51,7 +51,7 @@ The api is accessed through the following two functions:
 #### Example
 
 ```ts
-import { sandbox } from '@directus/sandbox';
+import { sandbox } from '@d11f/sandbox';
 
 const sb = await sandbox('postgres', { dev: true });
 

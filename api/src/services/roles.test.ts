@@ -1,6 +1,6 @@
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { MutationOptions } from '@directus/types';
-import { UserIntegrityCheckFlag } from '@directus/types';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { MutationOptions } from '@d11f/types';
+import { UserIntegrityCheckFlag } from '@d11f/types';
 import knex from 'knex';
 import { createTracker, MockClient } from 'knex-mock-client';
 import { afterEach, describe, expect, it, vi } from 'vitest';

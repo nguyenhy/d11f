@@ -1,4 +1,4 @@
-import { InvalidPayloadError } from '@directus/errors';
+import { InvalidPayloadError } from '@d11f/errors';
 import Joi from 'joi';
 import asyncHandler from '../utils/async-handler.js';
 import { sanitizeQuery } from '../utils/sanitize-query.js';

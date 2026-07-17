@@ -1,6 +1,6 @@
 import { isObjectLike, isPlainObject } from 'lodash-es';
 
-// Modified from @directus/utils
+// Modified from @d11f/utils
 export function deepMap(
 	object: any,
 	callback: (key: string | number, value: any) => [key: string | number, any],

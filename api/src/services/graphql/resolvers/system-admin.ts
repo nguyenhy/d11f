@@ -1,6 +1,6 @@
-import { InvalidPayloadError } from '@directus/errors';
-import { isSystemField } from '@directus/system-data';
-import type { GraphQLParams } from '@directus/types';
+import { InvalidPayloadError } from '@d11f/errors';
+import { isSystemField } from '@d11f/system-data';
+import type { GraphQLParams } from '@d11f/types';
 import { GraphQLBoolean, GraphQLID, GraphQLList, GraphQLNonNull, GraphQLString } from 'graphql';
 import { SchemaComposer, toInputObjectType } from 'graphql-compose';
 import { CollectionsService } from '../../collections.js';

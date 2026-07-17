@@ -1,4 +1,4 @@
-import type { Accountability, GlobalAccess, Policy } from '@directus/types';
+import type { Accountability, GlobalAccess, Policy } from '@d11f/types';
 import type { Knex } from 'knex';
 import { toArray, toBoolean } from '../../../shared/index.js';
 import { ipInNetworks } from '../../ip-in-networks.js';

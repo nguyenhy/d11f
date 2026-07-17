@@ -1,4 +1,4 @@
-import { defineOperationApi } from '@directus/extensions';
+import { defineOperationApi } from '@d11f/extensions';
 
 type Options = {
 	milliseconds: string | number;

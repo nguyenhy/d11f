@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { DeepPartial, Field, FieldMeta } from '@directus/types';
+import { DeepPartial, Field, FieldMeta } from '@d11f/types';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import Repeater from './list.vue';

@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import { LimitExceededError } from '@directus/errors';
+import { useEnv } from '@d11f/env';
+import { LimitExceededError } from '@d11f/errors';
 import { type UserCount } from '../../utils/fetch-user-count/fetch-user-count.js';
 
 const env = useEnv();

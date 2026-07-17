@@ -1,4 +1,4 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import cors from 'cors';
 import type { RequestHandler } from 'express';
 

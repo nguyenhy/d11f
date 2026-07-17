@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { toArray } from '@directus/utils';
+import { toArray } from '@d11f/utils';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { COLLAB_USERS_DISPLAY_LIMIT, formatUserAvatar, getFocusId } from './utils';

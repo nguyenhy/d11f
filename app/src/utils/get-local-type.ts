@@ -1,5 +1,5 @@
-import { LocalType, Relation } from '@directus/types';
-import { getRelation } from '@directus/utils';
+import { LocalType, Relation } from '@d11f/types';
+import { getRelation } from '@d11f/utils';
 import { useFieldsStore } from '@/stores/fields';
 import { useRelationsStore } from '@/stores/relations';
 

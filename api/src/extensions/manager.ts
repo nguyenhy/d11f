@@ -4,11 +4,11 @@ import os from 'node:os';
 import { dirname, join, relative, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import path from 'path';
-import { HYBRID_EXTENSION_TYPES } from '@directus/constants';
-import { useEnv } from '@directus/env';
-import { APP_SHARED_DEPS } from '@directus/extensions';
-import { generateExtensionsEntrypoint } from '@directus/extensions/node';
-import DriverLocal from '@directus/storage-driver-local';
+import { HYBRID_EXTENSION_TYPES } from '@d11f/constants';
+import { useEnv } from '@d11f/env';
+import { APP_SHARED_DEPS } from '@d11f/extensions';
+import { generateExtensionsEntrypoint } from '@d11f/extensions/node';
+import DriverLocal from '@d11f/storage-driver-local';
 import type {
 	ActionHandler,
 	ApiExtension,
@@ -26,9 +26,9 @@ import type {
 	OperationApiConfig,
 	PromiseCallback,
 	ScheduleHandler,
-} from '@directus/types';
-import { isTypeIn, toBoolean } from '@directus/utils';
-import { pathToRelativeUrl, processId } from '@directus/utils/node';
+} from '@d11f/types';
+import { isTypeIn, toBoolean } from '@d11f/utils';
+import { pathToRelativeUrl, processId } from '@d11f/utils/node';
 import aliasDefault from '@rollup/plugin-alias';
 import nodeResolveDefault from '@rollup/plugin-node-resolve';
 import virtualDefault from '@rollup/plugin-virtual';

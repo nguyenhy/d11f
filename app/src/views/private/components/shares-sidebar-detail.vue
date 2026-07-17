@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useGroupable } from '@directus/composables';
-import { PrimaryKey, Share } from '@directus/types';
-import { abbreviateNumber } from '@directus/utils';
+import { useGroupable } from '@d11f/composables';
+import { PrimaryKey, Share } from '@d11f/types';
+import { abbreviateNumber } from '@d11f/utils';
 import { computed, onMounted, ref, Ref, toRefs, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useSidebarStore } from '../private-view/stores/sidebar';

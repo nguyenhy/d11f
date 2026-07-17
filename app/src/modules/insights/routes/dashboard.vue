@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useShortcut } from '@directus/composables';
-import { applyOptionsData } from '@directus/utils';
+import { useShortcut } from '@d11f/composables';
+import { applyOptionsData } from '@d11f/utils';
 import { assign, isEmpty } from 'lodash';
 import { computed, ref, toRefs, unref, watch } from 'vue';
 import { RouterView } from 'vue-router';

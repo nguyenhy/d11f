@@ -1,4 +1,4 @@
-import { InvalidTokenError, ServiceUnavailableError, TokenExpiredError } from '@directus/errors';
+import { InvalidTokenError, ServiceUnavailableError, TokenExpiredError } from '@d11f/errors';
 import jwt from 'jsonwebtoken';
 import type { DirectusTokenPayload } from '../types/index.js';
 

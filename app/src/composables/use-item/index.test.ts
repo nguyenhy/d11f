@@ -1,5 +1,5 @@
-import { useCollection } from '@directus/composables';
-import { AppCollection, Field, Relation } from '@directus/types';
+import { useCollection } from '@d11f/composables';
+import { AppCollection, Field, Relation } from '@d11f/types';
 import { createTestingPinia } from '@pinia/testing';
 import { setActivePinia } from 'pinia';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
@@ -60,7 +60,7 @@ vi.mock('@/sdk', async () => {
 	});
 });
 
-vi.mock('@directus/composables');
+vi.mock('@d11f/composables');
 
 vi.mock('@/utils/get-related-collection', () => ({
 	getRelatedCollection: vi.fn(() => ({

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useAppStore } from '@directus/stores';
-import { User } from '@directus/types';
+import { useAppStore } from '@d11f/stores';
+import { User } from '@d11f/types';
 import { useHead } from '@unhead/vue';
 import { computed, nextTick, onMounted, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

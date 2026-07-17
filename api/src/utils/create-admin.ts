@@ -1,6 +1,6 @@
-import { useEnv } from '@directus/env';
-import type { SchemaOverview } from '@directus/types';
-import type { Policy, Role, User } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import type { SchemaOverview } from '@d11f/types';
+import type { Policy, Role, User } from '@d11f/types';
 import { useLogger } from '../logger/index.js';
 import { AccessService } from '../services/access.js';
 import { UsersService } from '../services/index.js';

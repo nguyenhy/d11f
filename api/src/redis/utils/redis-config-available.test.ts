@@ -1,8 +1,8 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import { afterEach, expect, test, vi } from 'vitest';
 import { redisConfigAvailable } from './redis-config-available.js';
 
-vi.mock('@directus/env');
+vi.mock('@d11f/env');
 
 afterEach(() => {
 	vi.clearAllMocks();

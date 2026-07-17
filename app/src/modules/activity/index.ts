@@ -1,4 +1,4 @@
-import { defineModule } from '@directus/extensions';
+import { defineModule } from '@d11f/extensions';
 import ActivityCollection from './routes/collection.vue';
 import ActivityItem from './routes/item.vue';
 

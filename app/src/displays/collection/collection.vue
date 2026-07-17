@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCollection } from '@directus/composables';
+import { useCollection } from '@d11f/composables';
 import { toRefs } from 'vue';
 import VIcon from '@/components/v-icon/v-icon.vue';
 import ValueNull from '@/views/private/components/value-null.vue';

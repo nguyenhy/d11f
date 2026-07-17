@@ -1,7 +1,7 @@
 import { randomUUID } from 'node:crypto';
-import { useEnv } from '@directus/env';
-import { list, type ListOptions } from '@directus/extensions-registry';
-import type { BundleExtension, Extension, ExtensionSettings } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import { list, type ListOptions } from '@d11f/extensions-registry';
+import type { BundleExtension, Extension, ExtensionSettings } from '@d11f/types';
 import getDatabase from '../../database/index.js';
 import { ExtensionsService } from '../../services/extensions.js';
 import { getSchema } from '../../utils/get-schema.js';

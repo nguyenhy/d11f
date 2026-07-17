@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Collection } from '@directus/types';
+import type { Collection } from '@d11f/types';
 import { render } from 'micromustache';
 import { computed, inject, ref } from 'vue';
 import { RouterLink } from 'vue-router';

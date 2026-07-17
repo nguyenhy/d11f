@@ -1,4 +1,4 @@
-import type { Kv } from '@directus/memory';
+import type { Kv } from '@d11f/memory';
 import { ERRORS, type Lock, type Locker, type RequestRelease } from '@tus/utils';
 import { useLock } from '../../lock/index.js';
 import { waitTimeout } from './utils/wait-timeout.js';

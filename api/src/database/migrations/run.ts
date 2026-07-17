@@ -1,8 +1,8 @@
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import path from 'path';
-import { useEnv } from '@directus/env';
-import formatTitle from '@directus/format-title';
+import { useEnv } from '@d11f/env';
+import formatTitle from '@d11f/format-title';
 import fse from 'fs-extra';
 import type { Knex } from 'knex';
 import { orderBy } from 'lodash-es';

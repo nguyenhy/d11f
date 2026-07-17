@@ -1,5 +1,5 @@
-import { DEFAULT_CHUNK_SIZE } from '@directus/constants';
-import type { File } from '@directus/types';
+import { DEFAULT_CHUNK_SIZE } from '@d11f/constants';
+import type { File } from '@d11f/types';
 import type { AxiosProgressEvent } from 'axios';
 import type { PreviousUpload } from 'tus-js-client';
 import { Upload } from 'tus-js-client';

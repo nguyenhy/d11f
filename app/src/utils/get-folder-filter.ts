@@ -1,4 +1,4 @@
-import { Filter } from '@directus/types';
+import { Filter } from '@d11f/types';
 import { subDays } from 'date-fns';
 import { SpecialFolder } from '@/types/folders';
 

@@ -1,5 +1,5 @@
-import { InvalidPayloadError } from '@directus/errors';
-import { type Bus } from '@directus/memory';
+import { InvalidPayloadError } from '@d11f/errors';
+import { type Bus } from '@d11f/memory';
 import { useBus } from '../../bus/index.js';
 import emitter from '../../emitter.js';
 import { getSchema } from '../../utils/get-schema.js';

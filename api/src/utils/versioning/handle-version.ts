@@ -1,6 +1,6 @@
-import { ForbiddenError } from '@directus/errors';
-import type { Accountability, Item, PrimaryKey, Query, QueryOptions } from '@directus/types';
-import { deepMapWithSchema } from '@directus/utils';
+import { ForbiddenError } from '@d11f/errors';
+import type { Accountability, Item, PrimaryKey, Query, QueryOptions } from '@d11f/types';
+import { deepMapWithSchema } from '@d11f/utils';
 import type { ItemsService as ItemsServiceType } from '../../services/index.js';
 import { transaction } from '../transaction.js';
 import { splitRecursive } from './split-recursive.js';

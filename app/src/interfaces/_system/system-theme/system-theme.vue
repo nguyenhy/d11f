@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useThemeStore } from '@directus/themes';
+import { useThemeStore } from '@d11f/themes';
 import { computed } from 'vue';
 import ThemePreview from './theme-preview.vue';
 import VIcon from '@/components/v-icon/v-icon.vue';

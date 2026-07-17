@@ -1,5 +1,5 @@
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { Accountability } from '@directus/types';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { Accountability } from '@d11f/types';
 import type { Knex } from 'knex';
 import knex from 'knex';
 import { createTracker, MockClient, Tracker } from 'knex-mock-client';

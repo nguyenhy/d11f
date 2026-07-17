@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useApi } from '@directus/composables';
-import { useShortcut } from '@directus/composables';
-import { Alterations, Item, Policy } from '@directus/types';
+import { useApi } from '@d11f/composables';
+import { useShortcut } from '@d11f/composables';
+import { Alterations, Item, Policy } from '@d11f/types';
 import { cloneDeep, isEmpty, isEqual, isObjectLike } from 'lodash';
 import { computed, onMounted, ref } from 'vue';
 import { useI18n } from 'vue-i18n';

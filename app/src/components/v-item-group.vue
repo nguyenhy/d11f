@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useGroupableParent } from '@directus/composables';
+import { useGroupableParent } from '@d11f/composables';
 import { toRefs } from 'vue';
 
 interface Props {

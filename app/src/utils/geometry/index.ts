@@ -8,7 +8,7 @@ import {
 	GeometryOptions,
 	SimpleGeometry,
 	Type,
-} from '@directus/types';
+} from '@d11f/types';
 import { coordEach } from '@turf/meta';
 import { BBox, Feature, FeatureCollection, Point } from 'geojson';
 import { stringify as geojsonToWKT, parse as wktToGeoJSON } from 'wellknown';

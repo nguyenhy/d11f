@@ -1,9 +1,9 @@
-import { useEnv } from '@directus/env';
-import type { SchemaInspector } from '@directus/schema';
-import { createInspector } from '@directus/schema';
-import { systemCollectionRows } from '@directus/system-data';
-import type { Filter, SchemaOverview } from '@directus/types';
-import { parseJSON, toArray, toBoolean } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import type { SchemaInspector } from '@d11f/schema';
+import { createInspector } from '@d11f/schema';
+import { systemCollectionRows } from '@d11f/system-data';
+import type { Filter, SchemaOverview } from '@d11f/types';
+import { parseJSON, toArray, toBoolean } from '@d11f/utils';
 import type { Knex } from 'knex';
 import { mapValues } from 'lodash-es';
 import { useBus } from '../bus/index.js';

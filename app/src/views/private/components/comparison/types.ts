@@ -1,4 +1,4 @@
-import type { ContentVersion, User } from '@directus/types';
+import type { ContentVersion, User } from '@d11f/types';
 import type { Activity } from '@/types/activity';
 import type { Revision } from '@/types/revisions';
 

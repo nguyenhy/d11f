@@ -1,5 +1,5 @@
-import { Collection, Item, PrimaryKey } from '@directus/types';
-import { getEndpoint, getFieldsFromTemplate } from '@directus/utils';
+import { Collection, Item, PrimaryKey } from '@d11f/types';
+import { getEndpoint, getFieldsFromTemplate } from '@d11f/utils';
 import { has, merge, pick } from 'lodash';
 import { computed, ComputedRef, ref, Ref, watch } from 'vue';
 import sdk, { requestEndpoint } from '@/sdk';

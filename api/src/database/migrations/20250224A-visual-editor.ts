@@ -1,4 +1,4 @@
-import type { SettingsModuleBarLink, SettingsModuleBarModule } from '@directus/types';
+import type { SettingsModuleBarLink, SettingsModuleBarModule } from '@d11f/types';
 import type { Knex } from 'knex';
 
 type ModuleBar = (SettingsModuleBarLink | SettingsModuleBarModule)[];

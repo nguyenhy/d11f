@@ -1,4 +1,4 @@
-import type { Relation } from '@directus/types';
+import type { Relation } from '@d11f/types';
 
 type GetRelationOptions = {
 	relation: Relation;

@@ -1,8 +1,8 @@
-import { useEnv } from '@directus/env';
-import { InvalidPayloadError, InvalidQueryError, RangeNotSatisfiableError } from '@directus/errors';
-import type { Range, TransformationFormat, TransformationParams } from '@directus/types';
-import { TransformationMethods } from '@directus/types';
-import { getDateTimeFormatted, parseJSON } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { InvalidPayloadError, InvalidQueryError, RangeNotSatisfiableError } from '@d11f/errors';
+import type { Range, TransformationFormat, TransformationParams } from '@d11f/types';
+import { TransformationMethods } from '@d11f/types';
+import { getDateTimeFormatted, parseJSON } from '@d11f/utils';
 import contentDisposition from 'content-disposition';
 import { Router } from 'express';
 import { merge, pick } from 'lodash-es';

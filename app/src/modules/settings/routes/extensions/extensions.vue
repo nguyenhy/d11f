@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ApiOutput } from '@directus/types';
+import { ApiOutput } from '@d11f/types';
 import { groupBy } from 'lodash';
 import { storeToRefs } from 'pinia';
 import { computed } from 'vue';

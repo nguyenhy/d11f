@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ErrorCode } from '@directus/errors';
+import { ErrorCode } from '@d11f/errors';
 import { computed, ref } from 'vue';
 import { useRouter } from 'vue-router';
 import z from 'zod';

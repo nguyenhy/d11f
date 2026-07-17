@@ -1,4 +1,4 @@
-import type { Filter, Query } from '@directus/types';
+import type { Filter, Query } from '@d11f/types';
 import { expect, test } from 'vitest';
 import type { FieldKey } from '../types.js';
 import { flattenFilter } from './flatten-filter.js';

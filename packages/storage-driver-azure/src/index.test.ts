@@ -1,8 +1,8 @@
 import { join } from 'node:path';
 import { PassThrough } from 'node:stream';
 import { BlobServiceClient, type ContainerClient, StorageSharedKeyCredential } from '@azure/storage-blob';
-import { normalizePath } from '@directus/utils';
-import { isReadableStream } from '@directus/utils/node';
+import { normalizePath } from '@d11f/utils';
+import { isReadableStream } from '@d11f/utils/node';
 import {
 	randAlphaNumeric,
 	randGitBranch as randContainer,
@@ -20,8 +20,8 @@ import {
 import { afterEach, beforeEach, describe, expect, type Mock, test, vi } from 'vitest';
 import { DriverAzure, type DriverAzureConfig } from './index.js';
 
-vi.mock('@directus/utils/node');
-vi.mock('@directus/utils');
+vi.mock('@d11f/utils/node');
+vi.mock('@d11f/utils');
 vi.mock('@azure/storage-blob');
 vi.mock('node:path');
 

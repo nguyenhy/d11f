@@ -1,6 +1,6 @@
-import { useEnv } from '@directus/env';
-import { ErrorCode, isDirectusError } from '@directus/errors';
-import type { Accountability } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import { ErrorCode, isDirectusError } from '@d11f/errors';
+import type { Accountability } from '@d11f/types';
 import type { NextFunction, Request, Response } from 'express';
 import { isEqual } from 'lodash-es';
 import { SESSION_COOKIE_OPTIONS } from '../constants.js';

@@ -1,4 +1,4 @@
-import type { LayoutConfig } from '@directus/extensions';
+import type { LayoutConfig } from '@d11f/extensions';
 import { sortBy } from 'lodash';
 import { App } from 'vue';
 

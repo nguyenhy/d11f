@@ -1,6 +1,6 @@
 import type { Readable } from 'node:stream';
 import path from 'path';
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import {
 	ForbiddenError,
 	IllegalAssetTransformationError,
@@ -8,7 +8,7 @@ import {
 	InvalidQueryError,
 	RangeNotSatisfiableError,
 	ServiceUnavailableError,
-} from '@directus/errors';
+} from '@d11f/errors';
 import type {
 	AbstractServiceOptions,
 	Accountability,
@@ -18,7 +18,7 @@ import type {
 	Stat,
 	Transformation,
 	TransformationSet,
-} from '@directus/types';
+} from '@d11f/types';
 import archiver from 'archiver';
 import type { Knex } from 'knex';
 import { clamp } from 'lodash-es';

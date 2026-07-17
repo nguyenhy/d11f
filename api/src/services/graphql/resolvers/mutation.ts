@@ -1,4 +1,4 @@
-import type { Item, PrimaryKey } from '@directus/types';
+import type { Item, PrimaryKey } from '@d11f/types';
 import type { GraphQLResolveInfo } from 'graphql';
 import { getService } from '../../../utils/get-service.js';
 import { formatError } from '../errors/format.js';

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Field, FlowRaw } from '@directus/types';
+import { Field, FlowRaw } from '@d11f/types';
 import slugify from '@sindresorhus/slugify';
 import { customAlphabet } from 'nanoid/non-secure';
 import { computed, ref, watch } from 'vue';

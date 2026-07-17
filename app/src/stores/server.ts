@@ -1,4 +1,4 @@
-import formatTitle from '@directus/format-title';
+import formatTitle from '@d11f/format-title';
 import { acceptHMRUpdate, defineStore } from 'pinia';
 import { computed, reactive } from 'vue';
 import api, { replaceQueue } from '@/api';

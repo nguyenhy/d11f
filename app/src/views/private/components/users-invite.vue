@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Role } from '@directus/types';
+import { Role } from '@d11f/types';
 import { ref, watch } from 'vue';
 import api from '@/api';
 import VButton from '@/components/v-button.vue';

@@ -1,7 +1,7 @@
 import type { IncomingHttpHeaders } from 'node:http';
-import type { StandardProviderType } from '@directus/ai';
-import { AI_ALLOWED_MIME_TYPES } from '@directus/ai';
-import { ForbiddenError, InvalidPayloadError } from '@directus/errors';
+import type { StandardProviderType } from '@d11f/ai';
+import { AI_ALLOWED_MIME_TYPES } from '@d11f/ai';
+import { ForbiddenError, InvalidPayloadError } from '@d11f/errors';
 import Busboy from 'busboy';
 import type { RequestHandler } from 'express';
 import { useLogger } from '../../../logger/index.js';

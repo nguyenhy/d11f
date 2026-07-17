@@ -1,5 +1,5 @@
-import type { Item, Query } from '@directus/types';
-import { WebSocketMessage } from '@directus/types';
+import type { Item, Query } from '@d11f/types';
+import { WebSocketMessage } from '@d11f/types';
 import { z } from 'zod';
 
 const zodStringOrNumber = z.union([z.string(), z.number()]);

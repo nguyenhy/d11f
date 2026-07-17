@@ -1,4 +1,4 @@
-import { Role, User } from '@directus/types';
+import { Role, User } from '@d11f/types';
 
 export type ShareUser = {
 	share: string;

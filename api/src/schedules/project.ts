@@ -1,4 +1,4 @@
-import { version } from 'directus/version';
+import { version } from 'd11f/version';
 import { random } from 'lodash-es';
 import getDatabase from '../database/index.js';
 import { sendReport } from '../telemetry/index.js';

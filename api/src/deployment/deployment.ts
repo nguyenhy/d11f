@@ -9,7 +9,7 @@ import type {
 	Status,
 	TriggerResult,
 	WebhookRegistrationResult,
-} from '@directus/types';
+} from '@d11f/types';
 import type { AxiosRequestConfig, AxiosResponse } from 'axios';
 import { getAxios } from '../request/index.js';
 

@@ -1,4 +1,4 @@
-import type { Permission } from '@directus/types';
+import type { Permission } from '@d11f/types';
 import { expect, test } from 'vitest';
 import { hasItemPermissions } from './has-item-permissions.js';
 

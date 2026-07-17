@@ -1,4 +1,4 @@
-import type { SchemaOverview } from '@directus/types';
+import type { SchemaOverview } from '@d11f/types';
 import { createCollectionForbiddenError, createFieldsForbiddenError } from './create-error.js';
 
 export function validatePathExistence(path: string, collection: string, fields: Set<string>, schema: SchemaOverview) {

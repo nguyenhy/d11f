@@ -1,5 +1,5 @@
-import type { Permission } from '@directus/types';
-import { deepMap } from '@directus/utils';
+import type { Permission } from '@d11f/types';
+import { deepMap } from '@d11f/utils';
 
 export interface DynamicVariableContext {
 	$CURRENT_USER: Set<string>;

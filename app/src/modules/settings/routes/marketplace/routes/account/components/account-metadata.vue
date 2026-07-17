@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { RegistryAccountResponse } from '@directus/extensions-registry';
+import { RegistryAccountResponse } from '@d11f/extensions-registry';
 import { computed } from 'vue';
 import MetadataItem from '../../../components/metadata-item.vue';
 import VDivider from '@/components/v-divider.vue';

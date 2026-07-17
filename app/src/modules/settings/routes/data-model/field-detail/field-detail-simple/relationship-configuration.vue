@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { LOCAL_TYPES } from '@directus/constants';
+import { LOCAL_TYPES } from '@d11f/constants';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import RelatedCollectionSelect from '../shared/related-collection-select.vue';

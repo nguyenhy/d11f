@@ -1,5 +1,5 @@
-import type { ProviderFileRef, StandardProviderType } from '@directus/ai';
-import { InvalidPayloadError } from '@directus/errors';
+import type { ProviderFileRef, StandardProviderType } from '@d11f/ai';
+import { InvalidPayloadError } from '@d11f/errors';
 import type { AISettings } from '../../providers/types.js';
 import { uploadToAnthropic, uploadToGoogle, uploadToOpenAI } from '../adapters/index.js';
 import type { UploadedFile } from '../types.js';

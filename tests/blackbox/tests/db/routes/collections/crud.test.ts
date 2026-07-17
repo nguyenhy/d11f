@@ -3,7 +3,7 @@ import { ClearCaches, DisableTestCachingSetup } from '@common/functions';
 import vendors from '@common/get-dbs-to-test';
 import { requestGraphQL } from '@common/transport';
 import { DEFAULT_DB_TABLES, PRIMARY_KEY_TYPES, TEST_USERS, USER } from '@common/variables';
-import type { Collection } from '@directus/types';
+import type { Collection } from '@d11f/types';
 import type { Knex } from 'knex';
 import knex from 'knex';
 import { findIndex } from 'lodash-es';

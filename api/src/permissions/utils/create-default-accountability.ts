@@ -1,4 +1,4 @@
-import type { Accountability } from '@directus/types';
+import type { Accountability } from '@d11f/types';
 
 export function createDefaultAccountability(overrides?: Partial<Accountability>): Accountability {
 	return {

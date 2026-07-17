@@ -1,5 +1,5 @@
-import type { SchemaOverview } from '@directus/types';
-import { getRelation } from '@directus/utils';
+import type { SchemaOverview } from '@d11f/types';
+import { getRelation } from '@d11f/utils';
 
 export function getRelatedCollection(schema: SchemaOverview, collection: string, field: string): string | null {
 	const relation = getRelation(schema.relations, collection, field);

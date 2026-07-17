@@ -1,4 +1,4 @@
-import { defineInterface } from '@directus/extensions';
+import { defineInterface } from '@d11f/extensions';
 import InputPassword from './input-password.vue';
 
 export default defineInterface({

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { ExtensionOptionsContext } from '@directus/extensions';
-import { isVueComponent } from '@directus/utils';
+import type { ExtensionOptionsContext } from '@d11f/extensions';
+import { isVueComponent } from '@d11f/utils';
 import { computed, inject, ref } from 'vue';
 import VForm from '@/components/v-form/v-form.vue';
 import VNotice from '@/components/v-notice.vue';

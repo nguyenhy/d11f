@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useSync } from '@directus/composables';
-import { useShortcut } from '@directus/composables';
-import type { Field, Filter, Item, ShowSelect } from '@directus/types';
+import { useSync } from '@d11f/composables';
+import { useShortcut } from '@d11f/composables';
+import type { Field, Filter, Item, ShowSelect } from '@d11f/types';
 import { ComponentPublicInstance, inject, ref, Ref, toRefs, watch } from 'vue';
 import VDivider from '@/components/v-divider.vue';
 import VFieldList from '@/components/v-field-list/v-field-list.vue';

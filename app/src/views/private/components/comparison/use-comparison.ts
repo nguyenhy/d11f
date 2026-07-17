@@ -1,5 +1,5 @@
-import type { ContentVersion, Field, Item, PrimaryKey, User } from '@directus/types';
-import { getEndpoint } from '@directus/utils';
+import type { ContentVersion, Field, Item, PrimaryKey, User } from '@d11f/types';
+import { getEndpoint } from '@d11f/utils';
 import { has, isEqual, mergeWith, orderBy } from 'lodash';
 import { computed, type Ref, ref, watch } from 'vue';
 import type {

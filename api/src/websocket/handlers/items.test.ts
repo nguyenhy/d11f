@@ -1,4 +1,4 @@
-import type { EventContext } from '@directus/types';
+import type { EventContext } from '@d11f/types';
 import type { Mock } from 'vitest';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import emitter from '../../emitter.js';

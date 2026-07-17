@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import type { AbstractServiceOptions, MutationOptions, Notification, PrimaryKey } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import type { AbstractServiceOptions, MutationOptions, Notification, PrimaryKey } from '@d11f/types';
 import { useLogger } from '../logger/index.js';
 import { fetchRolesTree } from '../permissions/lib/fetch-roles-tree.js';
 import { fetchGlobalAccess } from '../permissions/modules/fetch-global-access/fetch-global-access.js';

@@ -6,8 +6,8 @@ import type {
 	NUMERIC_TYPES,
 	RELATIONAL_TYPES,
 	TYPES,
-} from '@directus/constants';
-import type { Column } from '@directus/schema';
+} from '@d11f/constants';
+import type { Column } from '@d11f/schema';
 import type { Filter, FilterOperator } from './filter.js';
 import type { DeepPartial } from './misc.js';
 

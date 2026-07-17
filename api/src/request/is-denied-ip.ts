@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import { IpBlocklist } from '@directus/utils/node';
+import { useEnv } from '@d11f/env';
+import { IpBlocklist } from '@d11f/utils/node';
 import { useLogger } from '../logger/index.js';
 
 export function isDeniedIp(ip: string): boolean {

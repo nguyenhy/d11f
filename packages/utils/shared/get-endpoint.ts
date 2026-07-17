@@ -1,4 +1,4 @@
-import { isSystemCollection } from '@directus/system-data';
+import { isSystemCollection } from '@d11f/system-data';
 
 export function getEndpoint(collection: string): string {
 	if (isSystemCollection(collection)) {

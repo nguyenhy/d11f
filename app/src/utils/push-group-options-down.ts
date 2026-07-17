@@ -1,4 +1,4 @@
-import { Field, FieldMeta } from '@directus/types';
+import { Field, FieldMeta } from '@d11f/types';
 import { cloneDeep } from 'lodash';
 
 export function pushGroupOptionsDown(fields: Field[]) {

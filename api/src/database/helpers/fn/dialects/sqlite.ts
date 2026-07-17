@@ -1,4 +1,4 @@
-import { InvalidQueryError } from '@directus/errors';
+import { InvalidQueryError } from '@d11f/errors';
 import type { Knex } from 'knex';
 import type { FnHelperOptions } from '../types.js';
 import { FnHelper } from '../types.js';

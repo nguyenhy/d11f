@@ -1,4 +1,4 @@
-import { SchemaBuilder } from '@directus/schema-builder';
+import { SchemaBuilder } from '@d11f/schema-builder';
 import knex from 'knex';
 import { expect, test, vi } from 'vitest';
 import { applyAggregate } from './aggregate.js';

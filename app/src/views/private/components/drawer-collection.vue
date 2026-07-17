@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useCollection, useLayout } from '@directus/composables';
-import { Filter } from '@directus/types';
-import { mergeFilters } from '@directus/utils';
+import { useCollection, useLayout } from '@d11f/composables';
+import { Filter } from '@d11f/types';
+import { mergeFilters } from '@d11f/utils';
 import { isEqual } from 'lodash';
 import { computed, ref, toRefs, unref, watch } from 'vue';
 import PrivateViewHeaderBarActionButton from '../private-view/components/private-view-header-bar-action-button.vue';

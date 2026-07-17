@@ -1,4 +1,4 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import {
 	ErrorCode,
 	InvalidCredentialsError,
@@ -8,9 +8,9 @@ import {
 	InvalidTokenError,
 	isDirectusError,
 	ServiceUnavailableError,
-} from '@directus/errors';
-import type { Accountability } from '@directus/types';
-import { parseJSON, toArray } from '@directus/utils';
+} from '@d11f/errors';
+import type { Accountability } from '@d11f/types';
+import { parseJSON, toArray } from '@d11f/utils';
 import express, { Router } from 'express';
 import { flatten } from 'flat';
 import jwt from 'jsonwebtoken';

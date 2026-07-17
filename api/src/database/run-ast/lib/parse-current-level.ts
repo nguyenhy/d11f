@@ -1,4 +1,4 @@
-import type { Query, SchemaOverview } from '@directus/types';
+import type { Query, SchemaOverview } from '@d11f/types';
 import type { FieldNode, FunctionFieldNode, NestedCollectionNode } from '../../../types/ast.js';
 import { parseFilterKey } from '../../../utils/parse-filter-key.js';
 import { parseJsonFunction } from '../../helpers/fn/json/parse-function.js';

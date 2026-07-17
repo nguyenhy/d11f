@@ -1,4 +1,4 @@
-import type { DeepPartial, Field } from '@directus/types';
+import type { DeepPartial, Field } from '@d11f/types';
 import { computed, type MaybeRef, toValue } from 'vue';
 import { useI18n } from 'vue-i18n';
 

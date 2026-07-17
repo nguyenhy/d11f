@@ -1,5 +1,5 @@
-import { ForbiddenError } from '@directus/errors';
-import type { Accountability, Snapshot, SnapshotDiffWithHash } from '@directus/types';
+import { ForbiddenError } from '@d11f/errors';
+import type { Accountability, Snapshot, SnapshotDiffWithHash } from '@d11f/types';
 import type { Diff } from 'deep-diff';
 import type { Knex } from 'knex';
 import knex from 'knex';
@@ -10,7 +10,7 @@ import { applyDiff } from '../utils/apply-diff.js';
 import { getSnapshot } from '../utils/get-snapshot.js';
 import { SchemaService } from './schema.js';
 
-vi.mock('directus/version', () => ({ version: '0.0.0' }));
+vi.mock('d11f/version', () => ({ version: '0.0.0' }));
 
 vi.mock('../../src/database/index.js', () => {
 	return { __esModule: true, default: vi.fn(), getDatabaseClient: vi.fn().mockReturnValue('postgres') };

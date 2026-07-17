@@ -1,7 +1,7 @@
-import type { Column, SchemaOverview } from '@directus/schema';
-import type { FieldMeta } from '@directus/types';
-import { parseJSON } from '@directus/utils';
-import { getNodeEnv } from '@directus/utils/node';
+import type { Column, SchemaOverview } from '@d11f/schema';
+import type { FieldMeta } from '@d11f/types';
+import { parseJSON } from '@d11f/utils';
+import { getNodeEnv } from '@d11f/utils/node';
 import { useLogger } from '../logger/index.js';
 import getLocalType from './get-local-type.js';
 

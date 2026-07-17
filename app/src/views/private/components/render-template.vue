@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Field } from '@directus/types';
-import { get } from '@directus/utils';
+import { Field } from '@d11f/types';
+import { get } from '@d11f/utils';
 import { computed } from 'vue';
 import ValueNull from './value-null.vue';
 import VErrorBoundary from '@/components/v-error-boundary.vue';

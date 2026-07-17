@@ -1,5 +1,5 @@
 {
-	"name": "@directus/schema-builder",
+	"name": "@d11f/schema-builder",
 	"version": "0.0.20",
 	"description": "Directus SchemaBuilder for mocking/constructing a database schema based on code.",
 	"keywords": [
@@ -37,7 +37,7 @@
 		"test:coverage": "vitest run --coverage"
 	},
 	"dependencies": {
-		"@directus/types": "workspace:*",
+		"@d11f/types": "workspace:*",
 		"lodash-es": "catalog:"
 	},
 	"devDependencies": {

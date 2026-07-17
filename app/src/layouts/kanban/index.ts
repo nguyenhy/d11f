@@ -1,7 +1,7 @@
-import { useCollection, useFilterFields, useItems, useSync } from '@directus/composables';
-import { defineLayout } from '@directus/extensions';
-import { Field, PermissionsAction, User } from '@directus/types';
-import { getEndpoint, getRelationType, moveInArray } from '@directus/utils';
+import { useCollection, useFilterFields, useItems, useSync } from '@d11f/composables';
+import { defineLayout } from '@d11f/extensions';
+import { Field, PermissionsAction, User } from '@d11f/types';
+import { getEndpoint, getRelationType, moveInArray } from '@d11f/utils';
 import { uniq } from 'lodash';
 import { computed, ref, toRefs, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

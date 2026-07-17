@@ -1,5 +1,5 @@
-import type { Accountability, Permission } from '@directus/types';
-import { parseFilter, parsePreset } from '@directus/utils';
+import type { Accountability, Permission } from '@d11f/types';
+import { parseFilter, parsePreset } from '@d11f/utils';
 
 export interface ProcessPermissionsOptions {
 	permissions: Permission[];

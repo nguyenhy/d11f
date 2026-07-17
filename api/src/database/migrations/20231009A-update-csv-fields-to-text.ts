@@ -1,4 +1,4 @@
-import { createInspector } from '@directus/schema';
+import { createInspector } from '@d11f/schema';
 import type { Knex } from 'knex';
 import { getHelpers } from '../helpers/index.js';
 

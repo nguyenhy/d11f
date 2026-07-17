@@ -1,5 +1,5 @@
-import { InvalidPayloadError } from '@directus/errors';
-import type { Field } from '@directus/types';
+import { InvalidPayloadError } from '@d11f/errors';
+import type { Field } from '@d11f/types';
 import { describe, expect, test } from 'vitest';
 import { cloneFields, validateFieldsEligibility } from './translations-shared.js';
 

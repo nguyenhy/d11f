@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isValidJSON, parseJSON } from '@directus/utils';
+import { isValidJSON, parseJSON } from '@d11f/utils';
 import CodeMirror from 'codemirror';
 import 'codemirror/addon/mode/simple';
 import { computed, onMounted, ref, unref, watch } from 'vue';

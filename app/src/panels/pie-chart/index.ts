@@ -1,5 +1,5 @@
-import { definePanel } from '@directus/extensions';
-import { cssVar } from '@directus/utils/browser';
+import { definePanel } from '@d11f/extensions';
+import { cssVar } from '@d11f/utils/browser';
 import { computed } from 'vue';
 import PanelPieChart from './panel-pie-chart.vue';
 import PreviewSVG from './preview.svg?raw';

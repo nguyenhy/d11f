@@ -1,4 +1,4 @@
-import { REGEX_BETWEEN_PARENS } from '@directus/constants';
+import { REGEX_BETWEEN_PARENS } from '@d11f/constants';
 import { adjustDate } from './adjust-date.js';
 
 /**

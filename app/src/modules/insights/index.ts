@@ -1,4 +1,4 @@
-import { defineModule } from '@directus/extensions';
+import { defineModule } from '@d11f/extensions';
 import InsightsDashboard from './routes/dashboard.vue';
 import InsightsOverview from './routes/overview.vue';
 import InsightsPanelConfiguration from './routes/panel-configuration.vue';

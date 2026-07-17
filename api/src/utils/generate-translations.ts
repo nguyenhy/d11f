@@ -1,4 +1,4 @@
-import { InvalidPayloadError } from '@directus/errors';
+import { InvalidPayloadError } from '@d11f/errors';
 import type {
 	AbstractServiceOptions,
 	ActionEventParams,
@@ -9,7 +9,7 @@ import type {
 	RelationMeta,
 	SchemaOverview,
 	Type,
-} from '@directus/types';
+} from '@d11f/types';
 import { z } from 'zod';
 import { fromZodError } from 'zod-validation-error';
 import emitter from '../emitter.js';

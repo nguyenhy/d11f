@@ -1,4 +1,4 @@
-import { Width } from '@directus/system-data';
+import { Width } from '@d11f/system-data';
 import { createTestingPinia } from '@pinia/testing';
 import { mount } from '@vue/test-utils';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';

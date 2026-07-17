@@ -1,6 +1,6 @@
-import { InvalidPayloadError } from '@directus/errors';
-import type { AbstractServiceOptions, MutationOptions, Policy, PrimaryKey } from '@directus/types';
-import { UserIntegrityCheckFlag } from '@directus/types';
+import { InvalidPayloadError } from '@d11f/errors';
+import type { AbstractServiceOptions, MutationOptions, Policy, PrimaryKey } from '@d11f/types';
+import { UserIntegrityCheckFlag } from '@d11f/types';
 import { getMatch } from 'ip-matching';
 import { clearSystemCache } from '../cache.js';
 import { clearCache as clearPermissionsCache } from '../permissions/cache.js';

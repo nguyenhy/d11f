@@ -1,6 +1,6 @@
-import { InvalidQueryError } from '@directus/errors';
-import type { Relation, SchemaOverview } from '@directus/types';
-import { getRelationInfo } from '@directus/utils';
+import { InvalidQueryError } from '@d11f/errors';
+import type { Relation, SchemaOverview } from '@d11f/types';
+import { getRelationInfo } from '@d11f/utils';
 
 export type AliasMap = { [key: string]: { alias: string; collection: string } };
 

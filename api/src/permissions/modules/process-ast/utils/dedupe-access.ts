@@ -1,4 +1,4 @@
-import type { Filter, Permission } from '@directus/types';
+import type { Filter, Permission } from '@d11f/types';
 import hash from 'object-hash';
 
 /**

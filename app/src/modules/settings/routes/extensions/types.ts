@@ -1,4 +1,4 @@
-import { ExtensionType as ExtensionTypeOriginal } from '@directus/extensions';
+import { ExtensionType as ExtensionTypeOriginal } from '@d11f/extensions';
 
 export type ExtensionState = 'enabled' | 'disabled' | 'partial';
 

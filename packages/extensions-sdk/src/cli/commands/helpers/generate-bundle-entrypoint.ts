@@ -1,8 +1,8 @@
 import path from 'path';
-import { API_EXTENSION_TYPES, APP_EXTENSION_TYPES, HYBRID_EXTENSION_TYPES } from '@directus/constants';
-import type { ExtensionOptionsBundleEntry } from '@directus/extensions';
-import { isIn, isTypeIn, pluralize } from '@directus/utils';
-import { pathToRelativeUrl } from '@directus/utils/node';
+import { API_EXTENSION_TYPES, APP_EXTENSION_TYPES, HYBRID_EXTENSION_TYPES } from '@d11f/constants';
+import type { ExtensionOptionsBundleEntry } from '@d11f/extensions';
+import { isIn, isTypeIn, pluralize } from '@d11f/utils';
+import { pathToRelativeUrl } from '@d11f/utils/node';
 
 export default function generateBundleEntrypoint(mode: 'app' | 'api', entries: ExtensionOptionsBundleEntry[]): string {
 	const types = [...(mode === 'app' ? APP_EXTENSION_TYPES : API_EXTENSION_TYPES), ...HYBRID_EXTENSION_TYPES];

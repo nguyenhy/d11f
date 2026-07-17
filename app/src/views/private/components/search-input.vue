@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useElementSize } from '@directus/composables';
-import { Filter } from '@directus/types';
+import { useElementSize } from '@d11f/composables';
+import { Filter } from '@d11f/types';
 import { isObject } from 'lodash';
 import { computed, inject, onMounted, ref, Ref, watch } from 'vue';
 import TransitionExpand from '@/components/transition/expand.vue';

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { Field } from '@directus/types';
-import { isValidJSON, parseJSON } from '@directus/utils';
+import type { Field } from '@d11f/types';
+import { isValidJSON, parseJSON } from '@d11f/utils';
 import { isNil } from 'lodash';
 import { computed, ref, watch } from 'vue';
 import type { FormField } from '../types';

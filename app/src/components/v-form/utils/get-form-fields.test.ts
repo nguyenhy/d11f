@@ -1,5 +1,5 @@
-import type { InterfaceConfig } from '@directus/extensions';
-import type { DeepPartial, Field } from '@directus/types';
+import type { InterfaceConfig } from '@d11f/extensions';
+import type { DeepPartial, Field } from '@d11f/types';
 import { expect, it, vi } from 'vitest';
 import { ref, type Ref } from 'vue';
 import type { FormField } from '../types';

@@ -1,8 +1,8 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import type { Snapshot, SnapshotDiff } from '@directus/types';
-import { DiffKind } from '@directus/types';
-import { parseJSON } from '@directus/utils';
+import type { Snapshot, SnapshotDiff } from '@d11f/types';
+import { DiffKind } from '@d11f/types';
+import { parseJSON } from '@d11f/utils';
 import chalk from 'chalk';
 import inquirer from 'inquirer';
 import { load as loadYaml } from 'js-yaml';

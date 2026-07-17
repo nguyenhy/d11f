@@ -1,5 +1,5 @@
 import { Writable } from 'stream';
-import type { Bus } from '@directus/memory';
+import type { Bus } from '@d11f/memory';
 import { nanoid } from 'nanoid';
 import { useBus } from '../bus/index.js';
 

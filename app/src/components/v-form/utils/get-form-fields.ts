@@ -1,4 +1,4 @@
-import { Field } from '@directus/types';
+import { Field } from '@d11f/types';
 import { cloneDeep, orderBy } from 'lodash';
 import { computed, ComputedRef, Ref } from 'vue';
 import { FormField } from '@/components/v-form/types';

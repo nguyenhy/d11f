@@ -1,4 +1,4 @@
-import { definePanel } from '@directus/extensions';
+import { definePanel } from '@d11f/extensions';
 import PanelLabel from './panel-label.vue';
 import PreviewSVG from './preview.svg?raw';
 

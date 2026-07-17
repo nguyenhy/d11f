@@ -1,8 +1,8 @@
-import { useEnv } from '@directus/env';
-import { ForbiddenError, InvalidPayloadError } from '@directus/errors';
-import type { ForeignKey, SchemaInspector } from '@directus/schema';
-import { createInspector } from '@directus/schema';
-import { systemRelationRows } from '@directus/system-data';
+import { useEnv } from '@d11f/env';
+import { ForbiddenError, InvalidPayloadError } from '@d11f/errors';
+import type { ForeignKey, SchemaInspector } from '@d11f/schema';
+import { createInspector } from '@d11f/schema';
+import { systemRelationRows } from '@d11f/system-data';
 import type {
 	AbstractServiceOptions,
 	Accountability,
@@ -13,8 +13,8 @@ import type {
 	Relation,
 	RelationMeta,
 	SchemaOverview,
-} from '@directus/types';
-import { toArray } from '@directus/utils';
+} from '@d11f/types';
+import { toArray } from '@d11f/utils';
 import type Keyv from 'keyv';
 import type { Knex } from 'knex';
 import { clearSystemCache, getCache, getCacheValue, setCacheValue } from '../cache.js';

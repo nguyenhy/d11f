@@ -1,4 +1,4 @@
-import { SchemaBuilder } from '@directus/schema-builder';
+import { SchemaBuilder } from '@d11f/schema-builder';
 import { afterEach, describe, expect, test, vi } from 'vitest';
 import { createMockKnex, resetKnexMocks } from '../test-utils/knex.js';
 import { ActivityService } from './activity.js';

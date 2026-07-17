@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { FlowRaw } from '@directus/types';
+import { FlowRaw } from '@d11f/types';
 import { sortBy } from 'lodash';
 import { computed, ref } from 'vue';
 import { useI18n } from 'vue-i18n';

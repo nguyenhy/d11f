@@ -1,4 +1,4 @@
-import type { Filter } from '@directus/types';
+import type { Filter } from '@d11f/types';
 
 export function joinFilterWithCases(filter: Filter | null | undefined, cases: Filter[]) {
 	if (cases.length > 0 && !filter) {

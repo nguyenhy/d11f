@@ -1,6 +1,6 @@
-import { ForbiddenError, InvalidPayloadError } from '@directus/errors';
-import { systemCollectionRows } from '@directus/system-data';
-import type { AbstractServiceOptions, Accountability, PrimaryKey, SchemaOverview } from '@directus/types';
+import { ForbiddenError, InvalidPayloadError } from '@d11f/errors';
+import { systemCollectionRows } from '@d11f/system-data';
+import type { AbstractServiceOptions, Accountability, PrimaryKey, SchemaOverview } from '@d11f/types';
 import type { Knex } from 'knex';
 import { clearSystemCache, getCache } from '../cache.js';
 import getDatabase from '../database/index.js';

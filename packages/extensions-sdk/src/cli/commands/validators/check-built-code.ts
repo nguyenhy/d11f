@@ -1,5 +1,5 @@
 import path from 'path';
-import { EXTENSION_PKG_KEY } from '@directus/extensions';
+import { EXTENSION_PKG_KEY } from '@d11f/extensions';
 import fse from 'fs-extra';
 import { type Ora } from 'ora';
 import type { Report } from '../../types.js';

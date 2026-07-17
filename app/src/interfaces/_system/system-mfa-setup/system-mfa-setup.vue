@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { User } from '@directus/types';
+import { User } from '@d11f/types';
 import { computed, inject, nextTick, ref, watch } from 'vue';
 import VButton from '@/components/v-button.vue';
 import VCardActions from '@/components/v-card-actions.vue';

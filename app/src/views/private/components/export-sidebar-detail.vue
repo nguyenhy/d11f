@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useCollection } from '@directus/composables';
-import { Filter } from '@directus/types';
-import { getEndpoint } from '@directus/utils';
+import { useCollection } from '@d11f/composables';
+import { Filter } from '@d11f/types';
+import { getEndpoint } from '@d11f/utils';
 import type { AxiosProgressEvent } from 'axios';
 import { debounce, pick } from 'lodash';
 import { computed, reactive, ref, toRefs, watch } from 'vue';

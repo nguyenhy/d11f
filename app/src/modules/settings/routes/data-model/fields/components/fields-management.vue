@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Field, LocalType } from '@directus/types';
+import { Field, LocalType } from '@d11f/types';
 import { isNil, orderBy } from 'lodash';
 import { computed, onBeforeMount, onBeforeUnmount, toRefs } from 'vue';
 import { useI18n } from 'vue-i18n';

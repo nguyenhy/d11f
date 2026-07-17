@@ -1,4 +1,4 @@
-import type { Field } from '@directus/types';
+import type { Field } from '@d11f/types';
 import { computed, MaybeRefOrGetter, toValue } from 'vue';
 import { z, type ZodType } from 'zod';
 

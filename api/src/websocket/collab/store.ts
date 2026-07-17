@@ -1,4 +1,4 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import { useStore as useMainStore } from '../../utils/store.js';
 
 const env = useEnv();

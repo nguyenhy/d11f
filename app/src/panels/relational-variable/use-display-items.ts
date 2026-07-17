@@ -1,6 +1,6 @@
-import { useSdk } from '@directus/composables';
-import type { Item } from '@directus/types';
-import { getEndpoint, getFieldsFromTemplate } from '@directus/utils';
+import { useSdk } from '@d11f/composables';
+import type { Item } from '@d11f/types';
+import { getEndpoint, getFieldsFromTemplate } from '@d11f/utils';
 import { computed, Ref, ref, watch } from 'vue';
 import { requestEndpoint } from '@/sdk';
 import { useCollectionsStore } from '@/stores/collections';

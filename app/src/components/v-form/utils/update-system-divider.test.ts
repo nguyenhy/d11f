@@ -1,4 +1,4 @@
-import type { DeepPartial, Field } from '@directus/types';
+import type { DeepPartial, Field } from '@d11f/types';
 import { cloneDeep } from 'lodash';
 import { expect, it } from 'vitest';
 import { updateSystemDivider } from './update-system-divider';

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isSystemCollection } from '@directus/system-data';
+import { isSystemCollection } from '@d11f/system-data';
 import { computed, inject, ref, watch } from 'vue';
 import SystemCollectionsTranslationsDialog from './system-collections-translations-dialog.vue';
 import { detectTranslationConfigs, isFieldEligibleForTranslations } from './utils';

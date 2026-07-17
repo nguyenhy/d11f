@@ -1,4 +1,4 @@
-import type { Snapshot } from '@directus/types';
+import type { Snapshot } from '@d11f/types';
 import { describe, expect, test, vi } from 'vitest';
 import { getSnapshotDiff } from './get-snapshot-diff.js';
 import { sanitizeField } from './sanitize-schema.js';

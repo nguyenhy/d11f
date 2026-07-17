@@ -1,18 +1,18 @@
-# `@directus/stores`
+# `@d11f/stores`
 
-Shared Directus Studio state for use in components, extensions, and the `@directus/app` routes. Stores are
+Shared Directus Studio state for use in components, extensions, and the `@d11f/app` routes. Stores are
 [Pinia](https://www.npmjs.com/package/pinia)-based stores.
 
 ## Installation
 
 ```
-pnpm add @directus/stores
+pnpm add @d11f/stores
 ```
 
 ## Usage
 
 ```ts
-import { useAppStore } from '@directus/stores';
+import { useAppStore } from '@d11f/stores';
 
 const appStore = useAppStore();
 ```

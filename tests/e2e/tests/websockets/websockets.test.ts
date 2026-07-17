@@ -1,4 +1,4 @@
-import { createDirectus, createItem, deleteItem, realtime, rest, staticToken, updateItem } from '@directus/sdk';
+import { createDirectus, createItem, deleteItem, realtime, rest, staticToken, updateItem } from '@d11f/sdk';
 import { options, port } from '@utils/constants.js';
 import { useSnapshot } from '@utils/use-snapshot.js';
 import { expect, test } from 'vitest';

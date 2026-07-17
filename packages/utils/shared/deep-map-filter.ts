@@ -1,5 +1,5 @@
-import { InvalidQueryError } from '@directus/errors';
-import type { CollectionOverview, FieldOverview, Filter, Relation, SchemaOverview } from '@directus/types';
+import { InvalidQueryError } from '@d11f/errors';
+import type { CollectionOverview, FieldOverview, Filter, Relation, SchemaOverview } from '@d11f/types';
 import { isPlainObject } from 'lodash-es';
 import { getRelationInfo, type RelationInfo } from './get-relation-info.js';
 

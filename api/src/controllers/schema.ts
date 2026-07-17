@@ -1,6 +1,6 @@
-import { InvalidPayloadError, UnsupportedMediaTypeError } from '@directus/errors';
-import type { Snapshot, SnapshotDiffWithHash } from '@directus/types';
-import { parseJSON, toBoolean } from '@directus/utils';
+import { InvalidPayloadError, UnsupportedMediaTypeError } from '@d11f/errors';
+import type { Snapshot, SnapshotDiffWithHash } from '@d11f/types';
+import { parseJSON, toBoolean } from '@d11f/utils';
 import Busboy from 'busboy';
 import type { RequestHandler } from 'express';
 import express from 'express';
@@ -57,7 +57,7 @@ const schemaMultipartHandler: RequestHandler = (req, res, next) => {
 
 		isFileIncluded = true;
 
-		const { readableStreamToString } = await import('@directus/utils/node');
+		const { readableStreamToString } = await import('@d11f/utils/node');
 
 		try {
 			const uploadedString = await readableStreamToString(fileStream);

@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import { InvalidPayloadError, InvalidProviderConfigError } from '@directus/errors';
+import { useEnv } from '@d11f/env';
+import { InvalidPayloadError, InvalidProviderConfigError } from '@d11f/errors';
 import type {
 	AbstractServiceOptions,
 	CachedResult,
@@ -10,8 +10,8 @@ import type {
 	Project,
 	ProviderType,
 	Query,
-} from '@directus/types';
-import { mergeFilters } from '@directus/utils';
+} from '@d11f/types';
+import { mergeFilters } from '@d11f/utils';
 import { has, isEmpty } from 'lodash-es';
 import { getCache, getCacheValueWithTTL, setCacheValueWithExpiry } from '../cache.js';
 import type { DeploymentDriver } from '../deployment/deployment.js';

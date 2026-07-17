@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Panel } from '@directus/extensions';
+import type { Panel } from '@d11f/extensions';
 import { assign, clone, isUndefined, omitBy } from 'lodash';
 import { nanoid } from 'nanoid/non-secure';
 import { storeToRefs } from 'pinia';

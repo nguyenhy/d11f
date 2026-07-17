@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Field } from '@directus/types';
+import { Field } from '@d11f/types';
 import { debounce, isNil } from 'lodash';
 import { computed, ref, toRefs, unref, watch } from 'vue';
 import VFieldListItem from './VFieldListItem.vue';

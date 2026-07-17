@@ -1,4 +1,4 @@
-import type { Filter } from '@directus/types';
+import type { Filter } from '@d11f/types';
 import { describe, expect, it, test } from 'vitest';
 import { validatePayload } from './validate-payload.js';
 

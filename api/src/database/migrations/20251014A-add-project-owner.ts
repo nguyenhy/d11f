@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import { toBoolean } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { toBoolean } from '@d11f/utils';
 import type { Knex } from 'knex';
 import { email } from 'zod';
 import { SettingsService } from '../../services/settings.js';

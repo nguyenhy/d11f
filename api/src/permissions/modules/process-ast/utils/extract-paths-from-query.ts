@@ -1,4 +1,4 @@
-import type { Query } from '@directus/types';
+import type { Query } from '@d11f/types';
 import { isEqual, uniqWith } from 'lodash-es';
 import type { FieldKey } from '../types.js';
 import { flattenFilter } from './flatten-filter.js';

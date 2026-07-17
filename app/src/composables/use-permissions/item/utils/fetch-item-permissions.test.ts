@@ -1,4 +1,4 @@
-import { ItemPermissions } from '@directus/types';
+import { ItemPermissions } from '@d11f/types';
 import { flushPromises } from '@vue/test-utils';
 import { afterEach, beforeEach, expect, it, vi } from 'vitest';
 import { fetchItemPermissions } from './fetch-item-permissions';

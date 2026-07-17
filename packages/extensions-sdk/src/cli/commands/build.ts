@@ -1,15 +1,15 @@
 import path from 'path';
-import { APP_EXTENSION_TYPES, EXTENSION_TYPES, HYBRID_EXTENSION_TYPES } from '@directus/constants';
-import type { ExtensionOptionsBundleEntry, ExtensionManifest as TExtensionManifest } from '@directus/extensions';
+import { APP_EXTENSION_TYPES, EXTENSION_TYPES, HYBRID_EXTENSION_TYPES } from '@d11f/constants';
+import type { ExtensionOptionsBundleEntry, ExtensionManifest as TExtensionManifest } from '@d11f/extensions';
 import {
 	API_SHARED_DEPS,
 	APP_SHARED_DEPS,
 	EXTENSION_PKG_KEY,
 	ExtensionManifest,
 	ExtensionOptionsBundleEntries,
-} from '@directus/extensions';
-import type { ApiExtensionType, AppExtensionType } from '@directus/types';
-import { isIn, isTypeIn } from '@directus/utils';
+} from '@d11f/extensions';
+import type { ApiExtensionType, AppExtensionType } from '@d11f/types';
+import { isIn, isTypeIn } from '@d11f/utils';
 import commonjsDefault from '@rollup/plugin-commonjs';
 import jsonDefault from '@rollup/plugin-json';
 import { nodeResolve } from '@rollup/plugin-node-resolve';

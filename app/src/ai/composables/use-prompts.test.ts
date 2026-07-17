@@ -1,9 +1,9 @@
-import { useApi } from '@directus/composables';
+import { useApi } from '@d11f/composables';
 import { beforeEach, describe, expect, test, vi } from 'vitest';
 import type { MCPPrompt } from '../types';
 import { usePrompts } from './use-prompts';
 
-vi.mock('@directus/composables', () => ({
+vi.mock('@d11f/composables', () => ({
 	useApi: vi.fn(() => ({
 		get: vi.fn(),
 	})),

@@ -1,9 +1,9 @@
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { useEnv } from '@directus/env';
-import { InvalidPayloadError } from '@directus/errors';
-import type { AbstractServiceOptions, Accountability, SchemaOverview } from '@directus/types';
-import { isObject } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { InvalidPayloadError } from '@d11f/errors';
+import type { AbstractServiceOptions, Accountability, SchemaOverview } from '@d11f/types';
+import { isObject } from '@d11f/utils';
 import fse from 'fs-extra';
 import type { Knex } from 'knex';
 import { Liquid } from 'liquidjs';

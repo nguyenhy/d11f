@@ -1,5 +1,5 @@
-import { defineOperationApp } from '@directus/extensions';
-import { toArray } from '@directus/utils';
+import { defineOperationApp } from '@d11f/extensions';
+import { toArray } from '@d11f/utils';
 
 export default defineOperationApp({
 	id: 'item-delete',

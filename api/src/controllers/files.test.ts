@@ -1,5 +1,5 @@
 import { PassThrough } from 'stream';
-import { InvalidPayloadError } from '@directus/errors';
+import { InvalidPayloadError } from '@d11f/errors';
 import type { Request, Response } from 'express';
 import FormData from 'form-data';
 import { beforeEach, describe, expect, it, vi } from 'vitest';

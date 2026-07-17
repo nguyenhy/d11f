@@ -1,4 +1,4 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import type { Reference } from 'isolated-vm';
 import { useLogger } from '../../../../logger/index.js';
 

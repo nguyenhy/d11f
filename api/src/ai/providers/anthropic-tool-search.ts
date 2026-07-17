@@ -1,5 +1,5 @@
 import { anthropic } from '@ai-sdk/anthropic';
-import type { ProviderType } from '@directus/ai';
+import type { ProviderType } from '@d11f/ai';
 import type { Tool } from 'ai';
 
 /**

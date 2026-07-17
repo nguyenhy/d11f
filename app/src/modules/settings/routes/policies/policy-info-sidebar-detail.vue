@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Policy } from '@directus/types';
+import { Policy } from '@d11f/types';
 import VIcon from '@/components/v-icon/v-icon.vue';
 import { useClipboard } from '@/composables/use-clipboard';
 import SidebarDetail from '@/views/private/components/sidebar-detail.vue';

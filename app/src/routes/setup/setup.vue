@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { SetupForm as Form } from '@directus/types';
+import { SetupForm as Form } from '@d11f/types';
 import { useHead } from '@unhead/vue';
 import { computed, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

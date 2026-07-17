@@ -1,4 +1,4 @@
-import type { User } from '@directus/types';
+import type { User } from '@d11f/types';
 import { merge } from 'lodash';
 import { computed, ref } from 'vue';
 import type { Info } from '@/stores/server';

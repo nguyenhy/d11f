@@ -1,13 +1,8 @@
 import { performance } from 'perf_hooks';
-import { Action } from '@directus/constants';
-import { useEnv } from '@directus/env';
-import {
-	InvalidCredentialsError,
-	InvalidOtpError,
-	ServiceUnavailableError,
-	UserSuspendedError,
-} from '@directus/errors';
-import type { AbstractServiceOptions, Accountability, LoginResult, SchemaOverview } from '@directus/types';
+import { Action } from '@d11f/constants';
+import { useEnv } from '@d11f/env';
+import { InvalidCredentialsError, InvalidOtpError, ServiceUnavailableError, UserSuspendedError } from '@d11f/errors';
+import type { AbstractServiceOptions, Accountability, LoginResult, SchemaOverview } from '@d11f/types';
 import jwt from 'jsonwebtoken';
 import type { Knex } from 'knex';
 import { clone, cloneDeep } from 'lodash-es';

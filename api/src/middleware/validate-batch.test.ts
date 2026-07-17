@@ -1,4 +1,4 @@
-import { InvalidPayloadError } from '@directus/errors';
+import { InvalidPayloadError } from '@d11f/errors';
 import type { Request, Response } from 'express';
 import { beforeEach, expect, test, vi } from 'vitest';
 import { validateBatch } from './validate-batch.js';

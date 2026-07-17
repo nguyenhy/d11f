@@ -1,4 +1,4 @@
-import type { File } from '@directus/types';
+import type { File } from '@d11f/types';
 import PQueue from 'p-queue';
 import type { Upload } from 'tus-js-client';
 import { unexpectedError } from './unexpected-error';

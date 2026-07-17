@@ -1,5 +1,5 @@
 import { randomUUID } from 'node:crypto';
-import { SchemaBuilder } from '@directus/schema-builder';
+import { SchemaBuilder } from '@d11f/schema-builder';
 import { describe, expect, it } from 'vitest';
 import { validateKeys } from './validate-keys.js';
 

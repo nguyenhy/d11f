@@ -1,4 +1,4 @@
-import { createDirectus, graphql, rest, staticToken } from '@directus/sdk';
+import { createDirectus, graphql, rest, staticToken } from '@d11f/sdk';
 import { database, port } from '@utils/constants.js';
 import { useSnapshot } from '@utils/use-snapshot.js';
 import { generateScopedUser } from '@utils/user-scoped.js';

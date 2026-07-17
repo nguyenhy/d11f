@@ -1,4 +1,4 @@
-import type { DeepPartial, Field } from '@directus/types';
+import type { DeepPartial, Field } from '@d11f/types';
 import { expect, it } from 'vitest';
 import { updateFieldWidths } from './update-field-widths';
 

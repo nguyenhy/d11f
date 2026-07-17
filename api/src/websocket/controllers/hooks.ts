@@ -1,4 +1,4 @@
-import { systemCollectionNames } from '@directus/system-data';
+import { systemCollectionNames } from '@d11f/system-data';
 import { useBus } from '../../bus/index.js';
 import emitter from '../../emitter.js';
 import type { WebSocketEvent } from '../messages.js';

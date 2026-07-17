@@ -1,14 +1,14 @@
-import { useEnv } from '@directus/env';
-import { list } from '@directus/extensions-registry';
-import type { Extension } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import { list } from '@d11f/extensions-registry';
+import type { Extension } from '@d11f/types';
 import { beforeEach, describe, expect, test, vi } from 'vitest';
 import { getExtensionsSettings } from './get-extensions-settings.js';
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn(() => ({})),
 }));
 
-vi.mock('@directus/extensions-registry', () => ({
+vi.mock('@d11f/extensions-registry', () => ({
 	list: vi.fn(),
 }));
 

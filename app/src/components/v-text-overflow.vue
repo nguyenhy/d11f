@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useElementSize } from '@directus/composables';
+import { useElementSize } from '@d11f/composables';
 import { ref, watch } from 'vue';
 import VHighlight from '@/components/v-highlight.vue';
 

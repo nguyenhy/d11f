@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 'use strict';
 
-import { BUNDLE_EXTENSION_TYPES, EXTENSION_LANGUAGES, EXTENSION_TYPES } from '@directus/extensions';
-import { create } from '@directus/extensions-sdk/cli';
+import { BUNDLE_EXTENSION_TYPES, EXTENSION_LANGUAGES, EXTENSION_TYPES } from '@d11f/extensions';
+import { create } from '@d11f/extensions-sdk/cli';
 import inquirer from 'inquirer';
 
 if (process.env.NODE_ENV !== 'test') {

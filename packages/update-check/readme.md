@@ -1,4 +1,4 @@
-# `@directus/update-check`
+# `@d11f/update-check`
 
 Check if an update for Directus is available
 
@@ -11,7 +11,7 @@ For more information about Directus, visit the [official website](https://direct
 ## Installation
 
 ```shell
-npm install @directus/update-check
+npm install @d11f/update-check
 ```
 
 ## License

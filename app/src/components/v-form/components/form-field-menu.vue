@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { RELATIONAL_TYPES } from '@directus/constants';
-import type { RelationalType } from '@directus/types';
+import { RELATIONAL_TYPES } from '@d11f/constants';
+import type { RelationalType } from '@d11f/types';
 import { computed } from 'vue';
 import type { FormField } from '../types';
 import VDivider from '@/components/v-divider.vue';

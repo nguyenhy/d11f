@@ -1,4 +1,4 @@
-import { createDirectus, createItem, rest, staticToken } from '@directus/sdk';
+import { createDirectus, createItem, rest, staticToken } from '@d11f/sdk';
 import { database, port } from '@utils/constants.js';
 import { getHelper } from '@utils/helpers/index.js';
 import { useSnapshot } from '@utils/use-snapshot.js';

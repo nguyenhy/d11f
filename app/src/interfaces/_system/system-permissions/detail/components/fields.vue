@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useSync } from '@directus/composables';
-import type { Permission, Policy } from '@directus/types';
+import { useSync } from '@d11f/composables';
+import type { Permission, Policy } from '@d11f/types';
 import { computed, ref, useId } from 'vue';
 import AppMinimal from './app-minimal.vue';
 import VCheckboxTree from '@/components/v-checkbox-tree/v-checkbox-tree.vue';

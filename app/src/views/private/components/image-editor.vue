@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { File } from '@directus/types';
+import type { File } from '@d11f/types';
 import Cropper from 'cropperjs';
 import { isEqual } from 'lodash';
 import throttle from 'lodash/throttle';

@@ -1,5 +1,5 @@
-import { createError, InternalServerError } from '@directus/errors';
-import { defineOperationApi } from '@directus/extensions';
+import { createError, InternalServerError } from '@d11f/errors';
+import { defineOperationApi } from '@d11f/extensions';
 
 type Options = {
 	code: string;

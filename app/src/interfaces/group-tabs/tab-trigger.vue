@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import formatTitle from '@directus/format-title';
-import { Field, ValidationError } from '@directus/types';
+import formatTitle from '@d11f/format-title';
+import { Field, ValidationError } from '@d11f/types';
 import { TabsTrigger } from 'reka-ui';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';

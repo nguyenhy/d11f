@@ -1,9 +1,9 @@
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { ForbiddenError, InvalidPayloadError } from '@directus/errors';
-import { isSystemCollection } from '@directus/system-data';
-import type { PrimaryKey } from '@directus/types';
-import { toArray } from '@directus/utils';
+import { ForbiddenError, InvalidPayloadError } from '@d11f/errors';
+import { isSystemCollection } from '@d11f/system-data';
+import type { PrimaryKey } from '@d11f/types';
+import { toArray } from '@d11f/utils';
 import { isObject } from 'graphql-compose';
 import { z } from 'zod';
 import { ItemsService } from '../../../services/items.js';

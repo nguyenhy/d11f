@@ -37,7 +37,7 @@ test('should generate basic release notes', () => {
 			title: config.typedTitles.minor,
 			packages: [
 				{
-					name: '@directus/api',
+					name: '@d11f/api',
 					changes: [change1],
 				},
 			],
@@ -46,7 +46,7 @@ test('should generate basic release notes', () => {
 			title: config.typedTitles.patch,
 			packages: [
 				{
-					name: '@directus/app',
+					name: '@d11f/app',
 					changes: [change1, change2],
 				},
 			],
@@ -59,8 +59,8 @@ test('should generate basic release notes', () => {
 	];
 
 	const packageVersions: PackageVersion[] = [
-		{ name: '@directus/api', version: '10.0.0' },
-		{ name: '@directus/app', version: '10.0.0' },
+		{ name: '@d11f/api', version: '10.0.0' },
+		{ name: '@d11f/app', version: '10.0.0' },
 	];
 
 	const markdown = generateMarkdown([], types, untypedPackages, packageVersions);
@@ -68,13 +68,13 @@ test('should generate basic release notes', () => {
 	expect(markdown).toMatchInlineSnapshot(`
 		"### ✨ New Features & Improvements
 
-		- **@directus/api**
+		- **@d11f/api**
 		  - Made Directus even more magical ([#1](https://github.com/directus/directus/pull/1) by @directus)
 		    And here's some additional context
 
 		### 🐛 Bug Fixes & Optimizations
 
-		- **@directus/app**
+		- **@d11f/app**
 		  - Made Directus even more magical ([#1](https://github.com/directus/directus/pull/1) by @directus)
 		    And here's some additional context
 		  - Improved some things a little ([#2](https://github.com/directus/directus/pull/2) by @directus)
@@ -92,8 +92,8 @@ test('should generate basic release notes', () => {
 
 		### 📦 Published Versions
 
-		- \`@directus/api@10.0.0\`
-		- \`@directus/app@10.0.0\`"
+		- \`@d11f/api@10.0.0\`
+		- \`@d11f/app@10.0.0\`"
 	`);
 });
 
@@ -123,7 +123,7 @@ describe('notices', () => {
 				title: config.typedTitles[config.noticeType],
 				packages: [
 					{
-						name: '@directus/api',
+						name: '@d11f/api',
 						changes: [change1],
 					},
 				],
@@ -141,7 +141,7 @@ describe('notices', () => {
 			**Improved some things a little ([#2](https://github.com/directus/directus/pull/2))**
 			This is another notice.
 
-			- **@directus/api**
+			- **@d11f/api**
 			  - Made Directus even more magical ([#1](https://github.com/directus/directus/pull/1) by @directus)
 			    And here's some additional context"
 		`);

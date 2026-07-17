@@ -1,5 +1,5 @@
-import { ErrorCode, InvalidPayloadError } from '@directus/errors';
-import { isDirectusError } from '@directus/errors';
+import { ErrorCode, InvalidPayloadError } from '@d11f/errors';
+import { isDirectusError } from '@d11f/errors';
 import express from 'express';
 import Joi from 'joi';
 import validateCollection from '../middleware/collection-exists.js';

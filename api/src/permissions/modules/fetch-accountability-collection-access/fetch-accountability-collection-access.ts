@@ -1,5 +1,5 @@
-import { PERMISSION_ACTIONS } from '@directus/constants';
-import type { Accountability, CollectionAccess, CollectionPermissions } from '@directus/types';
+import { PERMISSION_ACTIONS } from '@d11f/constants';
+import type { Accountability, CollectionAccess, CollectionPermissions } from '@d11f/types';
 import { mapValues, uniq } from 'lodash-es';
 import { fetchPermissions } from '../../lib/fetch-permissions.js';
 import { fetchPolicies } from '../../lib/fetch-policies.js';

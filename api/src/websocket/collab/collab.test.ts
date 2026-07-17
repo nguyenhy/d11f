@@ -1,4 +1,4 @@
-import { type WebSocketClient } from '@directus/types';
+import { type WebSocketClient } from '@d11f/types';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import emitter from '../../emitter.js';
 import { validateItemAccess } from '../../permissions/modules/validate-access/lib/validate-item-access.js';

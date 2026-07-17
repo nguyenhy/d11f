@@ -1,4 +1,4 @@
-import type { File, Transformation, TransformationFormat, TransformationSet } from '@directus/types';
+import type { File, Transformation, TransformationFormat, TransformationSet } from '@d11f/types';
 import { clamp } from 'lodash-es';
 import type { Region } from 'sharp';
 

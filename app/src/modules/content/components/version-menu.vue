@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ContentVersion, PrimaryKey } from '@directus/types';
+import type { ContentVersion, PrimaryKey } from '@d11f/types';
 import slugify from '@sindresorhus/slugify';
 import { computed, ref, toRefs, unref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

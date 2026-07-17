@@ -1,5 +1,5 @@
 {
-	"name": "@directus/sandbox",
+	"name": "@d11f/sandbox",
 	"version": "0.0.0",
 	"description": "Toolkit for spinning up directus test environments",
 	"homepage": "https://directus.io",
@@ -30,8 +30,8 @@
 	"packageManager": "pnpm@10.14.0",
 	"dependencies": {
 		"@directus/tsconfig": "catalog:",
-		"@directus/types": "workspace:*",
-		"@directus/utils": "workspace:*",
+		"@d11f/types": "workspace:*",
+		"@d11f/utils": "workspace:*",
 		"@types/lodash-es": "catalog:",
 		"@types/node": "catalog:",
 		"chalk": "catalog:",

@@ -1,4 +1,4 @@
-import { isSystemCollection } from '@directus/system-data';
+import { isSystemCollection } from '@d11f/system-data';
 import emitter from '../../emitter.js';
 import { ItemsService, MetaService } from '../../services/index.js';
 import { getSchema } from '../../utils/get-schema.js';

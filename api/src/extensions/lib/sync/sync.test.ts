@@ -3,8 +3,8 @@ import { mkdir, rm } from 'node:fs/promises';
 import { sep } from 'node:path';
 import { Readable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
-import { useEnv } from '@directus/env';
-import type { Driver } from '@directus/storage';
+import { useEnv } from '@d11f/env';
+import type { Driver } from '@d11f/storage';
 import mid from 'node-machine-id';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import { useBus } from '../../../bus/index.js';
@@ -17,7 +17,7 @@ import { syncExtensions } from './sync.js';
 import { SyncFileTracker } from './tracker.js';
 import { compareFileMetadata, getSyncPaths } from './utils.js';
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn(() => ({
 		EXTENSIONS_LOCATION: 'test-location',
 		EXTENSIONS_PATH: 'remote/extensions',

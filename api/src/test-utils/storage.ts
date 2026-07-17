@@ -1,10 +1,10 @@
 /**
  * Storage mocking utilities for service tests
- * Provides simplified mocks for @directus/storage module used in service testing
+ * Provides simplified mocks for @d11f/storage module used in service testing
  */
 
 import { PassThrough } from 'node:stream';
-import type { Driver, StorageManager } from '@directus/storage';
+import type { Driver, StorageManager } from '@d11f/storage';
 import { vi } from 'vitest';
 
 /**
@@ -98,7 +98,7 @@ export function createMockStorage(driver?: Driver): StorageManager {
  * ```typescript
  * // Per-test driver customization - modify behavior in individual tests
  * import { getStorage } from '../storage/index.js';
- * import type { Driver, StorageManager } from '@directus/storage';
+ * import type { Driver, StorageManager } from '@d11f/storage';
  *
  * vi.mock('../storage/index.js');
  *

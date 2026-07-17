@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { AI_ALLOWED_MIME_TYPES } from '@directus/ai';
+import { AI_ALLOWED_MIME_TYPES } from '@d11f/ai';
 import { useDropZone, useScroll } from '@vueuse/core';
 import { computed, nextTick, onMounted, useTemplateRef } from 'vue';
 import { useI18n } from 'vue-i18n';

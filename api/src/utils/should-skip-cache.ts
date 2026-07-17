@@ -1,6 +1,6 @@
 import url from 'url';
-import { useEnv } from '@directus/env';
-import { getEndpoint } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { getEndpoint } from '@d11f/utils';
 import type { Request } from 'express';
 import { Url } from './url.js';
 

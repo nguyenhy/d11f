@@ -1,11 +1,11 @@
-# @directus/errors
+# @d11f/errors
 
 Utility functions to help creating and checking against Directus errors.
 
 ## Installation
 
 ```
-pnpm add @directus/errors
+pnpm add @d11f/errors
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ createError(code: string, message: string | (T) => string, status = 500): Direct
 ```
 
 ```ts
-import { createError } from '@directus/errors';
+import { createError } from '@d11f/errors';
 
 const ForbiddenError = createError('FORBIDDEN', "You don't have permissions to see this.", 403);
 
@@ -27,7 +27,7 @@ throw new ForbiddenError();
 You can configure additional extensions for the error class which should be communicated to the end user:
 
 ```ts
-import { createError } from '@directus/errors';
+import { createError } from '@d11f/errors';
 
 interface ForbiddenErrorExtensions {
 	collection: string;
@@ -49,7 +49,7 @@ throw new ForbiddenError({
 You can then also use those extensions to generate out the error message:
 
 ```ts
-import { createError } from '@directus/errors';
+import { createError } from '@d11f/errors';
 
 interface ForbiddenErrorExtensions {
 	collection: string;
@@ -70,7 +70,7 @@ throw new ForbiddenError({
 ### Checking if a given param is a valid DirectusError instance
 
 ```ts
-import { isDirectusError, createError } from '@directus/errors';
+import { isDirectusError, createError } from '@d11f/errors';
 
 const ForbiddenError = createError('FORBIDDEN', "You don't have permissions to see this.", 403);
 

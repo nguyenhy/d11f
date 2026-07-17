@@ -1,5 +1,5 @@
 {
-	"name": "@directus/validation",
+	"name": "@d11f/validation",
 	"version": "2.0.23",
 	"type": "module",
 	"sideEffects": false,
@@ -28,15 +28,15 @@
 	],
 	"devDependencies": {
 		"@directus/tsconfig": "catalog:",
-		"@directus/types": "workspace:*",
+		"@d11f/types": "workspace:*",
 		"@vitest/coverage-v8": "catalog:",
 		"tsdown": "catalog:",
 		"typescript": "catalog:",
 		"vitest": "catalog:"
 	},
 	"dependencies": {
-		"@directus/errors": "workspace:*",
-		"@directus/utils": "workspace:*",
+		"@d11f/errors": "workspace:*",
+		"@d11f/utils": "workspace:*",
 		"joi": "catalog:"
 	}
 }

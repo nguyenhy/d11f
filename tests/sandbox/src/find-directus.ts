@@ -13,7 +13,7 @@ export function findDirectus() {
 			const file = readFileSync(packagePath, 'utf-8');
 			const json = JSON.parse(file);
 
-			if (json['name'] === 'directus-monorepo') {
+			if (json['name'] === 'd11f-monorepo') {
 				return currentDir;
 			}
 		}

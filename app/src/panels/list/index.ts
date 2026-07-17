@@ -1,5 +1,5 @@
-import { definePanel } from '@directus/extensions';
-import { getFieldsFromTemplate } from '@directus/utils';
+import { definePanel } from '@d11f/extensions';
+import { getFieldsFromTemplate } from '@d11f/utils';
 import PanelList from './panel-list.vue';
 import PreviewSVG from './preview.svg?raw';
 import { useCollectionsStore } from '@/stores/collections';

@@ -1,4 +1,4 @@
-import { getRedactedString, REDACTED_TEXT } from '@directus/utils';
+import { getRedactedString, REDACTED_TEXT } from '@d11f/utils';
 import { merge } from 'lodash-es';
 import { describe, expect, test } from 'vitest';
 import { getReplacer, redactObject } from './redact-object.js';

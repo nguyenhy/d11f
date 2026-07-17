@@ -1,8 +1,8 @@
-import { TYPES } from '@directus/constants';
-import { ErrorCode, InvalidPayloadError } from '@directus/errors';
-import { ForbiddenError, isDirectusError } from '@directus/errors';
-import { isSystemField } from '@directus/system-data';
-import type { Field, RawField, Type } from '@directus/types';
+import { TYPES } from '@d11f/constants';
+import { ErrorCode, InvalidPayloadError } from '@d11f/errors';
+import { ForbiddenError, isDirectusError } from '@d11f/errors';
+import { isSystemField } from '@d11f/system-data';
+import type { Field, RawField, Type } from '@d11f/types';
 import { Router } from 'express';
 import Joi from 'joi';
 import { ALIAS_TYPES } from '../constants.js';

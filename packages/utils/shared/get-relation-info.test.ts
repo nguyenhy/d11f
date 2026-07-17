@@ -1,4 +1,4 @@
-import { SchemaBuilder } from '@directus/schema-builder';
+import { SchemaBuilder } from '@d11f/schema-builder';
 import { describe, expect, test } from 'vitest';
 import { getRelationInfo } from './get-relation-info.js';
 

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import formatTitle from '@directus/format-title';
-import { getFunctionsForType } from '@directus/utils';
+import formatTitle from '@d11f/format-title';
+import { getFunctionsForType } from '@d11f/utils';
 import { computed } from 'vue';
 import VDivider from '@/components/v-divider.vue';
 import VIcon from '@/components/v-icon/v-icon.vue';

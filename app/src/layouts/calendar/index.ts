@@ -1,7 +1,7 @@
-import { useCollection, useItems, useSync } from '@directus/composables';
-import { defineLayout } from '@directus/extensions';
-import { Field, Item } from '@directus/types';
-import { getEndpoint, getFieldsFromTemplate, mergeFilters } from '@directus/utils';
+import { useCollection, useItems, useSync } from '@d11f/composables';
+import { defineLayout } from '@d11f/extensions';
+import { Field, Item } from '@d11f/types';
+import { getEndpoint, getFieldsFromTemplate, mergeFilters } from '@d11f/utils';
 import { Calendar, CssDimValue, EventInput, CalendarOptions as FullCalendarOptions } from '@fullcalendar/core';
 import { EventImpl } from '@fullcalendar/core/internal';
 import dayGridPlugin from '@fullcalendar/daygrid';

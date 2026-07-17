@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Field, ValidationError } from '@directus/types';
+import { Field, ValidationError } from '@d11f/types';
 import { computed, toRef } from 'vue';
 import ValidationNestedGroups from './validation-nested-groups.vue';
 import VDetail from '@/components/v-detail.vue';

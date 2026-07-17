@@ -1,4 +1,4 @@
-import { InvalidCredentialsError } from '@directus/errors';
+import { InvalidCredentialsError } from '@d11f/errors';
 import type { Request, Response } from 'express';
 import jwt from 'jsonwebtoken';
 import type { Knex } from 'knex';
@@ -26,7 +26,7 @@ vi.mock('../database/index');
 
 // This is required because logger uses global env which is imported before the tests run. Can be
 // reduce to just mock the file when logger is also using useLogger everywhere @TODO
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		SECRET: 'test',
 		EXTENSIONS_PATH: './extensions',

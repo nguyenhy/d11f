@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Theme, useTheme } from '@directus/themes';
+import { Theme, useTheme } from '@d11f/themes';
 import { clone, get, isEmpty, setWith, unset } from 'lodash';
 import { computed } from 'vue';
 import SystemThemeOverridesGroup from './SystemThemeOverridesGroup.vue';

@@ -1,4 +1,4 @@
-import type { DeepPartial, Field } from '@directus/types';
+import type { DeepPartial, Field } from '@d11f/types';
 import { describe, expect, it } from 'vitest';
 import { ref } from 'vue';
 import { useInputSchema } from './use-input-schema';

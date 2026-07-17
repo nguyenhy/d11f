@@ -1,5 +1,5 @@
-import { InvalidCredentialsError, InvalidOtpError, ServiceUnavailableError } from '@directus/errors';
-import { SchemaBuilder } from '@directus/schema-builder';
+import { InvalidCredentialsError, InvalidOtpError, ServiceUnavailableError } from '@d11f/errors';
+import { SchemaBuilder } from '@d11f/schema-builder';
 import knex, { type Knex } from 'knex';
 import { createTracker, MockClient, type Tracker } from 'knex-mock-client';
 import { afterEach, beforeAll, beforeEach, describe, expect, it, type MockedFunction, vi } from 'vitest';
@@ -70,7 +70,7 @@ vi.mock('../utils/get-milliseconds.js', () => ({
 	getMilliseconds: vi.fn().mockReturnValue(900000),
 }));
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		EMAIL_TEMPLATES_PATH: './templates',
 		LOGIN_STALL_TIME: 0,

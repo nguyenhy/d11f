@@ -1,4 +1,4 @@
-import type { GlobalAccess } from '@directus/types';
+import type { GlobalAccess } from '@d11f/types';
 import type { Knex } from 'knex';
 import { beforeEach, describe, expect, test, vi } from 'vitest';
 import { fetchGlobalAccessForQuery } from '../utils/fetch-global-access-for-query.js';

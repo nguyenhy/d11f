@@ -37,4 +37,4 @@ export type {
 	PanelConfig,
 	Panel,
 	ExtensionSettings,
-} from '@directus/types';
+} from '@d11f/types';

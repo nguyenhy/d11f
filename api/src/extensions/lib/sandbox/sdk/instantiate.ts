@@ -1,5 +1,5 @@
-import type { ExtensionSandboxRequestedScopes } from '@directus/extensions';
-import { numberGenerator } from '@directus/utils';
+import type { ExtensionSandboxRequestedScopes } from '@d11f/extensions';
+import { numberGenerator } from '@d11f/utils';
 import type { Isolate, Module } from 'isolated-vm';
 import { generateHostFunctionReference } from '../generate-host-function-reference.js';
 import { getSdk } from './sdk.js';

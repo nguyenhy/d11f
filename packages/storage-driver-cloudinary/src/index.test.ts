@@ -5,7 +5,7 @@ import type { ParsedPath } from 'node:path';
 import { extname, join, parse } from 'node:path';
 import { PassThrough, Readable } from 'node:stream';
 import { ReadableStream } from 'node:stream/web';
-import { normalizePath } from '@directus/utils';
+import { normalizePath } from '@d11f/utils';
 import {
 	rand,
 	randAlphaNumeric,
@@ -28,8 +28,8 @@ import { IMAGE_EXTENSIONS, VIDEO_EXTENSIONS } from './constants.js';
 import type { DriverCloudinaryConfig } from './index.js';
 import { DriverCloudinary } from './index.js';
 
-vi.mock('@directus/utils/node');
-vi.mock('@directus/utils');
+vi.mock('@d11f/utils/node');
+vi.mock('@d11f/utils');
 vi.mock('node:path');
 vi.mock('node:buffer');
 vi.mock('node:crypto');

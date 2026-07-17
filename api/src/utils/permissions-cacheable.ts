@@ -1,4 +1,4 @@
-import type { Accountability, Filter } from '@directus/types';
+import type { Accountability, Filter } from '@d11f/types';
 import { fetchPermissions } from '../permissions/lib/fetch-permissions.js';
 import { fetchPolicies } from '../permissions/lib/fetch-policies.js';
 import type { Context } from '../permissions/types.js';

@@ -1,5 +1,5 @@
 import { createHmac, timingSafeEqual } from 'node:crypto';
-import { HitRateLimitError, InvalidCredentialsError, ServiceUnavailableError } from '@directus/errors';
+import { HitRateLimitError, InvalidCredentialsError, ServiceUnavailableError } from '@d11f/errors';
 import type {
 	Credentials,
 	Deployment,
@@ -12,7 +12,7 @@ import type {
 	Status,
 	TriggerResult,
 	WebhookRegistrationResult,
-} from '@directus/types';
+} from '@d11f/types';
 import pLimit from 'p-limit';
 import { DeploymentDriver, type DeploymentRequestOptions } from '../deployment.js';
 

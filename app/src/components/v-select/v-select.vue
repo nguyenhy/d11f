@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { type OtherValue, useCustomSelection, useCustomSelectionMultiple } from '@directus/composables';
+import { type OtherValue, useCustomSelection, useCustomSelectionMultiple } from '@d11f/composables';
 import { Placement } from '@popperjs/core';
 import { debounce, get, isArray } from 'lodash';
 import { computed, Ref, ref, toRefs, useTemplateRef, watch } from 'vue';

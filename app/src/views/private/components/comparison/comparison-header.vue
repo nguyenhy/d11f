@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { User } from '@directus/types';
+import { User } from '@d11f/types';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import VIcon from '@/components/v-icon/v-icon.vue';

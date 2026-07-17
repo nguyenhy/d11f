@@ -1,6 +1,6 @@
 import type { Server as httpServer } from 'http';
-import { WebSocketMessage } from '@directus/types';
-import { parseJSON } from '@directus/utils';
+import { WebSocketMessage } from '@d11f/types';
+import { parseJSON } from '@d11f/utils';
 import type WebSocket from 'ws';
 import emitter from '../../emitter.js';
 import { useLogger } from '../../logger/index.js';

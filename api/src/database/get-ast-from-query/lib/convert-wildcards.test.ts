@@ -1,6 +1,6 @@
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { Accountability } from '@directus/types';
-import { getRelation } from '@directus/utils';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { Accountability } from '@d11f/types';
+import { getRelation } from '@d11f/utils';
 import knex from 'knex';
 import { expect, test, vi } from 'vitest';
 import { fetchAllowedFields } from '../../../permissions/modules/fetch-allowed-fields/fetch-allowed-fields.js';

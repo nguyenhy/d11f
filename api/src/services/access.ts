@@ -1,5 +1,5 @@
-import type { AbstractServiceOptions, Item, MutationOptions, PrimaryKey } from '@directus/types';
-import { UserIntegrityCheckFlag } from '@directus/types';
+import type { AbstractServiceOptions, Item, MutationOptions, PrimaryKey } from '@d11f/types';
+import { UserIntegrityCheckFlag } from '@d11f/types';
 import { clearSystemCache } from '../cache.js';
 import { ItemsService } from './items.js';
 

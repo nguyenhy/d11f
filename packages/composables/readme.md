@@ -1,4 +1,4 @@
-# @directus/composables
+# @d11f/composables
 
 Shared Vue composables for Directus use
 
@@ -11,7 +11,7 @@ For more information about Directus, visit the [official website](https://direct
 ## Installation
 
 ```shell
-npm install @directus/composables
+npm install @d11f/composables
 ```
 
 ## License

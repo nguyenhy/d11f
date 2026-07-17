@@ -1,4 +1,4 @@
-import { DeepPartial, Field } from '@directus/types';
+import { DeepPartial, Field } from '@d11f/types';
 import { createTestingPinia } from '@pinia/testing';
 import { setActivePinia } from 'pinia';
 import { beforeEach, expect, test, vi } from 'vitest';

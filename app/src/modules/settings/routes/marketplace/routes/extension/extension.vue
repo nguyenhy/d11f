@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { RegistryDescribeResponse } from '@directus/extensions-registry';
+import type { RegistryDescribeResponse } from '@d11f/extensions-registry';
 import { ref, watchEffect } from 'vue';
 import SettingsNavigation from '../../../../components/navigation.vue';
 import ExtensionBanner from './components/extension-banner.vue';

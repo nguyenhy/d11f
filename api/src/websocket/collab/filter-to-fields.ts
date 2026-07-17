@@ -1,5 +1,5 @@
-import type { Filter, SchemaOverview } from '@directus/types';
-import { deepMapFilter } from '@directus/utils';
+import type { Filter, SchemaOverview } from '@d11f/types';
+import { deepMapFilter } from '@d11f/utils';
 
 export function filterToFields(filter: Filter, collection: string, schema: SchemaOverview): string[] {
 	const fields: Set<string> = new Set();

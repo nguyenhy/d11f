@@ -1,4 +1,4 @@
-import type { OperationAppConfig } from '@directus/extensions';
+import type { OperationAppConfig } from '@d11f/extensions';
 import { sortBy } from 'lodash';
 import { App } from 'vue';
 

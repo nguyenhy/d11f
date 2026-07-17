@@ -3,11 +3,11 @@
  *
  * https://tus.io/
  */
-import { useEnv } from '@directus/env';
-import type { Driver, TusDriver } from '@directus/storage';
-import { supportsTus } from '@directus/storage';
-import type { Accountability, File, SchemaOverview } from '@directus/types';
-import { toArray } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import type { Driver, TusDriver } from '@d11f/storage';
+import { supportsTus } from '@d11f/storage';
+import type { Accountability, File, SchemaOverview } from '@d11f/types';
+import { toArray } from '@d11f/utils';
 import { Server } from '@tus/server';
 import { pick } from 'lodash-es';
 import { FILE_UPLOADS, RESUMABLE_UPLOADS } from '../../constants.js';

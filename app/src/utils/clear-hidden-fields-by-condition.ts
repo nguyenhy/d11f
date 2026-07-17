@@ -1,4 +1,4 @@
-import { Field, Item } from '@directus/types';
+import { Field, Item } from '@d11f/types';
 import { cloneDeep } from 'lodash';
 import { applyConditions } from './apply-conditions';
 import { getFieldsInGroup } from './get-fields-in-group';

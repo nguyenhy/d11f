@@ -1,4 +1,4 @@
-import type { ContextAttachment } from '@directus/ai';
+import type { ContextAttachment } from '@d11f/ai';
 import { useAiStore } from '../stores/use-ai';
 import type { PendingContextItem } from '../types';
 

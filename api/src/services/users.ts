@@ -1,17 +1,10 @@
 import { performance } from 'perf_hooks';
-import { useEnv } from '@directus/env';
-import { ForbiddenError, InvalidInviteError, InvalidPayloadError, RecordNotUniqueError } from '@directus/errors';
-import type {
-	AbstractServiceOptions,
-	Item,
-	MutationOptions,
-	PrimaryKey,
-	RegisterUserInput,
-	User,
-} from '@directus/types';
-import { UserIntegrityCheckFlag } from '@directus/types';
-import { getSimpleHash, toArray, validatePayload } from '@directus/utils';
-import { FailedValidationError, joiValidationErrorItemToErrorExtensions } from '@directus/validation';
+import { useEnv } from '@d11f/env';
+import { ForbiddenError, InvalidInviteError, InvalidPayloadError, RecordNotUniqueError } from '@d11f/errors';
+import type { AbstractServiceOptions, Item, MutationOptions, PrimaryKey, RegisterUserInput, User } from '@d11f/types';
+import { UserIntegrityCheckFlag } from '@d11f/types';
+import { getSimpleHash, toArray, validatePayload } from '@d11f/utils';
+import { FailedValidationError, joiValidationErrorItemToErrorExtensions } from '@d11f/validation';
 import Joi from 'joi';
 import jwt from 'jsonwebtoken';
 import { isEmpty } from 'lodash-es';

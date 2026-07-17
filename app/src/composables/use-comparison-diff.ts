@@ -1,4 +1,4 @@
-import type { Field } from '@directus/types';
+import type { Field } from '@d11f/types';
 import { diffArrays, diffJson, diffWordsWithSpace } from 'diff';
 import dompurify from 'dompurify';
 import { isArray, isEqual, isNil, isPlainObject, isString } from 'lodash';

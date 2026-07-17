@@ -1,4 +1,4 @@
-import type { Accountability } from '@directus/types';
+import type { Accountability } from '@d11f/types';
 import { beforeEach, expect, test, vi } from 'vitest';
 import { AccessService } from '../../services/access.js';
 import type { Context } from '../types.js';

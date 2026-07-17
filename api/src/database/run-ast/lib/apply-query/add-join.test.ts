@@ -1,4 +1,4 @@
-import { SchemaBuilder } from '@directus/schema-builder';
+import { SchemaBuilder } from '@d11f/schema-builder';
 import knex from 'knex';
 import { expect, test, vi } from 'vitest';
 import { Client_SQLite3 } from './mock.js';

@@ -1,6 +1,6 @@
 import { createRequire } from 'node:module';
-import { useEnv } from '@directus/env';
-import type { SchemaOverview } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import type { SchemaOverview } from '@d11f/types';
 import Keyv, { type KeyvOptions } from 'keyv';
 import { useBus } from './bus/index.js';
 import { useLogger } from './logger/index.js';

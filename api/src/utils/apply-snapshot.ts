@@ -1,4 +1,4 @@
-import type { SchemaOverview, Snapshot, SnapshotDiff } from '@directus/types';
+import type { SchemaOverview, Snapshot, SnapshotDiff } from '@d11f/types';
 import type { Knex } from 'knex';
 import { flushCaches } from '../cache.js';
 import getDatabase from '../database/index.js';

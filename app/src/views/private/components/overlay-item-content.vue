@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Field, PrimaryKey } from '@directus/types';
+import type { Field, PrimaryKey } from '@d11f/types';
 import { cloneDeep, isEqual } from 'lodash';
 import { computed, nextTick, useTemplateRef, watch } from 'vue';
 import ValidationErrors from '@/components/v-form/components/validation-errors.vue';

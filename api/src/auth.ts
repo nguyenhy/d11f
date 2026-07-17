@@ -1,6 +1,6 @@
-import { useEnv } from '@directus/env';
-import { InvalidProviderConfigError } from '@directus/errors';
-import { toArray } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { InvalidProviderConfigError } from '@d11f/errors';
+import { toArray } from '@d11f/utils';
 import type { AuthDriver } from './auth/auth.js';
 import {
 	LDAPAuthDriver,

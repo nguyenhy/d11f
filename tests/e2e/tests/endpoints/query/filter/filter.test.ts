@@ -1,4 +1,4 @@
-import { createDirectus, createItem, readItems, rest, staticToken } from '@directus/sdk';
+import { createDirectus, createItem, readItems, rest, staticToken } from '@d11f/sdk';
 import { database, port } from '@utils/constants.js';
 import { useSnapshot } from '@utils/use-snapshot.js';
 import { range } from 'lodash-es';

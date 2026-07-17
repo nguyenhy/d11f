@@ -1,4 +1,4 @@
-import { Type } from '@directus/types';
+import { Type } from '@d11f/types';
 
 const defaultInterfaceMap: Record<Type, string> = {
 	alias: 'input',

@@ -34,8 +34,8 @@ vi.mock('@/composables/use-collab', () => ({
 	}),
 }));
 
-vi.mock('@directus/composables', async (importOriginal) => ({
-	...(await importOriginal<typeof import('@directus/composables')>()),
+vi.mock('@d11f/composables', async (importOriginal) => ({
+	...(await importOriginal<typeof import('@d11f/composables')>()),
 	useCollection: () => ({
 		info: computed(() => ({ name: 'Articles', collection: 'articles', meta: null })),
 		primaryKeyField: computed(() => ({ field: 'id' })),

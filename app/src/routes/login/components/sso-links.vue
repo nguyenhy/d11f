@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import formatTitle from '@directus/format-title';
+import formatTitle from '@d11f/format-title';
 import { computed, onMounted, ref, toRefs, watch } from 'vue';
 import { useRoute } from 'vue-router';
 import TransitionExpand from '@/components/transition/expand.vue';

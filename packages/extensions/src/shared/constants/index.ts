@@ -7,7 +7,7 @@ export {
 	NESTED_EXTENSION_TYPES,
 	APP_OR_HYBRID_EXTENSION_TYPES,
 	APP_OR_HYBRID_EXTENSION_PACKAGE_TYPES,
-} from '@directus/constants';
+} from '@d11f/constants';
 export * from './languages.js';
 export * from './pkg-key.js';
 export * from './shared-deps.js';

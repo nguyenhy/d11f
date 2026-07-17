@@ -1,4 +1,4 @@
-import type { TransformationParams } from '@directus/types';
+import type { TransformationParams } from '@d11f/types';
 import { getPublicURL } from '@/utils/get-root-path';
 
 type AssetUrlOptions = {

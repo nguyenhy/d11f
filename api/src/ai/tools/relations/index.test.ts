@@ -1,4 +1,4 @@
-import type { Accountability, Relation, SchemaOverview } from '@directus/types';
+import type { Accountability, Relation, SchemaOverview } from '@d11f/types';
 import { afterEach, beforeEach, describe, expect, type MockedFunction, test, vi } from 'vitest';
 import { RelationsService } from '../../../services/relations.js';
 import { relations } from './index.js';

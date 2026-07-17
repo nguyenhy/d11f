@@ -1,5 +1,5 @@
-import type { ClientFilterOperator } from '@directus/types';
-import { getFilterOperatorsForType } from '@directus/utils';
+import type { ClientFilterOperator } from '@d11f/types';
+import { getFilterOperatorsForType } from '@d11f/utils';
 import type { GeneratedFilter } from '..';
 import type { FilterEmptyValidator, FilterValidator } from '../../query/filter';
 

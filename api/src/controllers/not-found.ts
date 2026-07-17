@@ -1,4 +1,4 @@
-import { RouteNotFoundError } from '@directus/errors';
+import { RouteNotFoundError } from '@d11f/errors';
 import type { RequestHandler } from 'express';
 import getDatabase from '../database/index.js';
 import emitter from '../emitter.js';

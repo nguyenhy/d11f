@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { useCollection, useLayout } from '@directus/composables';
-import { isSystemCollection } from '@directus/system-data';
-import { Filter } from '@directus/types';
-import { mergeFilters } from '@directus/utils';
+import { useCollection, useLayout } from '@d11f/composables';
+import { isSystemCollection } from '@d11f/system-data';
+import { Filter } from '@d11f/types';
+import { mergeFilters } from '@d11f/utils';
 import { computed, ref, toRefs, watch } from 'vue';
 import { useRouter } from 'vue-router';
 import ContentNavigation from '../components/navigation.vue';

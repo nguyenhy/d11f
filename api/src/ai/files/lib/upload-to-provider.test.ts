@@ -1,4 +1,4 @@
-import { InvalidPayloadError } from '@directus/errors';
+import { InvalidPayloadError } from '@d11f/errors';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import type { AISettings } from '../../providers/types.js';
 import { uploadToAnthropic, uploadToGoogle, uploadToOpenAI } from '../adapters/index.js';

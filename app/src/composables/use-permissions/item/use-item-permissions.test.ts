@@ -1,4 +1,4 @@
-import { useCollection } from '@directus/composables';
+import { useCollection } from '@d11f/composables';
 import { createTestingPinia } from '@pinia/testing';
 import { setActivePinia } from 'pinia';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
@@ -8,7 +8,7 @@ import { mockedStore } from '@/__utils__/store';
 import { usePermissionsStore } from '@/stores/permissions';
 import { useUserStore } from '@/stores/user';
 
-vi.mock('@directus/composables');
+vi.mock('@d11f/composables');
 
 let sample: { collection: string; primaryKey: string };
 

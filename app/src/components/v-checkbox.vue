@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useSync } from '@directus/composables';
+import { useSync } from '@d11f/composables';
 import { computed, onMounted, useTemplateRef } from 'vue';
 import VIcon from '@/components/v-icon/v-icon.vue';
 

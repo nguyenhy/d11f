@@ -1,4 +1,4 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 
 /**
  * Confirm whether user limits needs to be checked

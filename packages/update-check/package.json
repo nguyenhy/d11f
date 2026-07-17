@@ -1,5 +1,5 @@
 {
-	"name": "@directus/update-check",
+	"name": "@d11f/update-check",
 	"version": "13.0.5",
 	"description": "Check if an update for Directus is available",
 	"homepage": "https://directus.io",

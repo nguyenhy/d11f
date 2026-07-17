@@ -1,7 +1,7 @@
-import { useEnv } from '@directus/env';
-import { ForbiddenError, InvalidPayloadError } from '@directus/errors';
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { Accountability, Field, RawField } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import { ForbiddenError, InvalidPayloadError } from '@d11f/errors';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { Accountability, Field, RawField } from '@d11f/types';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import * as cacheModule from '../cache.js';
 import { fetchPermissions } from '../permissions/lib/fetch-permissions.js';
@@ -17,7 +17,7 @@ import * as getSchemaModule from '../utils/get-schema.js';
 import { FieldsService } from './fields.js';
 import { ItemsService } from './items.js';
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({}),
 }));
 
@@ -26,7 +26,7 @@ vi.mock('../../src/database/index', async () => {
 	return mockDatabase();
 });
 
-vi.mock('@directus/schema', async () => {
+vi.mock('@d11f/schema', async () => {
 	const { mockSchema } = await import('../test-utils/schema.js');
 	return mockSchema();
 });

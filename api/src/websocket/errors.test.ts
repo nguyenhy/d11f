@@ -1,4 +1,4 @@
-import { createError, InvalidPayloadError } from '@directus/errors';
+import { createError, InvalidPayloadError } from '@d11f/errors';
 import { type Logger } from 'pino';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import { ZodError } from 'zod';

@@ -1,3 +1,3 @@
-# `@directus/storage-driver-local`
+# `@d11f/storage-driver-local`
 
-Local file storage driver for `@directus/storage`
+Local file storage driver for `@d11f/storage`

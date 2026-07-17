@@ -1,6 +1,6 @@
 import { join } from 'node:path';
-import { useEnv } from '@directus/env';
-import { resolveFsExtensions, resolveModuleExtensions } from '@directus/extensions/node';
+import { useEnv } from '@d11f/env';
+import { resolveFsExtensions, resolveModuleExtensions } from '@d11f/extensions/node';
 import { getExtensionsPath } from './get-extensions-path.js';
 
 export const getExtensions = async () => {

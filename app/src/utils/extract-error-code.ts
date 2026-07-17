@@ -1,4 +1,4 @@
-import type { DirectusError } from '@directus/sdk';
+import type { DirectusError } from '@d11f/sdk';
 import type { RequestError } from '@/api';
 import type { APIError } from '@/types/error';
 

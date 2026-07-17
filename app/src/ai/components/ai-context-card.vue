@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ContextAttachment } from '@directus/ai';
+import type { ContextAttachment } from '@d11f/ai';
 import { computed } from 'vue';
 import type { PendingContextItem } from '../types';
 import VIcon from '@/components/v-icon/v-icon.vue';

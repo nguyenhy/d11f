@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { cssVar } from '@directus/utils/browser';
+import { cssVar } from '@d11f/utils/browser';
 import Color, { ColorInstance } from 'color';
 import { ComponentPublicInstance, computed, ref, useTemplateRef, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

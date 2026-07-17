@@ -1,10 +1,10 @@
 import { join } from 'node:path';
 import { type Readable } from 'node:stream';
 import { pipeline } from 'node:stream/promises';
-import { DEFAULT_CHUNK_SIZE } from '@directus/constants';
-import type { TusDriver } from '@directus/storage';
-import type { ChunkedUploadContext, ReadOptions } from '@directus/types';
-import { normalizePath } from '@directus/utils';
+import { DEFAULT_CHUNK_SIZE } from '@d11f/constants';
+import type { TusDriver } from '@d11f/storage';
+import type { ChunkedUploadContext, ReadOptions } from '@d11f/types';
+import { normalizePath } from '@d11f/utils';
 import type { Bucket, CreateReadStreamOptions, GetFilesOptions } from '@google-cloud/storage';
 import { Storage } from '@google-cloud/storage';
 

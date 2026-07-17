@@ -1,4 +1,4 @@
-import { CollectionOverview, FieldOverview, SchemaOverview } from '@directus/types';
+import { CollectionOverview, FieldOverview, SchemaOverview } from '@d11f/types';
 import { computed, ComputedRef } from 'vue';
 import { useCollectionsStore } from '@/stores/collections';
 import { useFieldsStore } from '@/stores/fields';

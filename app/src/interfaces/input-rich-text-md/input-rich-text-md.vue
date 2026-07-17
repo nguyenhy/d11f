@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { translateShortcut, useShortcut } from '@directus/composables';
+import { translateShortcut, useShortcut } from '@d11f/composables';
 import CodeMirror from 'codemirror';
 import { computed, onMounted, reactive, ref, watch } from 'vue';
 import { Alteration, applyEdit, CustomSyntax } from './edits';

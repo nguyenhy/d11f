@@ -1,5 +1,5 @@
-import { InvalidPayloadError } from '@directus/errors';
-import type { AbstractServiceOptions, PrimaryKey } from '@directus/types';
+import { InvalidPayloadError } from '@d11f/errors';
+import type { AbstractServiceOptions, PrimaryKey } from '@d11f/types';
 import type { Knex } from 'knex';
 import { authenticator } from 'otplib';
 import { DEFAULT_AUTH_PROVIDER } from '../constants.js';

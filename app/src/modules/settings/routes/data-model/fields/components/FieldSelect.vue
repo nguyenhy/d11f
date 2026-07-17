@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Field, Width } from '@directus/types';
+import type { Field, Width } from '@d11f/types';
 import { cloneDeep } from 'lodash';
 import { computed, ref, unref } from 'vue';
 import { useI18n } from 'vue-i18n';

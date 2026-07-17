@@ -1,4 +1,4 @@
-import type { Panel } from '@directus/extensions';
+import type { Panel } from '@d11f/extensions';
 import { createTestingPinia } from '@pinia/testing';
 import { setActivePinia } from 'pinia';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';

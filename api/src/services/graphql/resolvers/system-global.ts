@@ -1,6 +1,6 @@
-import { useEnv } from '@directus/env';
-import { ErrorCode, ForbiddenError, InvalidPayloadError, isDirectusError } from '@directus/errors';
-import type { Accountability, GraphQLParams } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import { ErrorCode, ForbiddenError, InvalidPayloadError, isDirectusError } from '@d11f/errors';
+import type { Accountability, GraphQLParams } from '@d11f/types';
 import argon2 from 'argon2';
 import {
 	GraphQLBoolean,

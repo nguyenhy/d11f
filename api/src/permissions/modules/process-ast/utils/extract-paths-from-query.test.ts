@@ -1,4 +1,4 @@
-import type { Query } from '@directus/types';
+import type { Query } from '@d11f/types';
 import { expect, test } from 'vitest';
 import { extractPathsFromQuery } from './extract-paths-from-query.js';
 

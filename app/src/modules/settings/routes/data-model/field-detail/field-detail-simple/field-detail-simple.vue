@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Collection } from '@directus/types';
+import { Collection } from '@d11f/types';
 import { orderBy } from 'lodash';
 import { computed, toRefs, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

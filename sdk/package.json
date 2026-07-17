@@ -1,5 +1,5 @@
 {
-	"name": "@directus/sdk",
+	"name": "@d11f/sdk",
 	"version": "21.3.0",
 	"description": "Directus JavaScript SDK",
 	"homepage": "https://directus.io",
@@ -29,7 +29,7 @@
 		"test:coverage": "vitest run --coverage --typecheck"
 	},
 	"devDependencies": {
-		"@directus/system-data": "workspace:*",
+		"@d11f/system-data": "workspace:*",
 		"@directus/tsconfig": "catalog:",
 		"@vitest/coverage-v8": "catalog:",
 		"esbuild-plugin-replace": "catalog:",

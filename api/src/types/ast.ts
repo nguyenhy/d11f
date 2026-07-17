@@ -1,4 +1,4 @@
-import type { Filter, Query, Relation } from '@directus/types';
+import type { Filter, Query, Relation } from '@d11f/types';
 
 export type M2ONode = {
 	type: 'm2o';

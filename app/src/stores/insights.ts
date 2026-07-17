@@ -1,7 +1,7 @@
-import type { Panel } from '@directus/extensions';
-import { isSystemCollection } from '@directus/system-data';
-import type { Item } from '@directus/types';
-import { applyOptionsData, getSimpleHash, toArray } from '@directus/utils';
+import type { Panel } from '@d11f/extensions';
+import { isSystemCollection } from '@d11f/system-data';
+import type { Item } from '@d11f/types';
+import { applyOptionsData, getSimpleHash, toArray } from '@d11f/utils';
 import { AxiosResponse } from 'axios';
 import escapeStringRegexp from 'escape-string-regexp';
 import { assign, clone, get, isUndefined, mapKeys, omit, omitBy, pull, uniq } from 'lodash';

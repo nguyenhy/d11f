@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useShortcut } from '@directus/composables';
+import { useShortcut } from '@d11f/composables';
 import {
 	deleteDeployment,
 	type DeploymentProjectListOutput,
@@ -7,8 +7,8 @@ import {
 	readDeploymentProjects,
 	updateDeployment,
 	updateDeploymentProjects,
-} from '@directus/sdk';
-import type { DeploymentConfig } from '@directus/types';
+} from '@d11f/sdk';
+import type { DeploymentConfig } from '@d11f/types';
 import { isEmpty, isEqual, isNil, pickBy } from 'lodash';
 import { computed, onMounted, ref, watch } from 'vue';
 import { useRouter } from 'vue-router';

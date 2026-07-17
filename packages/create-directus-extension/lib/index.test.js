@@ -1,12 +1,12 @@
-import { BUNDLE_EXTENSION_TYPES, EXTENSION_LANGUAGES, EXTENSION_TYPES } from '@directus/extensions';
-import { create } from '@directus/extensions-sdk/cli';
+import { BUNDLE_EXTENSION_TYPES, EXTENSION_LANGUAGES, EXTENSION_TYPES } from '@d11f/extensions';
+import { create } from '@d11f/extensions-sdk/cli';
 import inquirer from 'inquirer';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { run } from './index.js';
 
 // Mock dependencies
 vi.mock('inquirer');
-vi.mock('@directus/extensions-sdk/cli');
+vi.mock('@d11f/extensions-sdk/cli');
 
 describe('run function', () => {
 	const mockInquirerPrompt = vi.mocked(inquirer.prompt);

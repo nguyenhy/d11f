@@ -1,10 +1,10 @@
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import type { Knex } from 'knex';
 import { describe, expect, it, vi } from 'vitest';
 import { SettingsService } from '../../services/settings.js';
 import { type DatabaseSettings, getSettings, type TelemetrySettings } from './get-settings.js';
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({
 		EMAIL_TEMPLATES_PATH: './templates',
 	}),

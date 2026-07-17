@@ -1,4 +1,4 @@
-import { OutOfDateError } from '@directus/errors';
+import { OutOfDateError } from '@d11f/errors';
 import { SUPPORTED_VERSION } from '../constants.js';
 import { getApiVersion } from './get-api-version.js';
 

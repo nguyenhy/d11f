@@ -1,9 +1,9 @@
-import { useEnv } from '@directus/env';
-import { ForbiddenError, InvalidPayloadError, LimitExceededError, UnprocessableContentError } from '@directus/errors';
-import { describe, type DescribeOptions } from '@directus/extensions-registry';
-import type { ApiOutput, BundleExtension, ExtensionManager, ExtensionSettings } from '@directus/types';
-import type { AbstractServiceOptions, Accountability, DeepPartial, SchemaOverview } from '@directus/types';
-import { isObject } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { ForbiddenError, InvalidPayloadError, LimitExceededError, UnprocessableContentError } from '@d11f/errors';
+import { describe, type DescribeOptions } from '@d11f/extensions-registry';
+import type { ApiOutput, BundleExtension, ExtensionManager, ExtensionSettings } from '@d11f/types';
+import type { AbstractServiceOptions, Accountability, DeepPartial, SchemaOverview } from '@d11f/types';
+import { isObject } from '@d11f/utils';
 import type { Knex } from 'knex';
 import getDatabase from '../database/index.js';
 import { getExtensionManager } from '../extensions/index.js';

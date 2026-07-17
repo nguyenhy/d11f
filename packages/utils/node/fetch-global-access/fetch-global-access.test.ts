@@ -1,4 +1,4 @@
-import type { Accountability } from '@directus/types';
+import type { Accountability } from '@d11f/types';
 import type { Knex } from 'knex';
 import { beforeEach, describe, expect, test, vi } from 'vitest';
 import { fetchGlobalAccess } from './fetch-global-access.js';

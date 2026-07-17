@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useSync } from '@directus/composables';
-import type { ShowSelect } from '@directus/types';
+import { useSync } from '@d11f/composables';
+import type { ShowSelect } from '@d11f/types';
 import { clone, throttle } from 'lodash';
 import { computed, ref, useSlots } from 'vue';
 import Draggable from 'vuedraggable';

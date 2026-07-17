@@ -1,4 +1,4 @@
-import { ItemPermissions } from '@directus/types';
+import { ItemPermissions } from '@d11f/types';
 import { computedAsync } from '@vueuse/core';
 import { ref, unref } from 'vue';
 import { Collection, PrimaryKey } from '../../types';

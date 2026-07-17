@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { Filter } from '@directus/types';
-import { abbreviateNumber } from '@directus/utils';
-import { cssVar } from '@directus/utils/browser';
+import type { Filter } from '@d11f/types';
+import { abbreviateNumber } from '@d11f/utils';
+import { cssVar } from '@d11f/utils/browser';
 import ApexCharts from 'apexcharts';
 import { isNil } from 'lodash';
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue';

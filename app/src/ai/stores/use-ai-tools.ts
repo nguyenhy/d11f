@@ -1,4 +1,4 @@
-import type { SystemTool } from '@directus/ai';
+import type { SystemTool } from '@d11f/ai';
 import { createEventHook, useLocalStorage } from '@vueuse/core';
 import { defineStore } from 'pinia';
 import { computed, shallowRef } from 'vue';

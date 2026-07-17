@@ -1,4 +1,4 @@
-import { isIn } from '@directus/utils';
+import { isIn } from '@d11f/utils';
 import { merge } from 'lodash';
 import { defineStore } from 'pinia';
 import { computed, ref, unref, watch } from 'vue';

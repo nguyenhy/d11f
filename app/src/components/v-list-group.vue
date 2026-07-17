@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useGroupable } from '@directus/composables';
+import { useGroupable } from '@d11f/composables';
 import { computed, watch } from 'vue';
 import VIcon from './v-icon/v-icon.vue';
 import VListItemIcon from './v-list-item-icon.vue';

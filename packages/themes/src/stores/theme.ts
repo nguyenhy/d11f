@@ -1,4 +1,4 @@
-import type { Theme } from '@directus/types';
+import type { Theme } from '@d11f/types';
 import { defineStore } from 'pinia';
 import { reactive } from 'vue';
 import { dark, light } from '../themes/index.js';

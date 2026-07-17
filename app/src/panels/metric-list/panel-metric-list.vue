@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { cssVar } from '@directus/utils/browser';
+import { cssVar } from '@d11f/utils/browser';
 import { isNil } from 'lodash';
 import { computed, unref } from 'vue';
 import { useI18n } from 'vue-i18n';

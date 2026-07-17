@@ -1,5 +1,5 @@
-import type { DatabaseClient } from '@directus/types';
-import { isObject } from '@directus/utils';
+import type { DatabaseClient } from '@d11f/types';
+import { isObject } from '@d11f/utils';
 import { type Knex } from 'knex';
 import { getDatabaseClient } from '../database/index.js';
 import { useLogger } from '../logger/index.js';

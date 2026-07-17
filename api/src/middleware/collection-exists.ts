@@ -2,7 +2,7 @@
  * Check if requested collection exists, and save it to req.collection
  */
 
-import { systemCollectionRows } from '@directus/system-data';
+import { systemCollectionRows } from '@d11f/system-data';
 import type { RequestHandler } from 'express';
 import { createCollectionForbiddenError } from '../permissions/modules/process-ast/utils/validate-path/create-error.js';
 import asyncHandler from '../utils/async-handler.js';

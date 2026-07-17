@@ -1,5 +1,5 @@
-import { ForbiddenError, InvalidPayloadError, InvalidQueryError, UnsupportedMediaTypeError } from '@directus/errors';
-import { toBoolean } from '@directus/utils';
+import { ForbiddenError, InvalidPayloadError, InvalidQueryError, UnsupportedMediaTypeError } from '@d11f/errors';
+import { toBoolean } from '@d11f/utils';
 import argon2 from 'argon2';
 import Busboy from 'busboy';
 import { Router } from 'express';

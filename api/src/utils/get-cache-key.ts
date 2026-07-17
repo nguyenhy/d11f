@@ -1,7 +1,7 @@
 import url from 'url';
-import { toArray } from '@directus/utils';
-import { ipInNetworks } from '@directus/utils/node';
-import { version } from 'directus/version';
+import { toArray } from '@d11f/utils';
+import { ipInNetworks } from '@d11f/utils/node';
+import { version } from 'd11f/version';
 import type { Request } from 'express';
 import { isEmpty, pick } from 'lodash-es';
 import hash from 'object-hash';

@@ -1,4 +1,4 @@
-import { getSimpleHash } from '@directus/utils';
+import { getSimpleHash } from '@d11f/utils';
 import { useCache } from '../cache.js';
 
 /**

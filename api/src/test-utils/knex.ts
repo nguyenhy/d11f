@@ -3,7 +3,7 @@
  * Provides mock knex instances, table builders, and tracker utilities
  */
 
-import { systemCollectionNames } from '@directus/system-data';
+import { systemCollectionNames } from '@d11f/system-data';
 import knex from 'knex';
 import { createTracker, MockClient, type Tracker } from 'knex-mock-client';
 import { vi } from 'vitest';

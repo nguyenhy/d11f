@@ -1,4 +1,4 @@
-import type { File, Transformation, TransformationParams } from '@directus/types';
+import type { File, Transformation, TransformationParams } from '@d11f/types';
 import { describe, expect, test } from 'vitest';
 import { maybeExtractFormat, resolvePreset } from './transformations.js';
 

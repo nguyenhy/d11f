@@ -1,4 +1,4 @@
-import type { Filter, LogicalFilterAND, LogicalFilterOR } from '@directus/types';
+import type { Filter, LogicalFilterAND, LogicalFilterOR } from '@d11f/types';
 
 export function mergeFilters(
 	filterA: Filter | null,

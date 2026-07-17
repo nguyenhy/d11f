@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { Filter, Item } from '@directus/types';
-import { getEndpoint, getFieldsFromTemplate } from '@directus/utils';
+import type { Filter, Item } from '@d11f/types';
+import { getEndpoint, getFieldsFromTemplate } from '@d11f/utils';
 import { computed, ref, toRefs, unref, watch } from 'vue';
 import VIcon from '@/components/v-icon/v-icon.vue';
 import VListItem from '@/components/v-list-item.vue';

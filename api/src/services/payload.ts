@@ -1,5 +1,5 @@
 import { randomUUID } from 'node:crypto';
-import { ForbiddenError, InvalidPayloadError } from '@directus/errors';
+import { ForbiddenError, InvalidPayloadError } from '@d11f/errors';
 import type {
 	AbstractServiceOptions,
 	Accountability,
@@ -15,9 +15,9 @@ import type {
 	PrimaryKey,
 	Query,
 	SchemaOverview,
-} from '@directus/types';
-import { UserIntegrityCheckFlag } from '@directus/types';
-import { parseJSON, toArray } from '@directus/utils';
+} from '@d11f/types';
+import { UserIntegrityCheckFlag } from '@d11f/types';
+import { parseJSON, toArray } from '@d11f/utils';
 import { format, isValid, parseISO } from 'date-fns';
 import Joi from 'joi';
 import type { Knex } from 'knex';

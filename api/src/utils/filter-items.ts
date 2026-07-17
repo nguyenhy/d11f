@@ -1,5 +1,5 @@
-import type { FieldFilter, Item, Query } from '@directus/types';
-import { generateJoi } from '@directus/utils';
+import type { FieldFilter, Item, Query } from '@d11f/types';
+import { generateJoi } from '@d11f/utils';
 
 /*
  Note: Filtering is normally done through SQL in run-ast. This function can be used in case an already

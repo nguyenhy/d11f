@@ -1,5 +1,5 @@
 import path from 'path';
-import { ExtensionManifest } from '@directus/extensions';
+import { ExtensionManifest } from '@d11f/extensions';
 import fs from 'fs-extra';
 import { log } from '../utils/logger.js';
 

@@ -1,4 +1,4 @@
-import type { DeepPartial, Permission } from '@directus/types';
+import type { DeepPartial, Permission } from '@d11f/types';
 import { beforeAll, expect, test, vi } from 'vitest';
 import type { AST } from '../../../../types/ast.js';
 import { getUnaliasedFieldKey } from '../../../utils/get-unaliased-field-key.js';

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { InterfaceConfig } from '@directus/extensions';
+import type { InterfaceConfig } from '@d11f/extensions';
 import { computed, inject, ref, watch } from 'vue';
 import VNotice from '@/components/v-notice.vue';
 import VSelect from '@/components/v-select/v-select.vue';

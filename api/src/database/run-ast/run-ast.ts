@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import type { Accountability, Filter, Item, Permission, Query, SchemaOverview } from '@directus/types';
+import { useEnv } from '@d11f/env';
+import type { Accountability, Filter, Item, Permission, Query, SchemaOverview } from '@d11f/types';
 import { cloneDeep, merge } from 'lodash-es';
 import { fetchPermissions } from '../../permissions/lib/fetch-permissions.js';
 import { fetchPolicies } from '../../permissions/lib/fetch-policies.js';

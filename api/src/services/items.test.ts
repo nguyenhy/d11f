@@ -1,5 +1,5 @@
-import { SchemaBuilder } from '@directus/schema-builder';
-import { UserIntegrityCheckFlag } from '@directus/types';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import { UserIntegrityCheckFlag } from '@d11f/types';
 import knex, { type Knex } from 'knex';
 import { createTracker, MockClient, Tracker } from 'knex-mock-client';
 import { afterEach, beforeAll, beforeEach, describe, expect, it, type MockedFunction, test, vi } from 'vitest';

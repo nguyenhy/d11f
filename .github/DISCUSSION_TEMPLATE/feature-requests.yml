@@ -14,8 +14,10 @@ body:
   - type: textarea
     id: proposal-desc
     attributes:
-      label: "Feature Description"
-      placeholder: "Describe your feature concept, why it helps, and how it can be built or expanded natively from our current codebase..."
+      label: 'Feature Description'
+      placeholder:
+        'Describe your feature concept, why it helps, and how it can be built or expanded natively from our current
+        codebase...'
     validations:
       required: true
 
@@ -24,5 +26,7 @@ body:
     attributes:
       label: 'Developer Submission Note'
       options:
-        - label: "I understand this feature will be built as an independent, un-gated open extension available to all users equally."
+        - label:
+            'I understand this feature will be built as an independent, un-gated open extension available to all users
+            equally.'
           required: true

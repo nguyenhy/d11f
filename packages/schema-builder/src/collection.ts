@@ -1,5 +1,5 @@
 import { ok as assert } from 'node:assert/strict';
-import type { CollectionOverview, FieldOverview, SchemaOverview } from '@directus/types';
+import type { CollectionOverview, FieldOverview, SchemaOverview } from '@d11f/types';
 import { SchemaBuilder } from './builder.js';
 import { COLLECTION_DEFAULTS } from './defaults.js';
 import { FieldBuilder } from './field.js';

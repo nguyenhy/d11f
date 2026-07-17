@@ -1,4 +1,4 @@
-import { User } from '@directus/types';
+import { User } from '@d11f/types';
 import { i18n } from '@/lang';
 
 export function userName(user?: Partial<User>): string {

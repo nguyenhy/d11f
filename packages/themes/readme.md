@@ -1,4 +1,4 @@
-# `@directus/themes`
+# `@d11f/themes`
 
 > **Warning**\
 > This is a work-in-progress. Not intended for production use!

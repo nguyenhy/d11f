@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useSync } from '@directus/composables';
-import { GeometryOptions } from '@directus/types';
+import { useSync } from '@d11f/composables';
+import { GeometryOptions } from '@d11f/types';
 import { useI18n } from 'vue-i18n';
 import MapComponent from './components/map.vue';
 import VInfo from '@/components/v-info.vue';

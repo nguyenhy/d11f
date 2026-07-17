@@ -2,7 +2,7 @@ import { getUrl } from '@common/config';
 import { CreatePermission, DeletePermission } from '@common/functions';
 import vendors, { type Vendor } from '@common/get-dbs-to-test';
 import { USER } from '@common/variables';
-import type { Query } from '@directus/types';
+import type { Query } from '@d11f/types';
 import request, { type Response } from 'supertest';
 import { Upload } from 'tus-js-client';
 import { afterAll, beforeAll, describe, expect, it } from 'vitest';

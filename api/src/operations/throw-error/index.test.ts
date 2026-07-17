@@ -1,4 +1,4 @@
-import { InternalServerError } from '@directus/errors';
+import { InternalServerError } from '@d11f/errors';
 import { describe, expect, test } from 'vitest';
 import config from './index.js';
 

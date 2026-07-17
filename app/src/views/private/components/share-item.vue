@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Share } from '@directus/types';
+import { Share } from '@d11f/types';
 import { format } from 'date-fns';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';

@@ -1,4 +1,4 @@
-# @directus/extensions
+# @d11f/extensions
 
 Shared utilities, types and constants related to Directus extensions.
 

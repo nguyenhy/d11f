@@ -3,15 +3,15 @@ import { PassThrough as PassThroughStream, Transform as TransformStream } from '
 import zlib from 'node:zlib';
 import path from 'path';
 import url from 'url';
-import { useEnv } from '@directus/env';
+import { useEnv } from '@d11f/env';
 import {
 	ContentTooLargeError,
 	ForbiddenError,
 	InternalServerError,
 	InvalidPayloadError,
 	ServiceUnavailableError,
-} from '@directus/errors';
-import formatTitle from '@directus/format-title';
+} from '@d11f/errors';
+import formatTitle from '@d11f/format-title';
 import type {
 	AbstractServiceOptions,
 	BusboyFileStream,
@@ -20,8 +20,8 @@ import type {
 	PrimaryKey,
 	Query,
 	QueryOptions,
-} from '@directus/types';
-import { normalizePath, toArray, toBoolean } from '@directus/utils';
+} from '@d11f/types';
+import { normalizePath, toArray, toBoolean } from '@d11f/utils';
 import type { AxiosResponse } from 'axios';
 import encodeURL from 'encodeurl';
 import { clone, cloneDeep } from 'lodash-es';

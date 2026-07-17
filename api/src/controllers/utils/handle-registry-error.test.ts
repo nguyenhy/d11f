@@ -1,4 +1,4 @@
-import { ServiceUnavailableError } from '@directus/errors';
+import { ServiceUnavailableError } from '@d11f/errors';
 import { describe, expect, it } from 'vitest';
 import { handleRegistryError } from './handle-registry-error.js';
 

@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { useItems } from '@directus/composables';
-import { useAppStore } from '@directus/stores';
-import { Filter, Notification } from '@directus/types';
-import { mergeFilters } from '@directus/utils';
+import { useItems } from '@d11f/composables';
+import { useAppStore } from '@d11f/stores';
+import { Filter, Notification } from '@d11f/types';
+import { mergeFilters } from '@d11f/utils';
 import { storeToRefs } from 'pinia';
 import { computed, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

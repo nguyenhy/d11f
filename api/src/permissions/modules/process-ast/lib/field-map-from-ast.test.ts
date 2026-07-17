@@ -1,4 +1,4 @@
-import type { DeepPartial, SchemaOverview } from '@directus/types';
+import type { DeepPartial, SchemaOverview } from '@d11f/types';
 import { expect, test } from 'vitest';
 import type { AST } from '../../../../types/ast.js';
 import { fieldMapFromAst } from './field-map-from-ast.js';

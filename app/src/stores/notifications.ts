@@ -1,4 +1,4 @@
-import { Notification } from '@directus/types';
+import { Notification } from '@d11f/types';
 import { reverse, sortBy } from 'lodash';
 import { nanoid } from 'nanoid';
 import { defineStore } from 'pinia';

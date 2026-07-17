@@ -1,5 +1,5 @@
-import { useEnv } from '@directus/env';
-import { InvalidPayloadError } from '@directus/errors';
+import { useEnv } from '@d11f/env';
+import { InvalidPayloadError } from '@d11f/errors';
 import type { RequestHandler } from 'express';
 
 /**

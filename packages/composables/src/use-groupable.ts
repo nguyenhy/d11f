@@ -59,7 +59,7 @@ export type UsableGroupable = {
  * @example
  * ```vue
  * <script setup>
- * import { useGroupable } from '@directus/composables';
+ * import { useGroupable } from '@d11f/composables';
  *
  * const props = defineProps(['value', 'active']);
  *
@@ -207,7 +207,7 @@ type UsableGroupableParent = {
  * @example
  * ```vue
  * <script setup>
- * import { useGroupableParent } from '@directus/composables';
+ * import { useGroupableParent } from '@d11f/composables';
  * import { ref } from 'vue';
  *
  * const selectedItems = ref([]);

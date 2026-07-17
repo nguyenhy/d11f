@@ -1,4 +1,4 @@
-import { Field } from '@directus/types';
+import { Field } from '@d11f/types';
 import { ComputedRef, MaybeRef, Ref } from 'vue';
 import { isArchiveAllowed } from '../lib/is-archive-allowed';
 import { Collection, IsNew, PrimaryKey } from '../types';

@@ -1,5 +1,5 @@
-import { defineOperationApi } from '@directus/extensions';
-import { optionToString } from '@directus/utils';
+import { defineOperationApi } from '@d11f/extensions';
+import { optionToString } from '@d11f/utils';
 import { useLogger } from '../../logger/index.js';
 
 type Options = {

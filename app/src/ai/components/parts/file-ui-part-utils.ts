@@ -1,4 +1,4 @@
-import type { File } from '@directus/types';
+import type { File } from '@d11f/types';
 import type { FileUIPart } from 'ai';
 import mime from 'mime/lite';
 import { isFileContext, isLocalFileContext, type PendingContextItem } from '../../types';

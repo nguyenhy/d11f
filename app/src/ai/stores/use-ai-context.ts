@@ -1,6 +1,6 @@
-import type { ContextAttachment, PrimaryKey, ProviderFileRef, VisualElementContextData } from '@directus/ai';
-import type { Item } from '@directus/types';
-import { getEndpoint } from '@directus/utils';
+import type { ContextAttachment, PrimaryKey, ProviderFileRef, VisualElementContextData } from '@d11f/ai';
+import type { Item } from '@d11f/types';
+import { getEndpoint } from '@d11f/utils';
 import { defineStore } from 'pinia';
 import { computed, ref } from 'vue';
 import {

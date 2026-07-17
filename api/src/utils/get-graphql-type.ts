@@ -1,4 +1,4 @@
-import type { Type } from '@directus/types';
+import type { Type } from '@d11f/types';
 import type { GraphQLType } from 'graphql';
 import {
 	GraphQLBoolean,

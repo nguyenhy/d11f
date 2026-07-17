@@ -1,4 +1,4 @@
-import { InvalidQueryError } from '@directus/errors';
+import { InvalidQueryError } from '@d11f/errors';
 
 /**
  * Parenthesis aware splitting of fields allowing for `json(a, b)` field functions

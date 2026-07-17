@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { File, Filter } from '@directus/types';
+import type { File, Filter } from '@d11f/types';
 import { sum } from 'lodash';
 import type { Upload } from 'tus-js-client';
 import { computed, onUnmounted, ref } from 'vue';

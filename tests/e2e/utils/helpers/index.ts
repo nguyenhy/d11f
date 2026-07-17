@@ -1,4 +1,4 @@
-import type { DeepPartial } from '@directus/types';
+import type { DeepPartial } from '@d11f/types';
 import { database } from '@utils/constants.js';
 import { merge } from 'lodash-es';
 import { cockroachdb } from './cockroachdb.js';

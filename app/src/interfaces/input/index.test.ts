@@ -1,4 +1,4 @@
-import type { ExtensionOptionsContext } from '@directus/extensions';
+import type { ExtensionOptionsContext } from '@d11f/extensions';
 import { describe, expect, test } from 'vitest';
 import config from './index';
 

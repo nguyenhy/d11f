@@ -1,6 +1,6 @@
-import { useEnv } from '@directus/env';
-import type { TransformationParams } from '@directus/types';
-import { toBoolean } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import type { TransformationParams } from '@d11f/types';
+import { toBoolean } from '@d11f/utils';
 import bytes from 'bytes';
 import type { CookieOptions } from 'express';
 import { getMilliseconds } from './utils/get-milliseconds.js';

@@ -1,5 +1,5 @@
 import type { Server as httpServer } from 'http';
-import type { WebSocketMessage } from '@directus/types';
+import type { WebSocketMessage } from '@d11f/types';
 import type { Server } from 'graphql-ws';
 import { CloseCode, makeServer, MessageType } from 'graphql-ws';
 import type { WebSocket } from 'ws';

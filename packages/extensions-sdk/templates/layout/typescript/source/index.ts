@@ -1,5 +1,5 @@
 import { ref } from 'vue';
-import { defineLayout } from '@directus/extensions-sdk';
+import { defineLayout } from '@d11f/extensions-sdk';
 import LayoutComponent from './layout.vue';
 
 export default defineLayout({

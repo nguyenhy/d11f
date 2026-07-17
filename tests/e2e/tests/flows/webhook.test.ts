@@ -1,4 +1,4 @@
-import { createDirectus, createFlow, createOperation, rest, staticToken, triggerFlow, updateFlow } from '@directus/sdk';
+import { createDirectus, createFlow, createOperation, rest, staticToken, triggerFlow, updateFlow } from '@d11f/sdk';
 import { options, port } from '@utils/constants.js';
 import { expect, test } from 'vitest';
 

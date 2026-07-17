@@ -1,6 +1,6 @@
-import { ForbiddenError, InvalidPayloadError } from '@directus/errors';
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { Accountability, Collection, FieldMutationOptions } from '@directus/types';
+import { ForbiddenError, InvalidPayloadError } from '@d11f/errors';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { Accountability, Collection, FieldMutationOptions } from '@d11f/types';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import * as cacheModule from '../cache.js';
 import { createMockKnex, resetKnexMocks, setupSystemCollectionMocks } from '../test-utils/knex.js';
@@ -9,7 +9,7 @@ import { CollectionsService } from './collections.js';
 import { FieldsService } from './fields.js';
 import { ItemsService } from './items.js';
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: vi.fn().mockReturnValue({}),
 }));
 
@@ -18,7 +18,7 @@ vi.mock('../../src/database/index', async () => {
 	return mockDatabase();
 });
 
-vi.mock('@directus/schema', async () => {
+vi.mock('@d11f/schema', async () => {
 	const { mockSchema } = await import('../test-utils/schema.js');
 	return mockSchema();
 });
@@ -386,7 +386,7 @@ describe('Integration Tests', () => {
 
 				vi.spyOn(ItemsService.prototype, 'readByQuery').mockResolvedValue([]);
 
-				const { useEnv } = await import('@directus/env');
+				const { useEnv } = await import('@d11f/env');
 
 				vi.mocked(useEnv).mockReturnValue({
 					DB_EXCLUDE_TABLES: ['excluded_table'],

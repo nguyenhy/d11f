@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { ContextAttachment } from '@directus/ai';
+import type { ContextAttachment } from '@d11f/ai';
 import type { DynamicToolUIPart, FileUIPart, UIMessagePart as SDKUIMessagePart, UIDataTypes, UITools } from 'ai';
 import { computed } from 'vue';
 import { useVisualElementHighlight } from '../composables/use-visual-element-highlight';

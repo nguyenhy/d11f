@@ -1,4 +1,4 @@
-import { ServiceUnavailableError } from '@directus/errors';
+import { ServiceUnavailableError } from '@d11f/errors';
 
 export function handleRegistryError(error: unknown): never {
 	if (error instanceof Error) {

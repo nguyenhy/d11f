@@ -973,7 +973,7 @@ importers:
       '@changesets/cli':
         specifier: 'catalog:'
         version: 2.29.7(@types/node@24.9.1)
-      '@directus/release-notes-generator':
+      '@d11f/release-notes-generator':
         specifier: workspace:*
         version: link:packages/release-notes-generator
       '@eslint/js':
@@ -1051,73 +1051,73 @@ importers:
       '@braintrust/otel':
         specifier: 'catalog:'
         version: 0.2.0(@opentelemetry/api@1.9.0)(@opentelemetry/core@2.1.0(@opentelemetry/api@1.9.0))(@opentelemetry/exporter-trace-otlp-http@0.202.0(@opentelemetry/api@1.9.0))(@opentelemetry/sdk-trace-base@2.1.0(@opentelemetry/api@1.9.0))(braintrust@3.3.0(@aws-sdk/credential-provider-web-identity@3.928.0)(zod@4.1.12))
-      '@directus/ai':
+      '@d11f/ai':
         specifier: workspace:*
         version: link:../packages/ai
-      '@directus/app':
+      '@d11f/app':
         specifier: workspace:*
         version: link:../app
-      '@directus/constants':
+      '@d11f/constants':
         specifier: workspace:*
         version: link:../packages/constants
-      '@directus/env':
+      '@d11f/env':
         specifier: workspace:*
         version: link:../packages/env
-      '@directus/errors':
+      '@d11f/errors':
         specifier: workspace:*
         version: link:../packages/errors
-      '@directus/extensions':
+      '@d11f/extensions':
         specifier: workspace:*
         version: link:../packages/extensions
-      '@directus/extensions-registry':
+      '@d11f/extensions-registry':
         specifier: workspace:*
         version: link:../packages/extensions-registry
-      '@directus/extensions-sdk':
+      '@d11f/extensions-sdk':
         specifier: workspace:*
         version: link:../packages/extensions-sdk
-      '@directus/format-title':
+      '@d11f/format-title':
         specifier: workspace:*
         version: link:../packages/format-title
-      '@directus/memory':
+      '@d11f/memory':
         specifier: workspace:*
         version: link:../packages/memory
-      '@directus/pressure':
+      '@d11f/pressure':
         specifier: workspace:*
         version: link:../packages/pressure
-      '@directus/schema':
+      '@d11f/schema':
         specifier: workspace:*
         version: link:../packages/schema
-      '@directus/specs':
+      '@d11f/specs':
         specifier: workspace:*
         version: link:../packages/specs
-      '@directus/storage':
+      '@d11f/storage':
         specifier: workspace:*
         version: link:../packages/storage
-      '@directus/storage-driver-azure':
+      '@d11f/storage-driver-azure':
         specifier: workspace:*
         version: link:../packages/storage-driver-azure
-      '@directus/storage-driver-cloudinary':
+      '@d11f/storage-driver-cloudinary':
         specifier: workspace:*
         version: link:../packages/storage-driver-cloudinary
-      '@directus/storage-driver-gcs':
+      '@d11f/storage-driver-gcs':
         specifier: workspace:*
         version: link:../packages/storage-driver-gcs
-      '@directus/storage-driver-local':
+      '@d11f/storage-driver-local':
         specifier: workspace:*
         version: link:../packages/storage-driver-local
-      '@directus/storage-driver-s3':
+      '@d11f/storage-driver-s3':
         specifier: workspace:*
         version: link:../packages/storage-driver-s3
-      '@directus/storage-driver-supabase':
+      '@d11f/storage-driver-supabase':
         specifier: workspace:*
         version: link:../packages/storage-driver-supabase
-      '@directus/system-data':
+      '@d11f/system-data':
         specifier: workspace:*
         version: link:../packages/system-data
-      '@directus/utils':
+      '@d11f/utils':
         specifier: workspace:*
         version: link:../packages/utils
-      '@directus/validation':
+      '@d11f/validation':
         specifier: workspace:*
         version: link:../packages/validation
       '@godaddy/terminus':
@@ -1201,15 +1201,15 @@ importers:
       cron:
         specifier: 'catalog:'
         version: 4.3.4
+      d11f:
+        specifier: workspace:*
+        version: link:../d11f
       date-fns:
         specifier: 'catalog:'
         version: 4.1.0
       deep-diff:
         specifier: 'catalog:'
         version: 1.0.2
-      directus:
-        specifier: workspace:*
-        version: link:../directus
       dotenv:
         specifier: 'catalog:'
         version: 17.2.3
@@ -1421,15 +1421,15 @@ importers:
         specifier: 'catalog:'
         version: 4.0.2(zod@4.1.12)
     devDependencies:
-      '@directus/schema-builder':
+      '@d11f/schema-builder':
         specifier: workspace:*
         version: link:../packages/schema-builder
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../packages/types
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../packages/types
       '@ngneat/falso':
         specifier: 'catalog:'
         version: 8.0.2
@@ -1572,57 +1572,57 @@ importers:
       '@ai-sdk/vue':
         specifier: 'catalog:'
         version: 3.0.116(vue@3.5.24(typescript@5.9.3))(zod@4.1.12)
-      '@directus/ai':
+      '@d11f/ai':
         specifier: workspace:*
         version: link:../packages/ai
-      '@directus/composables':
+      '@d11f/composables':
         specifier: workspace:*
         version: link:../packages/composables
-      '@directus/constants':
+      '@d11f/constants':
         specifier: workspace:*
         version: link:../packages/constants
-      '@directus/errors':
+      '@d11f/errors':
         specifier: workspace:*
         version: link:../packages/errors
-      '@directus/extensions':
+      '@d11f/extensions':
         specifier: workspace:*
         version: link:../packages/extensions
-      '@directus/extensions-registry':
+      '@d11f/extensions-registry':
         specifier: workspace:*
         version: link:../packages/extensions-registry
-      '@directus/extensions-sdk':
+      '@d11f/extensions-sdk':
         specifier: workspace:*
         version: link:../packages/extensions-sdk
-      '@directus/format-title':
+      '@d11f/format-title':
         specifier: workspace:*
         version: link:../packages/format-title
-      '@directus/sdk':
+      '@d11f/sdk':
         specifier: workspace:*
         version: link:../sdk
-      '@directus/stores':
+      '@d11f/stores':
         specifier: workspace:*
         version: link:../packages/stores
-      '@directus/system-data':
+      '@d11f/system-data':
         specifier: workspace:*
         version: link:../packages/system-data
-      '@directus/themes':
+      '@d11f/themes':
         specifier: workspace:*
         version: link:../packages/themes
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../packages/types
+      '@d11f/utils':
+        specifier: workspace:*
+        version: link:../packages/utils
+      '@d11f/validation':
+        specifier: workspace:*
+        version: link:../packages/validation
+      '@d11f/visual-editing':
+        specifier: workspace:*
+        version: link:../packages/visual-editing
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../packages/types
-      '@directus/utils':
-        specifier: workspace:*
-        version: link:../packages/utils
-      '@directus/validation':
-        specifier: workspace:*
-        version: link:../packages/validation
-      '@directus/visual-editing':
-        specifier: workspace:*
-        version: link:../packages/visual-editing
       '@directus/vue-split-panel':
         specifier: 'catalog:'
         version: 0.8.9(vue@3.5.24(typescript@5.9.3))
@@ -1972,12 +1972,12 @@ importers:
         specifier: 'catalog:'
         version: 4.1.12
 
-  directus:
+  d11f:
     dependencies:
-      '@directus/api':
+      '@d11f/api':
         specifier: workspace:*
         version: link:../api
-      '@directus/update-check':
+      '@d11f/update-check':
         specifier: workspace:*
         version: link:../packages/update-check
 
@@ -1995,10 +1995,10 @@ importers:
 
   packages/composables:
     dependencies:
-      '@directus/constants':
+      '@d11f/constants':
         specifier: workspace:*
         version: link:../constants
-      '@directus/utils':
+      '@d11f/utils':
         specifier: workspace:*
         version: link:../utils
       '@vueuse/core':
@@ -2014,18 +2014,18 @@ importers:
         specifier: 'catalog:'
         version: 5.1.6
     devDependencies:
-      '@directus/extensions':
+      '@d11f/extensions':
         specifier: workspace:*
         version: link:../extensions
-      '@directus/sdk':
+      '@d11f/sdk':
         specifier: workspace:*
         version: link:../../sdk
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../types
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../types
       '@types/lodash-es':
         specifier: 'catalog:'
         version: 4.17.12
@@ -2062,10 +2062,10 @@ importers:
 
   packages/create-directus-extension:
     dependencies:
-      '@directus/extensions':
+      '@d11f/extensions':
         specifier: workspace:*
         version: link:../extensions
-      '@directus/extensions-sdk':
+      '@d11f/extensions-sdk':
         specifier: workspace:*
         version: link:../extensions-sdk
       inquirer:
@@ -2112,10 +2112,10 @@ importers:
 
   packages/env:
     dependencies:
-      '@directus/constants':
+      '@d11f/constants':
         specifier: workspace:*
         version: link:../constants
-      '@directus/utils':
+      '@d11f/utils':
         specifier: workspace:*
         version: link:../utils
       dotenv:
@@ -2149,19 +2149,19 @@ importers:
 
   packages/errors:
     dependencies:
-      '@directus/storage':
+      '@d11f/storage':
         specifier: workspace:*
         version: link:../storage
       ms:
         specifier: 'catalog:'
         version: 2.1.3
     devDependencies:
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../types
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../types
       '@types/ms':
         specifier: 'catalog:'
         version: 2.1.0
@@ -2180,13 +2180,13 @@ importers:
 
   packages/extensions:
     dependencies:
-      '@directus/constants':
+      '@d11f/constants':
         specifier: workspace:*
         version: link:../constants
-      '@directus/types':
+      '@d11f/types':
         specifier: workspace:*
         version: link:../types
-      '@directus/utils':
+      '@d11f/utils':
         specifier: workspace:*
         version: link:../utils
       '@types/express':
@@ -2241,13 +2241,13 @@ importers:
 
   packages/extensions-registry:
     dependencies:
-      '@directus/constants':
+      '@d11f/constants':
         specifier: workspace:*
         version: link:../constants
-      '@directus/errors':
+      '@d11f/errors':
         specifier: workspace:*
         version: link:../errors
-      '@directus/extensions':
+      '@d11f/extensions':
         specifier: workspace:*
         version: link:../extensions
       ky:
@@ -2257,12 +2257,12 @@ importers:
         specifier: 'catalog:'
         version: 4.1.12
     devDependencies:
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../types
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../types
       '@vitest/coverage-v8':
         specifier: 'catalog:'
         version: 3.2.4(vitest@3.2.4)
@@ -2278,22 +2278,22 @@ importers:
 
   packages/extensions-sdk:
     dependencies:
-      '@directus/composables':
+      '@d11f/composables':
         specifier: workspace:*
         version: link:../composables
-      '@directus/constants':
+      '@d11f/constants':
         specifier: workspace:*
         version: link:../constants
-      '@directus/extensions':
+      '@d11f/extensions':
         specifier: workspace:*
         version: link:../extensions
-      '@directus/themes':
+      '@d11f/themes':
         specifier: workspace:*
         version: link:../themes
-      '@directus/types':
+      '@d11f/types':
         specifier: workspace:*
         version: link:../types
-      '@directus/utils':
+      '@d11f/utils':
         specifier: workspace:*
         version: link:../utils
       '@rollup/plugin-commonjs':
@@ -2399,10 +2399,10 @@ importers:
 
   packages/memory:
     dependencies:
-      '@directus/errors':
+      '@d11f/errors':
         specifier: workspace:*
         version: link:../errors
-      '@directus/utils':
+      '@d11f/utils':
         specifier: workspace:*
         version: link:../utils
       '@sesamecare-oss/redlock':
@@ -2439,7 +2439,7 @@ importers:
 
   packages/pressure:
     dependencies:
-      '@directus/utils':
+      '@d11f/utils':
         specifier: workspace:*
         version: link:../utils
     devDependencies:
@@ -2523,7 +2523,7 @@ importers:
 
   packages/schema-builder:
     dependencies:
-      '@directus/types':
+      '@d11f/types':
         specifier: workspace:*
         version: link:../types
       lodash-es:
@@ -2564,12 +2564,12 @@ importers:
 
   packages/storage:
     devDependencies:
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../types
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../types
       '@types/node':
         specifier: 'catalog:'
         version: 22.13.14
@@ -2591,19 +2591,19 @@ importers:
       '@azure/storage-blob':
         specifier: 'catalog:'
         version: 12.29.1
-      '@directus/storage':
+      '@d11f/storage':
         specifier: workspace:*
         version: link:../storage
-      '@directus/utils':
+      '@d11f/utils':
         specifier: workspace:*
         version: link:../utils
     devDependencies:
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../types
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../types
       '@ngneat/falso':
         specifier: 'catalog:'
         version: 8.0.2
@@ -2622,10 +2622,10 @@ importers:
 
   packages/storage-driver-cloudinary:
     dependencies:
-      '@directus/storage':
+      '@d11f/storage':
         specifier: workspace:*
         version: link:../storage
-      '@directus/utils':
+      '@d11f/utils':
         specifier: workspace:*
         version: link:../utils
       p-queue:
@@ -2635,12 +2635,12 @@ importers:
         specifier: 'catalog:'
         version: 7.24.5
     devDependencies:
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../types
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../types
       '@ngneat/falso':
         specifier: 'catalog:'
         version: 8.0.2
@@ -2659,25 +2659,25 @@ importers:
 
   packages/storage-driver-gcs:
     dependencies:
-      '@directus/constants':
+      '@d11f/constants':
         specifier: workspace:*
         version: link:../constants
-      '@directus/storage':
+      '@d11f/storage':
         specifier: workspace:*
         version: link:../storage
-      '@directus/utils':
+      '@d11f/utils':
         specifier: workspace:*
         version: link:../utils
       '@google-cloud/storage':
         specifier: 'catalog:'
         version: 7.18.0(encoding@0.1.13)
     devDependencies:
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../types
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../types
       '@ngneat/falso':
         specifier: 'catalog:'
         version: 8.0.2
@@ -2696,16 +2696,16 @@ importers:
 
   packages/storage-driver-local:
     dependencies:
-      '@directus/storage':
+      '@d11f/storage':
         specifier: workspace:*
         version: link:../storage
     devDependencies:
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../types
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../types
       '@ngneat/falso':
         specifier: 'catalog:'
         version: 8.0.2
@@ -2733,10 +2733,10 @@ importers:
       '@aws-sdk/lib-storage':
         specifier: 'catalog:'
         version: 3.928.0(@aws-sdk/client-s3@3.928.0)
-      '@directus/storage':
+      '@d11f/storage':
         specifier: workspace:*
         version: link:../storage
-      '@directus/utils':
+      '@d11f/utils':
         specifier: workspace:*
         version: link:../utils
       '@shopify/semaphore':
@@ -2752,12 +2752,12 @@ importers:
         specifier: 'catalog:'
         version: 2.1.3
     devDependencies:
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../types
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../types
       '@ngneat/falso':
         specifier: 'catalog:'
         version: 8.0.2
@@ -2779,13 +2779,13 @@ importers:
 
   packages/storage-driver-supabase:
     dependencies:
-      '@directus/constants':
+      '@d11f/constants':
         specifier: workspace:*
         version: link:../constants
-      '@directus/storage':
+      '@d11f/storage':
         specifier: workspace:*
         version: link:../storage
-      '@directus/utils':
+      '@d11f/utils':
         specifier: workspace:*
         version: link:../utils
       '@supabase/storage-js':
@@ -2798,12 +2798,12 @@ importers:
         specifier: 'catalog:'
         version: 7.24.5
     devDependencies:
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../types
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../types
       '@ngneat/falso':
         specifier: 'catalog:'
         version: 8.0.2
@@ -2868,7 +2868,7 @@ importers:
 
   packages/themes:
     dependencies:
-      '@directus/utils':
+      '@d11f/utils':
         specifier: workspace:*
         version: link:../utils
       decamelize:
@@ -2884,12 +2884,12 @@ importers:
         specifier: 'catalog:'
         version: 4.1.12
     devDependencies:
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../types
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../types
       '@types/lodash-es':
         specifier: 'catalog:'
         version: 4.17.12
@@ -2920,13 +2920,13 @@ importers:
 
   packages/types:
     dependencies:
-      '@directus/ai':
+      '@d11f/ai':
         specifier: workspace:*
         version: link:../ai
-      '@directus/constants':
+      '@d11f/constants':
         specifier: workspace:*
         version: link:../constants
-      '@directus/schema':
+      '@d11f/schema':
         specifier: workspace:*
         version: link:../schema
       '@types/archiver':
@@ -3045,10 +3045,10 @@ importers:
 
   packages/utils:
     dependencies:
-      '@directus/constants':
+      '@d11f/constants':
         specifier: workspace:*
         version: link:../constants
-      '@directus/system-data':
+      '@d11f/system-data':
         specifier: workspace:*
         version: link:../system-data
       date-fns:
@@ -3073,18 +3073,18 @@ importers:
         specifier: 'catalog:'
         version: 4.1.12
     devDependencies:
-      '@directus/errors':
+      '@d11f/errors':
         specifier: workspace:*
         version: link:../errors
-      '@directus/schema-builder':
+      '@d11f/schema-builder':
         specifier: workspace:*
         version: link:../schema-builder
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../types
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../types
       '@ngneat/falso':
         specifier: 'catalog:'
         version: 8.0.2
@@ -3127,22 +3127,22 @@ importers:
 
   packages/validation:
     dependencies:
-      '@directus/errors':
+      '@d11f/errors':
         specifier: workspace:*
         version: link:../errors
-      '@directus/utils':
+      '@d11f/utils':
         specifier: workspace:*
         version: link:../utils
       joi:
         specifier: 'catalog:'
         version: 18.0.1
     devDependencies:
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../types
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../types
       '@vitest/coverage-v8':
         specifier: 'catalog:'
         version: 3.2.4(vitest@3.2.4)
@@ -3162,15 +3162,15 @@ importers:
         specifier: 'catalog:'
         version: 1.2.0
     devDependencies:
+      '@d11f/types':
+        specifier: 'workspace:'
+        version: link:../types
+      '@d11f/utils':
+        specifier: 'workspace:'
+        version: link:../utils
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: 'workspace:'
-        version: link:../types
-      '@directus/utils':
-        specifier: 'workspace:'
-        version: link:../utils
       happy-dom:
         specifier: 'catalog:'
         version: 20.8.9
@@ -3186,7 +3186,7 @@ importers:
 
   sdk:
     devDependencies:
-      '@directus/system-data':
+      '@d11f/system-data':
         specifier: workspace:*
         version: link:../packages/system-data
       '@directus/tsconfig':
@@ -3210,15 +3210,15 @@ importers:
 
   tests/blackbox:
     devDependencies:
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../../packages/types
+      '@d11f/utils':
+        specifier: workspace:*
+        version: link:../../packages/utils
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../../packages/types
-      '@directus/utils':
-        specifier: workspace:*
-        version: link:../../packages/utils
       '@types/js-yaml':
         specifier: 'catalog:'
         version: 4.0.9
@@ -3312,21 +3312,21 @@ importers:
 
   tests/e2e:
     devDependencies:
-      '@directus/sandbox':
+      '@d11f/sandbox':
         specifier: workspace:*
         version: link:../sandbox
-      '@directus/sdk':
+      '@d11f/sdk':
         specifier: workspace:*
         version: link:../../sdk
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../../packages/types
+      '@d11f/utils':
+        specifier: workspace:*
+        version: link:../../packages/utils
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../../packages/types
-      '@directus/utils':
-        specifier: workspace:*
-        version: link:../../packages/utils
       '@types/lodash-es':
         specifier: 'catalog:'
         version: 4.17.12
@@ -3363,15 +3363,15 @@ importers:
 
   tests/sandbox:
     dependencies:
+      '@d11f/types':
+        specifier: workspace:*
+        version: link:../../packages/types
+      '@d11f/utils':
+        specifier: workspace:*
+        version: link:../../packages/utils
       '@directus/tsconfig':
         specifier: 'catalog:'
         version: 4.0.0
-      '@directus/types':
-        specifier: workspace:*
-        version: link:../../packages/types
-      '@directus/utils':
-        specifier: workspace:*
-        version: link:../../packages/utils
       '@types/lodash-es':
         specifier: 'catalog:'
         version: 4.17.12

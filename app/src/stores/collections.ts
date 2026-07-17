@@ -1,7 +1,7 @@
-import formatTitle from '@directus/format-title';
-import { isSystemCollection } from '@directus/system-data';
-import { Collection as CollectionRaw, DeepPartial, Field } from '@directus/types';
-import { getCollectionType } from '@directus/utils';
+import formatTitle from '@d11f/format-title';
+import { isSystemCollection } from '@d11f/system-data';
+import { Collection as CollectionRaw, DeepPartial, Field } from '@d11f/types';
+import { getCollectionType } from '@d11f/utils';
 import { isEqual, isNil, omit } from 'lodash';
 import { defineStore } from 'pinia';
 import { computed, ref } from 'vue';

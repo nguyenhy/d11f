@@ -1,5 +1,5 @@
-import { defineInterface } from '@directus/extensions';
-import type { DeepPartial, Field } from '@directus/types';
+import { defineInterface } from '@d11f/extensions';
+import type { DeepPartial, Field } from '@d11f/types';
 import InterfaceDateTime from './datetime.vue';
 import PreviewSVG from './preview.svg?raw';
 import { getTimezoneOptions } from '@/utils/timezones';

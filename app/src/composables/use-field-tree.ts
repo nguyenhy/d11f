@@ -1,5 +1,5 @@
-import { Field, Relation, Type } from '@directus/types';
-import { getRelationType } from '@directus/utils';
+import { Field, Relation, Type } from '@d11f/types';
+import { getRelationType } from '@d11f/utils';
 import { isNil } from 'lodash';
 import { Ref, ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

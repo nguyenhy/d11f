@@ -1,5 +1,5 @@
-import { ErrorCode, ServiceUnavailableError } from '@directus/errors';
-import type { Bus } from '@directus/memory';
+import { ErrorCode, ServiceUnavailableError } from '@d11f/errors';
+import type { Bus } from '@d11f/memory';
 import { useBus } from '../../bus/index.js';
 import emitter from '../../emitter.js';
 import { useLogger } from '../../logger/index.js';

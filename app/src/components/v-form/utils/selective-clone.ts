@@ -1,4 +1,4 @@
-import type { Field } from '@directus/types';
+import type { Field } from '@d11f/types';
 import { cloneDeep } from 'lodash';
 import { markRaw } from 'vue';
 

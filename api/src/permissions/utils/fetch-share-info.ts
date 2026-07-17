@@ -1,4 +1,4 @@
-import type { AbstractServiceOptions } from '@directus/types';
+import type { AbstractServiceOptions } from '@d11f/types';
 import { withCache } from './with-cache.js';
 
 export interface ShareInfo {

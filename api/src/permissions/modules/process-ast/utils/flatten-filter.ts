@@ -1,4 +1,4 @@
-import type { Query } from '@directus/types';
+import type { Query } from '@d11f/types';
 import type { FieldKey } from '../types.js';
 
 export function flattenFilter(paths: FieldKey[][], filter: Query['filter']) {

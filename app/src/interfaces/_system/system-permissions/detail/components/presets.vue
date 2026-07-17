@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useSync } from '@directus/composables';
-import { Permission, Policy } from '@directus/types';
+import { useSync } from '@d11f/composables';
+import { Permission, Policy } from '@d11f/types';
 import { computed } from 'vue';
 import VNotice from '@/components/v-notice.vue';
 import InterfaceInputCode from '@/interfaces/input-code/input-code.vue';

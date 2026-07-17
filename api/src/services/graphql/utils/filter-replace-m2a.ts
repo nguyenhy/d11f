@@ -1,5 +1,5 @@
-import type { DeepQuery, Filter, NestedDeepQuery, Query, SchemaOverview } from '@directus/types';
-import { getRelation, getRelationType } from '@directus/utils';
+import type { DeepQuery, Filter, NestedDeepQuery, Query, SchemaOverview } from '@d11f/types';
+import { getRelation, getRelationType } from '@d11f/utils';
 
 export function filterReplaceM2A(
 	filter_arg: Filter,

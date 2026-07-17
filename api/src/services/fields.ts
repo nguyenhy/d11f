@@ -1,14 +1,9 @@
-import {
-	DEFAULT_NUMERIC_PRECISION,
-	DEFAULT_NUMERIC_SCALE,
-	KNEX_TYPES,
-	REGEX_BETWEEN_PARENS,
-} from '@directus/constants';
-import { useEnv } from '@directus/env';
-import { ForbiddenError, InvalidPayloadError } from '@directus/errors';
-import type { Column, SchemaInspector } from '@directus/schema';
-import { createInspector } from '@directus/schema';
-import { isSystemField } from '@directus/system-data';
+import { DEFAULT_NUMERIC_PRECISION, DEFAULT_NUMERIC_SCALE, KNEX_TYPES, REGEX_BETWEEN_PARENS } from '@d11f/constants';
+import { useEnv } from '@d11f/env';
+import { ForbiddenError, InvalidPayloadError } from '@d11f/errors';
+import type { Column, SchemaInspector } from '@d11f/schema';
+import { createInspector } from '@d11f/schema';
+import { isSystemField } from '@d11f/system-data';
 import type {
 	AbstractServiceOptions,
 	Accountability,
@@ -20,8 +15,8 @@ import type {
 	RawField,
 	SchemaOverview,
 	Type,
-} from '@directus/types';
-import { addFieldFlag, getRelations, toArray } from '@directus/utils';
+} from '@d11f/types';
+import { addFieldFlag, getRelations, toArray } from '@d11f/utils';
 import type Keyv from 'keyv';
 import type { Knex } from 'knex';
 import { isEqual, isNil, merge } from 'lodash-es';

@@ -1,4 +1,4 @@
-import type { Query } from '@directus/types';
+import type { Query } from '@d11f/types';
 import { expect, test } from 'vitest';
 import type { FnHelperOptions } from '../../helpers/fn/types.js';
 import {

@@ -1,5 +1,5 @@
-import { SchemaBuilder } from '@directus/schema-builder';
-import type { DeepPartial, SchemaOverview } from '@directus/types';
+import { SchemaBuilder } from '@d11f/schema-builder';
+import type { DeepPartial, SchemaOverview } from '@d11f/types';
 import { describe, expect, it } from 'vitest';
 import type { FieldNode, FunctionFieldNode, NestedCollectionNode } from '../../../../types/ast.js';
 import type { FieldMap } from '../types.js';

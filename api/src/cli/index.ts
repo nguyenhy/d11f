@@ -1,5 +1,5 @@
 import { Command, Option } from 'commander';
-import { version } from 'directus/version';
+import { version } from 'd11f/version';
 import emitter from '../emitter.js';
 import { startServer } from '../server.js';
 import bootstrap from './commands/bootstrap/index.js';

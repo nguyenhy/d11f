@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useElementSize, useSync } from '@directus/composables';
-import type { Field, Filter, Item, ShowSelect } from '@directus/types';
+import { useElementSize, useSync } from '@d11f/composables';
+import type { Field, Filter, Item, ShowSelect } from '@d11f/types';
 import { computed, inject, type Ref, ref, watch } from 'vue';
 import Card from './components/card.vue';
 import CardsHeader from './components/header.vue';

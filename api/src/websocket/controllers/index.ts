@@ -1,6 +1,6 @@
 import type { Server as httpServer } from 'http';
-import { useEnv } from '@directus/env';
-import { toBoolean } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import { toBoolean } from '@d11f/utils';
 import { GraphQLSubscriptionController } from './graphql.js';
 import { LogsController } from './logs.js';
 import { WebSocketController } from './rest.js';

@@ -22,7 +22,7 @@ vi.mock('vue-i18n', () => ({
 	createI18n: vi.fn(() => ({})),
 }));
 
-vi.mock('@directus/composables', () => ({
+vi.mock('@d11f/composables', () => ({
 	useCollection: () => ({
 		primaryKeyField: ref({ field: 'id', type: 'integer' }),
 	}),
@@ -36,7 +36,7 @@ vi.mock('@/utils/translate-object-values', () => ({
 
 vi.mock('@/utils/unexpected-error');
 
-vi.mock('@directus/format-title', () => ({
+vi.mock('@d11f/format-title', () => ({
 	default: vi.fn((str) => str),
 }));
 

@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useLayout } from '@directus/composables';
-import { mergeFilters } from '@directus/utils';
+import { useLayout } from '@d11f/composables';
+import { mergeFilters } from '@d11f/utils';
 import { computed, ref, toRefs } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { onBeforeRouteLeave, onBeforeRouteUpdate } from 'vue-router';

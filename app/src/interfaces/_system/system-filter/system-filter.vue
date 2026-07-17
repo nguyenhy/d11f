@@ -1,11 +1,6 @@
 <script setup lang="ts">
-import { ClientFilterOperator, FieldFunction, Filter, Type } from '@directus/types';
-import {
-	getFilterOperatorsForType,
-	getOutputTypeForFunction,
-	parseFilterFunctionPath,
-	parseJSON,
-} from '@directus/utils';
+import { ClientFilterOperator, FieldFunction, Filter, Type } from '@d11f/types';
+import { getFilterOperatorsForType, getOutputTypeForFunction, parseFilterFunctionPath, parseJSON } from '@d11f/utils';
 import { cloneDeep, get, isEmpty, set } from 'lodash';
 import { computed, inject, ref } from 'vue';
 import Nodes from './Nodes.vue';

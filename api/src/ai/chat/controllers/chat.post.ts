@@ -1,5 +1,5 @@
-import type { StandardProviderType } from '@directus/ai';
-import { ForbiddenError, InvalidPayloadError } from '@directus/errors';
+import type { StandardProviderType } from '@d11f/ai';
+import { ForbiddenError, InvalidPayloadError } from '@d11f/errors';
 import { safeValidateUIMessages, type Tool } from 'ai';
 import type { RequestHandler } from 'express';
 import { fromZodError } from 'zod-validation-error';

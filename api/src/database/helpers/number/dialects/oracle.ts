@@ -1,4 +1,4 @@
-import type { NumericValue } from '@directus/types';
+import type { NumericValue } from '@d11f/types';
 import type { Knex } from 'knex';
 import { NumberDatabaseHelper } from '../types.js';
 import { maybeStringifyBigInt } from '../utils/maybe-stringify-big-int.js';

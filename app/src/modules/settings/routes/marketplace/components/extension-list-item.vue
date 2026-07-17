@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { RegistryListResponse } from '@directus/extensions-registry';
-import { abbreviateNumber } from '@directus/utils';
+import type { RegistryListResponse } from '@d11f/extensions-registry';
+import { abbreviateNumber } from '@d11f/utils';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 import { formatName } from '../utils/format-name';

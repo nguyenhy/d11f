@@ -13,7 +13,7 @@ beforeEach(async () => {
 	vi.resetModules();
 
 	// Re-register mocks after resetModules
-	vi.doMock('@directus/env', () => ({
+	vi.doMock('@d11f/env', () => ({
 		useEnv: vi.fn(() => mockEnv),
 	}));
 

@@ -1,4 +1,4 @@
-import { defineInterface } from '@directus/extensions';
+import { defineInterface } from '@d11f/extensions';
 import InterfaceListO2MTreeView from './list-o2m-tree-view.vue';
 import PreviewSVG from './preview.svg?raw';
 

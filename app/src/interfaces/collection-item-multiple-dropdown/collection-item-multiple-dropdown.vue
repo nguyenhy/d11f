@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Filter, PrimaryKey } from '@directus/types';
-import { getEndpoint, getFieldsFromTemplate } from '@directus/utils';
+import { Filter, PrimaryKey } from '@d11f/types';
+import { getEndpoint, getFieldsFromTemplate } from '@d11f/utils';
 import { computed, ref, toRefs, unref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';
 import Draggable from 'vuedraggable';

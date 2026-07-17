@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { useLayout } from '@directus/composables';
-import { Filter } from '@directus/types';
-import { mergeFilters } from '@directus/utils';
+import { useLayout } from '@d11f/composables';
+import { Filter } from '@d11f/types';
+import { mergeFilters } from '@d11f/utils';
 import { ref } from 'vue';
 import { RouterView } from 'vue-router';
 import ActivityNavigation from '../components/navigation.vue';

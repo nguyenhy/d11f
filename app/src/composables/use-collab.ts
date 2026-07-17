@@ -1,5 +1,5 @@
-import { ErrorCode } from '@directus/errors';
-import { DirectusUser, readUser, readUsers, realtime, RemoveEventHandler, WebSocketClient } from '@directus/sdk';
+import { ErrorCode } from '@d11f/errors';
+import { DirectusUser, readUser, readUsers, realtime, RemoveEventHandler, WebSocketClient } from '@d11f/sdk';
 import {
 	ACTION,
 	Avatar,
@@ -11,8 +11,8 @@ import {
 	ServerError,
 	ServerMessage,
 	WS_TYPE,
-} from '@directus/types';
-import { isDetailedUpdateSyntax, isObject } from '@directus/utils';
+} from '@d11f/types';
+import { isDetailedUpdateSyntax, isObject } from '@d11f/utils';
 import { debounce, isEmpty, isEqual, isMatch, throttle } from 'lodash';
 import { computed, onBeforeUnmount, onMounted, ref, Ref, watch } from 'vue';
 import { useI18n } from 'vue-i18n';

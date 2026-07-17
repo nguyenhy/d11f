@@ -1,6 +1,6 @@
-import { useEnv } from '@directus/env';
-import type { Item, PrimaryKey, SchemaOverview } from '@directus/types';
-import { toArray } from '@directus/utils';
+import { useEnv } from '@d11f/env';
+import type { Item, PrimaryKey, SchemaOverview } from '@d11f/types';
+import { toArray } from '@d11f/utils';
 import { clone, isArray } from 'lodash-es';
 import type { NestedCollectionNode } from '../../../types/ast.js';
 

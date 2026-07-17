@@ -1,5 +1,5 @@
-import { RelationBuilder, SchemaBuilder } from '@directus/schema-builder';
-import type { Query } from '@directus/types';
+import { RelationBuilder, SchemaBuilder } from '@d11f/schema-builder';
+import type { Query } from '@d11f/types';
 import type { FieldNode, SelectionNode } from 'graphql';
 import { afterEach, describe, expect, test, vi } from 'vitest';
 import * as sanitizeQueryMod from '../../../utils/sanitize-query.js';

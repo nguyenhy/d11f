@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useGroupableParent } from '@directus/composables';
+import { useGroupableParent } from '@d11f/composables';
 import { provide, ref, toRefs } from 'vue';
 import VList from '@/components/v-list.vue';
 

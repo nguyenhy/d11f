@@ -1,7 +1,7 @@
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { InvalidPayloadError } from '@directus/errors';
-import type { Relation } from '@directus/types';
+import { InvalidPayloadError } from '@d11f/errors';
+import type { Relation } from '@d11f/types';
 import { z } from 'zod';
 import { RelationsService } from '../../../services/relations.js';
 import { requireText } from '../../../utils/require-text.js';

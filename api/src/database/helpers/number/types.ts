@@ -1,4 +1,4 @@
-import type { NumericType, NumericValue } from '@directus/types';
+import type { NumericType, NumericValue } from '@d11f/types';
 import type { Knex } from 'knex';
 import { DatabaseHelper } from '../types.js';
 

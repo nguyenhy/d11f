@@ -1,7 +1,7 @@
-import { useCollection } from '@directus/composables';
-import { isSystemCollection } from '@directus/system-data';
-import { Alterations, Field, Item, PrimaryKey, Query, Relation } from '@directus/types';
-import { getEndpoint, isObject } from '@directus/utils';
+import { useCollection } from '@d11f/composables';
+import { isSystemCollection } from '@d11f/system-data';
+import { Alterations, Field, Item, PrimaryKey, Query, Relation } from '@d11f/types';
+import { getEndpoint, isObject } from '@d11f/utils';
 import { jsonToGraphQLQuery } from 'json-to-graphql-query';
 import { cloneDeep, mergeWith } from 'lodash';
 import { computed, ComputedRef, MaybeRef, ref, Ref, unref, watch } from 'vue';

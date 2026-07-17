@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { useAppStore } from '@directus/stores';
-import { ThemeProvider } from '@directus/themes';
+import { useAppStore } from '@d11f/stores';
+import { ThemeProvider } from '@d11f/themes';
 import { useHead } from '@unhead/vue';
 import { computed, onMounted, onUnmounted, toRefs } from 'vue';
 import { RouterView } from 'vue-router';

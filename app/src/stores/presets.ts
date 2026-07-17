@@ -1,4 +1,4 @@
-import { Preset } from '@directus/types';
+import { Preset } from '@d11f/types';
 import { cloneDeep, merge, orderBy } from 'lodash';
 import { nanoid } from 'nanoid';
 import { defineStore } from 'pinia';

@@ -1,4 +1,4 @@
-import type { Item } from '@directus/types';
+import type { Item } from '@d11f/types';
 import { cloneDeep } from 'lodash-es';
 
 export function mergeVersionsRaw(item: Item, versionData: Partial<Item>[]) {

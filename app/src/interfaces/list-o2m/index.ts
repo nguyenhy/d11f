@@ -1,5 +1,5 @@
-import { defineInterface } from '@directus/extensions';
-import { DeepPartial, Field } from '@directus/types';
+import { defineInterface } from '@d11f/extensions';
+import { DeepPartial, Field } from '@d11f/types';
 import InterfaceListO2M from './list-o2m.vue';
 import PreviewSVG from './preview.svg?raw';
 

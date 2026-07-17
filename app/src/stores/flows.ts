@@ -1,4 +1,4 @@
-import type { FlowRaw } from '@directus/types';
+import type { FlowRaw } from '@d11f/types';
 import { defineStore } from 'pinia';
 import { ref } from 'vue';
 import { useAiToolsStore } from '@/ai/stores/use-ai-tools';

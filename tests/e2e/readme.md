@@ -78,7 +78,7 @@ It is recommended to use the Directus SDK in most cases to use and test function
 of `fetch` for more low level testing.
 
 ```ts
-import { createDirectus, rest, serverPing, staticToken } from '@directus/sdk';
+import { createDirectus, rest, serverPing, staticToken } from '@d11f/sdk';
 import { port } from '@utils/constants.js';
 import { expect, test } from 'vitest';
 
@@ -102,8 +102,8 @@ only when explicitly specified.
 A minimal tests that spins up their own instance looks like this:
 
 ```ts
-import { sandbox } from '@directus/sandbox';
-import { createDirectus, rest, serverPing, staticToken } from '@directus/sdk';
+import { sandbox } from '@d11f/sandbox';
+import { createDirectus, rest, serverPing, staticToken } from '@d11f/sdk';
 import { database } from '@utils/constants.js';
 import { getUID } from '@utils/getUID.js';
 import { expect, test } from 'vitest';

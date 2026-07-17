@@ -1,4 +1,4 @@
-import type { Permission } from '@directus/types';
+import type { Permission } from '@d11f/types';
 import { describe, expect, test, vi } from 'vitest';
 import { fetchPermissions } from '../permissions/lib/fetch-permissions.js';
 import { fetchPolicies } from '../permissions/lib/fetch-policies.js';

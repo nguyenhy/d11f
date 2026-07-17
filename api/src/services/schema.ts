@@ -1,4 +1,4 @@
-import { ForbiddenError } from '@directus/errors';
+import { ForbiddenError } from '@d11f/errors';
 import type {
 	AbstractServiceOptions,
 	Accountability,
@@ -6,7 +6,7 @@ import type {
 	SnapshotDiff,
 	SnapshotDiffWithHash,
 	SnapshotWithHash,
-} from '@directus/types';
+} from '@d11f/types';
 import type { Knex } from 'knex';
 import getDatabase from '../database/index.js';
 import { applyDiff } from '../utils/apply-diff.js';

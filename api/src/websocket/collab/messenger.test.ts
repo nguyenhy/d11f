@@ -1,9 +1,9 @@
 import { randomUUID } from 'crypto';
-import { type BroadcastMessage, COLLAB_BUS } from '@directus/types';
+import { type BroadcastMessage, COLLAB_BUS } from '@d11f/types';
 import { afterEach, beforeEach, describe, expect, test, vi } from 'vitest';
 import { Messenger } from './messenger.js';
 
-vi.mock('@directus/env', () => ({
+vi.mock('@d11f/env', () => ({
 	useEnv: () => ({
 		WEBSOCKETS_COLLAB_INSTANCE_TIMEOUT: 1000, // 1 second for testing
 	}),

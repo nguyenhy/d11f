@@ -1,4 +1,4 @@
-// these types have been duplicated from @directus/types to prevent dependency conflicts
+// these types have been duplicated from @d11f/types to prevent dependency conflicts
 
 export type RelationMeta = {
 	id: number;

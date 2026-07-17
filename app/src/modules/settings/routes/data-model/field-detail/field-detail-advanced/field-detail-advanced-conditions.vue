@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { DeepPartial, Field } from '@directus/types';
+import { DeepPartial, Field } from '@d11f/types';
 import { storeToRefs } from 'pinia';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';

@@ -1,4 +1,4 @@
-import { RelationBuilder, SchemaBuilder } from '@directus/schema-builder';
+import { RelationBuilder, SchemaBuilder } from '@d11f/schema-builder';
 import { describe, expect, test } from 'vitest';
 import { filterReplaceM2A, filterReplaceM2ADeep } from './filter-replace-m2a.js';
 

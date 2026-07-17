@@ -1,7 +1,7 @@
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import path from 'path';
-import type { Driver } from '@directus/types';
+import type { Driver } from '@d11f/types';
 import type { Knex } from 'knex';
 import knex from 'knex';
 

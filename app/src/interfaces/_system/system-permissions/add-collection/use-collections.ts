@@ -1,4 +1,4 @@
-import { isSystemCollection } from '@directus/system-data';
+import { isSystemCollection } from '@d11f/system-data';
 import { orderBy } from 'lodash';
 import type { MaybeRefOrGetter } from 'vue';
 import { computed, toValue } from 'vue';

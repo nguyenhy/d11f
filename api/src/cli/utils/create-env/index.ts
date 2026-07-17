@@ -3,7 +3,7 @@ import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import path from 'path';
 import { promisify } from 'util';
-import type { Driver } from '@directus/types';
+import type { Driver } from '@d11f/types';
 import { Liquid } from 'liquidjs';
 import type { Credentials } from '../create-db-connection.js';
 
