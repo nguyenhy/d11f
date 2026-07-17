@@ -1,15 +1,7 @@
 import { createHash } from 'crypto';
 import fs from 'fs/promises';
 import { join } from 'path';
-import {
-	createDirectus,
-	deleteFile,
-	readAssetArrayBuffer,
-	readFile,
-	rest,
-	staticToken,
-	uploadFiles,
-} from '@d11f/sdk';
+import { createDirectus, deleteFile, readAssetArrayBuffer, readFile, rest, staticToken, uploadFiles } from '@d11f/sdk';
 import { options, port } from '@utils/constants.js';
 import { UUID } from '@utils/regex.js';
 import { expect, test } from 'vitest';

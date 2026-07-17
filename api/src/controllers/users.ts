@@ -1,10 +1,4 @@
-import {
-	ErrorCode,
-	ForbiddenError,
-	InvalidCredentialsError,
-	InvalidPayloadError,
-	isDirectusError,
-} from '@d11f/errors';
+import { ErrorCode, ForbiddenError, InvalidCredentialsError, InvalidPayloadError, isDirectusError } from '@d11f/errors';
 import type { PrimaryKey, RegisterUserInput } from '@d11f/types';
 import express from 'express';
 import Joi from 'joi';

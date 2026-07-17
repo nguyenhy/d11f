@@ -1,9 +1,4 @@
-import {
-	DEFAULT_NUMERIC_PRECISION,
-	DEFAULT_NUMERIC_SCALE,
-	KNEX_TYPES,
-	REGEX_BETWEEN_PARENS,
-} from '@d11f/constants';
+import { DEFAULT_NUMERIC_PRECISION, DEFAULT_NUMERIC_SCALE, KNEX_TYPES, REGEX_BETWEEN_PARENS } from '@d11f/constants';
 import { useEnv } from '@d11f/env';
 import { ForbiddenError, InvalidPayloadError } from '@d11f/errors';
 import type { Column, SchemaInspector } from '@d11f/schema';

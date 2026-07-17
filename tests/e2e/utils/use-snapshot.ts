@@ -1,12 +1,6 @@
 import { readFile } from 'fs/promises';
 import { join } from 'path';
-import {
-	type DirectusClient,
-	type RestClient,
-	schemaApply,
-	schemaDiff,
-	type SchemaSnapshotOutput,
-} from '@d11f/sdk';
+import { type DirectusClient, type RestClient, schemaApply, schemaDiff, type SchemaSnapshotOutput } from '@d11f/sdk';
 import type { Snapshot } from '@d11f/types';
 import { startCase } from 'lodash-es';
 import { database } from './constants.js';

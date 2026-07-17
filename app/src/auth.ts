@@ -1,11 +1,4 @@
-import {
-	authenticateShare,
-	AuthenticationData,
-	getAuthEndpoint,
-	LoginOptions,
-	readMe,
-	RestCommand,
-} from '@d11f/sdk';
+import { authenticateShare, AuthenticationData, getAuthEndpoint, LoginOptions, readMe, RestCommand } from '@d11f/sdk';
 import { useAppStore } from '@d11f/stores';
 import { useCookies } from '@vueuse/integrations/useCookies';
 import { RouteLocationRaw } from 'vue-router';
